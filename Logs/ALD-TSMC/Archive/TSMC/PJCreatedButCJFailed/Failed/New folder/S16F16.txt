@@ -1,0 +1,9 @@
+List (1)   2
+  List (1)   4
+    Ascii(1)  12  :1A-NB1698.00
+    Ascii(1)  12  :1B-NB1234.00
+    Ascii(1)  13  :1C-NB16988.00
+    Ascii(1)  14  :1A-NB169888.00
+  List (1)   2
+    Truth(1)   1  :01
+    List (1)   0

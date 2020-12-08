@@ -1,0 +1,36 @@
+List (1)   3
+  Ascii(1)  10  :ControlJob
+  Ascii(1)  10  :ControlJob
+  List (1)   5
+    List (1)   2
+      Ascii(1)   5  :ObjID
+      Ascii(1)  12  :C1-NFF010392
+    List (1)   2
+      Ascii(1)  18  :ProcessingCtrlSpec
+      List (1)   4
+        List (1)   3
+          Ascii(1)  12  :1A-NB1698.00
+          List (1)   0
+          UInt1(1)   1  :0 (00h)
+        List (1)   3
+          Ascii(1)  12  :1B-NB1234.00
+          List (1)   0
+          UInt1(1)   1  :0 (00h)
+        List (1)   3
+          Ascii(1)  13  :1C-NB16988.00
+          List (1)   0
+          UInt1(1)   1  :0 (00h)
+        List (1)   3
+          Ascii(1)  14  :1C-NB169888.00
+          List (1)   0
+          UInt1(1)   1  :0 (00h)
+    List (1)   2
+      Ascii(1)  16  :CarrierInputSpec
+      List (1)   1
+        Ascii(1)   1  :2
+    List (1)   2
+      Ascii(1)  16  :ProcessOrderMgmt
+      UInt1(1)   1  :3 (03h)
+    List (1)   2
+      Ascii(1)  11  :StartMethod
+      Truth(1)   1  :FF

@@ -1,0 +1,1057 @@
+# ========== データ定義ファイル (SECS/GEM Data ID Definition File)==========
+#
+REV          STDp00
+#
+NO_VID_FMT   0           Rev2.00-9
+#
+# Beginning  VID  Min      Maximum  Dev   Dev 1   Dev 1  Dev1 Dev 2  Dev 2  Dev2
+# VID        Fmt  Value    Value    Type  MinVal  MaxVal Incr MinVal MaxVal Incr Default Units      Name                                  VID Identification
+# ---------- ---  -----    -------  ----  ------ ------- ---- ------ ------ ---- ------- ---------  ------------------------------------  --------------------------------------------------
+$01000010    52       0      65535   NULL      0       0    0      0      0    0      45         s  EstablishCommunicationTimeout         //VID_EstablishCommunicationTimeout	  通信確立メッセージ送信間隔
+$01000020    10       0          1   NULL      0       0    0      0      0    0       0      NULL  InitCommState			                    //VID_InitCommState			              装置初期化後の通信状態
+$01000030    52       0      65535   NULL      0       0    0      0      0    0	    45         s	PollDelay					                    //VID_PollDelay				                オンライン時のポーリング間隔
+$01000040    10       0          1   NULL      0       0    0      0      0    0	     0      NULL	InitControlState				              //VID_InitControlState			          初期コントロール状態
+$01000050    10       0          1   NULL      0       0    0      0      0    0	     0      NULL	InitControlOfflineSubState			      //VID_InitControlOfflineSubState	    初期コントロールオフライン状態
+$01000060    10       0          1   NULL      0       0    0      0      0    0	     0      NULL	ControlOnlineFailedState		          //VID_ControlOnlineFailedState		    オンライン移行失敗時の状態
+$01000070    10       0          1   NULL      0       0    0      0      0    0	     0      NULL	InitControlOnlineSubState		          //VID_InitControlOnlineSubState		    初期コントロールオフライン状態
+$01010010    52       1         60   NULL      0       0    0      0      0    0	     1         s	LimitsDelay					                  //VID_LimitsDelay			                リミット監視の実行間隔
+$01030010    11       0          1   NULL      0       0    0      0      0    0	     0      NULL	EnableSpooling					              //VID_EnableSpooling				          スプーリング有効／無効
+$01030030    54       0       1000   NULL      0       0    0      0      0    0	    50      NULL	MaxSpoolTransmit				              //VID_MaxSpoolTransmit				        ホストからの要求で送信するスプールメッセージ最大数
+$01030040    11       0       1      NULL      0       0    0      0      0    0	     1      NULL	OverWriteSpool					              //VID_OverWriteSpool				          スプールエリアが満杯となった時の上書き／破棄
+$01050010    20       0       0      NULL      0       0    0      0      0    0	     0      NULL	MDLN						                      //VID_MDLN					                  装置名称
+$01050020    20       0       0      NULL      0       0    0      0      0    0	     0      NULL	SOFTREV						                    //VID_SOFTREV					                装置のソフトウェアレビジョン
+$01050030    51       0       1      NULL      0       0    0      0      0    0	     1      NULL	TimeFormat					                  //VID_TimeFormat				              ＴＩＭＥフォーマット
+$01050041    51       1       4      LP        0       5   $1      0      0    0	     4      NULL	PortUsageX					                  //VID_PortUsageX				              装置ポートＸ使用状態
+$01050050    11       0       1      NULL      0       0    0      0      0    0	     1      NULL	ControlModeSetting				            //VID_ControlModeSetting			        装置に於けるコントロール状態変更の可/不可の設定
+$01050110    11       0       1      NULL      0       0    0      0      0    0	     1      NULL	S6F1WBitEnable					              //VID_S6F1WBitEnable				          Ｓ６Ｆ１のWait-Bit設定		Rev0.07-3
+$01050120    11       0       1      NULL      0       0    0      0      0    0	     1      NULL	S6F11WBitEnable					              //VID_S6F11WBitEnable				          Ｓ６Ｆ１１のWait-Bit設定	Rev0.07-3
+$01050130    11       0       1      NULL      0       0    0      0      0    0	     1      NULL	S5F1WBitEnable					              //VID_S5F1WBitEnable				          Ｓ５Ｆ１のWait-Bit設定		Rev0.07-3
+$01050201    20       0       0      PM        0       4   $1      0     19  $10	     0      NULL	DCMXDepoCountXName				            //VID_RCXDepoCountXName				        ＰＭＣＸのＤＥＰＯカウント１～２０の名称		Rev2.00-0
+$01050341    20       0       0      PM        0       4   $1      0     19  $10	     0      NULL	DCMXEtchCountXName				            //VID_RCXEtchCountXName				        ＰＭＣＸのＥＴＣＨカウント１～２０の名称		Rev2.00-0
+$01050481    20       0       0      LL        0       3   $1      0     19  $10	     0      NULL	LLXWaferCountXName				            //VID_LLXWaferCountXName			        ロードロックＸのカウント１～２０の名称
+$010505C0    20       0       0      NULL      0      19  $10      0      0    0	     0      NULL	WHCWaferCountXName				            //VID_WHCWaferCountXName			        ＷＨＣのカウント１～２０の名称
+$01050510    52       0    3600      NULL      0       0    0      0      0    0	     0         s	DepositionStepProgressTime			      //VID_DepoProgressTime				        ＤＥＰＯステップ開始後のVpp,Vdc検出設定時間
+$01050520    52       0    3600      NULL      0       0    0      0      0    0	     0         s	DepositionStepApproachingTime			    //VID_DepoApproachingTime			        ＤＥＰＯステップ終了前のVpp,Vdc検出設定時間
+$01050530    52       0    3600      NULL      0       0    0      0      0    0	     0         s	CleaningStepProgressTime			        //VID_EtchProgressTime				        ＥＴＣＨステップ開始後のVpp,Vdc検出設定時間
+$01050540    52       0    3600      NULL      0       0    0      0      0    0	     0         s	CleaningStepApproachingTime			      //VID_EtchApproachingTime			        ＥＴＣＨステップ終了前のVpp,Vdc検出設定時間
+$01050701    20       0       0      PM        0       4   $1      0      0    0	     0      NULL	DCMXRFLimitData					              //VID_DCMXRFLimitData				          ＤＣＭのRFデータ補正リミット設定値
+$01050711    51       0       2      PM        0       4   $1      0     19  $10	     0      NULL	DCMXDepoCountXType				            //VID_DCMXDepoCountXType			        ＤＣＭのDEPOカウントのカウント方法
+$01050851    51       0       1      PM        0       4   $1      0     19  $10	     0      NULL	DCMXEtchCountXType				            //VID_DCMXEtchCountXType			        ＤＣＭのETCHカウントのカウント方法
+$01060010    51       0       2      NULL      0       0    0      0      0    0	     0      NULL	AccessModeSetting				              //VID_CMS_AccessModeSetting			      ＣＭＳ用アクセスモード変更条件
+$01060021    51       1       4      LP        0       5   $1      0      0    0	     4      NULL	CMSPortUsageX					                //VID_CMS_PortUsageX				          ＣＭＳ用ロードポートの種別
+$01060030    11       0       1      NULL      0       0    0      0      0    0	     0      NULL	BypassReadID					                //VID_CMS_BypassReadID				        ＣＭＳ用ホストからのキャリアＩＤ使用情報
+$01060040    51       0      28      NULL      0       0    0      0      0    0	     0      NULL	CarrierApproachingWafer				        //VID_CMS_CarrierApproachingWafer	    ＣＭＳ用キャリア処理終了予告イベント発生のウェハ設定
+$01060050    51       0       1      NULL      0       0    0      0      0    0	     0      NULL	AccessModeEventSetting				        //VID_CMS_AccessModeEventSetting	    ＣＭＳ用ロードポートのアクセスモードイベントHandOff無効設定
+$01060060    51       0       2      NULL      0       0    0      0      0    0	     0      NULL	CarrierHoldTrigger				            //VID_CMS_CarrierHoldTrigger		      ＣＭＳ用キャリア処理終了時のＲｅｌｅａｓｅ条件設定	Rev0.07-2
+$01070010    51       0       2      NULL      0       0    0      0      0    0	     0      NULL	PRMaterialOrder					              //VID_PJM_MaterialOrder				        ＰＪＭ用ジョブの材料処理順序
+																								//  Note -- VID_PJM_MaterialOrder -- Min, Max and Def are overridden in the code (DBAccess.pas)
+$01070020    11       0       1      NULL      0       0    0      0      0    0	     0      NULL	PRJobEventEnable				              //VID_PJM_EventEnable				          ＰＪＭ用イベントの有効設定
+$01070030    52       0    3600      NULL      0       0    0      0      0    0	     0         s	PJCompleteDelay					              //VID_PJM_CompleteDelay				        ＰＪＭ用PJSM SCT-6 (PROCESSING -> PROCESSCOMPLETE)イベント送信Delay	Rev2.00-9
+$01070040    51       0       1      NULL      0       0    0      0      0    0	     0      NULL	PJCompEventType					              //VID_PJM_CompEventType				        ＰＪＭ用Pre-PJCompletedイベント報告条件設定				Rev2.00-014
+$01080010    51       0       2      NULL      0       0    0      0      0    0	     0      NULL	CJSelectedSetting				              //VID_CJM_SelectedSetting			        ＣＪＭ用Ｓｅｌｅｃｔｅｄ状態移行設定
+$01080020    11       0       1      NULL      0       0    0      0      0    0	     0      NULL	CtrlJobSaveFunction				            //VID_CJM_SaveFunction				        ＣＪＭ用ジョブ終了後の保存設定
+$01080030    20       0       0      NULL      0       0    0      0      0    0	     0      NULL	SetupName					                    //VID_CJM_SetupName				            ＣＪＭ用装置稼動条件
+$01080040    51       0       1      NULL      0       0    0      0      0    0	     0      NULL	CJCompEventType					              //VID_CJM_CompEventType				        ＣＪＭ用Pre-CJCompletedイベント報告条件設定				Rev2.00-014
+#
+# Beginning  VID     Min      Maximum  Dev   Dev 1   Dev 1  Dev1 Dev 2  Dev 2  Dev2
+# VID        Fmt     Value    Value    Type  MinVal  MaxVal Incr MinVal MaxVal Incr Default Units     Name                                        VID Identification
+# ---------- ---  ---------  ---------  ----  ------ ------- ---- ------ ------ ---- ------- --------- --------------------------               --------------------------------------------------
+$01080050      51     0        255      NULL   0       0    0      0      0    0       0      NULL DefaultDummyMaxUses                          //VID_EC_DefaultDummyMaxUses
+$01080060      51     0        255      NULL   0       0    0      0      0    0       0      NULL DummyLowWarning                              //VID_EC_DummyLowWarning
+$01080071      11     0        255      NULL   0       0    0      0      0    0       0      NULL RememberWaferType                            //VID_EC_RememberWaferType
+$01080072      11     0        255      NULL   0       0    0      0      0    0       0      NULL RememberCurrentDummyUses                     //VID_EC_RememberCurrentDummyUses
+$01080073      11     0        255      NULL   0       0    0      0      0    0       0      NULL RememberMaxDummyUses                         //VID_EC_RememberMaxDummyUses
+$010800A0      51     0        1        NULL   0       0    0      0      0    0       0      NULL AccessModeData                               //VID_EC_CMSAccessModeData
+$010800B0      51     0        1        NULL   0       0    0      0      0    0       0      NULL UsageFormat                                  //VID_EC_CMSUsageFormat
+$010800C0      51     0        1        NULL   0       0    0      0      0    0       0      NULL InjectionSequence                            //VID_EC_CMSInjectionSequence
+$010800D0      51     0        2        NULL   0       0    0      0      0    0       0      NULL ContentMapFormat                             //VID_EC_CMSContentMapFormat
+$010800E0      51     0        1        NULL   0       0    0      0      0    0       0      NULL CarrierIdUnmatch                             //VID_EC_CMSCarrierIdUnmatch
+$010800F0      51     0        2        NULL   0       0    0      0      0    0       0      NULL CMIDWaitEvent                                //VID_EC_CMSCmidWaitEvent
+$01080100      51     0        1        NULL   0       0    0      0      0    0       0      NULL SlotMapMax                                   //VID_EC_CMSSlotMapMax
+$01080110      51     0        1        NULL   0       0    0      0      0    0       0      NULL S2List0Dequeue                               //VID_EC_PJMS2List0Dequeue
+$01080120      51     0        1        NULL   0       0    0      0      0    0       0      NULL S16List0Dequeue                              //VID_EC_PJMS16List0Dequeue
+$01080130      51     0        1        NULL   0       0    0      0      0    0       0      NULL SCT7EventTiming                              //VID_EC_PJMSCT7EventTiming
+$01080140      51     0        1        NULL   0       0    0      0      0    0       0      NULL PJCompEventType                              //VID_EC_PJMCompEventType
+$01080150      51     0        1        NULL   0       0    0      0      0    0       0      NULL MaterialList0Create                          //VID_EC_PJMMaterialList0Create
+$01080160      51     0        1        NULL   0       0    0      0      0    0       0      NULL StartInterlock                               //VID_EC_PJMStartInterlock
+$01080170      52     0      3600       NULL   0       0    0      0      0    0       0      NULL SCT6EventDelay                               //VID_EC_PJMSCT6EventDelay
+$01080180      51     0        2        NULL   0       0    0      0      0    0       0      NULL ProcessingCntlRule                           //VID_EC_CJMProcessingCntlRule
+$01080190      51     0        1        NULL   0       0    0      0      0    0       0      NULL CJStatusEventType                            //VID_EC_CJMStatusEventType
+$010801A0      51     0        1        NULL   0       0    0      0      0    0       0      NULL CJCompEventType                              //VID_EC_CJMCompEventType
+$010801B0      51     0        2        NULL   0       0    0      0      0    0       0      NULL ProcessState                                 //VID_EC_STSProcessState
+$010801C0      51     0        1        NULL   0       0    0      0      0    0       0      NULL SemiStandard                                 //VID_EC_SemiStandard
+$010801D0      51     0        1        NULL   0       0    0      0      0    0       0      NULL ALTXType                                     //VID_EC_SemiALTXType
+$010801E0      51     0        1        NULL   0       0    0      0      0    0       0      NULL E5                                           //VID_EC_SemiE5
+$010801F0      51     0        2        NULL   0       0    0      0      0    0       0      NULL TimeFormat                                   //VID_EC_SemiTimeFormat
+$01080200      51     0        1        NULL   0       0    0      0      0    0       0      NULL ErrcodeType                                  //VID_EC_SemiErrcodeType
+$01080210      51     0        1        NULL   0       0    0      0      0    0       0      NULL ObjAckFormat                                 //VID_EC_SemiObjAckFormat
+$01080220      51     0        1        NULL   0       0    0      0      0    0       0      NULL PRJobState                                   //VID_EC_SemiPRJobState
+$01080230      51     0        1        NULL   0       0    0      0      0    0       0      NULL MesSpoolType                                 //VID_EC_OtherMesSpoolType         
+$01080240      51     0        1        NULL   0       0    0      0      0    0       0      NULL RcCountFormat                                //VID_EC_OtherRcCountFormat        
+$01080250      51     0        1        NULL   0       0    0      0      0    0       0      NULL S6F1WaitBitOn                                //VID_EC_OtherS6F1WaitBitOn        
+$01080260      51     0        1        NULL   0       0    0      0      0    0       0      NULL S6F11WaitBitOn                               //VID_EC_OtherS6F11WaitBitOn       
+$01080270      51     0        3        NULL   0       0    0      0      0    0       0      NULL CommControlEvent                             //VID_EC_OtherCommControlEvent     
+$01080280      51     0        1        NULL   0       0    0      0      0    0       0      NULL TerminalFunction                             //VID_EC_OtherTerminalFunction     
+$01080290      51     0        1        NULL   0       0    0      0      0    0       0      NULL S5F1WaitBitOn                                //VID_EC_OtherS5F1WaitBitOn        
+$010802A0      51     0        1        NULL   0       0    0      0      0    0       0      NULL HSMSS6F5Send                                 //VID_EC_OtherHSMSS6F5Send          
+$010802B0      51     0        1        NULL   0       0    0      0      0    0       0      NULL DataUnitConfigUse                            //VID_EC_OtherDataUnitConfigUse    
+#$010802C0      51     0        1        NULL   0       0    0      0      0    0       0      NULL EnhRecipeUse                                 //VID_EC_OtherEnhRecipeUse         
+$010802D0      51     0        1        NULL   0       0    0      0      0    0       0      NULL WaferAngleEnable                             //VID_EC_OtherWaferAngleEnable     
+$010802E0      51     0        1        NULL   0       0    0      0      0    0       0      NULL HSMSS7InqSend                                //VID_EC_OtherHSMSS7InqSend        
+$010802F0      51     0        1        NULL   0       0    0      0      0    0       0      NULL ControlModeChange                            //VID_EC_OtherControlModeChange    
+$01080300      51     0        1        NULL   0       0    0      0      0    0       0      NULL MaterialRecvType                             //VID_EC_OtherMaterialRecvType     
+$01080310      51     0        1        NULL   0       0    0      0      0    0       0      NULL DefEventList0Delete                          //VID_EC_OtherDefEventList0Delete  
+$01080320      51     0        2        NULL   0       0    0      0      0    0       0      NULL RMSType                                      //VID_EC_OtherRMSType              
+$01080330      51     0        1        NULL   0       0    0      0      0    0       0      NULL CarrierOutPattern                            //VID_EC_OtherCarrierOutPattern    
+$01080340      51     0        1        NULL   0       0    0      0      0    0       0      NULL AnalogDataType                               //VID_EC_OtherAnalogDataType       
+$01080350      51     0        1        NULL   0       0    0      0      0    0       0      NULL S1F13ToS9F9Send                              //VID_EC_OtherS1F13ToS9F9Send      
+$01080360      51     0        1        NULL   0       0    0      0      0    0       0      NULL LocalUseMessage                              //VID_EC_OtherLocalUseMessage      
+$01080370      51     0        2        NULL   0       0    0      0      0    0       0      NULL AlarmIdType                                  //VID_EC_OtherAlarmIdType          
+$01080380      51     0        2        NULL   0       0    0      0      0    0       0      NULL RMSProRecipe                                 //VID_EC_OtherRMSProRecipe         
+$01080390      51     0      319        NULL   0       0    0      0      0    0       0      NULL VppUnitNo                                    //VID_EC_OtherVppUnitNo            
+$010803A0      51     0      319        NULL   0       0    0      0      0    0       0      NULL VdcUnitNo                                    //VID_EC_OtherVdcUnitNo            
+$010803B0      52     0      319        NULL   0       0    0      0      0    0       0      NULL PumpALDINo                                   //VID_EC_Other2PumpALDINo          
+$010803C0      52     0      319        NULL   0       0    0      0      0    0       0      NULL PumpStopDINo                                 //VID_EC_Other2PumpStopDINo        
+$010803D0      52     0      319        NULL   0       0    0      0      0    0       0      NULL PumpStopNRDINo                               //VID_EC_Other2PumpStopNRDINo      
+$010803E0      51     0        1        NULL   0       0    0      0      0    0       0      NULL OnlModeChangeByS2F41                         //VID_EC_Other2OnlModeChangeByS2F41
+$010803F0      51     0        1        NULL   0       0    0      0      0    0       0      NULL RMSNVStringChar                              //VID_EC_Other2RMSNVStringChar     
+$01080400      51     0        1        NULL   0       0    0      0      0    0       0      NULL FirstLastWaferData                           //VID_EC_Other3FirstLastWaferData     
+$01080401      54     0    999999999    PM     0       4    1      0      0    0       0      NULL DCMXPSCycleCountLimit                        //VID_EC_DCMXPSCycleCountLimit
+$01080411      54     0    999999999    PM     0       4    1      0      0    0       0      NULL DCMXPSPulseCountLimit                        //VID_EC_DCMXPSPulseCountLimit
+$01080421      44     0.0  999999999.0  PM     0       4    1      0      0    0       0      sec  DCMXPSPulseTimeLimit                         //VID_EC_DCMXPSPulseTimeLimit
+$01080431      54     0    999999999    PM     0       4    1      0      0    0       0      NULL DCMXPSCycleCountTotal                        //VID_EC_DCMXPSCycleCountTotal
+$01080441      54     0    999999999    PM     0       4    1      0      0    0       0      NULL DCMXPSPulseCountTotal                        //VID_EC_DCMXPSPulseCountTotal
+$01080451      44     0.0  999999999.0  PM     0       4    1      0      0    0       0      sec  DCMXPSPulseTimeTotal                         //VID_EC_DCMXPSPulseTimeTotal
+$01080461      51     0    1            PM     0       4    1      0      0    0       0      NULL DCMXAutoCyclePrg1ExecTiming                  //VID_EC_DCMXAutoCyclePurge1ExecutionTiming
+$01080471      20     0    0            PM     0       4    1      0      0    0       0      NULL DCMXAutoCyclePrg1RecipeName                  //VID_EC_DCMXAutoCyclePurge1RecipeName
+$01080481      52     0    65535        PM     0       4    1      0      0    0       0      min  DCMXAutoCyclePrg1InitialInterval             //VID_EC_DCMXAutoCyclePurge1InitialInterval
+$01080491      52     0    65535        PM     0       4    1      0      0    0       0      min  DCMXAutoCyclePrg1RetryInterval               //VID_EC_DCMXAutoCyclePurge1RetryInterval
+$010804A1      51     0    1            PM     0       4    1      0      0    0       0      NULL DCMXAutoCyclePrg2ExecTiming                  //VID_EC_DCMXAutoCyclePurge2ExecutionTiming
+$010804B1      51     0    1            PM     0       4    1      0      0    0       0      NULL DCMXAutoCyclePrg2ExecTrigger                 //VID_EC_DCMXAutoCyclePurge2ExecutionTrigger
+$010804C1      20     0    0            PM     0       4    1      0      0    0       0      NULL DCMXAutoCyclePrg2RecipeName                  //VID_EC_DCMXAutoCyclePurge2RecipeName
+$010804D1      52     0    65535        PM     0       4    1      0      0    0       0      min  DCMXAutoCyclePrg2InitialInterval             //VID_EC_DCMXAutoCyclePurge2InitialInterval
+$010804E1      52     0    65535        PM     0       4    1      0      0    0       0      min  DCMXAutoCyclePrg2RetryInterval               //VID_EC_DCMXAutoCyclePurge2RetryInterval
+$010804F1      52     0    65535        LL     0       1    1      0      0    0       0      min  LLXInitialInterval                           //VID_EC_LLXInitialInterval
+$01080501      52     0    65535        LL     0       1    1      0      0    0       0      min  LLXRetryInterval                             //VID_EC_LLXRetryInterval
+$01080511      52     0    65535        LL     0       1    1      0      0    0       0      NULL LLXCycle                                     //VID_EC_LLXCycle
+$01080520      51     0    2            NULL   0       0    0      0      0    0       0      NULL LLInDwellFrequency                           //VID_EC_LoadlockInDwellFrequency
+$01080530      52     0    65535        NULL   0       0    0      0      0    0       0      sec  LLInDwellTime                                //VID_EC_LoadlockInDwellTime
+$01080540      51     0    2            NULL   0       0    0      0      0    0       0      NULL LLOutDwellFrequency                          //VID_EC_LoadlockOutDwellFrequency
+$01080550      51     0    5            NULL   0       0    0      0      0    0       0      NULL LLOutDwellStyle                              //VID_EC_LoadlockOutDwellStyle
+$01080560      52     0    65535        NULL   0       0    0      0      0    0       0      sec  LLOutDwellTime                               //VID_EC_LoadlockOutDwellTime
+$01080570      52     0    65535        NULL   0       0    0      0      0    0       0      slpm LLOutDwellFlow                               //VID_EC_LoadlockOutDwellFlow
+$01080580      51     0    1            NULL   0       0    0      0      0    0       0      NULL LLOutLLCooling                               //VID_EC_LoadlockOutLLCooling
+$01080590      51     0    2            NULL   0       0    0      0      0    0       0      NULL RCDifferentPJ                                //VID_EC_RCDifferentPJ
+$010805A0      52     0    760          NULL   0       0    0      0      0    0       0      Torr ATMLimit                                     //VID_EC_ATMLimit
+$010805B1      51     0    2            PM     0       4    1      0      1    $10     0      NULL DCMXTHVXSelection                            //VID_EC_DCMXTHXSelection
+$010805D1      11     0    1            PM     0       4    1      0      1    $10     0      NULL DCMXTHVXMonitoringEnabled                    //VID_EC_DCMXTHXMonitoringEnabled
+$010805F1      44     0.0  99.99        PM     0       4    1      0      1    $10     0      Torr DCMXTHVXErrorBand                            //VID_EC_DCMXTHVXErrorBand
+$01080611      52     0    65535        PM     0       4    1      0      1    $10     0      sec  DCMXTHVXSettleTime                           //VID_EC_DCMXTHVXSettleTime
+$01080631      52     0    65535        PM     0       4    1      0      1    $10     0      sec  DCMXTHVXOutOfBandTime                        //VID_EC_DCMXTHVXOutOfBandTime
+$01080651      54     0      999999     PM     0       4    1      0      0    0       0      NULL DCMXRFDataLowLimit                           //VID_EC_DCMXOther2RFDataLowLimit
+$01080661      51     0      319        PM     0       4    1      0      0    0       0      NULL DCMXRFDataRC1HRFUnitNo                       //VID_EC_DCMXOther2RFDataRC1HRFUnitNo
+$01080671      51     0      319        PM     0       4    1      0      0    0       0      NULL DCMXRFDataRC1LRFUnitNo                       //VID_EC_DCMXOther2RFDataRC1LRFUnitNo
+$01080681      51     0      319        PM     0       4    1      0      0    0       0      NULL DCMXRFDataRC2HRFUnitNo                       //VID_EC_DCMXOther2RFDataRC2HRFUnitNo
+$01080691      51     0      319        PM     0       4    1      0      0    0       0      NULL DCMXRFDataRC2LRFUnitNo                       //VID_EC_DCMXOther2RFDataRC2LRFUnitNo
+$010806A1      51     0        4        PM     0       4    1      0      0    0       0      NULL DCMXChamberCleaningTriggerType               //VID_EC_DCMXAutoChamberCleaningTriggerType          
+$010806B1      51     0        1        PM     0       4    1      0      0    0       0      NULL DCMXChamberCleaningCountingProcess           //VID_EC_DCMXAutoChamberCleaningCountingProcess      
+$010806C1      51     0        1        PM     0       4    1      0      0    0       0      NULL DCMXChamberCleaningExecTiming                //VID_EC_DCMXAutoChamberCleaningExecutionTiming      
+$010806D1      54     0    999999999    PM     0       4    1      0      0    0       0      NULL DCMXChamberCleaningTotalType                 //VID_EC_DCMXAutoChamberCleaningTotalType  
+$010806E1      54     0    999999999    PM     0       4    1      0      0    0       0      NULL DCMXChamberCleaningRcpExecTiming             //VID_EC_DCMXAutoChamberCleaningRecipeExecutionTiming
+$010806F1      51     0        4        PM     0       4    1      0      0    0       0      NULL DCMXGasLinePurgeTriggerType                  //VID_EC_DCMXAutoGasLinePurgeTriggerType             
+$01080701      51     0        1        PM     0       4    1      0      0    0       0      NULL DCMXGasLinePurgeCountingProcess              //VID_EC_DCMXAutoGasLinePurgeCountingProcess         
+$01080711      51     0        1        PM     0       4    1      0      0    0       0      NULL DCMXGasLinePurgeExecTiming                   //VID_EC_DCMXAutoGasLinePurgeExecutionTiming         
+$01080721      54     0    999999999    PM     0       4    1      0      0    0       0      NULL DCMXGasLinePurgeTotalType                    //VID_EC_DCMXAutoGasLinePurgeTotalType    
+$01080731      54     0    999999999    PM     0       4    1      0      0    0       0      NULL DCMXGasLinePurgeRcpExecTiming                //VID_EC_DCMXAutoGasLinePurgeRecipeExecutionTiming
+$01080741      51     0        2        PM     0       4    1      0      3    $10     0      NULL DCMXHandoffStabilizeOption                   //VID_EC_DCMXHandoffStabilizeOption      
+$01080781      51     0        2        PM     0       4    1      0      3    $10     0      NULL DCMXHandoffPurgeControlMode                  //VID_EC_DCMXHandoffPurgeControlMode     
+$010807C1      51     0        1        PM     0       4    1      0      3    $10     0      NULL DCMXHandoffTHVControlMode                    //VID_EC_DCMXHandoffTHVControlMode       
+$01080801      44   0.0     10000.0     PM     0       4    1      0      3    $10     0      NULL DCMXHandoffRCPurgeSetpoint                   //VID_EC_DCMXHandoffRCPurgeSetpoint      
+$01080841      44   0.0     10000.0     PM     0       4    1      0      3    $10     0      NULL DCMXHandoffPumpControlSetpoint               //VID_EC_DCMXHandoffPumpControlSetpoint  
+$01080881      44   0.0     10000.0     PM     0       4    1      0      3    $10     0      NULL DCMXHandoffPVMPurgeSetpoint                  //VID_EC_DCMXHandoffPVMPurgeSetpoint     
+$010808C1      44   0.0     10000.0     PM     0       4    1      0      3    $10     0      NULL DCMXHandoffTHVControlSetpoint                //VID_EC_DCMXHandoffTHVControlSetpoint
+$01080901      51     0        1        PM     0       4    1      0      0    0       0      NULL DCMXHandoffElevatorUpAfterUnload             //VID_EC_DCMXHandoffElevatorUpAfterUnload
+$01080911      51     0        4        PM     0       4    1      0      19   $10     0      NULL DCMXMainCountTypeX                           //VID_EC_DCMXMainCountTypeX           
+$01080A51      52     0      65535      PM     0       4    1      0      19   $10     0      NULL DCMXMainTimeHourX                            //VID_EC_DCMXMainTimeHourX                      
+$01080B91      51     0        59       PM     0       4    1      0      19   $10     0      NULL DCMXMainTimeMinuteX                          //VID_EC_DCMXMainTimeMinuteX                    
+$01080CD1      51     0        59       PM     0       4    1      0      19   $10     0      NULL DCMXMainTimeSecondX                          //VID_EC_DCMXMainTimeSecondX          
+$01080E11      51     0        99       PM     0       4    1      0      19   $10     0      NULL DCMXMainTimeMillisecondX                     //VID_EC_DCMXMainTimeMillisecondX     
+$01080F51      52     0      65535      PM     0       4    1      0      19   $10     0      NULL DCMXMainTimeLimitHourX                       //VID_EC_DCMXMainTimeLimitHourX       
+$01081091      51     0        59       PM     0       4    1      0      19   $10     0      NULL DCMXMainTimeLimitMinuteX                     //VID_EC_DCMXMainTimeLimitMinuteX     
+$010811D1      51     0        59       PM     0       4    1      0      19   $10     0      NULL DCMXMainTimeLimitSecondX                     //VID_EC_DCMXMainTimeLimitSecondX     
+$01081311      51     0        99       PM     0       4    1      0      19   $10     0      NULL DCMXMainTimeLimitMillisecondX                //VID_EC_DCMXMainTimeLimitMillisecondX
+$01081451      20     0        0        PM     0       4    1      0      19   $10     0      NULL DCMXMainCommentX                             //VID_EC_DCMXMainCommentX
+$01081590      52     0      65535      NULL   0       0    0      0      0    0       0      Torr LLOutDwellPressure                           //VID_EC_LoadlockOutDwellPressure
+$010815A0      51     0          1      NULL   0       0    0      0      0    0       0      NULL CPHOPrepUnLoadMainRcp                        //VID_EC_CPHOPrepUnloadMainRcp                   
+# ECIDS $010815A0 -- $010848AF are available. Before using, see EPI and ALD SECS/GEM manuals for their definition. Try to stay consistent with ALD at least...
+$010848B0      52     1        999  NULL       0       0    0      0      0    0       1       sec TP1Timer                               //VID_EC_TP1Timer
+$010848C0      52     1        999  NULL       0       0    0      0      0    0       1       sec TP2Timer                               //VID_EC_TP2Timer
+$010848D0      52     1        999  NULL       0       0    0      0      0    0       1       sec TP3Timer                               //VID_EC_TP3Timer
+$010848E0      52     1        999  NULL       0       0    0      0      0    0       1       sec TP4Timer                               //VID_EC_TP4Timer
+$010848F0      52     1        999  NULL       0       0    0      0      0    0       1       sec TP5Timer                               //VID_EC_TP5Timer
+$01084900      52     1        999  NULL       0       0    0      0      0    0       1       sec TP6Timer                               //VID_EC_TP6Timer
+$01084910      52     1        999  NULL       0       0    0      0      0    0       1       sec TD1Timer                               //VID_EC_TD1Timer
+$01084920      44   0.0      999.9  NULL       0       0    0      0      0    0       0       sec LoadTimer1                             //VID_EC_LoadTimer1
+$01084930      44   0.0      999.9  NULL       0       0    0      0      0    0       0       sec LoadTimer2                             //VID_EC_LoadTimer2
+$01084940      44   0.0      999.9  NULL       0       0    0      0      0    0       0       sec UnloadTimer1                           //VID_EC_UnloadTimer1
+$01084950      44   0.0      999.9  NULL       0       0    0      0      0    0       0       sec UnloadTimer2                           //VID_EC_UnloadTimer2
+# ECIDS $01084960 -- $01085070 are available. Before using, see EPI and ALD SECS/GEM manuals for their definition. Try to stay consistent with ALD at least...
+$01085071      54     0    99999999   PM       0       4    1      0     19   16       0      NULL DCMXDepoCountX                         //VID_EC_DCMXDepoCountX
+$010851C1      54     0    99999999   PM       0       4    1      0     19   16       0      NULL DCMXEtchCountX                         //VID_EC_DCMXEtchCountX
+$01085311      54     0    99999999   PM       0       4    1      0     19   16       0      NULL DCMXDepoLimitX                         //VID_EC_DCMXDepoLimitX
+$01085461      54     0    99999999   PM       0       4    1      0     19   16       0      NULL DCMXEtchLimitX                         //VID_EC_DCMXEtchLimitX
+$010855B1      34  -100000  100000    PM       0       4    1      0      0    0       0      NULL DCMXSusProcessPositionPulse            //VID_EC_DCMXSusceptorProcessPositionPulse
+$010855C1      34  -100000  100000    PM       0       4    1      0      0    0       0      NULL DCMXSusProcessPositionOffsetPulse      //VID_EC_DCMXSusceptorProcessPositionOffsetPulse
+$010855D1      34  -100000  100000    PM       0       4    1      0      0    0       0      NULL DCMXSusWaferContactPositionPulse       //VID_EC_DCMXSusceptorWaferContactPositionPulse
+$010855E1      34  -100000  100000    PM       0       4    1      0      0    0       0      NULL DCMXSusOverContactOffsetPulse          //VID_EC_DCMXSusceptorOverContactOffsetPulse
+$010855F1      34  -100000  100000    PM       0       4    1      0      0    0       0      NULL DCMXSusUnderContactOffsetPulse         //VID_EC_DCMXSusceptorUnderContactOffsetPulse
+$01085601      34  -100000  100000    PM       0       4    1      0      0    0       0      NULL DCMXSusUpperSoftLimitPulse             //VID_EC_DCMXSusceptorUpperSoftLimitPulse
+$01085611      44     0.0    0.0      PM       0       4    1      0      0    0       0      mm   DCMXSusProcessPositionMM               //VID_EC_DCMXSusceptorProcessPositionMM
+$01085621      44     0.0    0.0      PM       0       4    1      0      0    0       0      mm   DCMXSusProcessPositionOffsetMM         //VID_EC_DCMXSusceptorProcessPositionOfsetMM     
+$01085631      44     0.0    0.0      PM       0       4    1      0      0    0       0      mm   DCMXSusWaferContactPositionMM          //VID_EC_DCMXSusceptorWaferContactPositionMM
+$01085641      44     0.0    0.0      PM       0       4    1      0      0    0       0      mm   DCMXSusOverContactOffsetMM             //VID_EC_DCMXSusceptorOverContactOffsetMM   
+$01085651      44     0.0    0.0      PM       0       4    1      0      0    0       0      mm   DCMXSusUnderContactOffsetMM            //VID_EC_DCMXSusceptorUnderContactOffsetMM  
+$01085661      44     0.0    0.0      PM       0       4    1      0      0    0       0      mm   DCMXSusUpperSoftLimitMM                //VID_EC_DCMXSusceptorUpperSoftLimitMM      
+$01085671      34     500    20000    PM       0       4    1      0      0    0       0      PPS  DCMXSusceptorSpeedUpLow                //VID_EC_DCMXSusceptorSpeedUpLow   
+$01085681      34     500    20000    PM       0       4    1      0      0    0       0      PPS  DCMXSusceptorSpeedUpHigh               //VID_EC_DCMXSusceptorSpeedUpHigh  
+$01085691      34     500    20000    PM       0       4    1      0      0    0       0      PPS  DCMXSusceptorSpeedDownLow              //VID_EC_DCMXSusceptorSpeedDownLow 
+$010856A1      34     500    20000    PM       0       4    1      0      0    0       0      PPS  DCMXSusceptorSpeedDownHigh             //VID_EC_DCMXSusceptorSpeedDownHigh
+$010856B1      44     0      359.9  NULL       0       1    1      0      0    0       0      deg  AlignerXAngleLP                        //VID_EC_AlignerXAngleLP
+$010856C1      44     0      359.9  NULL       0       1    1      0      0    0       0      deg  AlignerXAngleLL1                       //VID_EC_AlignerXAngleLL1
+$010856D1      44     0      359.9  NULL       0       1    1      0      0    0       0      deg  AlignerXAngleLL1R                      //VID_EC_AlignerXAngleLL1R
+$010856E1      44     0      359.9  NULL       0       1    1      0      0    0       0      deg  AlignerXAngleLL2                       //VID_EC_AlignerXAngleLL2
+$010856F1      44     0      359.9  NULL       0       1    1      0      0    0       0      deg  AlignerXAngleLL2R                      //VID_EC_AlignerXAngleLL2R
+$01085701      44     0      359.9  NULL       0       1    1      0      0    0       0      deg  AlignerXAngleCool                      //VID_EC_AlignerXAngleCool
+$01085711      54     0        100  NULL       0       1    1      0      0    0       0      %    AlignerXSpeed                          //VID_EC_AlignerXSpeed
+# ECIDS $01085720 -- $01088B60 are available. Before using, see EPI and ALD SECS/GEM manuals for their definition. Try to stay consistent with ALD at least...
+$01088B61      54     0    999999999   PM      0       4    1      0      9    16      0      NULL DCMXPSSrcXUseCntLmt             //VID_EC_DCMXPSSourceXUseCountLimit
+$01088C21      44     0    999999999.0 PM      0       4    1      0      9    16      0      sec  DCMXPSSrcXUseTimeLmt              //VID_EC_DCMXPSSourceXUseTimeLimit
+$01088CE1      54     0    999999999   PM      0       4    1      0      9    16      0      NULL DCMXPSSrcXUseCntTtl             //VID_EC_DCMXPSSourceXUseCountTotal
+$01088DA1      44   0.0    999999999.0 PM      0       4    1      0      9    16      0      sec  DCMXPSSrcXUseTimeTtl              //VID_EC_DCMXPSSourceXUseTimeTotal
+$01088E61      54     0    999999999   PM      0       4    1      0      9    16      0      NULL DCMXPSSrcXPlsStateCntTtl      //VID_EC_DCMXPSSourceXPulseStateCountTotal
+$01088F21      44   0.0    999999999.0 PM      0       4    1      0      9    16      0      sec  DCMXPSSrcXPlsStateTimeTtl       //VID_EC_DCMXPSSourceXPulseStateTimeTotal
+$01088FE1      54     0    999999999   PM      0       4    1      0      9    16      0      NULL DCMXPSSrcXPlsStateCntLmt      //VID_EC_DCMXPSSourceXPulseStateCountLimit
+$010890A1      44   0.0    999999999   PM      0       4    1      0      9    16      0      sec  DCMXPSSrcXPlsStateTimeLmt       //VID_EC_DCMXPSSourceXPulseStateTimeLimit
+# ECIDS $01089151 -- $0109FB50 are available. Before using, see EPI and ALD SECS/GEM manuals for their definition. Try to stay consistent with ALD at least...
+$0109FB60      52     0    3           LL     0       0     0      0      0    0      0      NULL    LLLCoolingPrgOption                  //VID_EC_LLLCoolingPrgOption
+$0109FB70      52     0    50          LL     0       1     1      0      0    0      0      slm     LLLCoolingPrgFTPFlow                 //VID_EC_LLLCoolingPrgFTPFlow
+$0109FB80      52     0    65535       LL     0       1     1      0      0    0      0      sec     LLLCoolingPrgFTPFlwTime              //VID_EC_LLLCoolingPrgFTPFlwTime
+$0109FB90      52     0    99          LL     0       1     1      0      0    0      0      count   LLLCoolingPrgDPCycles                //VID_EC_LLLCoolingPrgDPCycles
+$0109FBA0      52     0    65535       LL     0       1     1      0      0    0      0      sec     LLLCoolingPrgDPVacTime               //VID_EC_LLLCoolingPrgDPVacTime
+$0109FBB0      52     0    65535       LL     0       1     1      0      0    0      0      sec     LLLCoolingPrgDPPrsTime               //VID_EC_LLLCoolingPrgDPPrsTime
+$0109FBC0      52     0    999         LL     0       1     1      0      0    0      0      Torr    LLLCoolingPrgDPBackfillPrs           //VID_EC_LLLCoolingPrgDPBackfillPrs
+$0109FBD0      32     -7200      0     LL     0       1     1      0      0    0      0      pulse   LLLXSusceptorCoolOffset              //VID_EC_LLXSuscCoolPos
+$0109FBE0      32     -7200      0     LL     0       1     1      0      0    0      0      pulse   LLLXSusceptorMaintOffset             //VID_EC_LLXSuscMaintPos
+$0109FBF0      52     0       6000     LL     0       1     1      0      0    0      0      Hz      LLLXSusceptorCurrentNormal           //VID_EC_LLXSuscCurrentNrml
+$0109FC00      52     0       6000     LL     0       1     1      0      0    0      0      Hz      LLLXSusceptorCurrentLow              //VID_EC_LLXSuscCurrentLow
+$0109FC10      52     0       1000     LL     0       1     1      0      0    0      0      %       LLLXSusceptorSpeedNormal             //VID_EC_LLXSuscSpeedNrml
+$0109FC20      52     0       1000     LL     0       1     1      0      0    0      0      %       LLLXSusceptorSpeedLow                //VID_EC_LLXSuscSpeedLow
+$0109FC30      54     0    1000000     LL     0       1     1      0      0    0      0      ms/kHz  LLLXSusceptorAccelNormal             //VID_EC_LLXSuscAccelNrml
+$0109FC40      54     0    1000000     LL     0       1     1      0      0    0      0      ms/kHz  LLLXSusceptorAccelLow                //VID_EC_LLXSuscAccelLow
+$0109FC50      54     0    1000000     LL     0       1     1      0      0    0      0      ms/kHz  LLLXSusceptorDecelNormal             //VID_EC_LLXSuscDecelNrml
+$0109FC60      54     0    1000000     LL     0       1     1      0      0    0      0      ms/kHz  LLLXSusceptorDecelLow                //VID_EC_LLXSuscDecelLow
+$0109FC70      51     0          1     LL     0       1     1      0      0    0      0      NULL    LLWaferLoadDelay                     //VID_EC_LLWaferDelay
+$0109FC80      51     0        255     LL     0       1     1      0      0    0      0      sec     LLWaferLoadDelayTime                 //VID_EC_LLWaferLoadTime
+$0109FC90      51     0          1     LL     0       1     1      0      0    0      0      NULL    LLPostTxState                        //VID_EC_LLPostTxState
+$0109FC71      20     0        	 0	   LP     0       5    	1      0      27   $10    0      NULL 	 LPXSlotXDummyWaferType               //VID_EC_LPXSlotXDummyWaferType
+$0109FE31      51     0        255	   LP     0       5    	1      0      27   $10    0      NULL 	 LPXSlotXDummyWaferCurUses            //VID_EC_LPXSlotXDummyWaferCurUses
+$0109FFF1      51     0        255	   LP     0       5    	1      0      27   $10    0      NULL 	 LPXSlotXDummyWaferMaxUses            //VID_EC_LPXSlotXDummyWaferMaxUses
+$010A01B1      11     0          1     PM    0        4     1      0     319   $10    0      NULL    DCMXTOXStablCheck                    //VID_EC_DCMXTOXStablCheck
+$010A15B1      11     0          1     PM    0        4     1      0     319   $10    0      NULL    DCMXTOXRecomCheck                    //VID_EC_DCMXTOXRecomCheck
+$010A29B1      11     0          1     PM    0        4     1      0     319   $10    0      NULL    DCMXTOXAlarmCheck                    //VID_EC_DCMXTOXAlarmCheck
+$010A3DB1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXLightAlarmLow                 //VID_EC_DCMXTOXLightAlarmLow
+$010A51B1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXLightAlarmHigh                //VID_EC_DCMXTOXLightAlarmHigh
+$010A65B1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXSeriousAlarmLow               //VID_EC_DCMXTOXSeriousAlarmLow
+$010A79B1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXSeriousAlarmHigh              //VID_EC_DCMXTOXSeriousAlarmHigh
+$010A8DB1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXMaintLow                      //VID_EC_DCMXTOXMaintLow
+$010AA1B1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXMaintHigh                     //VID_EC_DCMXTOXMaintHigh
+$010AB5B1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXAbortLow                      //VID_EC_DCMXTOXAbortLow
+$010AC9B1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXAbortHigh                     //VID_EC_DCMXTOXAbortHigh
+$010ADDB1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXActivateSetpt                 //VID_EC_DCMXTOXActivateSetpt
+$010AF1B1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXMaxTemp                       //VID_EC_DCMXTOXMaxTemp
+$010B05B1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXOverTemp                      //VID_EC_DCMXTOXOverTemp
+$010B19B1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXRecomSetLow                   //VID_EC_DCMXTOXRecomSetLow
+$010B2DB1      44     0.0     1000.0   PM    0        4     1      0     319   $10    0      C       DCMXTOXRecomSetHigh                  //VID_EC_DCMXTOXRecomSetHigh
+$010B41B1      52     0      65535     PM    0        4     1      0     319   $10    0      sec     DCMXTOXStabilityTime                 //VID_EC_DCMXTOXStabilityTime
+$010B55B1      44 -999.999     999.999 PM    0        4     1      0     319   $10    0      NULL    DCMXTOXPIDPValue                     //VID_EC_DCMXTOXPIDPValue
+$010B69B1      44 -999.999     999.999 PM    0        4     1      0     319   $10    0      NULL    DCMXTOXPIDIValue                     //VID_EC_DCMXTOXPIDIValue
+$010B7DB1      44 -999.999     999.999 PM    0        4     1      0     319   $10    0      NULL    DCMXTOXPIDDValue                     //VID_EC_DCMXTOXPIDDValue
+$010B91B1      44    0.000     100.0   PM    0        4     1      0     319   $10    0      sec     DCMXTOXPeriod                        //VID_EC_DCMXTOXPeriod
+$010BA5B1      44    0.000       1.000 PM    0        4     1      0     319   $10    0      NULL    DCMXTOXPowerLimit                    //VID_EC_DCMXTOXPowerLimit
+$010BB9B1      51    0           1     PM    0        4     1      0     319   $10    0      NULL    DCMXTOXPowerOption                   //VID_EC_DCMXTOXPowerOption
+$010BCDB1      44    0.0         4.000 PM    0        4     1      0     319   $10    0      NULL    DCMXTOXDualRatio                     //VID_EC_DCMXTOXDualRatio
+$010BE1B1      44 -999.999     999.999 PM    0        4     1      0     319   $10    0      NULL    DCMXTOXRampPValue                    //VID_EC_DCMXTOXRampPValue
+$010BF5B1      44 -999.999     999.999 PM    0        4     1      0     319   $10    0      NULL    DCMXTOXRampIValue                    //VID_EC_DCMXTOXRampIValue
+$010C09B1      44 -999.999     999.999 PM    0        4     1      0     319   $10    0      NULL    DCMXTOXRampDValue                    //VID_EC_DCMXTOXRampDValue
+$010C1DB1      44 -999.999     999.999 PM    0        4     1      0     319   $10    0      NULL    DCMXTOXRampMaxSP                     //VID_EC_DCMXTOXRampMaxSP
+$010C31B1      44 -10000.0   10000.0   PM    0        4     1      0     319   $10    0      NULL    DCMXAIXBasisPoint                    //VID_EC_DCMXAIXBasisPoint
+$010C45B1      44    0.0     10000.0   PM    0        4     1      0     319   $10    0      NULL    DCMXAIXAlarmLimit                    //VID_EC_DCMXAIXAlarmLimit
+$010C59B1      44    0.0     10000.0   PM    0        4     1      0     319   $10    0      NULL    DCMXAIXMaintLimit                    //VID_EC_DCMXAIXMaintLimit
+$010C6DB1      44    0.0     10000.0   PM    0        4     1      0     319   $10    0      NULL    DCMXAIXAbortLimit                    //VID_EC_DCMXAIXAbortLimit
+$010C81B1      11    0           1     PM    0        4     1      0     319   $10    0      NULL    DCMXAIXCheck                         //VID_EC_DCMXAIXCheck
+$010C95B1      44    0.0       999.9   PM    0        4     1      0     319   $10    0      sec     DCMXAIXDelayTime                     //VID_EC_DCMXAIXDelayTime
+
+
+#
+# Beginning  VID  Min      Maximum  Dev   Dev 1   Dev 1  Dev1 Dev 2  Dev 2  Dev2
+# VID        Fmt  Value    Value    Type  MinVal  MaxVal Incr MinVal MaxVal Incr Default Units      Name                                      VID Identification
+# ---------- ---  -----    -------  ----  ------ ------- ---- ------ ------ ---- ------- ---------  ------------------------------------      --------------------------------------------------
+$010CA9B1     54    0     999999999   PM    0      4      1      0     9    16     0      NULL      DCMXPSSrcXLiqUseCntLmt                //VID_EC_DCMXPSSourceXLiquidUseCountLimit
+$010CAA51     44    0.0   999999999.0 PM    0      4      1      0     9    16     0      sec       DCMXPSSrcXLiqUseTimeLmt               //VID_EC_DCMXPSSourceXLiquidUseTimeLimit
+$010CAAF1     54    0     999999999   PM    0      4      1      0     9    16     0      NULL      DCMXPSSrcXLiqUseCntTtl                //VID_EC_DCMXPSSourceXLiquidUseCountTotal
+$010CAB91     44    0.0   999999999.0 PM    0      4      1      0     9    16     0      sec       DCMXPSSrcXLiqUseTimeTtl               //VID_EC_DCMXPSSourceXLiquidUseTimeTotal
+$010CAC31     54    0     999999999   PM    0      4      1      0     9    16     0      NULL      DCMXPSSrcXLiqPlsStateCntLmt           //VID_EC_DCMXPSSourceXLiquidPulseStateCountLimit
+$010CACD1     44    0.0   999999999.0 PM    0      4      1      0     9    16     0      sec       DCMXPSSrcXLiqPlsStateTimeLmt          //VID_EC_DCMXPSSourceXLiquidPulseStateTimeLimit
+$010CAD71     54    0     999999999   PM    0      4      1      0     9    16     0      NULL      DCMXPSSrcXLiqPlsStateCntTtl           //VID_EC_DCMXPSSourceXLiquidPulseStateCountTotal
+$010CAE11     44    0.0   999999999.0 PM    0      4      1      0     9    16     0      sec       DCMXPSSrcXLiqPlsStateTimeTtl          //VID_EC_DCMXPSSourceXLiquidPulseStateTimeTotal
+
+$010CAEB1     54    0     999999999   PM    0      4      1      0     9    16     0      NULL      DCMXPSSrcXGasUseCntLmt                //VID_EC_DCMXPSSourceXGasUseCountLimit
+$010CAF51     44    0.0   999999999.0 PM    0      4      1      0     9    16     0      sec       DCMXPSSrcXGasUseTimeLmt               //VID_EC_DCMXPSSourceXGasUseTimeLimit
+$010CAFF1     54    0     999999999   PM    0      4      1      0     9    16     0      NULL      DCMXPSSrcXGasUseCntTtl                //VID_EC_DCMXPSSourceXGasUseCountTotal
+$010CB091     44    0.0   999999999.0 PM    0      4      1      0     9    16     0      sec       DCMXPSSrcXGasUseTimeTtl               //VID_EC_DCMXPSSourceXGasUseTimeTotal
+$010CB131     54    0     999999999   PM    0      4      1      0     9    16     0      NULL      DCMXPSSrcXGasPlsStateCntLmt           //VID_EC_DCMXPSSourceXGasPulseStateCountLimit
+$010CB1D1     44    0.0   999999999.0 PM    0      4      1      0     9    16     0      sec       DCMXPSSrcXGasPlsStateTimeLmt          //VID_EC_DCMXPSSourceXGasPulseStateTimeLimit
+$010CB271     54    0     999999999   PM    0      4      1      0     9    16     0      NULL      DCMXPSSrcXGasPlsStateCntTtl           //VID_EC_DCMXPSSourceXGasPulseStateCountTotal
+$010CB311     44    0.0   999999999.0 PM    0      4      1      0     9    16     0      sec       DCMXPSSrcXGasPlsStateTimeTtl          //VID_EC_DCMXPSSourceXGasPulseStateTimeTotal
+
+$010CB3B1     51    0       2         PM    0      4      1      0     9    16     0      NULL      DCMXPSSourceXSourceType               //VID_EC_DCMXPSSourceXSourceType
+
+$010CB451     40    0.0  999999999.999  PM  0      4      1      0     9    16     0      NULL      DCMXPSSourceXGPerCycle                //VID_EC_DCMXPSSourceXGPerCycle
+$010CB4F1     40    0.0  999999999.999  PM  0      4      1      0     9    16     0      NULL      DCMXPSSourceXGPerWafer                //VID_EC_DCMXPSSourceXGPerWafer
+$010CB591     40    0.0  999999999.999  PM  0      4      1      0     9    16     0      NULL      DCMXPSSourceXGPerCJ                   //VID_EC_DCMXPSSourceXGPerCJ
+$010CB631     40    0.0  999999999.999  PM  0      4      1      0     9    16     0      NULL      DCMXPSSourceXSpecificGrav             //VID_EC_DCMXPSSourceXSpecificGrav
+$010CB6D1     40    0.0  999999999.9    PM  0      4      1      0     9    16     0      NULL      DCMXPSSourceXMaxVolume                //VID_EC_DCMXPSSourceXMaxVolume
+$010CB771     40    0.0  999999999.999  PM  0      4      1      0     9    16     0      NULL      DCMXPSSourceXTotalConsumed            //VID_EC_DCMXPSSourceXTotalConsumed
+$010CB811     40    0.0  999999999.999  PM  0      4      1      0     9    16     0      NULL      DCMXPSSourceXGPerCycleConsumed        //VID_EC_DCMXPSSourceXGPerCycleConsumed
+$010CB8B1     40    0.0  999999999.999  PM  0      4      1      0     9    16     0      NULL      DCMXPSSourceXGPerWaferConsumed        //VID_EC_DCMXPSSourceXGPerWaferConsumed
+$010CB951     40    0.0  999999999.999  PM  0      4      1      0     9    16     0      NULL      DCMXPSSourceXGPerCJConsumed           //VID_EC_DCMXPSSourceXGPerCJConsumed
+
+# ECIDS $10CA9B1 -- $010DAD6F are available. Before using, see EPI and ALD SECS/GEM manuals for their definition. Try to stay consistent with ALD at least...
+# (Reserved) $010DAD70      52     0       9999   NULL      0       0         0         0         0         0         0       min   LPWaferTransTimeout           //VID_EC_LPWaferTransTimeout
+# (Reserved) $010DAD80      52     0        999   NULL     0        0         0         0         0         0         0       sec   LPPresencePlacementTimeout    //VID_EC_LPPresencePlacementTimeout
+#
+# NEXT AVAILABLE ECID (EPI):
+# $010FADC0 - No DevNo1
+# $010FADC1 - With DevNo1
+# NEXT AVAILABLE ECID (ALD):
+# $0109FD50 - $0109FDF0  - No DevNo1
+# $010C31B1 - $0112BFB1    - With DevNo1
+#
+# Beginning  VID  Min        Maximum  Dev   Dev 1   Dev 1  Dev1 Dev 2  Dev 2  Dev2
+# VID        Fmt  Value      Value    Type  MinVal  MaxVal Incr MinVal MaxVal Incr Default Units     Name                                   VID Identification
+# ---------- ---  -------    -------  ----  ------ ------- ---- ------ ------ ---- ------- --------- -------------------------------------  --------------------------------------------------
+$02000000  52  100     399  NULL      0   0   0   0   0   0	     0 NULL	EquipmentType			//VID_EquipmentType			装置タイプ
+$02000001  52 1000    3999  RC        0   4  $1   0   0   0	     0 NULL	ProcessModuleType_RCX		//VID_ProcessModuleType_RCX		リアクタＸのＰＭタイプ
+$02000010  10   1       5   NULL      0   0   0   0   0   0	     0 NULL	ControlState			//VID_ControlState			コントロール状態
+$02000020  10   1       5   NULL      0   0   0   0   0   0	     0 NULL	PreviousControlState		//VID_PreviousControlState		直前のコントロール状態
+$02000201  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	UseMarathonLPX			//VID_UseMarathonLPX			ロードポートＸのマラソン使用状態設定
+$02010010   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	LimitsEnabled			//VID_LimitsEnabled			リミット監視の対象ＶＩＤ
+$02010111  20   0       0   PM        0   4  $1   0  95 $10	     0 NULL	DCMXLimitMax/MinAIX		//VID_pRCXLimitMaxMinAIX		ＰＭＣのＡＩＸリミット最大値／最小値		Rev2.00-0
+$02010711  20   0       0   PM        0   4  $1   0  63 $10	     0 NULL	DCMXLimitMax/MinTIX		//VID_pRCXLimitMaxMinTIX		ＰＭＣのＴＩＸリミット最大値／最小値		Rev2.00-0
+$02010B11  20   0       0   PM        0   4  $1   0 239 $10	     0 NULL	DCMXLimitMax/MinDIX		//VID_pRCXLimitMaxMinDIX		ＰＭＣのＤＩＸリミット最大値／最小値 		Rev2.00-0
+$02011A10  20   0       0   NULL      0  15 $10   0   0   0	     0 NULL	WLLimitMaxMinAIX		//VID_WLLimitMaxMinAIX			ＴＭＣのＡＩＸリミット最大値／最小値 
+$02011B10  20   0       0   NULL      0  31 $10   0   0   0	     0 NULL	WLLimitMaxMinSAIX		//VID_WLLimitMaxMinSAIX			ＴＭＣのＳＡＩＸリミット最大値／最小値 
+$02011D10  20   0       0   NULL      0 191 $10   0   0   0	     0 NULL	WLLimitMaxMinDIX		//VID_WLLimitMaxMinDIX			ＴＭＣのＤＩＸリミット最大値／最小値 
+$02012910  20   0       0   NULL      0  15 $10   0   0   0	     0 NULL	WLLimitMaxMinAIX		//VID_pWLLimitMaxMinAIXEXT		ＴＭＣのＡＩＸリミット最大値／最小値 
+$02020010  54   0       0   NULL      0   3 $10   0   0   0	     0 NULL	SMPX				//VID_SMPX				トレース条件Ｘの現在サンプル数
+$02020050  54   0       0   NULL      0   3 $10   0   0   0	     0 NULL	TOTSMPX				//VID_TOTSMPX				トレース条件Ｘのトレース開始から終了までの総サンプル数
+$02020090   0   0       0   NULL      0   3 $10   0   0   0	     0 NULL	TracesEnabledX			//VID_TracesEnabledX			トレース条件Ｘの対象ＶＩＤ
+$020200D0  54   0       0   NULL      0   3 $10   0   0   0	     0 NULL	TRIDX				//VID_TRIDX				前回設定されたトレース条件ＸのＩＤ
+$02030010  54   0    1000   NULL      0   0   0   0   0   0	     0 NULL	SpoolCountActual		//VID_SpoolCountActual			現在のスプールメッセージ数
+$02030020  54   0 $7FFFFFFF NULL      0   0   0   0   0   0	     0 NULL	SpoolCountTotal			//VID_SpoolCountTotal			スプールを試みたメッセージ数 ****上限値仮****
+$02030030  10   0       1   NULL      0   0   0   0   0   0	     0 NULL	SpoolEnabled			//VID_SpoolEnabled			現在のスプール実行／未実行
+$02030040  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	SpoolStartTime			//VID_SpoolStartTime			スプールを開始した日付・時刻
+$02030050  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	SpoolFullTime			//VID_SpoolFullTime			スプールが最後に満杯となった日付・時刻
+$02030060  10   1       2   NULL      0   0   0   0   0   0	     0 NULL	SpoolState			//VID_SpoolState			現在のスプール状態
+$02030070  10   3       5   NULL      0   0   0   0   0   0	     0 NULL	SpoolUnloadSubstate		//VID_SpoolUnloadSubstate		現在のスプールアンロード状態
+$02030080  10   6       7   NULL      0   0   0   0   0   0	     0 NULL	SpoolloadSubstate		//VID_SpoolloadSubstate			現在のスプールロード状態
+$02033401  20   0       0   PM        0   4  $1   0  95 $10	     0 NULL	DCMXAIXOffset			//VID_RCXAIXOffset			現在のＰＭＣＸのＡＩＸオフセットデータ
+$02033A01  51   0	1   NULL      0   1  $1   0   0   0	     0 NULL	FERbtArmXRetSens		//VID_FERbtArmXRetSens                  大気ロボットのアームＸリトラクトセンサーデータ
+$02033A10  51   0      16   NULL      0   0   0   0   0   0	     0 NULL	FERbtAxisStation		//VID_FERbtAxisStation                  大気ロボットのステーションデータ
+$02033A20  51   0      28   NULL      0   0   0   0   0   0	     0 NULL	FERbtAxisStationSlot		//VID_FERbtAxisStationSlot              大気ロボットのステーションＳｌｏｔデータ
+$02033A81  51   0	1   NULL      0   1  $1   0   0   0	     0 NULL	BERbtArmXRetSens		//VID_BERbtArmXRetSens                  真空ロボットのアームＸリトラクトセンサーデータ
+$02033A90  51   0       9   NULL      0   0   0   0   0   0	     0 NULL	BERbtAxisStation		//VID_BERbtAxisStation                  真空ロボットのステーションデータ
+$02033AA0  51   0      28   NULL      0   0   0   0   0   0	     0 NULL	BERbtAxisStationSlot		//VID_BERbtAxisStationSlot              真空ロボットのステーションＳｌｏｔデータ
+$02033B00  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	JobInfoCreateReqTime		//VID_JobInfoCreReqTime                 最新のＪｏｂ作成要求時間
+$02033B10  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	JobInfoObjID			//VID_JobInfoObjID                      最新のＪｏｂ作成要求ＯｂｊｅｃｔＩＤ
+$02033B20  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	JobInfoCreateJobType		//VID_JobInfoCreJobType                 最新のＪｏｂ作成要求Ｏｂｊｅｃｔ種別
+$02033B30  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	JobInfoCreateReplyTime		//VID_JobInfoCreRepTime                 最新のＪｏｂ作成要求応答時間
+$02033B40  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	JobInfoCreateJobResult		//VID_JobInfoCreJobResult               最新のＪｏｂ作成要求結果
+$02033B50  52   0     899   NULL      0   0   0   0   0   0	     0 NULL	JobInfoCreateJobResultDetail	//VID_JobInfoCreJobResultDetail         最新のＪｏｂ作成要求詳細結果
+$02033B60  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	JobInfoCreateJobResultDetailText//VID_JobInfoCreJobResultDetailText     最新のＪｏｂ作成要求詳細結果テキスト
+$02040010   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	AlarmsEnabled			//VID_AlarmsEnabled			現在有効なアラームＩＤリスト
+$02040020   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	AlarmsSet			//VID_AlarmsSet				現在発生状態のアラームＩＤリスト
+$02050010  54   0 999999999 NULL      0   0   0   0   0   0	     0 NULL	ToolIdleTime			//VID_ToolIdleTime			装置の未処理時間
+$02050011  54   0 999999999 PM        0   4  $1   0   0   0	     0 NULL	DCMXIdleTime			//VID_DCMXIdleTime			ＤＣＭの未処理時間
+$02050030  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	Clock				//VID_Clock				現在の日付・時刻
+$02050020   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	EventsEnabled			//VID_EventsEnabled			有効なイベントＩＤリスト
+$02050110  51   0      10   NULL      0   0   0   0   0   0	     0 NULL	ProcessState			//VID_ProcessState			現在の装置状態
+$02050120  51   0      10   NULL      0   0   0   0   0   0	     0 NULL	PreviousProcessState		//VID_PreviousProcessState		現在の装置状態に変化する直前の装置状態
+$02050131  51   0       2   LP        0   5  $1   0   0   0	     0 NULL	LPXControlState			//VID_LPXControlState			現在のロードポートＸの制御状態
+$02050140  51   0       4   NULL      0   0   0   0   0   0	     0 NULL	FERbtControlState		//VID_FERbtControlState			現在の大気ロボットの制御状態
+$02050150  51   0       4   NULL      0   0   0   0   0   0	     0 NULL	BERbtControlState		//VID_BERbtControlState			現在の大気ロボットの制御状態
+$02050160  51   0       2   NULL      0   0   0   0   0   0	     0 NULL	AlignerControlState		//VID_AlignerControlState		現在のウェハアライナーの制御状態
+$02050170  51   0       2   NULL      0   0   0   0   0   0	     0 NULL	MetrologyControlState		//VID_MonitorControlState		現在の測定器の制御状態
+$02050181  51   0       3   LL        0   1  $1   0   0   0	     0 NULL	LLAlignerXControlState		//VID_LLRbtXControlState		現在のロードロックロボットＸの制御状態
+$020501A1  51   0       2   GV        0   8  $1   0   0   0	     0 NULL	GVXControlState			//VID_GVXControlState			現在のゲートバルブＸの制御状態
+$020501B1  51   0     255   GV        0   8  $1   0   0   0	     0 NULL	GVXSensorState			//VID_GVXSensorState			現在のゲートバルブＸのセンサー状態
+$020501E1  51   0       2   LL        0   1  $1   0   0   0	     0 NULL	LLCXControlState		//VID_LLCXControlState			現在のロードロックの圧力制御状態
+$020501F1  51   0       3   LL        0   1  $1   0   0   0	     0 NULL	LLCXPressState			//VID_LLCXPressState			現在のロードロックの圧力状態
+$02050200  51   0       2   NULL      0   0   0   0   0   0	     0 NULL	WHCControlState			//VID_WHCControlState			現在のロードロックの圧力制御状態
+$02050210  51   0       3   NULL      0   0   0   0   0   0	     0 NULL	WHCPressState			//VID_WHCPressState			現在のロードロックの圧力状態
+$02050291  51   0       9   PM        0   4  $1   0   0   0	     0 NULL	DCMXState			//VID_RCXState				現在のＰＭＣＸの制御状態		Rev2.00-0
+$020502A1  51   0       9   PM        0   4  $1   0   0   0	     0 NULL	PreviousDCMXState		//VID_PreviousRCXState			現在のＰＭＣＸの制御状態に変化する直前の制御状態	Rev2.00-0
+$020502B1  51   0       3   RC        0   4  $1   0   1  $100     0 NULL	DCMXRCXPressState		//VID_RCXPressState			現在のＰＭＣＸの圧力状態		Rev2.00-0
+$020502C1  20   0       0   PM        0   4  $1   0   0   0	     0 NULL	DCMXProRcpName			//VID_RCXProRcpName			現在有効となっているプロセスレシピＸの名称	Rev2.00-0
+$020502D1  10 $00     $44   PM        0   4  $1   0   0   0	     0 NULL	DCMXSeqInformation		//VID_RCXSeqInformation			現在のリアクタＸの処理シーケンス情報		Rev2.00-0
+$020502E1  52   0     120   PM        0   4  $1   0   0   0	     0 NULL	DCMXStep			//VID_RCXStep				現在のリアクタＸの処理ステップＮｏ．		Rev2.00-0
+$020502F1  20   0       0   PM        0   4  $1   0   0   0	     0 NULL	DCMXStepName			//VID_RCXStepName			現在のリアクタＸの処理ステップ名		Rev2.00-0
+$02050301  20   0       0   PM        0   4  $1   0   0   0	     0 NULL	DCMXStepTime			//VID_RCXStepTime			現在のリアクタＸの処理ステップ時間		Rev2.00-0
+$02050311  20   0       0   PM        0   4  $1   0   0   0	     0 NULL	DCMXStepRemainTime		//VID_RCXStepRemainTime			現在のリアクタＸの処理ステップ残り時間		Rev2.00-0
+$02050321  20   0       0   PM        0   4  $1   0   0   0	     0 NULL	DCMXRecipeRemainTime		//VID_RCXRecipeRemainTime		現在のリアクタＸの処理レシピ残り時間		Rev2.00-0
+$02050331  20   0       0   RC        0   4  $1   0   1  $10	     0 NULL	DCMXRCXCarrierID		//VID_RCXCarrierID			現在のＰＭＣＸのリアクタＸで処理しているウェハのキャリアＩＤ	Rev2.00-0
+$02050340  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ScriptExecName			//VID_ScriptExecName			現在実行中のScript名
+$02050350  52   0     100   NULL      0   0   0   0   0   0	     0 NULL	ScriptExecStepNo		//VID_ScriptExecStepNo			現在実行中のScriptｽﾃｯﾌﾟ番号
+$02050360  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	LCStartMethod			//VID_LCStartMethod			自動リークチェック開始方法
+$02050371  20   0       0   RC        0   4  $1   0   3 $10	     0 NULL	DCMXRFFrequencyX		//VID_DCMXRFFrequency			現在のＤＣＭのRFの周波数		Rev2.00-19 Add
+$020503E0  51   0       2   NULL      0   0   0   0   0   0	     0 NULL	LCExecutionMode			//VID_LCExecutionMode			自動リークチェック実行モード
+$020503F0  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	LCEffectiveMode			//VID_LCEffectiveMode			自動リークチェック有効モード
+$02050400  20   0       0   NULL      0  15 $10   0   0   0	     0 NULL	WHCLLAIX			//VID_pWHCLLAIX				現在のＷＨＣ／ＬＬのＡＩＸデータ部（０～１５）
+$02050500  20   0       0   NULL      0  15 $10   0   0   0	     0 NULL	WHCLLAOX			//VID_pWHCLLAOX				現在のＷＨＣ／ＬＬのＡＯＸデータ部（０～１５）
+$02050600  20   0       0   NULL      0  31 $10   0   0   0	     0 NULL	WHCLLSUAIX			//VID_pWHCLLSUAIX			現在のＷＨＣ／ＬＬのセンサーＡＩＸデータ部（０～３１）
+$02050602  20   0       0   NULL      0  31 $10   0   0   0	     0 NULL	WHCLLSLAIX			//VID_pWHCLLSLAIX			現在のＷＨＣ／ＬＬのセンサーＡＩＸデータ部（０～３１）
+$02050800  20   0       0   NULL      0 191 $10   0   0   0	     0 NULL	WHCLLDIX			//VID_pWHCLLDIX				現在のＷＨＣ／ＬＬのＤＩＸデータ部（０～１９１）
+$02051400  20   0       0   NULL      0 191 $10   0   0   0	     0 NULL	WHCLLDOX			//VID_pWHCLLDOX				現在のＷＨＣ／ＬＬのＤＯＸデータ部（０～１９１）
+$02052900  20   0       0   NULL      0  15 $10   0   0   0	     0 NULL	WHCLLAIX			//VID_pWHCLLAIXEXT			現在のＷＨＣ／ＬＬのＡＩＸデータ部（１６～３１）
+$02052A00  20   0       0   NULL      0  15 $10   0   0   0	     0 NULL	WHCLLAOX			//VID_pWHCLLAOXEXT			現在のＷＨＣ／ＬＬのＡＯＸデータ部（１６～３１）
+$02052201  10   1      28   LP        0   5  $1   0   0   0	     0 NULL	WaferLPXInformation		//VID_WaferLPXInformation		現在のロードポートＸのウェハ情報
+$02052211  10   1      28   LL        0   3  $1   0   0   0	     0 NULL	WaferLLXInformation		//VID_WaferLLXInformation		現在のLLＸのウェハ情報
+$020521E1  10   1      28   RC        0   4  $1   0   1 $10	     0 NULL	WaferDCMXRCXInformation		//VID_WaferRCXInformation		現在のＰＭＣＸ、リアクタＸのウェハ情報
+$02052241  10   1      28   CSTG      0   1  $1   0   0   0	     0 NULL	WaferCSTGXInformation		//VID_WaferCSTGXInformation		現在のクーリングステージＸのウェハ情報
+$02052250  10   1      28   NULL      0   0   0   0   0   0	     0 NULL	WaferALNInformation		//VID_WaferALNInformation		現在のアライナーのウェハ情報
+$02052260  10   1      28   NULL      0   0   0   0   0   0	     0 NULL	WaferMTRInformation		//VID_WaferMTRInformation		現在の測定器のウェハ情報
+$02052270  10   1      28   NULL      0   0   0   0   0   0	     0 NULL	WaferFERbtInformation		//VID_WaferFERbtInformation		現在の大気ロボットのウェハ情報
+$02052280  10   1      28   NULL      0   0   0   0   0   0	     0 NULL	WaferBERbtInformation		//VID_WaferBERbtInformation		現在の真空ロボットのウェハ情報		Rev0.07-3
+$02052290  51   2       2   NULL      0   0   0   0   0   0	     0 NULL	NumPorts			//VID_NumPorts				装置ポート数
+$020522A1  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	PortLocStateX			//VID_PortLocStateX			現在のロードポートＸ情報
+$020522B1  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	PortAlarmX			//VID_PortAlarmX			ポートＸのアラーム状態
+$020522C1  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	PortLocAssignedX		//VID_PortLocAssignedX			ポートＸアサイン状態
+$020522D1  20   0       0   LP        0   5  $1   0   0   0	     0 NULL	PortCarrierIDX			//VID_PortCarrierIDX			現在有効となっているカセットポートのキャリアＩＤＸ
+$020522E1  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	PortLoadStateX			//VID_PortLoadStateX			現在のロードポートＸのロード状態
+$020522F1  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	PortLockStateX			//VID_PortLockStateX			現在のロードポートＸのＰＯＤロック状態
+$02052301  10   0       2   LP        0   5  $1   0   0   0	     0 NULL	LPXWaferState			//VID_LPXWaferState			現在のロードポートＸのウェハ処理状態	Rev0.01-1
+$02052311  10   0      28   LP        0   5  $1   0   0   0	     0 NULL	LPXProcessedWaferCount		//VID_LPXProcessedWaferCount		現在のロードポートＸのウェハＤＥＰＯ処理枚数
+$02052321  10   0      28   LP        0   5  $1   0   0   0	     0 NULL	LPXNoProcessedWaferCount	//VID_LPXNoProcessedWaferCount		現在のロードポートＸのウェハＤＥＰＯ未処理枚数
+$02052330   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	RecipeFolderList		//VID_RecipeFolderList			膜種アクティブフォルダリスト
+$02052340  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ActiveRecipeFolder		//VID_ActiveRecipeFolder		現在の膜種アクティブフォルダ
+$02052351  51   0       1   PM        0   4  $1   0   0   0	     0 NULL	MainteDCMXInformation		//VID_MainteRCXInformation		現在のリアクタＸのメンテナンス情報	Rev2.00-0
+$02052361  51   0       1   LL        0   1  $1   0   0   0	     0 NULL	MainteLLXInformation		//VID_MainteLLXInformation		現在のロードロックＸのメンテナンス情報
+$02052371  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	MainteLPXInformation		//VID_MainteLPXInformation		現在のロードポートＸのメンテナンス情報
+$02052381  51   0	1   PM	      0   4  $1   0   0   0          0 NULL	DCMXDCMMaintenanceState		//VID_RCXPMMainteState			ＰＭＸのＰＭメンテナンス状態		Rev2.00-0
+$02052390  51   0	1   NULL      0   0   0   0   0   0          0 NULL	WHCTMMaintenanceState		//VID_WHCTMMainteState			ＷＨＣＴＭメンテナンス状態
+$020523A0  51   0	1   NULL      0   0   0   0   0   0          0 NULL	MainteUIOInformation		//VID_MainteUIOInformation		現在のＵＩＯのメンテナンス情報
+$020523E1  11   0       1   LP        0   5  $1   0   0   0	     0 NULL	LPXPresenceSensorState		//VID_LPXPresenceSensorState		現在のロードポートＸのメンテナンス情報
+$020523F1  11   0       1   LP        0   5  $1   0   0   0	     0 NULL	LPXPlacementSensorState		//VID_LPXPlacementSensorState		現在のロードポートＸのメンテナンス情報
+$02052401  20   0       0   PM        0   4  $1   0  19 $10	     0 NULL	DCMXDepoCountX			//VID_RCXDepoCountX			リアクタＸデポカウントＸ		Rev2.00-0
+$02052541  20   0       0   PM        0   4  $1   0  19 $10	     0 NULL	DCMXEtchCountX			//VID_RCXEtchCountX			リアクタＸエッチカウントＸ		Rev2.00-0
+$02052681  20   0       0   PM        0   4  $1   0  19 $10          0 NULL	DCMXDepoLimitX			//VID_RCXDepoLimitX			現在のＲＣＸのＰＭデポリミット		Rev2.00-0
+$020527C1  20   0       0   PM        0   4  $1   0  19 $10          0 NULL	DCMXEtchLimitX			//VID_RCXEtchLimitX			現在のＲＣＸのＰＭエッチリミット	Rev2.00-0
+$02052B01  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	LPXPurgeMode			//VID_pLPXPurgeMode			現在のPurgeモードＸ
+$02052B11  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	PreviousLPXPurgeMode		//VID_pPreviousLPXPurgeMode		現在のPurgeモードＸに変化する直前のPurgeモードＸ
+$02052B21  51   0       6   LP        0   5  $1   0   0   0	     0 NULL	LPXPurgeType			//VID_pLPXPurgeType			現在のPurgeタイプＸ
+$02052B31  51   0       6   LP        0   5  $1   0   0   0	     0 NULL	PreviousLPXPurgeType		//VID_pPreviousLPXPurgeType		現在のPurgeタイプＸに変化する直前のPurgeタイプＸ
+$02053301  20   0       0   PM        0   4  $1   0   5 $10          0 NULL	DCMXRFXTotalTime		//VID_RCXRFXTotalTime			現在のＲＣＸのＲＦ関連出力の積算出力時間	Rev2.00-0
+$02053361  20   0       0   PM        0   4  $1   0   0   0          0 NULL	DCMXThickness			//VID_RCXThickness			現在のＲＣＸの積算膜厚				Rev2.00-0
+$02053401  20   0       0   LL        0   1  $1   0  19 $10	     0 NULL	LLXWaferCountX			//VID_LLXWaferCountX			現在のロードロックＸの搬送ウェハカウントＸ
+$02053541  20   0       0   LL        0   1  $1   0  19 $10	     0 NULL	LLXWaferLimitX			//VID_LLXWaferLimitX			現在のロードロックＸの搬送ウェハカウントＸリミット
+$02053680  20   0       0   NULL      0  19 $10   0   0   0	     0 NULL	WHCWaferCountX			//VID_WHCWaferCountX			現在のＷＨＣの搬送ウェハカウントＸ
+$020537C0  20   0       0   NULL      0  19 $10   0   0   0	     0 NULL	WHCWaferLimitX			//VID_WHCWaferLimitX			現在のＷＨＣの搬送ウェハカウントＸリミット
+$02053901  51   1       4   PM        0   4  $1   0   0   0	     0 NULL	DCMXDepositionCount		//VID_RCXDepositionCount		現在のロット開始またはクリーニング実行からのリアクタＸのＤＥＰＯ回数	Rev2.00-0
+$02053911  51   1       4   PM        0   4  $1   0   0   0	     0 NULL	DCMXCleaningCount		//VID_RCXCleaningCount			現在のロット開始からのリアクタＸのＥＴＣＨ回数				Rev2.00-0
+$02053921  20   0       0   PM        0   4  $1   0 239 $10	     0 NULL	DCMXDOCountX			//VID_RCXDOCountX			現在のリアクタＸのＤＯ積算ＯＮ回数		Rev2.00-0
+$02054831  20   0       0   PM        0   4  $1   0  5  $10	     0 NULL	DCMXPulseTimeX			//VID_RCXPulseTimeX			現在のリアクタＸのＰｕｌｓｅ時間		Rev2.00-0
+$02054891  20   0       0   PM        0   4  $1   0  0    0	     0 NULL	DCMXPulseTimeTotal		//VID_RCXPulseTimeTotal			現在のリアクタＸの積算Ｐｕｌｓｅ時間		Rev2.00-0
+$020548A1  20   0       0   PM        0   4  $1   0  0    0	     0 NULL	DCMXPulseCountTotal		//VID_RCXPulseCountTotal		現在のリアクタＸの積算Ｐｕｌｓｅ回数		Rev2.00-0
+$02060011  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	AccessModeX			//VID_CMS_AccessModeX			ＣＭＳ用ロードポートのアクセスモード
+$02060021  20   0       0   LP        0   5  $1   0   0   0	     0 NULL	CarrierIDX			//VID_CMS_CarrierIDX			ＣＭＳ用キャリアＩＤ
+$02060031  20   0       0   LP        0   5  $1   0   0   0	     0 NULL	LocationIDX			//VID_CMS_LocationIDX			ＣＭＳ用キャリアロケーションＩＤ
+$02060041  51   1       2   LP        0   5  $1   0   0   0	     0 NULL	PortIDX				//VID_CMS_PortIDX			ＣＭＳ用ロードポートＩＤ
+$02060051  51   0       1   LP        0   5  $1   0   0   0	     0 NULL	PortAssociationStateX		//VID_CMS_AssociationStateX		ＣＭＳ用ロードポートとキャリアの関連状態
+$02060061  51   0       3   LP        0   5  $1   0   0   0	     0 NULL	PortTransferStateX		//VID_CMS_PortTransferStateX		ＣＭＳ用ロードポートの搬送状態
+$02060071   0   0       0   LP        0   5  $1   0   0   0	     0 NULL	PortStateInfoX			//VID_CMS_PortStateInfoX		ＣＭＳ用ロードポート情報
+$02060081  51   0       0   LP        0   5  $1   0   0   0	     0 NULL	LoadPortReservationStateX	//VID_CMS_ReservationStateX		ＣＭＳ用ロードポート予約状態
+$02060090   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	PortList			//VID_CMS_PortList			ＣＭＳ用ポートＩＤリスト
+$020600A0   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	PortAssociationStateList	//VID_CMS_PortAssociationStateList	ＣＭＳ用ポートＡｓｓｏｃｉａｔｉｏｎ状態リスト
+$020600B0   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	PortTransferStateList		//VID_CMS_PortTransferStateList		ＣＭＳ用ポートＴｒａｎｓｆｅｒ状態リスト
+$020600C0   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	PortStateInfoList		//VID_CMS_PortStateInfoList		ＣＭＳ用ロードポート情報リスト
+$020600D0   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	LoadPortReservationStateList	//VID_CMS_PortReservationStateList	ＣＭＳ用ポートＲｅｓｅｒｖａｔｉｏｎ状態リスト
+$020600E0   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	CarrierLocationMatrix		//VID_CMS_LocationMatrix		ＣＭＳ用キャリアロケーションリスト
+$020600F1  20   0       0   NULL      0   1   $1  0   0   0	     0 NULL	LocationIDXUndock		//VID_CMS_LocationIDXUndock		ＣＭＳ用Undock位置のLocationID
+$02060101  20   0       0   NULL      0   1   $1  0   0   0	     0 NULL	LocationIDXDock			//VID_CMS_LocationIDXDock		ＣＭＳ用Dock位置のLocationID
+$02070010  51   0     112   NULL      0   0   0   0   0   0	     0 NULL	PRJobAvailableSpace		//VID_PJM_AvailableSpace		ＰＪＭ用ジョブ生成可能数
+$02070020   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	PRJobList			//VID_PJM_JobList			ＰＪＭ用ジョブの状態リスト
+$02080010   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	QueuedCJobs			//VID_CJM_QueuedJobList			ＣＪＭ用キューリスト情報
+$02080020  51   0     112   NULL      0   0   0   0   0   0	     0 NULL	QueueAvailableSpace		//VID_CJM_AvailableSpace		ＣＪＭ用ジョブ生成可能数
+$02080030   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	CtrlJobList			//VID_CJM_JobList			ＣＪＭ用ジョブの状態リスト
+$02080040  51   0     112   NULL      0   0   0   0   0   0	     0 NULL	CJobAvailableSpace		//VID_CJM_AvailableSpace		ＣＪＭ用ジョブ生成可能数
+$02090001  20   0	0   LP        0   5  $1   0  27 $10	     0 NULL	SubstLocIDPortXSlotX		//VID_STS_SubstLocIDPortXSlotX		ＳＴＳ用ウェハロケーションＩＤ(キャリア)				Rev2.00-0
+$02090201  20   0	0   LL        0   3  $1   0  27 $10	     0 NULL	SubstLocIDLoadlockXSlotX	//VID_STS_SubstLocIDLoadlockX		ＳＴＳ用ウェハロケーションＩＤ(ロードロック)
+// (Reserved) $02090581  20   0	0   RCBF      0   3  $1   0   1 $10	     0 NULL	SubstLocIDRCBufX		//VID_STS_SubstLocIDRCBufX		ＳＴＳ用ウェハロケーションＩＤ(ＰＭＣのリアクタバッファ)		Rev2.00-0
+$020905A1  20   0	0   RC        0   4  $1   0   1 $10	     0 NULL	SubstLocIDDCMXRCX		//VID_STS_SubstLocIDRCX			ＳＴＳ用ウェハロケーションＩＤＰＭＣの(リアクタ)			Rev2.00-0
+$02090601  20   0	0   CSTG      0   1  $1   0  15 $10	     0 NULL	SubstLocIDCSTGXSlotX    //VID_STS_SubstLocIDCSTGX		ＳＴＳ用ウェハロケーションＩＤ(クーリングステージ)			Rev2.00-0
+$02090700  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocIDFERobot		//VID_STS_SubstLocIDFERobot		ＳＴＳ用ウェハロケーションＩＤ(大気ロボット)				Rev2.00-0
+$02090701  20   0	0   NULL      0   1  $1   0   0   0	     0 NULL	SubstLocIDFERobotArmX		//VID_STS_SubstLocIDFERobotArmX		ＳＴＳ用ウェハロケーションＩＤ(大気ロボットアーム)			Rev2.00-0
+$02090710  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocIDBERobot		//VID_STS_SubstLocIDBERobot		ＳＴＳ用ウェハロケーションＩＤ(真空ロボット)				Rev2.00-0
+$02090711  20   0	0   NULL      0   1  $1   0   1 $10	     0 NULL	SubstLocIDBERobotArmXHandX	//VID_STS_SubstLocIDBERobotArmX		ＳＴＳ用ウェハロケーションＩＤ(真空ロボットアーム)			Rev2.00-0
+$02090730  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocIDAligner		//VID_STS_SubstLocIDAligner		ＳＴＳ用ウェハロケーションＩＤ(アライナ)				Rev2.00-0
+$02090740  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocIDMetrology		//VID_STS_SubstLocIDMetrology		ＳＴＳ用ウェハロケーションＩＤ(測定器)					Rev2.00-0
+$02090801  51   0	2   LP        0   5  $1   0  27 $10	     0 NULL	SubstLocStatePortXSlotX		//VID_pSTS_SubstLocStatePortXSlotX	ＳＴＳ用ウェハロケーション状態(キャリア)				Rev2.00-0
+$02090A01  51   0	2   LL        0   3  $1   0  27 $10	     0 NULL	SubstLocStateLoadlockXSlotX		//VID_STS_SubstLocStateLoadlockXSlotX	ＳＴＳ用ウェハロケーション状態(ロードロック)				Rev2.00-0
+// (Reserved) $02090D81  51   0	2   RCBF      0   3  $1   0   1 $10	     0 NULL	SubstLocStateRCBufX		//VID_STS_SubstLocStateRCBufX		ＳＴＳ用ウェハロケーション状態(ＰＭＣのリアクタバッファ)		Rev2.00-0
+$02090DA1  51   0	2   RC        0   4  $1   0   1 $10	     0 NULL	SubstLocStateDCMXRCX		//VID_pSTS_SubstLocStateRCX		ＳＴＳ用ウェハロケーション状態(ＰＭＣのリアクタ)			Rev2.00-0
+$02090E01  51   0	2   CSTG      0   1  $1   0  15 $10	     0 NULL	SubstLocStateCSTGXSlotX		//VID_pSTS_SubstLocStateCSTGX		ＳＴＳ用ウェハロケーション状態(クーリングステージ)			Rev2.00-0
+$02090F00  51   0	2   NULL      0   0   0   0   0   0	     0 NULL	SubstLocStateFERobot		//VID_STS_SubstLocStateFERobot		ＳＴＳ用ウェハロケーション状態(大気ロボット)				Rev2.00-0
+$02090F01  51   0	2   NULL      0   1  $1   0   0   0	     0 NULL	SubstLocStateFERobotArmX	//VID_pSTS_SubstLocStateFERobotArmX	ＳＴＳ用ウェハロケーション状態(大気ロボットアーム)			Rev2.00-0
+$02090F10  51   0	2   NULL      0   0   0   0   0   0	     0 NULL	SubstLocStateBERobot		//VID_STS_SubstLocStateBERobot		ＳＴＳ用ウェハロケーション状態(真空ロボット)				Rev2.00-0
+$02090F11  51   0	2   NULL      0   1  $1   0   1 $10	     0 NULL	SubstLocStateBERobotArmXHandX	//VID_pSTS_SubstLocStateBERobotArmXHandX	ＳＴＳ用ウェハロケーション状態(真空ロボットアーム)
+$02090F30  51   0	2   NULL      0   0   0   0   0   0	     0 NULL	SubstLocStateAligner		//VID_STS_SubstLocStateAligner		ＳＴＳ用ウェハロケーション状態(アライナ)
+$02090F40  51   0	2   NULL      0   0   0   0   0   0	     0 NULL	SubstLocStateMetrology		//VID_STS_SubstLocStateMetrology	ＳＴＳ用ウェハロケーション状態(測定器)
+$02091001  20   0	0   LP        0   5  $1   0  27 $10	     0 NULL	SubstLocSubstrIDPortXSlotX	//VID_pSTS_SubstLocSubstrIDPortXSlotX	ＳＴＳ用ウェハロケーション上ウェハＩＤ(キャリア)			Rev2.00-0
+$02091201  20   0	0   LL        0   3  $1   0  27 $10	     0 NULL	SubstLocSubstIDLoadlockXSlotX	//VID_STS_SubstLocSubstIDLoadlockXSlotX	ＳＴＳ用ウェハロケーション上ウェハＩＤ(ロードロック)			Rev2.00-0
+// (Reserved) $02091581  20   0	0   RCBF      0   3  $1   0   1 $10	     0 NULL	SubstLocSubstrIDRCBufX		//VID_STS_SubstLocSubstrIDRCBufX	ＳＴＳ用ウェハロケーション上ウェハＩＤ(ＰＭＣのリアクタバッファ)	Rev2.00-0
+$020915A1  20   0	0   RC        0   4  $1   0   1 $10	     0 NULL	SubstLocSubstrIDDCMXRCX		//VID_pSTS_SubstLocSubstrIDRCX		ＳＴＳ用ウェハロケーション上ウェハＩＤ(ＰＭＣのリアクタ)		Rev2.00-0
+$02091601  20   0	0   CSTG      0   1  $1   0  15 $10	     0 NULL	SubstLocSubstrIDCSTGXSlotX		//VID_pSTS_SubstLocSubstrIDCSTGX		ＳＴＳ用ウェハロケーション上ウェハＩＤ(クーリングステージ)		Rev2.00-0
+$02091700  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocSubstrIDFERobot		//VID_STS_SubstLocSubstrIDFERobot	ＳＴＳ用ウェハロケーション上ウェハＩＤ(大気ロボット)			Rev2.00-0
+$02091701  20   0	0   NULL      0   1  $1   0   0   0	     0 NULL	SubstLocSubstrIDFERobotArmX	//VID_pSTS_SubstLocSubstrIDFERobotArmX	ＳＴＳ用ウェハロケーション上ウェハＩＤ(大気ロボットアーム)		Rev2.00-0
+$02091710  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocSubstrIDBERobot		//VID_STS_SubstLocSubstrIDBERobot	ＳＴＳ用ウェハロケーション上ウェハＩＤ(真空ロボット)			Rev2.00-0
+$02091711  20   0	0   NULL      0   1  $1   0   0   0	     0 NULL	SubstLocSubstrIDBERobotArmX	//VID_pSTS_SubstLocSubstrIDBERobotArmX	ＳＴＳ用ウェハロケーション上ウェハＩＤ(真空ロボットアーム)		Rev2.00-0
+$02091730  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocSubstrIDAligner		//VID_STS_SubstLocSubstrIDAligner	ＳＴＳ用ウェハロケーション上ウェハＩＤ(アライナ)			Rev2.00-0
+$02091740  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocSubstrIDMetrology	//VID_STS_SubstLocSubstrIDMetrology	ＳＴＳ用ウェハロケーション上ウェハＩＤ(測定器)				Rev2.00-0
+$02091801  20   0	0   LP        0   5  $1   0  27 $10	     0 NULL	SubstLocSubstrLotIDPortXSlotX	//VID_pSTS_SubstLocSubstrLotIDPortXSlotX	ＳＴＳ用ウェハロケーション上ロットＩＤ(キャリア)			Rev2.00-0
+$02091A01  20   0	0   LL        0   3  $1   0  27 $10	     0 NULL	SubLocSubLotIDLoadlockXSlotX	//VID_pSTS_SubLocSubLotIDLoadlockXSlotX	ＳＴＳ用ウェハロケーション上ウェハロットＩＤ(ロードロック)		Rev2.00-0
+// (Reserved) $02091D81  20   0	0   RCBF      0   3  $1   0   1 $10	     0 NULL	SubstLocSubstrLotIDRCBufX	//VID_STS_SubstLocSubstrLotIDRCBufX	ＳＴＳ用ウェハロケーション上ウェハロットＩＤ(ＰＭＣのリアクタバッファ)	Rev2.00-0
+$02091DA1  20   0	0   RC        0   4  $1   0   1 $10	     0 NULL	SubstLocSubstrLotIDDCMXRCX	//VID_pSTS_SubstLocSubstrLotIDRCX	ＳＴＳ用ウェハロケーション上ウェハロットＩＤ(ＰＭＣのリアクタ)		Rev2.00-0
+$02091E01  20   0	0   CSTG      0   1  $1   0  15 $10	     0 NULL	SubstLocSubstrLotIDCSTGXSlotX	//VID_pSTS_SubstLocSubstrLotIDCSTGX	ＳＴＳ用ウェハロケーション上ウェハロットＩＤ(クーリングステージ)	Rev2.00-0
+$02091F00  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocSubstrLotIDFERobot	//VID_STS_SubstLocSubstrLotIDFERobot	ＳＴＳ用ウェハロケーション上ウェハロットＩＤ(大気ロボット)		Rev2.00-0
+$02091F01  20   0	0   NULL      0   1  $1   0   0   0	     0 NULL	SubstLocSubstrLotIDFERobotArmX	//VID_pSTS_SubstLocSubstrLotIDFERobotArmXＳＴＳ用ウェハロケーション上ウェハロットＩＤ(大気ロボットアーム)	Rev2.00-0
+$02091F10  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocSubstrLotIDBERobot	//VID_STS_SubstLocSubstrLotIDBERobot	ＳＴＳ用ウェハロケーション上ウェハロットＩＤ(真空ロボット)		Rev2.00-0
+$02091F11  20   0	0   NULL      0   1  $1   0   0   0	     0 NULL	SubstLocSubstrLotIDBERobotArmX	//VID_pSTS_SubstLocSubstrLotIDBERobotArmXＳＴＳ用ウェハロケーション上ウェハロットＩＤ(真空ロボットアーム)	Rev2.00-0
+$02091F30  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocSubstrLotIDAligner	//VID_STS_SubstLocSubstrLotIDAligner	ＳＴＳ用ウェハロケーション上ウェハロットＩＤ(アライナ)			Rev2.00-0
+$02091F40  20   0	0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocSubstrLotIDMetrology	//VID_STS_SubstLocSubstrLotIDMetrology	ＳＴＳ用ウェハロケーション上ウェハロットＩＤ(測定器)			Rev2.00-0
+$02092001  20   0       0   PM        0   4  $1   0  95 $10	     0 NULL	DCMXAIX				//VID_pRCXAIX				現在のＰＭＣＸのＡＩＸデータ
+$02092601  20   0       0   PM        0   4  $1   0  95 $10	     0 NULL	DCMXAOX				//VID_pRCXAOX				現在のＰＭＣＸのＡＯＸデータ
+$02092C01  20   0       0   PM        0   4  $1   0  63 $10	     0 NULL	DCMXTIX				//VID_pRCXTIX				現在のＰＭＣＸのＴＩＸデータ
+$02092D00  20   0       0   NULL      0  31 $10   0   0   0	     0 NULL	WHCLLSUAIX			//VID_WHCLLSUAIX			現在のＷＨＣ／ＬＬのセンサーＡＩＸデータ部（０～３１）
+$02092D02  20   0       0   NULL      0  31 $10   0   0   0	     0 NULL	WHCLLSLAIX			//VID_WHCLLSLAIX			現在のＷＨＣ／ＬＬのセンサーＡＩＸデータ部（０～３１）
+$02093001  20   0       0   PM        0   4  $1   0  63 $10	     0 NULL	DCMXTOX				//VID_pRCXTOX				現在のＰＭＣＸのＴＯＸデータ
+$02093401  20   0       0   PM        0   4  $1   0 239 $10	     0 NULL	DCMXDIX				//VID_pRCXDIX				現在のＰＭＣＸのＤＩＸデータ
+$02094301  20   0       0   PM        0   4  $1   0 239 $10	     0 NULL	DCMXDOX				//VID_pRCXDOX				現在のＰＭＣＸのＤＯＸデータ
+$02095201  20   0       0   PM        0   4  $1   0  95 $10	     0 NULL	DCMXAOXOffset			//VID_pRCXAOXOffset			現在のＰＭＣＸのＡＯＸオフセットデータ
+$02095801  20   0       0   PM        0   4  $1   0  95 $10	     0 NULL	DCMXSAAOXOffset			//VID_pRCXSAAOXOffset			現在のＰＭＣＸのＳＡＡＯＸオフセットデータ
+$02095E01  20   0       0   PM        0   4  $1   0  63 $10	     0 NULL	DCMXTOXOffset			//VID_pRCXTOXOffset			現在のＰＭＣＸのＴＯＸオフセットデータ
+$02096201  20   0       0   PM        0   4  $1   0  95 $10          0 NULL	DCMXMFCXTotalFlowingQuantity	//VID_pRCXMFCXTotalFlow			現在のＰＭＣＸの各ＭＦＣＸガス流量
+$02096801  20   0       0   PM        0   4  $1   0 239 $10          0 NULL	DCMXDOXTotalCount		//VID_pRCXDOXTotalCount			現在のＰＭＣＸのＤＯ積算出力回数
+$02097701   0   0       0   PM        0   4  $1   0   0   0	     0 NULL	DCMXSusepterPos			//VID_RCXSusepterPos			現在のＲＣＸのサセプターポジション		Rev2.00-5
+$02098900  20   0       0   LL        0   4 $10   0   0   0	     0 NULL	StateLLXLCLeakRate		//VID_StateLLXLCLeakRate		ロードロックＸ自動リークチェック時のリークレート
+$02098950  20   0       0   LL        0   0   0   0   0   0	     0 NULL	StateWHCLCLeakRate		//VID_StateWHCLCLeakRate		ＷＨＣ自動リークチェック時のリークレート
+$020A0000  20   0       0   PM        0   4 $10   0   0   0	     0 NULL	StateDCMXRCLCRecipeName		//VID_StateRCXRCLCRecipeName		リアクタＸ自動ＲＣリークチェックレシピ名
+$020A0050  20   0       0   PM        0   4 $10   0   0   0	     0 NULL	StateDCMXRCLCRecipeNo		//VID_StateRCXRCLCRecipeNo		リアクタＸ自動ＲＣリークチェックレシピ番号
+$020A00A0  51   0       3   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCCheckSTX		//VID_StateRCXRCLCCheckSTX		リアクタＸ自動ＲＣリークチェックステップＸの結果
+$020A05F1  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC1TimeSTX		//VID_StateRCXRCLCRC1TimeSTX		リアクタＸ自動ＲＣリークチェックステップＸのＲＣ１リークレート実行時間
+$020A05F2  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC2TimeSTX		//VID_StateRCXRCLCRC2TimeSTX		リアクタＸ自動ＲＣリークチェックステップＸのＲＣ２リークレート実行時間
+$020A0641  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC1FirstPressSTX	//VID_StateRCXRCLCRC1FirstPressSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ１初期圧力
+$020A0642  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC2FirstPressSTX	//VID_StateRCXRCLCRC2FirstPressSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ２初期圧力
+$020A0691  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC1LastPressSTX	//VID_StateRCXRCLCRC1LastPressSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ１最終圧力
+$020A0692  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC2LastPressSTX	//VID_StateRCXRCLCRC2LastPressSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ２最終圧力
+$020A06E1  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC1MaxPressSTX	//VID_StateRCXRCLCRC1MaxPressSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ１最大圧力
+$020A06E2  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC2MaxPressSTX	//VID_StateRCXRCLCRC2MaxPressSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ２最大圧力
+$020A0731  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC1MinPressSTX	//VID_StateRCXRCLCRC1MinPressSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ１最小圧力
+$020A0732  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC2MinPressSTX	//VID_StateRCXRCLCRC2MinPressSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ２最小圧力
+$020A0781  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC1LeakPressSTX	//VID_StateRCXRCLCRC1LeakPressSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ１リーク圧力
+$020A0782  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC2LeakPressSTX	//VID_StateRCXRCLCRC2LeakPressSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ２リーク圧力
+$020A07D1  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC1LeakRateSTX	//VID_StateRCXRCLCRC1LeakRateSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ１リークレート
+$020A07D2  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRCLCRC2LeakRateSTX	//VID_StateRCXRCLCRC2LeakRateSTX	リアクタＸ自動ＲＣリークチェック時ステップＸのＲＣ２リークレート
+$020AA000  51   0       3   PM        0   4 $10   0   0   0	     0 NULL	StateDCMXRCLCCheck		//VID_StateRCXRCLCCheck			リアクタＸ自動ＲＣリークチェック全体の結果
+$020B0000  20   0       0   PM        0   4 $10   0   0   0	     0 NULL	StateDCMXRPLCRecipeName		//VID_StateRCXRPLCRecipeName		リアクタＸ自動ＲＰリークチェックレシピ名
+$020B0050  20   0       0   PM        0   4 $10   0   0   0	     0 NULL	StateDCMXRPLCRecipeNo		//VID_StateRCXRPLCRecipeNo		リアクタＸ自動ＲＰリークチェックレシピ番号
+$020B00A0  51   0       3   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCCheckSTX		//VID_StateRCXRPLCCheckSTX		リアクタＸ自動ＲＰリークチェックステップＸの結果
+$020B05F1  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC1TimeSTX		//VID_StateRCXRPLCRC1TimeSTX		リアクタＸ自動ＲＰリークチェックステップＸのＲＣ１リークレート実行時間
+$020B05F2  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC2TimeSTX		//VID_StateRCXRPLCRC2TimeSTX		リアクタＸ自動ＲＰリークチェックステップＸのＲＣ２リークレート実行時間
+$020B0641  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC1FirstPressSTX	//VID_StateRCXRPLCRC1FirstPressSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ１初期圧力
+$020B0642  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC2FirstPressSTX	//VID_StateRCXRPLCRC2FirstPressSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ２初期圧力
+$020B0691  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC1LastPressSTX	//VID_StateRCXRPLCRC1LastPressSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ１最終圧力
+$020B0692  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC2LastPressSTX	//VID_StateRCXRPLCRC2LastPressSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ２最終圧力
+$020B06E1  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC1MaxPressSTX	//VID_StateRCXRPLCRC1MaxPressSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ１最大圧力
+$020B06E2  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC2MaxPressSTX	//VID_StateRCXRPLCRC2MaxPressSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ２最大圧力
+$020B0731  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC1MinPressSTX	//VID_StateRCXRPLCRC1MinPressSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ１最小圧力
+$020B0732  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC2MinPressSTX	//VID_StateRCXRPLCRC2MinPressSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ２最小圧力
+$020B0781  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC1LeakPressSTX	//VID_StateRCXRPLCRC1LeakPressSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ１リーク圧力
+$020B0782  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC2LeakPressSTX	//VID_StateRCXRPLCRC2LeakPressSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ２リーク圧力
+$020B07D1  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC1LeakRateSTX	//VID_StateRCXRPLCRC1LeakRateSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ１リークレート
+$020B07D2  20   0       0   PM        0   4 $10   0   9 $1000	     0 NULL	StateDCMXRPLCRC2LeakRateSTX	//VID_StateRCXRPLCRC2LeakRateSTX	リアクタＸ自動ＲＰリークチェック時ステップＸのＲＣ２リークレート
+$020BA000  51   0       3   PM        0   4 $10   0   0   0	     0 NULL	StateDCMXRPLCCheck		//VID_StateRCXRPLCCheck			リアクタＸ自動ＲＰリークチェック全体の結果
+$020BF000  51   0       3   PM        0   4 $10   0   0   0	     0 NULL	StateDCMXLCCheck		//VID_StateRCXLCCheck			リアクタＸ自動リークチェック全体の結果
+$020BF100  51   1       3   NULL      0   0   0   0   0   0	     0 NULL	StateLCExecute			//VID_StateLCExecute			自動リークチェックの実行状態
+$02160601  51   0       2   RC        0   4  $1   0   0   0	     0 NULL	DCMXAutoCleaningTriggerType	//VID_RCXAutoCleaningTriggerType	画面のRCXAutoCleaningTriggerType
+$02160611  51   0       1   RC        0   4  $1   0   0   0	     0 NULL	DCMXAutoCleaningCountingPro	//VID_RCXAutoCleaningCountingPro	画面のRCXAutoCleaningCountingProcess
+$02160621  54   0 999999999 RC        0   4  $1   0   0   0	     0 NULL	DCMXAutoCleaningTotalCount	//VID_RCXAutoCleaningTotalCount		画面のRCXAutoCleaningTotalCount
+$02160631  54   0 999999999 RC        0   4  $1   0   0   0	     0 NULL	DCMXAutoCleanRcpExeTiming	//VID_RCXAutoCleanRcpExeTiming		画面のRCXAutoCleaningRecipeExecutionTiming
+$02160641  51   0       2   RC        0   4  $1   0   0   0	     0 NULL	DCMXAutoLinePurgeTriggerTyp	//VID_RCXAutoLinePurgeTriggerTyp	画面のRCXAutoLinePurgeTriggerType
+$02160651  51   0       1   RC        0   4  $1   0   0   0	     0 NULL	DCMXAutoLinePurgeCountPro	//VID_RCXAutoLinePurgeCountPro		画面のRCXAutoLinePurgeCountingProcess
+$02160661  54   0 999999999 RC        0   4  $1   0   0   0	     0 NULL	DCMXAutoLinePurgeClnTotalCnt	//VID_RCXAutoLinePurgeClnTotalCnt	画面のRCXAutoLinePurgeCleaningTotalCount
+$02160671  54   0 999999999 RC        0   4  $1   0   0   0	     0 NULL	DCMXAutoLinePurgeRcpExeTimng	//VID_RCXAutoLinePurgeRcpExeTimng	画面のRCXAutoLinePurgeRecipeExecutionTiming
+$02163F01  20   0       0   LL        0   1  $1   0   0   0     0 NULL  LLXSetPress                  //VID_LLXSetPress	                            現在のロードロックの設定圧力値
+$02163F11  20   0       0   LL        0   1  $1   0   0   0     0 NULL  LLXSetFlow                   //VID_LLXSetFlow               現在のロードロックの設定Flow値
+$02163F05  20   0       0   NULL      0   0   0   0   0   0     0 NULL  WHCSetPress                  //VID_WHCSetPress              現在のWHCの設定圧力値
+$02163F15  20   0       0   NULL      0   0   0   0   0   0     0 NULL  WHCSetFlow                   //VID_WHCSetFlow               現在のWHCの設定Flow値
+$02168002  52   0       0   NULL      0   0   0   0   0   0      0 NULL DummyWafersRemaining        //VID_DummyWafersRemaining
+$02168021  52   0     65535 RC        0   4  $1   0   0   0      0 Secs DCMXCurrentIdleTime          //VID_DCMXCurrentIdleTime
+$02300001  20   0       0   RC        0   4  $1   0  95 $10	     0 NULL	DCMXSAAIXBasis			//VID_RCXSAAIXBasis			画面のリアクタＸのＳＡＡＩＸバンドリミット基準値
+$02300601  20   0       0   RC        0   4  $1   0  95 $10	     0 NULL	DCMXAIXAlarm			//VID_RCXAIXAlarm			画面のリアクタＸのＡＩＸ常時監視アラーム
+$02300C01  20   0       0   RC        0   4  $1   0  95 $10	     0 NULL	DCMXAIXAbort			//VID_RCXAIXAbort			画面のリアクタＸのＡＩＸ常時監視アボート
+$02301201  20   0       0   RC        0   4  $1   0  95 $10	     0 NULL	DCMXAIXDelay			//VID_RCXAIXDelay			画面のリアクタＸのＡＩＸ常時監視ディレイ時間
+$02301801  51   0       1   RC        0   4  $1   0  95 $10	     0 NULL	DCMXAIXCheck			//VID_RCXAIXCheck			画面のリアクタＸのＡＩＸ常時監視機能
+$02301E01  20   0       0   RC        0   4  $1   0  63 $10	     0 NULL	DCMXTIXAbortLow			//VID_RCXTIXAbortLow			画面のリアクタＸのＴＩＸ常時監視アボートバンドリミット下限
+$02302201  20   0       0   RC        0   4  $1   0  63 $10	     0 NULL	DCMXTIXAbortHigh		//VID_RCXTIXAbortHigh			画面のリアクタＸのＴＩＸ常時監視アボートバンドリミット上限
+$02302601  20   0       0   RC        0   4  $1   0  95 $10	     0 NULL	DCMXAIXMainte			//VID_RCXAIXMainte			画面のリアクタＸのＡＩＸ常時監視メンテナンス
+$02302C01  20   0       0   RC        0   4  $1   0  63 $10	     0 NULL	DCMXTIXMaintenanceLow		//VID_RCXTIXMaintenanceLow		画面のリアクタＸのＴＩＸ常時監視メンテナンスバンドリミット下限
+$02303001  20   0       0   RC        0   4  $1   0  63 $10	     0 NULL	DCMXTIXMaintenanceHigh		//VID_RCXTIXMaintenanceHigh		画面のリアクタＸのＴＩＸ常時監視メンテナンスバンドリミット上限
+#
+# Beginning  VID  Min        Maximum  Dev   Dev 1   Dev 1  Dev1 Dev 2  Dev 2  Dev2
+# VID        Fmt  Value      Value    Type  MinVal  MaxVal Incr MinVal MaxVal Incr Default Units     Name                                   VID Identification
+# ---------- ---  -------    -------  ----  ------ ------- ---- ------ ------ ---- ------- --------- -------------------------------------  --------------------------------------------------
+$02303401    20         0                0    PM       0       4    $1     0    175  $10       0 NULL      DCMXLimitMax/MinTIX					  //VID_pRCXLimitMaxMinTIXExt (extended, 64--239)	ＰＭＣのＴＩＸリミット最大値／最小値		Rev2.00-0
+$02303F01    20         0                0    PM       0       4    $1     0    175  $10       0 NULL      DCMXTIX								  //VID_pRCXTIXExt (64--239)		現在のＰＭＣＸのＴＩＸデータ
+$02304A01    20         0                0    PM       0       4    $1     0    175  $10       0 NULL      DCMXTOX								  //VID_pRCXTOXExt (64--239)		現在のＰＭＣＸのＴＯＸデータ
+$02305501    20         0                0    PM       0       4    $1     0    175  $10	   0 NULL      DCMXTOXOffset						  //VID_pRCXTOXOffsetExt (64--239)	現在のＰＭＣＸのＴＯＸオフセットデータ
+$02306001    20         0                0    RC       0       4    $1     0    175  $10	   0 NULL      DCMXTIXAbortLow						  //VID_RCXTIXAbortLowExt (64--239)			画面のリアクタＸのＴＩＸ常時監視アボートバンドリミット下限
+$02306B01    20         0                0    RC       0       4    $1     0    175  $10	   0 NULL      DCMXTIXAbortHigh						  //VID_RCXTIXAbortHighExt (64--239)		画面のリアクタＸのＴＩＸ常時監視アボートバンドリミット上限
+$02307601    20         0                0    RC       0       4    $1     0    175  $10	   0 NULL      DCMXTIXMaintenanceLow				  //VID_RCXTIXMaintenanceLowExt (64--239)	画面のリアクタＸのＴＩＸ常時監視メンテナンスバンドリミット下限
+$02308101    20         0                0    RC       0       4    $1     0    175  $10       0 NULL      DCMXTIXMaintenanceHigh				  //VID_RCXTIXMaintenanceHighExt (64--239)	画面のリアクタＸのＴＩＸ常時監視メンテナンスバンドリミット上限
+$02308C01    20         0                0  CSTG       0       1    $1     0      7  $10       0 NULL      SubstLocIDCSTGXSlotX					  //VID_STS_SubstLocIDCSTGXExt		ＳＴＳ用ウェハロケーションＩＤ(クーリングステージ)			Rev2.00-0
+$02308D01    51         0                0  CSTG       0       1    $1     0      7  $10       0 NULL      SubstLocStateCSTGXSlotX				  //VID_pSTS_SubstLocStateCSTGXExt
+$02308E01    20         0                0  CSTG       0       1    $1     0      7  $10       0 NULL      SubstLocSubstrIDCSTGXSlotX			  //VID_pSTS_SubstLocSubstrIDCSTGXExt
+$02308F01    20         0                0  CSTG       0       1    $1     0      7  $10       0 NULL      SubstLocSubstrLotIDCSTGXSlotX		  //VID_pSTS_SubstLocSubstrLotIDCSTGXExt
+$02309000    20         0                0   PM        0       4    $1     0    223  $10       0 NULL      DCMXLimitMax/MinAIX					  //VID_pRCXLimitMaxMinAIXExt  ( 96-319)
+#02309E00    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXLimitMax/MinAIX					  //VID_pRCXLimitMaxMinAIXExtS (320-479)
+$0230A300    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXLimitMax/MinDIX					  //VID_pRCXLimitMaxMinDIXExt  (240-319)
+#0230A800    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXLimitMax/MinDIX					  //VID_pRCXLimitMaxMinDIXExtS (320-479)
+$0230AD00    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXLimitMax/MinTIX					  //VID_pRCXLimitMaxMinTIXExt2  (240-319)
+#0230B200    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXLimitMax/MinTIX					  //VID_pRCXLimitMaxMinTIXExt2S (320-479)
+$0230B700    20         0                0   PM        0       4    $1     0    223  $10       0 NULL      DCMXAIX								  //VID_pRCXAIXExt  ( 96-319)
+#0230C500    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXAIX								  //VID_pRCXAIXExtS (320-479)
+$0230CA00    20         0                0   PM        0       4    $1     0    223  $10       0 NULL      DCMXAIXOffset						  //VID_pRCXAIXOffsetExt  ( 96-319)
+#0230D800    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXAIXOffset						  //VID_pRCXAIXOffsetExtS (320-479)
+$0230DD00    20         0                0   RC        0       4    $1     0    223  $10       0 NULL      DCMXSAAIXBasis						  //VID_pRCXSAAIXBasisExt  ( 96-319)
+#0230EB00    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXSAAIXBasis						  //VID_pRCXSAAIXBasisExtS (320-479)
+$0230F000    20         0                0   RC        0       4    $1     0    223  $10       0 NULL      DCMXAIXAlarm							  //VID_pRCXAIXAlarmExt  ( 96-319)
+#0230FE00    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXAIXAlarm							  //VID_pRCXAIXAlarmExtS (320-479)
+$02310300    20         0                0   RC        0       4    $1     0    223  $10       0 NULL      DCMXAIXAbort							  //VID_pRCXAIXAbortExt  ( 96-319)
+#02311100    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXAIXAbort							  //VID_pRCXAIXAbortExtS (320-479)
+$02311600    20         0                0   RC        0       4    $1     0    223  $10       0 NULL      DCMXAIXDelay							  //VID_pRCXAIXDelayExt  ( 96-319)
+#02312400    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXAIXDelay							  //VID_pRCXAIXDelayExtS (320-479)
+$02312900    51         0                1   RC        0       4    $1     0    223  $10       0 NULL      DCMXAIXCheck							  //VID_pRCXAIXCheckExt  ( 96-319)
+#02313700    51         0                1   RC        0       4    $1     0     79  $10       0 NULL      DCMXAIXCheck							  //VID_pRCXAIXCheckExtS (320-479)
+$02313C00    20         0                0   RC        0       4    $1     0    223  $10       0 NULL      DCMXAIXMainte						  //VID_pRCXAIXMainteExt  ( 96-319)
+#02314A00    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXAIXMainte						  //VID_pRCXAIXMainteExtS (320-479)
+$02314F00    20         0                0   PM        0       4    $1     0    223  $10       0 NULL      DCMXAOX								  //VID_pRCXAOXExt  ( 96-319)
+#02315D00    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXAOX								  //VID_pRCXAOXExtS (320-479)
+$02316200    20         0                0   PM        0       4    $1     0    223  $10       0 NULL      DCMXAOXOffset						  //VID_pRCXAOXOffsetExt  ( 96-319)
+#02317000    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXAOXOffset						  //VID_pRCXAOXOffsetExtS (320-479)
+$02317500    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXDIX								  //VID_pRCXDIXExt  (240-319)
+#02317A00    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXDIX								  //VID_pRCXDIXExtS (320-479)
+$02317F00    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXDOX								  //VID_pRCXDOXExt  (240-319)
+#02318400    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXDOX								  //VID_pRCXDOXExtS (320-479)
+$02318900    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXDOCountX							  //VID_pRCXDOCountXExt  (240-319)
+#02318E00    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXDOCountX							  //VID_pRCXDOCountXExtS (320-479)
+$02319300    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXDOXTotalCount					  //VID_pRCXDOXTotalCountExt  (240-319)
+#02319800    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXDOXTotalCount					  //VID_pRCXDOXTotalCountExtS (320-479)
+$02319D00    20         0                0   PM        0       4    $1     0    223  $10       0 NULL      DCMXMFCXTotalFlowingQuantity			  //VID_pRCXMFCXTotalFlowExt  ( 96-319)
+#0231AB00    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXMFCXTotalFlowingQuantity			  //VID_pRCXMFCXTotalFlowExtS (320-479)
+$0231B000    20         0                0   PM        0       4    $1     0    223  $10       0 NULL      DCMXSAAOXOffset						  //VID_pRCXSAAOXOffsetExt  ( 96-319)
+#0231BE00    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXSAAOXOffset						  //VID_pRCXSAAOXOffsetExtS (320-479)
+$0231C300    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXTIX								  //VID_pRCXTIXExt2  (240-319)
+#0231C800    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXTIX								  //VID_pRCXTIXExt2S (320-479)
+$0231CD00    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXTIXAbortLow						  //VID_pRCXTIXAbortLowExt2  (240-319)
+#0231D200    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXTIXAbortLow						  //VID_pRCXTIXAbortLowExt2S (320-479)
+$0231D700    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXTIXAbortHigh						  //VID_pRCXTIXAbortHighExt2  (240-319)
+#0231DC00    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXTIXAbortHigh						  //VID_pRCXTIXAbortHighExt2S (320-479)
+$0231E100    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXTIXMaintenanceLow				  //VID_pRCXTIXMaintenanceLowExt2  (240-319)
+#0231E600    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXTIXMaintenanceLow				  //VID_pRCXTIXMaintenanceLowExt2S (320-479)
+$0231EB00    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXTIXMaintenanceHigh				  //VID_pRCXTIXMaintenanceHighExt2  (240-319)
+#0231F000    20         0                0   RC        0       4    $1     0     79  $10       0 NULL      DCMXTIXMaintenanceHigh				  //VID_pRCXTIXMaintenanceHighExt2S (320-479)
+$0231F500    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXTOX								  //VID_pRCXTOXExt2  (240-319)
+#0231FA00    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXTOX								  //VID_pRCXTOXExt2S (320-479)
+$0231FF00    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXTOXOffset						  //VID_pRCXTOXOffsetExt2  (240-319)
+#02320400    20         0                0   PM        0       4    $1     0     79  $10       0 NULL      DCMXTOXOffset						  //VID_pRCXTOXOffsetExt2S (320-479)
+#02320900    20         0                0   NULL      0     287   $10     0      0    0       0 NULL      WLLimitMaxMinAIX						  //VID_pWLLimitMaxMinAIXExt2  ( 32-319)
+#02321B00    20         0                0   NULL      0      79   $10     0      0    0       0 NULL      WLLimitMaxMinAIX						  //VID_pWLLimitMaxMinAIXExt2S (320-479)
+#02322000    20         0                0   NULL      0     287   $10     0      0    0       0 NULL      WLLimitMaxMinSAIX					  //VID_pWLLimitMaxMinSAIXExt  ( 32-319)
+#02323200    20         0                0   NULL      0      79   $10     0      0    0       0 NULL      WLLimitMaxMinSAIX					  //VID_pWLLimitMaxMinSAIXExtS (320-479)
+#02323700    20         0                0   NULL      0     127   $10     0      0    0       0 NULL      WLLimitMaxMinDIX						  //VID_pWLLimitMaxMinDIXExt  (192-319) 
+#02323F00    20         0                0   NULL      0      79   $10     0      0    0       0 NULL      WLLimitMaxMinDIX						  //VID_pWLLimitMaxMinDIXExtS (320-479) 
+#02324400    20         0                0   NULL      0     287   $10     0      0    0       0 NULL      WHCLLAIX								  //VID_pWHCLLAIXExt2  ( 32-319)
+#02325600    20         0                0   NULL      0      79   $10     0      0    0       0 NULL      WHCLLAIX								  //VID_pWHCLLAIXExt2S (320-479)
+#02325B00    20         0                0   NULL      0     287   $10     0      0    0       0 NULL      WHCLLAOX								  //VID_pWHCLLAOXExt2  ( 32-319)
+#02326D00    20         0                0   NULL      0      79   $10     0      0    0       0 NULL      WHCLLAOX								  //VID_pWHCLLAOXExt2S (320-479)
+#02327200    20         0                0   NULL      0     287   $10     0      0    0       0 NULL      WHCLLSAIX							  //VID_pWHCLLSAIXExt  ( 32-319)
+#02328400    20         0                0   NULL      0      79   $10     0      0    0       0 NULL      WHCLLSAIX							  //VID_pWHCLLSAIXExtS (320-479)
+#02328900    20         0                0   NULL      0     127   $10     0      0    0       0 NULL      WHCLLDIX								  //VID_pWHCLLDIXExt  (192-319)
+#02329100    20         0                0   NULL      0      79   $10     0      0    0       0 NULL      WHCLLDIX								  //VID_pWHCLLDIXExtS (320-479)
+#02329600    20         0                0   NULL      0     127   $10     0      0    0       0 NULL      WHCLLDOX								  //VID_pWHCLLDOXExt  (192-319)
+#02329E00    20         0                0   NULL      0      79   $10     0      0    0       0 NULL      WHCLLDOX								  //VID_pWHCLLDOXExtS (320-479)     
+$0232A301    34      -100000        100000   PM        0       4    1      0      0    0       0 NULL      DCMXSusProcessGapPulse                 //VID_DCMXSusceptorProcessGapPulse          
+$0232A311    34      -100000        100000   PM        0       4    1      0      0    0       0 NULL      DCMXSusHomePositionPulse               //VID_DCMXSusceptorHomePositionPulse        
+$0232A321    34      -100000        100000   PM        0       4    1      0      0    0       0 NULL      DCMXSusHeatUpPositionOffsetPulse       //VID_DCMXSusceptorHeatUpPositionOffsetPulse
+$0232A331    34      -100000        100000   PM        0       4    1      0      0    0       0 NULL      DCMXSusLowerSoftLimitPulse             //VID_DCMXSusceptorLowerSoftLimitPulse      
+$0232A341    44         0.0          0.0     PM        0       4    1      0      0    0       0 mm        DCMXSusProcessGapMM                    //VID_DCMXSusceptorProcessGapMM             
+$0232A351    44         0.0          0.0     PM        0       4    1      0      0    0       0 mm        DCMXSusHomePositionMM                  //VID_DCMXSusceptorHomePositionMM           
+$0232A361    44         0.0          0.0     PM        0       4    1      0      0    0       0 mm        DCMXSusHeatUpPositionOffsetMM          //VID_DCMXSusceptorHeatUpPositionOffsetMM   
+$0232A371    44         0.0          0.0     PM        0       4    1      0      0    0       0 mm        DCMXSusLowerSoftLimitMM                //VID_DCMXSusceptorLowerSoftLimitMM    
+# Next available VID: $0232A380
+#
+#
+# Beginning  VID  Min        Maximum  Dev   Dev 1   Dev 1  Dev1 Dev 2  Dev 2  Dev2
+# VID        Fmt  Value      Value    Type  MinVal  MaxVal Incr MinVal MaxVal Incr Default Units     Name                                   VID Identification
+# ---------- ---  -------    -------  ----  ------ ------- ---- ------ ------ ---- ------- --------- -------------------------------------  --------------------------------------------------
+$05010010    10         1          7  NULL       0   0   0   0   0   0	     0 NULL	EventLimit			//VID_EventLimit			リミット監視の領域を超えたリミットＩＤ
+$05010020    54         1  $7FFFFFFF  NULL       0   0   0   0   0   0	     0 NULL	LimitsVariable			//VID_LimitVariable			リミット監視の領域を超えたＶＩＤ
+$05010030    10         0          1  NULL      0   0   0   0   0   0	     0 NULL	TransitionType			//VID_TransitionType			リミット監視の領域を超えた方向
+$05030010    10         0          1  NULL      0   0   0   0   0   0	     0 NULL	SpoolTransmitFailure		//VID_SpoolTransmitFailure		スプール送信時のエラー状態
+$05040010    54         0          0  NULL      0   0   0   0   0   0	     0 NULL	AlarmID				//VID_AlarmID				アラームＩＤ
+$05040020    51   0                1  NULL      0   0   0   0   0   0	     0 NULL	AlarmStatus			//VID_AlarmState			最新のアラーム状態
+$05040030    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	AlarmStateMsg			//VID_AlarmStateMsg			最新のアラーム状態の詳細メッセージ
+$05050010    54   0                0  NULL      0   0   0   0   0   0	     0 NULL	EquipmentConstantID		//VID_EquipmentConstantID		オペレータにより変更された装置定数のＩＤ
+$05050020    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	OperatorId			//VID_OperatorId			確認オペレータＩＤ
+$05050030    51   1                3  NULL      0   0   0   0   0   0	     0 NULL	PPChangeStatus			//VID_PPChangeStatus			PJレシピの状態
+$05050040    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	PPChangeName			//VID_PPChangeName			変更対象となったPJレシピの名称
+$05050060    51   0                6  NULL      0   0   0   0   0   0	     0 NULL	PPCheck				//VID_PPCheck				受信したＰＰデータのチェック結果
+$05050070    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	PPCheckMsg			//VID_PPCheckMsg			受信したＰＰデータのチェック結果のメッセージ
+$05050080    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	PPExecName			//VID_PPExecName			現在有効となっているPJレシピの名称
+$05050090    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	OperatorCommand			//VID_OperatorCommand			装置に発行された最新のオペレータコマンド
+$050500A0    20   0	               0  NULL      0   0   0   0   0   0	     0 NULL     CommandOption			//VID_CommandOption			オペレータコマンドの付加情報
+$050500B0    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	PreviousCommand			//VID_PreviousCommand			装置に発行された最新のコマンド
+$05050100    51   0                1  NULL      0   0   0   0   0   0	     0 NULL	ProcRCRound			//VID_ProcRCRound			最新のウェハ処理結果のリアクタ処理回数
+$05050110    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	ProcPPName			//VID_ProcPPName			処理PJレシピ名称
+$05050120    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	ProcProRcpName			//VID_ProcProRcpName			処理プロセスレシピ名称
+$05050130    51   1                2  NULL      0   0   0   0   0   0          0 NULL     ProcDCM				//VID_ProcRC				処理リアクタ				Rev2.00-0
+$05050140    10 $00              $44  NULL      0   0   0   0   0   0	     0 NULL	ProcRCSeq			//VID_ProcRCSeq				最新のウェハ処理結果のリアクタ処理シーケンス
+$05050150    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	ProcRCStepData			//VID_ProcRCStepData			最新のウェハ処理結果ステップデータ
+$05050160    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	ProcStartTime			//VID_ProcStartTime			各処理シーケンスの開始時刻
+$05050170    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	ProcEndTime			//VID_ProcEndTime			各処理シーケンスの終了時刻
+$05050180    51   0                1  NULL      0   0   0   0   0   0	     0 NULL	ProcEndState			//VID_ProcEndState			装置の処理終了状態
+$05050190    51   1                2  NULL      0   0   0   0   0   0	     0 NULL	ProcWC				//VID_ProcWC				処理ウェハカセットＮｏ．
+$050501A0    51   1               28  NULL      0   0   0   0   0   0	     0 NULL	ProcWS				//VID_ProcWS				処理ウェハスロットＮｏ．
+$050501B0    51   0               28  NULL      0   0   0   0   0   0	     0 NULL	ProcRealWC			//VID_ProcRealWC			ウェハ実処理枚数
+$050501C0    51   0               28  NULL      0   0   0   0   0   0	     0 NULL	ProcSetWC			//VID_ProcSetWC				ウェハ処理枚数
+$050501D0    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	ProcRCPrsDataFirst		//VID_ProcRCPrsDataFirst		最新のウェハ処理結果のＲＣ圧力初期データ
+$050501E0    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	ProcRCPrsDataFinish		//VID_ProcRCPrsDataFinish		最新のウェハ処理結果のＲＣ圧力終了データ
+$050501F0    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	ProcRCPrsDataMax		//VID_ProcRCPrsDataMax			最新のウェハ処理結果のＲＣ圧力最大データ
+$05050200    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	ProcRCPrsDataMin		//VID_ProcRCPrsDataMin			最新のウェハ処理結果のＲＣ圧力最小データ
+$05050210    20   0                0  NULL      0   0   0   0   0   0	     0 NULL	ProcRCPrsTime			//VID_ProcRCPrsTime			最新のウェハ処理結果のＲＣ圧力測定時間
+$05050280    20   0                0  NULL      0  19 $10   0   0   0	     0 NULL	ProcDCMDepoCountX		//VID_ProcRCDepoCountX			最新の処理結果のＲＣデポカウントＸ	Rev2.00-0
+$050503C0    20   0                0  NULL      0  19 $10   0   0   0	     0 NULL	ProcDCMEtchCountX		//VID_ProcRCEtchCountX			最新の処理結果のＲＣエッチカウントＸ	Rev2.00-0
+$05050500    51   0                3    PM        0   3 $10   0   0   0	     0 NULL	ProcRCDCMXRCLCCheck		//VID_ProcRCDCMXRCLCCheck		DCMXの自動RCリークチェック結果
+$05050550    20   0                3   PM        0   3 $10   0   0   0	     0 NULL	ProcRCDCMXRCLCRecipeName	//VID_ProcRCDCMXRCLCRecipeName		DCMXの自動RCリークチェックレシピ名
+$050505A0    20   0                3   PM        0   3 $10   0   0   0	     0 NULL	ProcRCDCMXRCLCRecipeNo		//VID_ProcRCDCMXRCLCRecipeNo		DCMXの自動RCリークチェックレシピ番号
+$050505F1    20   0                3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRCLCRCXTime		//VID_ProcRCDCMXRCLCRCXTime		DCMXの自動RCリークレート実行時間
+$05050641    20   0                3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRCLCRCXFirstPress	//VID_ProcRCDCMXRCLCRCXFirstPress	DCMXの自動RCリークチェック時初期圧力
+$05050691    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRCLCRCXFinishPress	//VID_ProcRCDCMXRCLCRCXFinishPress	DCMXの自動RCリークチェック時最終圧力
+$050506E1    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRCLCRCXMaxPress	//VID_ProcRCDCMXRCLCRCXMaxPress		DCMXの自動RCリークチェック時最大圧力
+$05050731    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRCLCRCXMinPress	//VID_ProcRCDCMXRCLCRCXMinPress		DCMXの自動RCリークチェック時最小圧力
+$05050781    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRCLCRCXLeakPress	//VID_ProcRCDCMXRCLCRCXLeakPress	DCMXの自動RCリークチェック時リーク圧力
+$050507D1    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRCLCRCXLeakRate	//VID_ProcRCDCMXRCLCRCXLeakRate		DCMXの自動RCリークチェックリークレート
+$05050821    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRCLCRCXLeakRateUnit	//VID_ProcRCDCMXRCLCRCXLeakRateUnit	DCMXの自動RCリークチェックリークレート単位
+$05050870    51   0       3   PM        0   3 $10   0   0   0	     0 NULL	ProcRCDCMXRPLCCheck		//VID_ProcRCDCMXRPLCCheck		DCMXの自動RPリークチェック結果
+$050508C0    20   0       3   PM        0   3 $10   0   0   0	     0 NULL	ProcRCDCMXRPLCRecipeName	//VID_ProcRCDCMXRPLCRecipeName		DCMXの自動RPリークチェックレシピ名
+$05050910    20   0       3   PM        0   3 $10   0   0   0	     0 NULL	ProcRCDCMXRPLCRecipeNo		//VID_ProcRCDCMXRPLCRecipeNo		DCMXの自動RPリークチェックレシピ番号
+$05050961    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRPLCRCXTime		//VID_ProcRCDCMXRPLCRCXTime		DCMXの自動RPリークレート実行時間
+$050509B1    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRPLCRCXFirstPress	//VID_ProcRCDCMXRPLCRCXFirstPress	DCMXの自動RPリークチェック時初期圧力
+$05050A01    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRPLCRCXFinishPress	//VID_ProcRCDCMXRPLCRCXFinishPress	DCMXの自動RPリークチェック時最終圧力
+$05050A51    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRPLCRCXMaxPress	//VID_ProcRCDCMXRPLCRCXMaxPress		DCMXの自動RPリークチェック時最大圧力
+$05050AA1    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRPLCRCXMinPress	//VID_ProcRCDCMXRPLCRCXMinPress		DCMXの自動RPリークチェック時最小圧力
+$05050AF1    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRPLCRCXLeakPress	//VID_ProcRCDCMXRPLCRCXLeakPress	DCMXの自動RPリークチェック時リーク圧力
+$05050B41    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRPLCRCXLeakRate	//VID_ProcRCDCMXRPLCRCXLeakRate		DCMXの自動RPリークチェックリークレート
+$05050B91    20   0       3   RC        0   3 $10   0   1  $1	     0 NULL	ProcRCDCMXRPLCRCXLeakRateUnit	//VID_ProcRCDCMXRPLCRCXLeakRateUnit	DCMXの自動RPリークチェックリークレート単位
+$05050C00    20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWHCPrsDataMax		//VID_ProcWHCPrsDataMax                 WHC圧力最大値
+$05050C10    20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWHCPrsDataMin		//VID_ProcWHCPrsDataMin                 WHC圧力最小値
+$05050C20    20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWHCPrsDataMean		//VID_ProcWHCPrsDataMean                WHC圧力平均値
+$05050C30    20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWHCPrsDataSigma		//VID_ProcWHCPrsDataSigma               WHC圧力偏差
+$05050C80    20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWHCTHVDataMax		//VID_ProcWHCTHVDataMax                 WHCTHV最大値
+$05050C90    20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWHCTHVDataMin		//VID_ProcWHCTHVDataMin                 WHCTHV最小値
+$05050CA0    20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWHCTHVDataMean		//VID_ProcWHCTHVDataMean                WHCTHV平均値
+$05050CB0    20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWHCTHVDataSigma		//VID_ProcWHCTHVDataSigma               WHCTHV偏差
+#
+# Beginning  VID  Min        Maximum  Dev   Dev 1   Dev 1  Dev1 Dev 2  Dev 2  Dev2
+# VID        Fmt  Value      Value    Type  MinVal  MaxVal Incr MinVal MaxVal Incr Default Units     Name                                   VID Identification
+# ---------- ---  -------    -------  ----  ------ ------- ---- ------ ------ ---- ------- --------- -------------------------------------  --------------------------------------------------
+$05052300    10   0       0   NULL      0   0   0   0   0   0	     0 NULL	MoveWafer			//VID_MoveWafer				搬送ウェハＩＤ
+$05052310  10   0       0   NULL      0   0   0   0   0   0	     0 NULL	MoveWaferInformation		//VID_MoveWaferInformation		ウェハ搬送情報
+$05052320  10   0       1   NULL      0   0   0   0   0   0	     0 NULL	WCOutState			//VID_WCOutState			ウェハカセット搬出可能状態
+$05052340  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	PortCarrierID			//VID_PortCarrierID			搬出／搬入のあったカセットポートのキャリアＩＤ
+$05052350  51   1       2   NULL      0   0   0   0   0   0	     0 NULL	PortLocID			//VID_PortLocID				搬出／搬入のあったカセットポートのＩＤ
+$05052370  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	RCStateChangeRCPPName		//VID_RCStateChangeRCPPName		リアクタ状態変更時のプロセスレシピ名
+$05052381  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXStateChangeLot		//VID_RCStateChangeLot			リアクタ状態変更時のロットＩＤ			Rev2.00-0
+$05052391  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXStateChangeCarrier		//VID_RCStateChangeCarrier		リアクタ状態変更時のキャリアＩＤ		Rev2.00-0
+$050523A1  51   0       1   RC        0   1  $1   0   0   0	     0 NULL	RCXStateChangePort		//VID_RCStateChangePort			リアクタ状態変更時のポート番号			Rev2.00-0
+$050523B1  51   0      28   RC        0   1  $1   0   0   0	     0 NULL	RCXStateChangeSlot		//VID_RCStateChangeSlot			リアクタ状態変更時のスロット番号		Rev2.00-0
+$05052401  20   0       0   NULL      0   1  $1   0   0   0	     0 NULL	ProcRCXWaferCJ			//VID_pProcWaferCJ			処理ウェハのＣＪＩＤ
+$05052410  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWaferPJ				//VID_pProcWaferPJ			処理ウェハのＰＪＩＤ
+$05052411  20   0       0   NULL      0   1  $1   0   0   0	     0 NULL	ProcRCXWaferPJ			//VID_pProcWaferPJ			処理ウェハのＰＪＩＤ
+$05052420  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWaferCarrier		//VID_ProcWaferCarrier			処理ウェハのキャリアＩＤ
+$05052421  20   0       0   NULL      0   1  $1   0   0   0	     0 NULL	ProcRCXWaferCarrier		//VID_ProcWaferCarrier			処理ウェハのキャリアＩＤ
+$05052430  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWaferLot			//VID_ProcWaferLot			処理ウェハのロットＩＤ
+$05052431  20   0       0   NULL      0   1  $1   0   0   0	     0 NULL	ProcRCXWaferLot			//VID_ProcWaferLot			処理ウェハのロットＩＤ
+$05052441  51   0       1   NULL      0   1  $1   0   0   0	     0 NULL	ProcRCXWaferPort		//VID_pProcWaferPort			処理ウェハのポート番号
+$05052451  51   0      28   NULL      0   1  $1   0   0   0	     0 NULL	ProcRCXWaferSlot		//VID_pProcWaferSlot			処理ウェハのスロット番号
+$05052461  20   0       0   NULL      0   1  $1   0   0   0	     0 NULL	ProcRCXWaferID			//VID_pProcWaferID			処理ウェハのウェハＩＤ
+$05052470  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	ProcWaferDCM			//VID_ProcWaferDCM			処理ウェハのリアクタ番号
+$05052480  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWaferPP			//VID_ProcWaferPP			処理ウェハのＰＰＩＤ
+$05052481  20   0       0   NULL      0   1  $1   0   0   0	     0 NULL	ProcRCXWaferPP			//VID_ProcWaferPP			処理ウェハのＰＰＩＤ
+$05052490  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcWaferProRcp			//VID_ProcWaferProRcp			処理ウェハのプロセスレシピ名
+$050524A0  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcStepTime			//VID_ProcStepTime			処理ウェハのステップ時間
+$050524B0  52   0     120   NULL      0   0   0   0   0   0	     0 NULL	ProcStepNum			//VID_ProcStepNum			処理ウェハのステップ番号
+$050524C0  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcStepName			//VID_ProcStepName			処理ウェハのステップ名
+$050524D0  52   0     120   NULL      0   0   0   0   0   0	     0 NULL	ProcPreStepNum			//VID_ProcPreStepNum			処理ウェハの前回ステップ番号
+$050524E0  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcPreStepName			//VID_ProcPreStepName			処理ウェハの前回ステップ名
+$050524F0  52   0     120   NULL      0   0   0   0   0   0	     0 NULL	ProcNextStepNum			//VID_ProcNextStepNum			処理ウェハの次回ステップ番号
+$05052500  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcNextStepName		//VID_ProcNextStepName			処理ウェハの次回ステップ名
+$05052532  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRcWaferProRcp		//VID_ProcRcWaferProRcp			Vpp,Vdc通知用処理ウェハのプロセスレシピ名
+$05052541  20   0       0   NULL      0   1  $1   0   0   0	     0 NULL	ProcRcRCXWaferID		//VID_pProcRcWaferID			Vpp,Vdc通知用処理ウェハのウェハＩＤ
+$050525D1  51   0       1   NULL      0   1  $1   0   0   0	     0 NULL	ProcRcRCXWaferPort		//VID_pProcRcWaferPort			Vpp,Vdc通知用処理ウェハのポート番号
+$050525E1  51   0      28   NULL      0   1  $1   0   0   0	     0 NULL	ProcRcRCXWaferSlot		//VID_pProcRcWaferSlot			Vpp,Vdc通知用処理ウェハのスロット番号
+$05052571  52   0     120   NULL      0   0   0   0   0   0	     0 NULL	ProcRcStepNum			//VID_ProcRcStepNum			Vpp,Vdc通知用処理ウェハのステップ番号
+$05052572  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRcStepName			//VID_ProcRcStepName			Vpp,Vdc通知用処理ウェハのステップ名
+$05052573  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRcStepTime			//VID_ProcRcStepTime			Vpp,Vdc通知用処理ウェハのステップ時間
+$05052580  51   1     112   NULL      0   0   0   0   0   0	     0 NULL	ProcRcDepositionCount		//VID_ProcRcDepositionCount		Vpp,Vdc通知用ロット開始またはクリーニング実行からのＤＥＰＯ回数
+$05052590  51   1     112   NULL      0   0   0   0   0   0	     0 NULL	ProcRcCleaningCount		//VID_ProcRcCleaningCount		Vpp,Vdc通知用ロット開始からのＥＴＣＨ回数
+$050525A1  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRcVppData1			//VID_ProcRcVppData1			Vpp,Vdc通知用ＤＥＰＯ／ＥＴＣＨステップ開始後のVpp検出設定時間時の実値
+$050525A2  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRcVppData2			//VID_ProcRcVppData2			Vpp,Vdc通知用ＤＥＰＯ／ＥＴＣＨステップ終了前のVpp検出設定時間時の実値
+$050525A3  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRcVppSabun			//VID_ProcRcVppSabun			Vpp,Vdc通知用ＤＥＰＯ／ＥＴＣＨステップ開始後と終了前のVpp実値の差分
+$050525B1  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRcVdcData1			//VID_ProcRcVdcData1			Vpp,Vdc通知用ＤＥＰＯ／ＥＴＣＨステップ開始後のVdc検出設定時間時の実値
+$050525B2  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRcVdcData2			//VID_ProcRcVdcData2			Vpp,Vdc通知用ＤＥＰＯ／ＥＴＣＨステップ終了前のVdc検出設定時間時の実値
+$050525B3  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRcVdcSabun			//VID_ProcRcVdcSabun			Vpp,Vdc通知用ＤＥＰＯ／ＥＴＣＨステップ開始後と終了前のVdc実値の差分
+$050525C0   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	ECChangeData			//VID_ECChangeData			装置定数変更データ
+$05052600  51   0       5   NULL      0   0   0   0   0   0	     0 NULL	LeakCheckChamber		//VID_LeakCheckChamber			リークチェックを実行したチャンバ
+$05052610  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	LeakCheckEndTime		//VID_LeakCheckEndTime			リークチェック終了時間
+$05052620  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	LeakCheckEndState		//VID_LeakCheckEndState			リークチェック終了状態
+$05052630  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	LeakCheckRecipeName		//VID_LeakCheckRecipeName		リークチェックを実行したレシピ名
+$05052640  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	LeakCheckStepData		//VID_LeakCheckStepData			リークチェックを実行したステップ番号とステップ名
+$05052650  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	LeakCheckMeasureTime		//VID_LeakCheckMeasureTime		リークチェックの測定時間
+$05052661  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXLeakCheckPressFirst		//VID_pRCXLeakCheckPressFirst		リークチェック時の圧力初期データ		Rev2.00-0
+$05052671  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXLeakCheckPressFinish		//VID_pRCXLeakCheckPressFinish		リークチェック時の圧力最終データ		Rev2.00-0
+$05052681  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXLeakCheckPressMax		//VID_pRCXLeakCheckPressMax		リークチェック時の圧力最大データ		Rev2.00-0
+$05052691  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXLeakCheckPressMin		//VID_pRCXLeakCheckPressMin		リークチェック時の圧力最小データ		Rev2.00-0
+$050526A1  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXLeakCheckPressLeak		//VID_pRCXLeakCheckPressLeak		リークチェック時のリーク圧力			Rev2.00-0
+$050526B1  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXLeakCheckLeakRate		//VID_pRCXLeakCheckLeakRate		リークチェック時のリークレート			Rev2.00-0
+$050526C1  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXLeakCheckLeakRateUnit	//VID_pRCXLeakCheckLeakRateUnit		リークチェック時のリークレート単位		Rev2.00-0
+$050526D0  51   1       4   NULL      0   0   0   0   0   0	     0 NULL	PressExecLLC			//VID_PressExecLLC			圧力制御処理のロードロック		Rev0.08-11
+$05052700  51   0      59   NULL      0   0   0   0   0   0	     0 NULL	LCApprochingTime		//VID_LCApprochingTime			自動リークチェック開始n分前
+$05052710  51   1      27   NULL      0   0   0   0   0   0	     0 NULL	LCStartNG			//VID_LCStartNG				自動リークチェック開始NGの原因
+$05052730  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	LCStartMethod			//VID_LCStartMethod			自動リークチェック開始方法
+$05052790  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	LCLeakRate			//VID_LCLeakRate			自動LL/WHCリークチェックリークレート
+$050527B0  51   0       3   NULL      0   0   0   0   0   0	     0 NULL	LCCheck				//VID_LCCheck				自動LL/WHCリークチェック結果
+$05052800  51   0       3   NULL      0   0   0   0   0   0	     0 NULL	RCLCCheck			//VID_RCLCCheck				自動RCリークチェック結果
+$05052810  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	RCLCRecipeName			//VID_RCLCRecipeName			自動RCリークチェックレシピ名
+$05052820  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	RCLCRecipeNo			//VID_RCLCRecipeNo			自動RCリークチェックレシピ番号
+$05052831  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCLCRCXTime			//VID_RCLCRCXTime			自動RCリークレート実行時間
+$05052841  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCLCRCXFirstPress		//VID_RCLCRCXFirstPress			自動RCリークチェック時初期圧力
+$05052851  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCLCRCXFinishPress		//VID_RCLCRCXFinishPress		自動RCリークチェック時最終圧力
+$05052861  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCLCRCXMaxPress			//VID_RCLCRCXMaxPress			自動RCリークチェック時最大圧力
+$05052871  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCLCRCXMinPress			//VID_RCLCRCXMinPress			自動RCリークチェック時最小圧力
+$05052881  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCLCRCXLeakPress		//VID_RCLCRCXLeakPress			自動RCリークチェック時リーク圧力
+$05052891  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCLCRCXLeakRate			//VID_RCLCRCXLeakRate			自動RCリークチェックリークレート
+$050528A1  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCLCRCXLeakRateUnit		//VID_RCLCRCXLeakRateUnit		自動RCリークチェックリークレート単位
+$05052900  51   0       3   NULL      0   0   0   0   0   0	     0 NULL	RPLCCheck			//VID_RPLCCheck				自動RPリークチェック結果
+$05052910  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	RPLCRecipeName			//VID_RPLCRecipeName			自動RPリークチェックレシピ名
+$05052920  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	RPLCRecipeNo			//VID_RPLCRecipeNo			自動RPリークチェックレシピ番号
+$05052931  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RPLCRCXTime			//VID_RPLCRCXTime			自動RPリークレート実行時間
+$05052941  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RPLCRCXFirstPress		//VID_RPLCRCXFirstPress			自動RPリークチェック時初期圧力
+$05052951  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RPLCRCXFinishPress		//VID_RPLCRCXFinishPress		自動RPリークチェック時最終圧力
+$05052961  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RPLCRCXMaxPress			//VID_RPLCRCXMaxPress			自動RPリークチェック時最大圧力
+$05052971  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RPLCRCXMinPress			//VID_RPLCRCXMinPress			自動RPリークチェック時最小圧力
+$05052981  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RPLCRCXLeakPress		//VID_RPLCRCXLeakPress			自動RPリークチェック時リーク圧力
+$05052991  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RPLCRCXLeakRate			//VID_RPLCRCXLeakRate			自動RPリークチェックリークレート
+$050529A1  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RPLCRCXLeakRateUnit		//VID_RPLCRCXLeakRateUnit		自動RPリークチェックリークレート単位
+$05052A00   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	RCSusepterPos			//VID_RCSusepterPos			サセプターポジション
+$05052A10   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	WafGapLoadDLL			//VID_WafGapLoadDLL			BERbtウェハUnload時ＬＬウェハずれ検知量
+$05052A20   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	WafGapLoadDRc			//VID_WafGapLoadDRc			BERbtウェハLoad時ＲＣウェハずれ検知量
+$05052A30   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	WafGapUnloadDLL			//VID_WafGapUnloadDLL			BERbtウェハLooad時ＬＬウェハずれ検知量
+$05052A40   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	WafGapUnloadDRc			//VID_WafGapUnloadDRc			BERbtウェハUnload時ＲＣウェハずれ検知量
+$05052A90  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	WafCJID				//VID_WafCJID				ウェハ処理CJID
+$05052AA0  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	WafPJID				//VID_WafPJID				ウェハ処理PJID
+$05052D00  51   0       3   NULL      0   0   0   0   0   0	     0 NULL	ProcAdjustType			//VID_ProcAdjustType			処理補正種別
+$05052D10  32 -500    500   NULL      0   0   0   0   0   0	     0 NULL	ProcAdjustData			//VID_ProcAdjustData			処理補正データ
+$05052D20  52   0   65535   NULL      0   3 $10   0   0   0	     0 NULL	ProcAdjustAONoX			//VID_ProcAdjustAONoX			処理補正AO番号X
+$05052D60  32 -500    500   NULL      0   3 $10   0   0   0	     0 NULL	ProcAdjustAODataX		//VID_ProcAdjustAODataX			処理補正AOデータX
+$05053100  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	AlignerLotID			//VID_AlignerLotID			アライナで処理したウェハのロットＩＤ
+$05053110  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	AlignerWaferID			//VID_AlignerWaferID			アライナで処理したウェハのウェハＩＤ
+$05053120  51   1       2   NULL      0   0   0   0   0   0	     0 NULL	AlignerPort			//VID_AlignerPort			アライナで処理したウェハのポート番号
+$05053130  51   1      28   NULL      0   0   0   0   0   0	     0 NULL	AlignerSlot			//VID_AlignerSlot			アライナで処理したスロット番号
+$05053140  51   0       4   NULL      0   0   0   0   0   0	     0 NULL	AlignerControlTiming		//VID_AlignerControlTiming		アライナ制御タイミング
+$05053150  51   1       2   NULL      0   0   0   0   0   0	     0 NULL	AlignerLL			//VID_AlignerLL				処理ウェハ通過ロードロック番号
+$05053160  51   1       2   NULL      0   0   0   0   0   0	     0 NULL	AlignerRound			//VID_AlignerRound			アライナ処理回数
+$05053170  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	AlignerSetAngle			//VID_AlignerSetAngle			アライナ設定角度
+$05053180  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	AlignerActAngle			//VID_AlignerActAngle			アライナ動作角度
+$050531E0  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ScriptName			//VID_ScriptName			Script名
+$050531F0  52   0     256   NULL      0   0   0   0   0   0	     0 NULL	ScriptEndStatus			//VID_ScriptEndStatus			Script終了状態
+$05053200  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	RCRecipeStateRCPPName		//VID_RCRecipeStateRCPPName 	ﾚｼﾋﾟ状態変更時のｺﾝﾄﾛｰﾙｼﾞｮﾌﾞのID
+$05053211  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXRecipeStateLot		//VID_RCRecipeStateLot		レシピ状態変更時のロットＩＤ
+$05053221  20   0       0   RC        0   1  $1   0   0   0	     0 NULL	RCXRecipeStateCarrier		//VID_RCXRecipeStateCarrier	レシピ状態変更時のキャリアＩＤ
+$05053231  51   0       1   RC        0   1  $1   0   0   0	     0 NULL	RCXRecipeStatePort		//VID_RCXRecipeStatePort	レシピ状態変更時のポート番号
+$05053241  51   0      28   RC        0   1  $1   0   0   0	     0 NULL	RCXRecipeStateSlot		//VID_RCXRecipeStateSlot	レシピ状態変更時のスロット番号
+$05053251  20	0       0	RC        0   1  $1   0   0   0      0 NULL RCXRecipeStateCtrlJobID		//VID_pRCXRcpStateChangeCtrlJobID
+$05053261  20	0       0   RC        0   1  $1   0   0   0      0 NULL RCXRecipeStateWaferID		//VID_pRCXRcpStateChangeWaferID
+$05053271  20   0       0   RC        0   1  $1   0   0   0      0 NULL RCXRecipePRJobID			//VID_pRCXRcpStateChangePRJobID
+$05053281  20   0       0   RC        0   1  $1   0   0   0      0 NULL RCXRecipePRJobRecID			//VID_pRCXRcpStateChangePRJobRecID
+$05053290  20   0       0   RC        0   0   0   0   0   0      0 NULL RCRecipeStateRcpType		//VID_pRCXRcpStateChangeRcpType
+$05053300  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveFeRbtWaferCtrlJobID //VID_MoveFeRbtWaferCtrlJobID 	FERbtによるWafer移動時のｺﾝﾄﾛｰﾙｼﾞｮﾌﾞのID
+$05053310  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveFeRbtWaferLotID     //VID_MoveFeRbtWaferLotID     	FERbtによるWafer移動時のﾛｯﾄID
+$05053320  51   0       4   NULL      0   0   0   0   0   0      0 NULL MoveFeRbtWaferPortID    //VID_MoveFeRbtWaferPortID    	FERbtによるWafer移動時のﾛｰﾄﾞﾎﾟｰﾄのID
+$05053330  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveFeRbtWaferID        //VID_MoveFeRbtWaferID        	FERbtによるWafer移動時のｳｪﾊID
+$05053340  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveFeRbtWaferPRJobID   //VID_MoveFeRbtWaferPRJobID   	FERbtによるWafer移動時のﾌﾟﾛｾｽｼﾞｮﾌﾞのID
+$05053350  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveFeRbtWaferCarrierID //VID_MoveFeRbtWaferCarrierID 	FERbtによるWafer移動時のｷｬﾘｱID
+$05053360  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveFeRbtWaferPRJobRecID//VID_MoveFeRbtWaferPRJobRecID	FERbtによるWafer移動時のPJﾚｼﾋﾟ名称
+$05053390  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveFeRbtWaferLocID     //VID_MoveFeRbtWaferLocID     	FERbtによるWafer移動時のﾛｹｰｼｮﾝID
+$05053400  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveBeRbtWaferCtrlJobID //VID_MoveBeRbtWaferCtrlJobID  	BERbtによるWafer移動時のｺﾝﾄﾛｰﾙｼﾞｮﾌﾞのID
+$05053410  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveBeRbtWaferLotID     //VID_MoveBeRbtWaferLotID      	BERbtによるWafer移動時のﾛｯﾄID
+$05053420  51   0       4   NULL      0   0   0   0   0   0      0 NULL MoveBeRbtWaferPortID    //VID_MoveBeRbtWaferPortID     	BERbtによるWafer移動時のﾛｰﾄﾞﾎﾟｰﾄのID
+$05053430  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveBeRbtWaferID        //VID_MoveBeRbtWaferID         	BERbtによるWafer移動時のｳｪﾊID
+$05053440  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveBeRbtWaferPRJobID   //VID_MoveBeRbtWaferPRJobID    	BERbtによるWafer移動時のﾌﾟﾛｾｽｼﾞｮﾌﾞのID
+$05053450  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveBeRbtWaferCarrierID //VID_MoveBeRbtWaferCarrierID  	BERbtによるWafer移動時のｷｬﾘｱID
+$05053460  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveBeRbtWaferPRJobRecID//VID_MoveBeRbtWaferPRJobRecID 	BERbtによるWafer移動時のPJﾚｼﾋﾟ名称
+$05053470  51   0       5   NULL      0   0   0   0   0   0      0 NULL MoveBeRbtWaferDCM       //VID_MoveBeRbtWaferDCM        	BERbtによるWafer移動時のﾘｱｸﾀ番号 1-5
+$05053480  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveBeRbtWaferRCPPName  //VID_MoveBeRbtWaferRCPPName   	BERbtによるWafer移動時のﾌﾟﾛｾｽﾚｼﾋﾟ名
+$05053490  20   0       0   NULL      0   0   0   0   0   0      0 NULL MoveBeRbtWaferLocID     //VID_MoveBeRbtWaferLocID      	BERbtによるWafer移動時のﾛｹｰｼｮﾝID
+$050534C0  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1PumpdownProcWaferCJ      //VID_LL1PumpdownProcWaferCJ
+$050534C1  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1PumpdownProcWaferPJ      //VID_LL1PumpdownProcWaferPJ
+$050534C2  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1PumpdownProcWaferCarrier //VID_LL1PumpdownProcWaferCarrier
+$050534C3  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1PumpdownProcWaferLotID   //VID_LL1PumpdownProcWaferLotID
+$050534C4  51   0       0   NULL      0   0   0   0   0   0      0 NULL LL1PumpdownWaferPort        //VID_LL1PumpdownWaferPort
+$050534C5  51   0       0   NULL      0   0   0   0   0   0      0 NULL LL1PumpdownWaferSlot        //VID_LL1PumpdownWaferSlot
+$050534C6  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1PumpdownWaferID          //VID_LL1PumpdownWaferID
+$050534C7  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1PumpdownProcWaferPP      //VID_LL1PumpdownProcWaferPP
+$050534C8  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2PumpdownProcWaferCJ      //VID_LL2PumpdownProcWaferCJ
+$050534C9  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2PumpdownProcWaferPJ      //VID_LL2PumpdownProcWaferPJ
+$050534CA  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2PumpdownProcWaferCarrier //VID_LL2PumpdownProcWaferCarrier
+$050534CB  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2PumpdownProcWaferLotID   //VID_LL2PumpdownProcWaferLotID
+$050534CC  51   0       0   NULL      0   0   0   0   0   0      0 NULL LL2PumpdownWaferPort        //VID_LL2PumpdownWaferPort
+$050534CD  51   0       0   NULL      0   0   0   0   0   0      0 NULL LL2PumpdownWaferSlot        //VID_LL2PumpdownWaferSlot
+$050534CE  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2PumpdownWaferID          //VID_LL2PumpdownWaferID
+$050534CF  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2PumpdownProcWaferPP      //VID_LL2PumpdownProcWaferPP
+$050534D0  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1BackfillProcWaferCJ      //VID_LL1BackfillProcWaferCJ
+$050534D1  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1BackfillProcWaferPJ      //VID_LL1BackfillProcWaferPJ
+$050534D2  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1BackfillProcWaferCarrier //VID_LL1BackfillProcWaferCarrier
+$050534D3  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1BackfillProcWaferLotID   //VID_LL1BackfillProcWaferLotID
+$050534D4  51   0       0   NULL      0   0   0   0   0   0      0 NULL LL1BackfillWaferPort        //VID_LL1BackfillWaferPort
+$050534D5  51   0       0   NULL      0   0   0   0   0   0      0 NULL LL1BackfillWaferSlot        //VID_LL1BackfillWaferSlot
+$050534D6  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1BackfillWaferID          //VID_LL1BackfillWaferID
+$050534D7  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1BackfillProcWaferPP      //VID_LL1BackfillProcWaferPP
+$050534D8  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2BackfillProcWaferCJ      //VID_LL2BackfillProcWaferCJ
+$050534D9  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2BackfillProcWaferPJ      //VID_LL2BackfillProcWaferPJ
+$050534DA  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2BackfillProcWaferCarrier //VID_LL2BackfillProcWaferCarrier
+$050534DB  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2BackfillProcWaferLotID   //VID_LL2BackfillProcWaferLotID
+$050534DC  51   0       0   NULL      0   0   0   0   0   0      0 NULL LL2BackfillWaferPort        //VID_LL2BackfillWaferPort
+$050534DD  51   0       0   NULL      0   0   0   0   0   0      0 NULL LL2BackfillWaferSlot        //VID_LL2BackfillWaferSlot
+$050534DE  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2BackfillWaferID          //VID_LL2BackfillWaferID
+$050534DF  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2BackfillProcWaferPP      //VID_LL2BackfillProcWaferPP
+$050534E0  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1PumpdownProcWaferLocID   //VID_LL1PumpdownProcWaferLocID
+$050534E1  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2PumpdownProcWaferLocID   //VID_LL2PumpdownProcWaferLocID
+$050534E2  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL1BackfillProcWaferLocID   //VID_LL1BackfillProcWaferLocID
+$050534E3  20   0       0   NULL      0   0   0   0   0   0      0 NULL LL2BackfillProcWaferLocID   //VID_LL2BackfillProcWaferLocID
+$05053500  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRealCycle			//VID_ProcRealCycle			レシピ実サイクル数
+$05053510  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcSetCycle			//VID_ProcSetCycle			レシピ設定サイクル数
+$05053520  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcRealShift			//VID_ProcRealShift			レシピ実シフト数
+$05053530  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcSetShift			//VID_ProcSetShift			レシピ設定シフト数
+$05053540  52   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcShiftAlarm			//VID_ProcShiftAlarm		最新のシフトレシピ処理回数
+$05053550  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	ProcDepoAlarm			//VID_ProcDepoAlarm			最新のデポレシピのアラーム発生状況
+$05054400  20   0       0   NULL      0   0   0   0   0   0      0 NULL SubstWaferType              //VID_SubstWaferType
+$05054401  51   0       0   NULL      0   0   0   0   0   0      0 NULL SubstMaxDummyUses           //VID_SubstMaxDummyUses
+$05054402  51   0       0   NULL      0   0   0   0   0   0      0 NULL SubstDummyUsesRemaining     //VID_SubstDummyUsesRemaining
+$05060010  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	AccessMode			//VID_CMS_AccessMode			ＣＭＳ用ロードポートのアクセスモード
+$05060020  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	CarrierID			//VID_CMS_CarrierID			ＣＭＳ用キャリアＩＤ
+$05060030  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	LocationID			//VID_CMS_LocationID			ＣＭＳ用ロケーションＩＤ
+$05060040  51   1       2   NULL      0   0   0   0   0   0	     0 NULL	PortID				//VID_CMS_PortID			ＣＭＳ用ポートＩＤ
+$05060050  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	PortAssociationState		//VID_CMS_AssociationState		ＣＭＳ用ロードポートとキャリアの関連状態
+$05060060  51   0       3   NULL      0   0   0   0   0   0	     0 NULL	PortTransferState		//VID_CMS_PortTransferState		ＣＭＳ用ロードポートの搬送状態
+$05060070   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	PortStateInfo			//VID_CMS_PortStateInfo			ＣＭＳ用ロードポート情報
+$05060080  51   0       0   NULL      0   0   0   0   0   0	     0 NULL	LoadPortReservationState	//VID_CMS_ReservationState		ＣＭＳ用ロードポート予約状態
+$05060090   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	SlotMap				//VID_CMS_SlotMap			ＣＭＳ用スロットマップリスト
+$050600A0  51   0       3   NULL      0   0   0   0   0   0	     0 NULL	SlotMapReason			//VID_CMS_SlotMapReason			ＣＭＳ用スロットマップ読み込み結果
+$050600B0  51   0     255   NULL      0   0   0   0   0   0	     0 NULL	CarrierIDReason			//VID_CMS_CarrierIDReason		ＣＭＳ用キャリアＩＤ読み込み結果
+$050600C0  51   0       0   NULL      0   0   0   0   0   0	     0 NULL	CarrierIDStatus			//VID_CMS_CarrierIDStatus		ＣＭＳ用ロードポート予約状態
+$050600D0  51   0       0   NULL      0   0   0   0   0   0	     0 NULL	SlotMapStatus			//VID_CMS_SlotMapStatus			ＣＭＳ用ロードポート予約状態
+$050600E0  51   0       0   NULL      0   0   0   0   0   0	     0 NULL	CarrierAccessingStatus		//VID_CMS_CarrierAccessingStatus	ＣＭＳ用ロードポート予約状態
+$050600F0  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcCarrierID			//VID_ProcCarrierID			ProcWaferDataイベント専用のキャリアＩＤ
+$05070010  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	PRJobID				//VID_PJM_JobID				ＰＪＭ用ジョブＩＤ
+$05070030  51   0      13   NULL      0   0   0   0   0   0	     0 NULL	PRJobState			//VID_PJM_JobState			ＰＪＭ用ジョブステート
+$05070020  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	PRJobRecID			//VID_PJM_ProcPPName			ＰＪＭ用処理PJレシピ名称
+$05070040  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcPRJobID			//VID_ProcPRJobID			ウェハ個別報告用ジョブＩＤ
+$05070050  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcPRJobRecID			//VID_ProcPRJobRecID			ウェハ個別報告用処理システムレシピ名称
+$05070060  51   0     112   NULL      0   0   0   0   0   0	     0 NULL	PRJobProcessedWfrNum		//VID_PJM_ProcWafCount			ＰＪＭ用処理ウェハカウント		Rev0.04-1
+$05080010  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	CtrlJobID			//VID_CJM_JobID				ＣＪＭ用ジョブＩＤ
+$05080020  51   0       8   NULL      0   0   0   0   0   0	     0 NULL	CtrlJobState			//VID_CJM_JobState			ＣＪＭ用ジョブステート
+$05080030   0   0       0   NULL      0   0   0   0   0   0	     0 NULL	CtrlJobRecID			//VID_CJM_ProcPPName			ＣＪＭ遷移イベント用処理システムレシピ名称リスト
+$05080040  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcCtrlJobID			//VID_ProcCtrlJobID			ウェハ個別報告用ジョブＩＤ
+$05080050  51   0     112   NULL      0   0   0   0   0   0	     0 NULL	CJobProcessedWfrNum		//VID_CJM_ProcWafCount			ＣＪＭ用処理ウェハカウント		Rev0.04-1
+$05080060  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	DataCollectionPlan		//VID_CJM_DataCollectionPlan		ＣＪＭ用データ収集プラン		Rev2.00-16
+$05080080  51   0     112   NULL      0   0   0   0   0   0      0 NULL CJobFailedWfrNum         //VID_CJM_FailedWafCount
+$05080090  51   0     112   NULL      0   0   0   0   0   0      0 NULL CJobUnProcessedWfrNum    //VID_CJM_UnProcWafCount
+$050800A0  51   0     112   NULL      0   0   0   0   0   0      0 NULL CJobWarningWfrNum        //VID_CJM_WarningWafCount
+$05090010  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	SubstID				//VID_STS_SubstID			ＳＴＳ用ウェハＩＤ
+$05090020  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	SubstLocID			//VID_STS_SubstLocID			ＳＴＳ用ウェハロケーションＩＤ
+$05090030  51   0       2   NULL      0   0   0   0   0   0	     0 NULL	SubstState			//VID_STS_SubstState			ＳＴＳ用ウェハ状態
+$05090040  51   0       7   NULL      0   0   0   0   0   0	     0 NULL	SubstProcState			//VID_STS_SubstProcState		ＳＴＳ用ウェハ処理状態
+$05090050  51   0       1   NULL      0   0   0   0   0   0	     0 NULL	SubstLocState			//VID_STS_SubstLocState			ＳＴＳ用ウェハロケーション状態
+$05090060  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	SubstSource			//VID_STS_SubstSource			ＳＴＳ用最初のウェハロケーションＩＤ
+$05090070  20   0       1   NULL      0   0   0   0   0   0	     0 NULL	SubstDistination		//VID_STS_SubstDistination		ＳＴＳ用ウェハ回収ロケーションＩＤ
+$05090080  20   0       1   NULL      0   0   0   0   0   0	     0 NULL	SubstLotID			//VID_STS_LotID				ＳＴＳ用ウェハ関連付けロットＩＤ
+$05090090  51   0       2   NULL      0   0   0   0   0   0	     0 NULL	SubstMtrlStatus			//VID_STS_SubstMtrlStatus		ＳＴＳ用ウェハの品質状態
+$050900A0   0   0       1   NULL      0   0   0   0   0   0	     0 NULL	SubstHistory			//VID_STS_SubstHistory			ＳＴＳ用ウェハロケーション履歴
+$050900B0  51   0       3   NULL      0   0   0   0   0   0	     0 NULL	SubstType			//VID_STS_SubstType			ＳＴＳ用ウェハタイプ
+$050900C0  51   0       2   NULL      0   0   0   0   0   0	     0 NULL	SubstUsage			//VID_STS_SubstUsage			ＳＴＳ用ウェハ使用法
+$05090200  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcSubstID			//VID_ProcSubstID			ProcWaferDataイベント専用のウェハＩＤ
+$05090210  20   0       1   NULL      0   0   0   0   0   0	     0 NULL	ProcSubstLocID			//VID_ProcSubstLocID			ProcWaferDataイベント専用のウェハロケーションＩＤ
+$05090220  20   0       0   NULL      0   0   0   0   0   0	     0 NULL	ProcSubstLotID			//VID_ProcSubstLotID			ProcWaferDataイベント専用のウェハ関連付けロットＩＤ
+$05150000  20   0       0   NULL      0  95 $10   0   0   0	     0 NULL	ProcRCDataMaxAIX		//VID_pProcRCDataMaxAIX			最新の処理結果のＰＭＣ最大データＡＩＸ
+$05150600  20   0       0   NULL      0  63 $10   0   0   0	     0 NULL	ProcRCDataMaxTIX		//VID_pProcRCDataMaxTIX			最新の処理結果のＰＭＣ最大データＴＩＸ
+$05150A00  20   0       0   NULL      0  95 $10   0   0   0	     0 NULL	ProcRCDataMeanAIX		//VID_pProcRCDataMeanAIX		最新の処理結果のＰＭＣ平均データＡＩＸ
+$05151000  20   0       0   NULL      0  63 $10   0   0   0	     0 NULL	ProcRCDataMeanTIX		//VID_pProcRCDataMeanTIX		最新の処理結果のＰＭＣ平均データＴＩＸ
+$05151400  20   0       0   NULL      0  95 $10   0   0   0	     0 NULL	ProcRCDataMinAIX		//VID_pProcRCDataMinAIX			最新の処理結果のＰＭＣ最小データＡＩＸ
+$05151A00  20   0       0   NULL      0  63 $10   0   0   0	     0 NULL	ProcRCDataMinTIX		//VID_pProcRCDataMinTIX			最新の処理結果のＰＭＣ最小データＴＩＸ
+$05151E00  20   0       0   NULL      0  95 $10   0   0   0	     0 NULL	ProcRCDataSetAIX		//VID_pProcRCDataSetAIX			最新の処理結果のＰＭＣ設定データＡＩＸ
+$05152400  20   0       0   NULL      0  63 $10   0   0   0	     0 NULL	ProcRCDataSetTIX		//VID_pProcRCDataSetTIX			最新の処理結果のＰＭＣ設定データＴＩＸ
+$05152800  20   0       0   NULL      0  95 $10   0   0   0	     0 NULL	ProcRCDataSigmaAIX		//VID_pProcRCDataSigmaAIX		最新の処理結果のＰＭＣ偏差データＡＩＸ
+$05152E00  20   0       0   NULL      0  63 $10   0   0   0	     0 NULL	ProcRCDataSigmaTIX		//VID_pProcRCDataSigmaTIX		最新の処理結果のＰＭＣ偏差データＴＩＸ
+#
+# Beginning  VID  Min        Maximum  Dev   Dev 1   Dev 1  Dev1 Dev 2  Dev 2  Dev2
+# VID        Fmt  Value      Value    Type  MinVal  MaxVal Incr MinVal MaxVal Incr Default Units     Name                                   VID Identification
+# ---------- ---  -------    -------  ----  ------ ------- ---- ------ ------ ---- ------- --------- -------------------------------------  --------------------------------------------------
+$05153200     20        0          0  NULL       0     175  $10      0      0    0       0 NULL      ProcRCDataMaxTIX                       //VID_pProcRCDataMaxTIXExt      (64--239)	最新の処理結果のＰＭＣ最大データＴＩＸ
+$05153D00     20        0          0  NULL       0     175  $10      0      0    0       0 NULL      ProcRCDataMeanTIX                      //VID_pProcRCDataMeanTIXExt     (64--239)	最新の処理結果のＰＭＣ平均データＴＩＸ
+$05154800     20        0          0  NULL       0     175  $10      0      0    0       0 NULL      ProcRCDataMinTIX                       //VID_pProcRCDataMinTIXExt      (64--239)	最新の処理結果のＰＭＣ最小データＴＩＸ
+$05155300     20        0          0  NULL       0     175  $10      0      0    0       0 NULL      ProcRCDataSetTIX                       //VID_pProcRCDataSetTIXExt      (64--239)	最新の処理結果のＰＭＣ設定データＴＩＸ
+$05155E00     20        0          0  NULL       0     175  $10      0      0    0       0 NULL      ProcRCDataSigmaTIX                     //VID_pProcRCDataSigmaTIXExt    (64--239)	最新の処理結果のＰＭＣ偏差データＴＩＸ
+$05156900     20        0          0  NULL       0      79  $10      0      0    0       0 NULL      ProcRCDataMaxTIX                       //VID_pProcRCDataMaxTIXExt2    (240--319)
+#05156E00     20        0          0  NULL       0     159  $10      0      0    0       0 NULL      ProcRCDataMaxTIX                       //VID_pProcRCDataMaxTIXExt2S   (320--479)
+$05157800     20        0          0  NULL       0      79  $10      0      0    0       0 NULL      ProcRCDataMeanTIX                      //VID_pProcRCDataMeanTIXExt2   (240--319)
+#05157D00     20        0          0  NULL       0     159  $10      0      0    0       0 NULL      ProcRCDataMeanTIX                      //VID_pProcRCDataMeanTIXExt2S  (320--479)
+$05158700     20        0          0  NULL       0      79  $10      0      0    0       0 NULL      ProcRCDataMinTIX                       //VID_pProcRCDataMinTIXExt2    (240--319)
+#05158C00     20        0          0  NULL       0     159  $10      0      0    0       0 NULL      ProcRCDataMinTIX                       //VID_pProcRCDataMinTIXExt2S   (320--479)
+$05159600     20        0          0  NULL       0      79  $10      0      0    0       0 NULL      ProcRCDataSetTIX                       //VID_pProcRCDataSetTIXExt2    (240--319)
+#05159B00     20        0          0  NULL       0     159  $10      0      0    0       0 NULL      ProcRCDataSetTIX                       //VID_pProcRCDataSetTIXExt2S   (320--479)
+$0515A500     20        0          0  NULL       0      79  $10      0      0    0       0 NULL      ProcRCDataSigmaTIX                     //VID_pProcRCDataSigmaTIXExt2  (240--319)
+#0515AA00     20        0          0  NULL       0     159  $10      0      0    0       0 NULL      ProcRCDataSigmaTIX                     //VID_pProcRCDataSigmaTIXExt2S (320--479)
+$0515B400     20        0          0  NULL       0     223  $10      0      0    0       0 NULL      ProcRCDataMaxAIX                       //VID_pProcRCDataMaxAIXExt      (96--319)
+#0515C200     20        0          0  NULL       0     159  $10      0      0    0       0 NULL      ProcRCDataMaxAIX                       //VID_pProcRCDataMaxAIXExtS    (320--479)
+$0515CC00     20        0          0  NULL       0     223  $10      0      0    0       0 NULL      ProcRCDataMeanAIX                      //VID_pProcRCDataMeanAIXExt     (96--319)
+#0515DA00     20        0          0  NULL       0     159  $10      0      0    0       0 NULL      ProcRCDataMeanAIX                      //VID_pProcRCDataMeanAIXExtS   (320--479)
+$0515E400     20        0          0  NULL       0     223  $10      0      0    0       0 NULL      ProcRCDataMinAIX                       //VID_pProcRCDataMinAIXExt      (96--319)
+#0515F200     20        0          0  NULL       0     159  $10      0      0    0       0 NULL      ProcRCDataMinAIX                       //VID_pProcRCDataMinAIXExtS    (320--479)
+$0515FC00     20        0          0  NULL       0     223  $10      0      0    0       0 NULL      ProcRCDataSetAIX                       //VID_pProcRCDataSetAIXExt      (96--319)
+#05160A00     20        0          0  NULL       0     159  $10      0      0    0       0 NULL      ProcRCDataSetAIX                       //VID_pProcRCDataSetAIXExtS    (320--479)
+$05161400     20        0          0  NULL       0     223  $10      0      0    0       0 NULL      ProcRCDataSigmaAIX                     //VID_pProcRCDataSigmaAIXExt    (96--319)
+#05162200     20        0          0  NULL       0     159  $10      0      0    0       0 NULL      ProcRCDataSigmaAIX                     //VID_pProcRCDataSigmaAIXExtS  (320--479)
+// Next Available VID: $05162C00
+
+

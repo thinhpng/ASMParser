@@ -1,0 +1,1195 @@
+"2513","2019/10/16","17:49:12","Recv","S1F13","","33DE","ON","",""
+2019/10/16 17:49:12	<S1F13 W>
+"2512","2019/10/16","17:49:12","Send","S9F1","","0001","OFF","",""
+2019/10/16 17:49:12	<S9F1> 					 \* TN -> Unknown Device ID Sent:  *\
+"2511","2019/10/16","17:58:06","Recv","S1F13","","33E9","ON","List (1)   0",""
+2019/10/16 17:58:06	<S1F13 W>
+"2510","2019/10/16","18:05:28","Send","S1F13","","0001","ON",
+2019/10/16 18:05:28	<S1F13 W>
+"2509","2019/10/16","18:05:28","Recv","S1F14","","0001","OFF",
+2019/10/16 18:05:28	<S1F14>
+"2508","2019/10/16","18:05:28","Send","S6F11","69648 (11010h)","0002","ON",
+2019/10/16 18:05:28	<S6F11 W>
+2019/10/16 18:05:28	<L 3
+2019/10/16 18:05:28	  <U4 69648>			 \* TN -> CEID: EquipmentOFF-LINE *\
+2019/10/16 18:05:28	  <L 2 
+2019/10/16 18:05:28	    <L 2 
+2019/10/16 18:05:28	      <U4 131088>		 \* TN -> RPID: TimeReport *\
+2019/10/16 18:05:28	      <L 1 
+2019/10/16 18:05:28	        <A 2019101618052839 		 \* TN -> 33882160:Clock *\
+2019/10/16 18:05:28	      >
+2019/10/16 18:05:28	    >
+2019/10/16 18:05:28	    <L 2 
+2019/10/16 18:05:28	      <U4 131104>		 \* TN -> RPID: ControlReport *\
+2019/10/16 18:05:28	      <L 1 
+2019/10/16 18:05:28	        <B 0x0 01 		 \* TN -> 33554448:ControlState *\
+2019/10/16 18:05:28	      >
+2019/10/16 18:05:28	    >
+2019/10/16 18:05:28	  >
+2019/10/16 18:05:28	>
+"2506","2019/10/16","18:05:31","Send","S6F11","69664 (11020h)","0004","ON",
+2019/10/16 18:05:31	<S6F11 W>
+2019/10/16 18:05:31	<L 3
+2019/10/16 18:05:31	  <U4 69664>			 \* TN -> CEID: ControlStateLOCAL *\
+2019/10/16 18:05:31	  <L 2 
+2019/10/16 18:05:31	    <L 2 
+2019/10/16 18:05:31	      <U4 131088>		 \* TN -> RPID: TimeReport *\
+2019/10/16 18:05:31	      <L 1 
+2019/10/16 18:05:31	        <A 2019101618053139 		 \* TN -> 33882160:Clock *\
+2019/10/16 18:05:31	      >
+2019/10/16 18:05:31	    >
+2019/10/16 18:05:31	    <L 2 
+2019/10/16 18:05:31	      <U4 131104>		 \* TN -> RPID: ControlReport *\
+2019/10/16 18:05:31	      <L 1 
+2019/10/16 18:05:31	        <B 0x0 04 		 \* TN -> 33554448:ControlState *\
+2019/10/16 18:05:31	      >
+2019/10/16 18:05:31	    >
+2019/10/16 18:05:31	  >
+2019/10/16 18:05:31	>
+"2504","2019/10/16","18:09:41","Send","S6F5","","000A","ON",
+2019/10/16 18:09:41	<S6F5 W>
+"2503","2019/10/16","18:09:41","Recv","S6F6","","000A","OFF","Byte (1)   1  :00",""
+2019/10/16 18:09:41	<S6F6>
+"2502","2019/10/16","18:09:41","Send","S6F11","107392 (1A380h)","000B","ON",
+2019/10/16 18:09:41	<S6F11 W>
+2019/10/16 18:09:41	<L 3
+2019/10/16 18:09:41	  <U4 107392>			 \* TN -> CEID: CarrierLocationChanged *\
+2019/10/16 18:09:41	  <L 4 
+2019/10/16 18:09:41	    <L 2 
+2019/10/16 18:09:41	      <U4 131088>		 \* TN -> RPID: TimeReport *\
+2019/10/16 18:09:41	      <L 1 
+2019/10/16 18:09:41	        <A 2019101618094193 		 \* TN -> 33882160:Clock *\
+2019/10/16 18:09:41	      >
+2019/10/16 18:09:41	    >
+2019/10/16 18:09:41	    <L 2 
+2019/10/16 18:09:41	      <U4 172064>		 \* TN -> RPID: CarrierIDReport *\
+2019/10/16 18:09:41	      <L 1 
+2019/10/16 18:09:41	        <A UNKNOWN 		 \* TN -> 84279328:CarrierID *\
+2019/10/16 18:09:41	      >
+2019/10/16 18:09:41	    >
+2019/10/16 18:09:41	    <L 2 
+2019/10/16 18:09:41	      <U4 172080>		 \* TN -> RPID: LocationIDReport *\
+2019/10/16 18:09:41	      <L 1 
+2019/10/16 18:09:41	        <A LP3 		 \* TN -> 84279344:LocationID *\
+2019/10/16 18:09:41	      >
+2019/10/16 18:09:41	    >
+2019/10/16 18:09:41	    <L 2 
+2019/10/16 18:09:41	      <U4 172144>		 \* TN -> RPID: LocationMatrixReport *\
+2019/10/16 18:09:41	      <L 1 
+2019/10/16 18:09:41	        <L 6 
+2019/10/16 18:09:41	          <L 2 
+2019/10/16 18:09:41	            <A LP1 		 \* TN -> 33947872:CarrierLocationMatrix *\
+2019/10/16 18:09:41	            <A  
+2019/10/16 18:09:41	          >
+2019/10/16 18:09:41	          <L 2 
+2019/10/16 18:09:41	            <A FIMS1 
+2019/10/16 18:09:41	            <A  
+2019/10/16 18:09:41	          >
+2019/10/16 18:09:41	          <L 2 
+2019/10/16 18:09:41	            <A LP2 
+2019/10/16 18:09:41	            <A  
+2019/10/16 18:09:41	          >
+2019/10/16 18:09:41	          <L 2 
+2019/10/16 18:09:41	            <A FIMS2 
+2019/10/16 18:09:41	            <A  
+2019/10/16 18:09:41	          >
+2019/10/16 18:09:41	          <L 2 
+2019/10/16 18:09:41	            <A LP3 
+2019/10/16 18:09:41	            <A UNKNOWN 
+2019/10/16 18:09:41	          >
+2019/10/16 18:09:41	          <L 2 
+2019/10/16 18:09:41	            <A FIMS3 
+2019/10/16 18:09:41	            <A ","" 
+2019/10/16 18:09:41	          >
+2019/10/16 18:09:41	        >
+2019/10/16 18:09:41	      >
+2019/10/16 18:09:41	    >
+2019/10/16 18:09:41	  >
+2019/10/16 18:09:41	>
+"2500","2019/10/16","18:09:41","Send","S6F11","106576 (1A050h)","000C","ON",
+2019/10/16 18:09:41	<S6F11 W>
+2019/10/16 18:09:41	<L 3
+2019/10/16 18:09:41	  <U4 106576>			 \* TN -> CEID: AMSMSCT-4(MANUALWAIT->MANUALHANDOFF) *\
+2019/10/16 18:09:41	  <L 3 
+2019/10/16 18:09:41	    <L 2 
+2019/10/16 18:09:41	      <U4 131088>		 \* TN -> RPID: TimeReport *\
+2019/10/16 18:09:41	      <L 1 
+2019/10/16 18:09:41	        <A 2019101618094179 		 \* TN -> 33882160:Clock *\
+2019/10/16 18:09:41	      >
+2019/10/16 18:09:41	    >
+2019/10/16 18:09:41	    <L 2 
+2019/10/16 18:09:41	      <U4 172048>		 \* TN -> RPID: PortIDReport *\
+2019/10/16 18:09:41	      <L 1 
+2019/10/16 18:09:41	        <U1 3 		 \* TN -> 84279360:PortID *\
+2019/10/16 18:09:41	      >
+2019/10/16 18:09:41	    >
+2019/10/16 18:09:41	    <L 2 
+2019/10/16 18:09:41	      <U4 172208>		 \* TN -> RPID: AccessModeReport *\
+2019/10/16 18:09:41	      <L 1 
+2019/10/16 18:09:41	        <U1 0 		 \* TN -> 84279312:AccessMode *\
+2019/10/16 18:09:41	      >
+2019/10/16 18:09:41	    >
+2019/10/16 18:09:41	  >
+2019/10/16 18:09:41	>
+"2498","2019/10/16","18:09:41","Send","S6F11","107216 (1A2D0h)","000D","ON",
+2019/10/16 18:09:41	<S6F11 W>
+2019/10/16 18:09:41	<L 3
+2019/10/16 18:09:41	  <U4 107216>			 \* TN -> CEID: LPTSMSCT-6(READYTOLOAD->TRANSFERBLOCKED) *\
+2019/10/16 18:09:41	  <L 3 
+2019/10/16 18:09:41	    <L 2 
+2019/10/16 18:09:41	      <U4 131088>		 \* TN -> RPID: TimeReport *\
+2019/10/16 18:09:41	      <L 1 
+2019/10/16 18:09:41	        <A 2019101618094179 		 \* TN -> 33882160:Clock *\
+2019/10/16 18:09:41	      >
+2019/10/16 18:09:41	    >
+2019/10/16 18:09:41	    <L 2 
+2019/10/16 18:09:41	      <U4 172048>		 \* TN -> RPID: PortIDReport *\
+2019/10/16 18:09:41	      <L 1 
+2019/10/16 18:09:41	        <U1 3 		 \* TN -> 84279360:PortID *\
+2019/10/16 18:09:41	      >
+2019/10/16 18:09:41	    >
+2019/10/16 18:09:41	    <L 2 
+2019/10/16 18:09:41	      <U4 172224>		 \* TN -> RPID: PortTransferStateReport *\
+2019/10/16 18:09:41	      <L 1 
+2019/10/16 18:09:41	        <U1 1 		 \* TN -> 84279392:PortTransferState *\
+2019/10/16 18:09:41	      >
+2019/10/16 18:09:41	    >
+2019/10/16 18:09:41	  >
+2019/10/16 18:09:41	>
+"2496","2019/10/16","18:09:42","Send","S6F11","94224 (17010h)","000E","ON",
+2019/10/16 18:09:42	<S6F11 W>
+2019/10/16 18:09:42	<L 3
+2019/10/16 18:09:42	  <U4 94224>			 \* TN -> CEID: MaterialReceived *\
+2019/10/16 18:09:42	  <L 2 
+2019/10/16 18:09:42	    <L 2 
+2019/10/16 18:09:42	      <U4 131088>		 \* TN -> RPID: TimeReport *\
+2019/10/16 18:09:42	      <L 1 
+2019/10/16 18:09:42	        <A 2019101618094246 		 \* TN -> 33882160:Clock *\
+2019/10/16 18:09:42	      >
+2019/10/16 18:09:42	    >
+2019/10/16 18:09:42	    <L 2 
+2019/10/16 18:09:42	      <U4 131200>		 \* TN -> RPID: MaterialOReport *\
+2019/10/16 18:09:42	      <L 2 
+2019/10/16 18:09:42	        <U1 3 		 \* TN -> 84222800:PortLocID *\
+2019/10/16 18:09:42	        <A ","" 		 \* TN -> 84222784:PortCarrierID *\
+2019/10/16 18:09:42	      >
+2019/10/16 18:09:42	    >
+2019/10/16 18:09:42	  >
+2019/10/16 18:09:42	>
+"2494","2019/10/16","18:13:37","Send","S6F11","69680 (11030h)","0014","ON",
+2019/10/16 18:13:37	<S6F11 W>
+2019/10/16 18:13:37	<L 3
+2019/10/16 18:13:37	  <U4 69680>			 \* TN -> CEID: ControlStateREMOTE *\
+2019/10/16 18:13:37	  <L 2 
+2019/10/16 18:13:37	    <L 2 
+2019/10/16 18:13:37	      <U4 131088>		 \* TN -> RPID: TimeReport *\
+2019/10/16 18:13:37	      <L 1 
+2019/10/16 18:13:37	        <A 2019101618133790 		 \* TN -> 33882160:Clock *\
+2019/10/16 18:13:37	      >
+2019/10/16 18:13:37	    >
+2019/10/16 18:13:37	    <L 2 
+2019/10/16 18:13:37	      <U4 131104>		 \* TN -> RPID: ControlReport *\
+2019/10/16 18:13:37	      <L 1 
+2019/10/16 18:13:37	        <B 0x0 05 		 \* TN -> 33554448:ControlState *\
+2019/10/16 18:13:37	      >
+2019/10/16 18:13:37	    >
+2019/10/16 18:13:37	  >
+2019/10/16 18:13:37	>
+"2492","2019/10/16","18:13:38","Recv","S2F31","","33FA","ON","Ascii(1)  16  :2019101618133831",""
+2019/10/16 18:13:38	<S2F31 W>
+"2491","2019/10/16","18:13:40","Send","S2F32","","33FA","OFF","Byte (1)   1  :00",""
+2019/10/16 18:13:40	<S2F32>
+"2490","2019/10/16","18:13:40","Recv","S2F37","","33FB","ON",
+2019/10/16 18:13:40	<S2F37 W> 				 \* TN -> Disabled All CEIDs *\
+"2489","2019/10/16","18:13:40","Send","S2F38","","33FB","OFF",
+2019/10/16 18:13:40	<S2F38> 				 \* TN -> Ok *\
+"2488","2019/10/16","18:13:40","Recv","S2F35","","33FC","ON",
+<S2F35 W>
+  <U4 0> 
+  <L 
+    <L 
+      <U4 94240>			 \* TN -> CEID: MaterialRemoved *\
+      <L 
+    >
+    <L 
+      <U4 98336>			 \* TN -> CEID: PPChange *\
+      <L 
+    >
+    <L 
+      <U4 102577>			 \* TN -> CEID: RCPP1Change *\
+      <L 
+    >
+    <L 
+      <U4 102578>			 \* TN -> CEID: RCPP2Change *\
+      <L 
+    >
+    <L 
+      <U4 98320>			 \* TN -> CEID: ECChange *\
+      <L 
+    >
+    <L 
+      <U4 106544>			 \* TN -> CEID: AMSMSCT-2(MANUAL->AUTO) *\
+      <L 
+    >
+    <L 
+      <U4 106560>			 \* TN -> CEID: AMSMSCT-3(AUTO->MANUAL) *\
+      <L 
+    >
+    <L 
+      <U4 106672>			 \* TN -> CEID: COSMSCT-3(nostate->WTGFORHOST) *\
+      <L 
+    >
+    <L 
+      <U4 106736>			 \* TN -> CEID: COSMSCT-7(IDNOTREAD->WTGFORHOST) *\
+      <L 
+    >
+    <L 
+      <U4 106832>			 \* TN -> CEID: COSMSCT-13(SLOTMAPNOTREAD->SLMAPVEROK) *\
+      <L 
+    >
+    <L 
+      <U4 106848>			 \* TN -> CEID: COSMSCT-14(SLOTMAPNOTREAD->WTGFORHOST) *\
+      <L 
+    >
+    <L 
+      <U4 107136>			 \* TN -> CEID: LPTSMSCT-3(INSERVICE->OUTOFSERVICE) *\
+      <L 
+    >
+    <L 
+      <U4 107184>			 \* TN -> CEID: LPTSMSCT-5(TRANSFERREADY->READYTOLOAD) *\
+      <L 
+    >
+    <L 
+      <U4 107200>			 \* TN -> CEID: LPTSMSCT-5(TRANSFERREADY->READYTOUNLOAD) *\
+      <L 
+    >
+    <L 
+      <U4 107248>			 \* TN -> CEID: LPTSMSCT-8(TRANSFERBLOCKED->READYTOLOAD) *\
+      <L 
+    >
+    <L 
+      <U4 107264>			 \* TN -> CEID: LPTSMSCT-9(TRANSFERBLOCKED->READYTOUNLOAD) *\
+      <L 
+    >
+    <L 
+      <U4 107216>			 \* TN -> CEID: LPTSMSCT-6(READYTOLOAD->TRANSFERBLOCKED) *\
+      <L 
+    >
+    <L 
+      <U4 107232>			 \* TN -> CEID: LPTSMSCT-7(READYTOUNLOAD->TRANSFERBLOCKED) *\
+      <L 
+    >
+    <L 
+      <U4 110608>			 \* TN -> CEID: PJSMSCT-1(nostate->POOLED) *\
+      <L 
+    >
+    <L 
+      <U4 110880>			 \* TN -> CEID: PJSMSCT-18(POOLED->nostate) *\
+      <L 
+    >
+    <L 
+      <U4 110624>			 \* TN -> CEID: PJSMSCT-2(POOLED->SETTINGUP) *\
+      <L 
+    >
+    <L 
+      <U4 110640>			 \* TN -> CEID: PJSMSCT-3(SETTINGUP->WAITINGFORSTART) *\
+      <L 
+    >
+    <L 
+      <U4 110656>			 \* TN -> CEID: PJSMSCT-4(SETTINGUP->PROCESSING) *\
+      <L 
+    >
+    <L 
+      <U4 110672>			 \* TN -> CEID: PJSMSCT-5(WAITINGFORSTART->PROCESSING) *\
+      <L 
+    >
+    <L 
+      <U4 110704>			 \* TN -> CEID: PJSMSCT-7(PROCESSCOMPLETE->nostate) *\
+      <L 
+    >
+    <L 
+      <U4 110800>			 \* TN -> CEID: PJSMSCT-13(EXECUTING->ABORTING) *\
+      <L 
+    >
+    <L 
+      <U4 110752>			 \* TN -> CEID: PJSMSCT-10(PAUSE->EXECUTING) *\
+      <L 
+    >
+    <L 
+      <U4 110832>			 \* TN -> CEID: PJSMSCT-15(PAUSE->ABORTING) *\
+      <L 
+    >
+    <L 
+      <U4 110736>			 \* TN -> CEID: PJSMSCT-9(PAUSING->PAUSED) *\
+      <L 
+    >
+    <L 
+      <U4 110864>			 \* TN -> CEID: PJSMSCT-17(STOPPING->nostate) *\
+      <L 
+    >
+    <L 
+      <U4 110816>			 \* TN -> CEID: PJSMSCT-14(STOPPING->ABORTING) *\
+      <L 
+    >
+    <L 
+      <U4 114704>			 \* TN -> CEID: CJSMSCT-1(nostate->QUEUED) *\
+      <L 
+    >
+    <L 
+      <U4 114720>			 \* TN -> CEID: CJSMSCT-2(QUEUED->nostate) *\
+      <L 
+    >
+    <L 
+      <U4 114736>			 \* TN -> CEID: CJSMSCT-3(QUEUED->SELECTED) *\
+      <L 
+    >
+    <L 
+      <U4 114864>			 \* TN -> CEID: CJSMSCT-11(ACTIVE->COMPLETED) *\
+      <L 
+    >
+    <L 
+      <U4 114752>			 \* TN -> CEID: CJSMSCT-4(SELECTED->QUEUED) *\
+      <L 
+    >
+    <L 
+      <U4 114784>			 \* TN -> CEID: CJSMSCT-6(SELECTED->WAITINGFORSTART) *\
+      <L 
+    >
+    <L 
+      <U4 114768>			 \* TN -> CEID: CJSMSCT-5(SELECTED->EXECUTING) *\
+      <L 
+    >
+    <L 
+      <U4 114800>			 \* TN -> CEID: CJSMSCT-7(WAITINGFORSTART->EXECUTING) *\
+      <L 
+    >
+    <L 
+      <U4 114816>			 \* TN -> CEID: CJSMSCT-8(EXECUTING->PAUSED) *\
+      <L 
+    >
+    <L 
+      <U4 114848>			 \* TN -> CEID: CJSMSCT-10(EXECUTING->COMPLETED) *\
+      <L 
+    >
+    <L 
+      <U4 114832>			 \* TN -> CEID: CJSMSCT-9(PAUSED->EXECUTING) *\
+      <L 
+    >
+    <L 
+      <U4 114880>			 \* TN -> CEID: CJSMSCT-12(ACTIVE->COMPLETED) *\
+      <L 
+    >
+    <L 
+      <U4 118816>			 \* TN -> CEID: SLSMSCT-2(OCCUPIED->UNOCCUPIED) *\
+      <L 
+    >
+    <L 
+      <U4 118800>			 \* TN -> CEID: SLSMSCT-1(UNOCCUPIED->OCCUPIED) *\
+      <L 
+    >
+    <L 
+      <U4 118944>			 \* TN -> CEID: SOSMSCT-4(ATWORK->ATWORK) *\
+      <L 
+    >
+    <L 
+      <U4 119056>			 \* TN -> CEID: SOSMSCT-11(INEEDSPROCESSING->INPROCESS) *\
+      <L 
+    >
+    <L 
+      <U4 119088>			 \* TN -> CEID: SOSMSCT-12(INPROCESS->PROC_COMP\PROCESSED) *\
+      <L 
+    >
+    <L 
+      <U4 77888>			 \* TN -> CEID: ProcessStateChanged *\
+      <L 
+    >
+    <L 
+      <U4 102496>			 \* TN -> CEID: CleaningRecipeStarted *\
+      <L 
+    >
+    <L 
+      <U4 102512>			 \* TN -> CEID: CleaningRecipeFinished *\
+      <L 
+    >
+    <L 
+      <U4 102432>			 \* TN -> CEID: DepositionRecipeStarted *\
+      <L 
+    >
+    <L 
+      <U4 102448>			 \* TN -> CEID: DepositionRecipeFinished *\
+      <L 
+    >
+    <L 
+      <U4 102560>			 \* TN -> CEID: LeakCheckData *\
+      <L 
+    >
+    <L 
+      <U4 77921>			 \* TN -> CEID: RC1RecipeStarted *\
+      <L 
+    >
+    <L 
+      <U4 77937>			 \* TN -> CEID: RC1RecipeFinished *\
+      <L 
+    >
+    <L 
+      <U4 77922>			 \* TN -> CEID: RC2RecipeStarted *\
+      <L 
+    >
+    <L 
+      <U4 77938>			 \* TN -> CEID: RC2RecipeFinished *\
+      <L 
+    >
+    <L 
+      <U4 77905>			 \* TN -> CEID: RC1StateChanged *\
+      <L 
+    >
+    <L 
+      <U4 77906>			 \* TN -> CEID: RC2StateChanged *\
+      <L 
+    >
+  >
+>
+"2487","2019/10/16","18:13:40","Send","S2F36","","33FC","OFF",
+2019/10/16 18:13:40	<S2F36> 				 \* TN -> Ok *\
+"2486","2019/10/16","18:13:40","Recv","S2F33","","33FD","ON",
+<S2F33 W>
+  <U4 0> 
+  <L 
+>
+"2485","2019/10/16","18:13:40","Send","S2F34","","33FD","OFF",
+2019/10/16 18:13:40	<S2F34> 				 \* TN -> Ok *\
+"2484","2019/10/16","18:13:40","Recv","S2F33","","33FE","ON",
+<S2F33 W>
+  <U4 0> 
+  <L 
+    <L 
+      <U4 1022> 
+      <L 
+        <U4 84222800>		 \* TN -> VID: PortLocID *\
+        <U4 84222784>		 \* TN -> VID: PortCarrierID *\
+      >
+    >
+    <L 
+      <U4 100> 
+      <L 
+        <U4 33554448>		 \* TN -> VID: ControlState *\
+      >
+    >
+    <L 
+      <U4 141> 
+      <L 
+        <U4 84213808>		 \* TN -> VID: PPChangeStatus *\
+        <U4 84213824>		 \* TN -> VID: PPChangeName *\
+      >
+    >
+    <L 
+      <U4 201> 
+      <L 
+        <U4 84213776>		 \* TN -> VID: EquipmentConstantID *\
+        <U4 84223424>		 \* TN -> VID: ECChangeData *\
+      >
+    >
+    <L 
+      <U4 101> 
+      <L 
+        <U4 84279360>		 \* TN -> VID: PortID *\
+      >
+    >
+    <L 
+      <U4 102> 
+      <L 
+        <U4 84279360>		 \* TN -> VID: PortID *\
+        <U4 84279328>		 \* TN -> VID: CarrierID *\
+      >
+    >
+    <L 
+      <U4 103> 
+      <L 
+        <U4 84279360>		 \* TN -> VID: PortID *\
+        <U4 84279328>		 \* TN -> VID: CarrierID *\
+        <U4 84279440>		 \* TN -> VID: SlotMap *\
+      >
+    >
+    <L 
+      <U4 300> 
+      <L 
+        <U4 33882160>		 \* TN -> VID: Clock *\
+      >
+    >
+    <L 
+      <U4 105> 
+      <L 
+        <U4 84344848>		 \* TN -> VID: PRJobID *\
+        <U4 84344880>		 \* TN -> VID: PRJobState *\
+      >
+    >
+    <L 
+      <U4 104> 
+      <L 
+        <U4 84410384>		 \* TN -> VID: CtrlJobID *\
+      >
+    >
+    <L 
+      <U4 200> 
+      <L 
+        <U4 17324177>		 \* TN -> VID: RC1Thickness *\
+        <U4 17324178>		 \* TN -> VID: RC2Thickness *\
+        <U4 17302577>		 \* TN -> VID: RC1PSCycleCountTotal *\
+        <U4 17302578>		 \* TN -> VID: RC2PSCycleCountTotal *\
+      >
+    >
+    <L 
+      <U4 9000> 
+      <L 
+        <U4 84475920>		 \* TN -> VID: SubstID *\
+        <U4 84475936>		 \* TN -> VID: SubstLocID *\
+        <U4 84475968>		 \* TN -> VID: SubstProcState *\
+        <U4 84476032>		 \* TN -> VID: SubstLotID *\
+      >
+    >
+    <L 
+      <U4 9009> 
+      <L 
+        <U4 84476064>		 \* TN -> VID: SubstHistory *\
+      >
+    >
+    <L 
+      <U4 106> 
+      <L 
+        <U4 33882384>		 \* TN -> VID: ProcessState *\
+      >
+    >
+    <L 
+      <U4 8000> 
+      <L 
+        <U4 84222992>		 \* TN -> VID: ProcWaferPJ *\
+        <U4 84223024>		 \* TN -> VID: ProcWaferLot *\
+        <U4 84223072>		 \* TN -> VID: ProcWaferID *\
+        <U4 84223056>		 \* TN -> VID: ProcWaferSlot *\
+        <U4 84223088>		 \* TN -> VID: ProcWaferRC *\
+        <U4 84223104>		 \* TN -> VID: ProcWaferPP *\
+        <U4 84223120>		 \* TN -> VID: ProcWaferProRcp *\
+        <U4 85300240>		 \* TN -> VID: UseCountTotal *\
+        <U4 85300272>		 \* TN -> VID: UseTimeTotal *\
+        <U4 85300336>		 \* TN -> VID: PulseStateCountTotal *\
+        <U4 85300368>		 \* TN -> VID: PulseStateTimeTotal *\
+      >
+    >
+    <L 
+      <U4 7000> 
+      <L 
+        <U4 84223488>		 \* TN -> VID: LeakCheckChamber *\
+        <U4 84223504>		 \* TN -> VID: LeakCheckEndTime *\
+        <U4 84223520>		 \* TN -> VID: LeakCheckEndState *\
+        <U4 84223536>		 \* TN -> VID: LeakCheckRecipeName *\
+        <U4 84223552>		 \* TN -> VID: LeakCheckStepData *\
+        <U4 84223568>		 \* TN -> VID: LeakCheckMeasureTime *\
+        <U4 84223584>		 \* TN -> VID: LeakCheckPressFirst *\
+        <U4 84223600>		 \* TN -> VID: LeakCheckPressFinish *\
+        <U4 84223616>		 \* TN -> VID: LeakCheckPressMax *\
+        <U4 84223632>		 \* TN -> VID: LeakCheckPressMin *\
+        <U4 84223648>		 \* TN -> VID: LeakCheckPressLeak *\
+        <U4 84223664>		 \* TN -> VID: LeakCheckLeakRate *\
+        <U4 84223680>		 \* TN -> VID: LeakCheckLeakRateUnit *\
+      >
+    >
+    <L 
+      <U4 4000> 
+      <L 
+        <U4 84222832>		 \* TN -> VID: RCStateChangeRCPPName *\
+        <U4 84222848>		 \* TN -> VID: RCStateChangeLot *\
+        <U4 84222864>		 \* TN -> VID: RCStateChangeCarrier *\
+        <U4 84222880>		 \* TN -> VID: RCStateChangePort *\
+        <U4 84222896>		 \* TN -> VID: RCStateChangeSlot *\
+        <U4 84226560>		 \* TN -> VID: RCStateChangeCtrlJobID *\
+        <U4 84226576>		 \* TN -> VID: RCStateChangePRJobID *\
+        <U4 84226592>		 \* TN -> VID: RCStateChangeWaferID *\
+        <U4 84226608>		 \* TN -> VID: RCStateChangePRJobRecID *\
+        <U4 84226624>		 \* TN -> VID: RCStateChangeRcpType *\
+      >
+    >
+    <L 
+      <U4 4001> 
+      <L 
+        <U4 33882785>		 \* TN -> VID: PreviousRC1State *\
+        <U4 33882769>		 \* TN -> VID: RC1State *\
+      >
+    >
+    <L 
+      <U4 4002> 
+      <L 
+        <U4 33882786>		 \* TN -> VID: PreviousRC2State *\
+        <U4 33882770>		 \* TN -> VID: RC2State *\
+      >
+    >
+  >
+>
+"2483","2019/10/16","18:13:40","Send","S2F34","","33FE","OFF",
+2019/10/16 18:13:40	<S2F34> 				 \* TN -> Ok *\
+"2482","2019/10/16","18:13:40","Recv","S2F35","","33FF","ON",
+<S2F35 W>
+  <U4 0> 
+  <L 
+    <L 
+      <U4 94240>			 \* TN -> CEID: MaterialRemoved *\
+      <L 
+        <U4 1022> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 98336>			 \* TN -> CEID: PPChange *\
+      <L 
+        <U4 141> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 102577>			 \* TN -> CEID: RCPP1Change *\
+      <L 
+        <U4 141> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 102578>			 \* TN -> CEID: RCPP2Change *\
+      <L 
+        <U4 141> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 98320>			 \* TN -> CEID: ECChange *\
+      <L 
+        <U4 201> 
+      >
+    >
+    <L 
+      <U4 106544>			 \* TN -> CEID: AMSMSCT-2(MANUAL->AUTO) *\
+      <L 
+        <U4 101> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 106560>			 \* TN -> CEID: AMSMSCT-3(AUTO->MANUAL) *\
+      <L 
+        <U4 101> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 106672>			 \* TN -> CEID: COSMSCT-3(nostate->WTGFORHOST) *\
+      <L 
+        <U4 102> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 106736>			 \* TN -> CEID: COSMSCT-7(IDNOTREAD->WTGFORHOST) *\
+      <L 
+        <U4 101> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 106832>			 \* TN -> CEID: COSMSCT-13(SLOTMAPNOTREAD->SLMAPVEROK) *\
+      <L 
+        <U4 103> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 106848>			 \* TN -> CEID: COSMSCT-14(SLOTMAPNOTREAD->WTGFORHOST) *\
+      <L 
+        <U4 103> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 107136>			 \* TN -> CEID: LPTSMSCT-3(INSERVICE->OUTOFSERVICE) *\
+      <L 
+        <U4 101> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 107184>			 \* TN -> CEID: LPTSMSCT-5(TRANSFERREADY->READYTOLOAD) *\
+      <L 
+        <U4 101> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 107200>			 \* TN -> CEID: LPTSMSCT-5(TRANSFERREADY->READYTOUNLOAD) *\
+      <L 
+        <U4 102> 
+        <U4 100> 
+        <U4 300> 
+      >
+    >
+    <L 
+      <U4 107248>			 \* TN -> CEID: LPTSMSCT-8(TRANSFERBLOCKED->READYTOLOAD) *\
+      <L 
+        <U4 101> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 107264>			 \* TN -> CEID: LPTSMSCT-9(TRANSFERBLOCKED->READYTOUNLOAD) *\
+      <L 
+        <U4 102> 
+        <U4 100> 
+        <U4 300> 
+      >
+    >
+    <L 
+      <U4 107216>			 \* TN -> CEID: LPTSMSCT-6(READYTOLOAD->TRANSFERBLOCKED) *\
+      <L 
+        <U4 101> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 107232>			 \* TN -> CEID: LPTSMSCT-7(READYTOUNLOAD->TRANSFERBLOCKED) *\
+      <L 
+        <U4 101> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110608>			 \* TN -> CEID: PJSMSCT-1(nostate->POOLED) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110880>			 \* TN -> CEID: PJSMSCT-18(POOLED->nostate) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110624>			 \* TN -> CEID: PJSMSCT-2(POOLED->SETTINGUP) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110640>			 \* TN -> CEID: PJSMSCT-3(SETTINGUP->WAITINGFORSTART) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110656>			 \* TN -> CEID: PJSMSCT-4(SETTINGUP->PROCESSING) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110672>			 \* TN -> CEID: PJSMSCT-5(WAITINGFORSTART->PROCESSING) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110704>			 \* TN -> CEID: PJSMSCT-7(PROCESSCOMPLETE->nostate) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+        <U4 300> 
+      >
+    >
+    <L 
+      <U4 110800>			 \* TN -> CEID: PJSMSCT-13(EXECUTING->ABORTING) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110752>			 \* TN -> CEID: PJSMSCT-10(PAUSE->EXECUTING) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110832>			 \* TN -> CEID: PJSMSCT-15(PAUSE->ABORTING) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110736>			 \* TN -> CEID: PJSMSCT-9(PAUSING->PAUSED) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110864>			 \* TN -> CEID: PJSMSCT-17(STOPPING->nostate) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 110816>			 \* TN -> CEID: PJSMSCT-14(STOPPING->ABORTING) *\
+      <L 
+        <U4 105> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114704>			 \* TN -> CEID: CJSMSCT-1(nostate->QUEUED) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114720>			 \* TN -> CEID: CJSMSCT-2(QUEUED->nostate) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114736>			 \* TN -> CEID: CJSMSCT-3(QUEUED->SELECTED) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114864>			 \* TN -> CEID: CJSMSCT-11(ACTIVE->COMPLETED) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114752>			 \* TN -> CEID: CJSMSCT-4(SELECTED->QUEUED) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114784>			 \* TN -> CEID: CJSMSCT-6(SELECTED->WAITINGFORSTART) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114768>			 \* TN -> CEID: CJSMSCT-5(SELECTED->EXECUTING) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114800>			 \* TN -> CEID: CJSMSCT-7(WAITINGFORSTART->EXECUTING) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114816>			 \* TN -> CEID: CJSMSCT-8(EXECUTING->PAUSED) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114848>			 \* TN -> CEID: CJSMSCT-10(EXECUTING->COMPLETED) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+        <U4 300> 
+        <U4 200> 
+      >
+    >
+    <L 
+      <U4 114832>			 \* TN -> CEID: CJSMSCT-9(PAUSED->EXECUTING) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 114880>			 \* TN -> CEID: CJSMSCT-12(ACTIVE->COMPLETED) *\
+      <L 
+        <U4 104> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 118816>			 \* TN -> CEID: SLSMSCT-2(OCCUPIED->UNOCCUPIED) *\
+      <L 
+        <U4 9000> 
+      >
+    >
+    <L 
+      <U4 118800>			 \* TN -> CEID: SLSMSCT-1(UNOCCUPIED->OCCUPIED) *\
+      <L 
+        <U4 9000> 
+      >
+    >
+    <L 
+      <U4 118944>			 \* TN -> CEID: SOSMSCT-4(ATWORK->ATWORK) *\
+      <L 
+        <U4 9000> 
+        <U4 9009> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 119056>			 \* TN -> CEID: SOSMSCT-11(INEEDSPROCESSING->INPROCESS) *\
+      <L 
+        <U4 9000> 
+      >
+    >
+    <L 
+      <U4 119088>			 \* TN -> CEID: SOSMSCT-12(INPROCESS->PROC_COMP\PROCESSED) *\
+      <L 
+        <U4 9000> 
+        <U4 9009> 
+        <U4 100> 
+        <U4 300> 
+      >
+    >
+    <L 
+      <U4 77888>			 \* TN -> CEID: ProcessStateChanged *\
+      <L 
+        <U4 106> 
+        <U4 100> 
+      >
+    >
+    <L 
+      <U4 102496>			 \* TN -> CEID: CleaningRecipeStarted *\
+      <L 
+        <U4 8000> 
+      >
+    >
+    <L 
+      <U4 102512>			 \* TN -> CEID: CleaningRecipeFinished *\
+      <L 
+        <U4 8000> 
+      >
+    >
+    <L 
+      <U4 102432>			 \* TN -> CEID: DepositionRecipeStarted *\
+      <L 
+        <U4 8000> 
+      >
+    >
+    <L 
+      <U4 102448>			 \* TN -> CEID: DepositionRecipeFinished *\
+      <L 
+        <U4 8000> 
+      >
+    >
+    <L 
+      <U4 102560>			 \* TN -> CEID: LeakCheckData *\
+      <L 
+        <U4 7000> 
+      >
+    >
+    <L 
+      <U4 77921>			 \* TN -> CEID: RC1RecipeStarted *\
+      <L 
+        <U4 100> 
+        <U4 300> 
+        <U4 4000> 
+        <U4 4001> 
+      >
+    >
+    <L 
+      <U4 77937>			 \* TN -> CEID: RC1RecipeFinished *\
+      <L 
+        <U4 100> 
+        <U4 300> 
+        <U4 4000> 
+        <U4 4001> 
+      >
+    >
+    <L 
+      <U4 77922>			 \* TN -> CEID: RC2RecipeStarted *\
+      <L 
+        <U4 100> 
+        <U4 300> 
+        <U4 4000> 
+        <U4 4002> 
+      >
+    >
+    <L 
+      <U4 77938>			 \* TN -> CEID: RC2RecipeFinished *\
+      <L 
+        <U4 100> 
+        <U4 300> 
+        <U4 4000> 
+        <U4 4002> 
+      >
+    >
+    <L 
+      <U4 77905>			 \* TN -> CEID: RC1StateChanged *\
+      <L 
+        <U4 100> 
+        <U4 300> 
+        <U4 4000> 
+        <U4 4001> 
+      >
+    >
+    <L 
+      <U4 77906>			 \* TN -> CEID: RC2StateChanged *\
+      <L 
+        <U4 100> 
+        <U4 300> 
+        <U4 4000> 
+        <U4 4002> 
+      >
+    >
+  >
+>
+"2481","2019/10/16","18:13:40","Send","S2F36","","33FF","OFF",
+2019/10/16 18:13:40	<S2F36> 				 \* TN -> Ok *\
+"2480","2019/10/16","18:13:40","Recv","S2F37","","3400","ON",
+2019/10/16 18:13:40	<S2F37 W> 				 \* TN -> Enabled All CEIDs *\
+"2479","2019/10/16","18:13:40","Send","S2F38","","3400","OFF",
+2019/10/16 18:13:40	<S2F38> 				 \* TN -> Ok *\
+"2478","2019/10/16","18:13:40","Recv","S5F3","","3401","ON",
+2019/10/16 18:13:40	<S5F3 W> 				 \* TN -> Enable All Alarms *\
+"2477","2019/10/16","18:13:40","Send","S5F4","","3401","OFF",
+2019/10/16 18:13:40	<S5F4> 					 \* TN -> Ok *\
+"2476","2019/10/16","18:13:40","Recv","S2F23","","3403","ON",
+2019/10/16 18:13:40	<S2F23 W>
+"2475","2019/10/16","18:13:40","Send","S2F24","","3403","OFF","Byte (1)   1  :00",""
+2019/10/16 18:13:40	<S2F24>
+"2474","2019/10/16","18:13:40","Recv","S2F23","","3404","ON",
+2019/10/16 18:13:40	<S2F23 W>
+"2473","2019/10/16","18:13:40","Send","S2F24","","3404","OFF","Byte (1)   1  :00",""
+2019/10/16 18:13:40	<S2F24>
+"2472","2019/10/16","18:13:40","Recv","S2F23","","3405","ON",
+2019/10/16 18:13:40	<S2F23 W>
+"2471","2019/10/16","18:13:40","Send","S2F24","","3405","OFF","Byte (1)   1  :00",""
+2019/10/16 18:13:40	<S2F24>
+"1345","2019/10/16","18:14:32","Recv","S7F25","","3407","ON",
+2019/10/16 18:14:32	<S7F25 W> Upload: SEQ|P_BR90_CKALO_1
+"1344","2019/10/16","18:14:32","Send","S7F26","","3407","OFF",
+2019/10/16 18:14:32	<S7F26>
+"1341","2019/10/16","18:14:32","Recv","S7F85","","3408","ON","Ascii(1)  18  :SEQ|P_BR90_CKALO_1",""
+2019/10/16 18:14:32	<S7F85 W>
+"1340","2019/10/16","18:14:32","Send","S7F86","","3408","OFF",
+2019/10/16 18:14:32	<S7F86>
+"1335","2019/10/16","18:14:32","Recv","S7F25","","3409","ON",
+2019/10/16 18:14:32	<S7F25 W> Upload: RC1|Coating_AlO
+"1334","2019/10/16","18:14:32","Send","S7F26","","3409","OFF",
+2019/10/16 18:14:32	<S7F26>
+"1331","2019/10/16","18:14:32","Recv","S7F85","","340A","ON","Ascii(1)  15  :RC1|Coating_AlO",""
+2019/10/16 18:14:32	<S7F85 W>
+"1329","2019/10/16","18:14:33","Send","S7F86","","340A","OFF",
+2019/10/16 18:14:33	<S7F86>
+"1323","2019/10/16","18:14:33","Recv","S7F25","","340B","ON",
+2019/10/16 18:14:33	<S7F25 W> Upload: RC1|P_BR90_CKALO_1
+"1320","2019/10/16","18:14:33","Send","S7F26","","340B","OFF",
+2019/10/16 18:14:33	<S7F26>
+"1317","2019/10/16","18:14:33","Recv","S7F85","","340C","ON","Ascii(1)  18  :RC1|P_BR90_CKALO_1",""
+2019/10/16 18:14:33	<S7F85 W>
+"1315","2019/10/16","18:14:33","Send","S7F86","","340C","OFF",
+2019/10/16 18:14:33	<S7F86>
+"1298","2019/10/16","18:14:34","Recv","S2F13","","340D","ON",
+2019/10/16 18:14:34	<S2F13 W>
+"1297","2019/10/16","18:14:34","Send","S2F14","","340D","OFF",
+2019/10/16 18:14:34	<S2F14>
+"1293","2019/10/16","18:14:34","Recv","S2F13","","340E","ON",
+2019/10/16 18:14:34	<S2F13 W>
+"1291","2019/10/16","18:14:34","Send","S2F14","","340E","OFF","List (2)    500",""
+2019/10/16 18:14:34	<S2F14>
+"1288","2019/10/16","18:14:35","Recv","S2F13","","340F","ON",
+2019/10/16 18:14:35	<S2F13 W>
+"1283","2019/10/16","18:14:35","Send","S2F14","","340F","OFF","List (2)    375",""
+2019/10/16 18:14:35	<S2F14>
+"613","2019/10/16","18:15:05","Recv","S7F25","","3410","ON",
+2019/10/16 18:15:05	<S7F25 W> Upload: SEQ|P_BR90_CRALO_1
+"612","2019/10/16","18:15:05","Send","S7F26","","3410","OFF",
+2019/10/16 18:15:05	<S7F26>
+"609","2019/10/16","18:15:05","Recv","S7F85","","3411","ON","Ascii(1)  18  :SEQ|P_BR90_CRALO_1",""
+2019/10/16 18:15:05	<S7F85 W>
+"608","2019/10/16","18:15:05","Send","S7F86","","3411","OFF",
+2019/10/16 18:15:05	<S7F86>
+"605","2019/10/16","18:15:05","Recv","S7F25","","3412","ON",
+2019/10/16 18:15:05	<S7F25 W> Upload: RC1|Coating_AlO
+"604","2019/10/16","18:15:05","Send","S7F26","","3412","OFF",
+2019/10/16 18:15:05	<S7F26>
+"601","2019/10/16","18:15:05","Recv","S7F85","","3413","ON","Ascii(1)  15  :RC1|Coating_AlO",""
+2019/10/16 18:15:05	<S7F85 W>
+"600","2019/10/16","18:15:06","Send","S7F86","","3413","OFF",
+2019/10/16 18:15:06	<S7F86>
+"593","2019/10/16","18:15:06","Recv","S7F25","","3414","ON",
+2019/10/16 18:15:06	<S7F25 W> Upload: RC1|P_BR90_CRALO_1
+"590","2019/10/16","18:15:06","Send","S7F26","","3414","OFF",
+2019/10/16 18:15:06	<S7F26>
+"587","2019/10/16","18:15:06","Recv","S7F85","","3415","ON","Ascii(1)  18  :RC1|P_BR90_CRALO_1",""
+2019/10/16 18:15:06	<S7F85 W>
+"585","2019/10/16","18:15:06","Send","S7F86","","3415","OFF",
+2019/10/16 18:15:06	<S7F86>
+"570","2019/10/16","18:15:07","Recv","S2F13","","3417","ON",
+2019/10/16 18:15:07	<S2F13 W>
+"567","2019/10/16","18:15:07","Send","S2F14","","3417","OFF",
+2019/10/16 18:15:07	<S2F14>
+"564","2019/10/16","18:15:07","Recv","S2F13","","3418","ON",
+2019/10/16 18:15:07	<S2F13 W>
+"561","2019/10/16","18:15:08","Send","S2F14","","3418","OFF","List (2)    500",""
+2019/10/16 18:15:08	<S2F14>
+"558","2019/10/16","18:15:08","Recv","S2F13","","3419","ON",
+2019/10/16 18:15:08	<S2F13 W>
+"555","2019/10/16","18:15:08","Send","S2F14","","3419","OFF","List (2)    375",""
+2019/10/16 18:15:08	<S2F14>
+"257","2019/10/16","18:15:21","Recv","S7F25","","341A","ON",
+2019/10/16 18:15:21	<S7F25 W> Upload: SEQ|P_BR90_CRHFO_2
+"256","2019/10/16","18:15:21","Send","S7F26","","341A","OFF",
+2019/10/16 18:15:21	<S7F26>
+"253","2019/10/16","18:15:21","Recv","S7F85","","341B","ON","Ascii(1)  18  :SEQ|P_BR90_CRHFO_2",""
+2019/10/16 18:15:21	<S7F85 W>
+"252","2019/10/16","18:15:21","Send","S7F86","","341B","OFF",
+2019/10/16 18:15:21	<S7F86>
+"249","2019/10/16","18:15:22","Recv","S7F25","","341C","ON",
+2019/10/16 18:15:22	<S7F25 W> Upload: RC2|Coating_HfO
+"248","2019/10/16","18:15:22","Send","S7F26","","341C","OFF",
+2019/10/16 18:15:22	<S7F26>
+"245","2019/10/16","18:15:22","Recv","S7F85","","341D","ON","Ascii(1)  15  :RC2|Coating_HfO",""
+2019/10/16 18:15:22	<S7F85 W>
+"244","2019/10/16","18:15:22","Send","S7F86","","341D","OFF",
+2019/10/16 18:15:22	<S7F86>
+"238","2019/10/16","18:15:22","Recv","S7F25","","341E","ON",
+2019/10/16 18:15:22	<S7F25 W> Upload: RC2|P_BR90_CRHFO_2
+"233","2019/10/16","18:15:22","Send","S7F26","","341E","OFF",
+2019/10/16 18:15:22	<S7F26>
+"231","2019/10/16","18:15:22","Recv","S7F85","","341F","ON","Ascii(1)  18  :RC2|P_BR90_CRHFO_2",""
+2019/10/16 18:15:22	<S7F85 W>
+"227","2019/10/16","18:15:23","Send","S7F86","","341F","OFF",
+2019/10/16 18:15:23	<S7F86>
+"210","2019/10/16","18:15:24","Recv","S2F13","","3420","ON",
+2019/10/16 18:15:24	<S2F13 W>
+"209","2019/10/16","18:15:24","Send","S2F14","","3420","OFF",
+2019/10/16 18:15:24	<S2F14>
+"204","2019/10/16","18:15:24","Recv","S2F13","","3421","ON",
+2019/10/16 18:15:24	<S2F13 W>
+"203","2019/10/16","18:15:24","Send","S2F14","","3421","OFF","List (2)    500",""
+2019/10/16 18:15:24	<S2F14>
+"197","2019/10/16","18:15:24","Recv","S2F13","","3422","ON",
+2019/10/16 18:15:24	<S2F13 W>
+"193","2019/10/16","18:15:24","Send","S2F14","","3422","OFF","List (2)    375",""
+2019/10/16 18:15:24	<S2F14>

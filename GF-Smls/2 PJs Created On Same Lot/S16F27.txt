@@ -1,0 +1,6 @@
+List (1)   3
+  Ascii(1)  21  :RTA2461-20180417-0031
+  UInt1(1)   1  :6 (06h)
+  List (1)   2
+    Ascii(1)   6  :Action
+    UInt1(1)   1  :1 (01h)

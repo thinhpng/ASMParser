@@ -1,0 +1,59 @@
+List (1)   2
+  UInt4(1)   4  :0 (00h)
+  List (1)   4
+    List (1)   6
+      Ascii(1)  12  :1A-NB1698.00
+      Byte (1)   1  :0D
+      List (1)   1
+        List (1)   2
+          Ascii(1)   1  :2
+          List (1)   1
+            UInt1(1)   1  :1 (01h)
+      List (1)   3
+        UInt1(1)   1  :1 (01h)
+        Ascii(1)   4  :PJ01
+        List (1)   0
+      Truth(1)   1  :FF
+      List (1)   0
+    List (1)   6
+      Ascii(1)  12  :1B-NB1234.00
+      Byte (1)   1  :0D
+      List (1)   1
+        List (1)   2
+          Ascii(1)   1  :2
+          List (1)   1
+            UInt1(1)   1  :2 (02h)
+      List (1)   3
+        UInt1(1)   1  :1 (01h)
+        Ascii(1)   4  :PJ02
+        List (1)   0
+      Truth(1)   1  :FF
+      List (1)   0
+    List (1)   6
+      Ascii(1)  13  :1C-NB16988.00
+      Byte (1)   1  :0D
+      List (1)   1
+        List (1)   2
+          Ascii(1)   1  :2
+          List (1)   1
+            UInt1(1)   1  :3 (03h)
+      List (1)   3
+        UInt1(1)   1  :1 (01h)
+        Ascii(1)   4  :PJ03
+        List (1)   0
+      Truth(1)   1  :FF
+      List (1)   0
+    List (1)   6
+      Ascii(1)  14  :1A-NB169888.00
+      Byte (1)   1  :0D
+      List (1)   1
+        List (1)   2
+          Ascii(1)   1  :2
+          List (1)   1
+            UInt1(1)   1  :4 (04h)
+      List (1)   3
+        UInt1(1)   1  :1 (01h)
+        Ascii(1)   4  :PJ04
+        List (1)   0
+      Truth(1)   1  :FF
+      List (1)   0

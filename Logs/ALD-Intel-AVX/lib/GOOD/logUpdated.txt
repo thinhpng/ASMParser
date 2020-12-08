@@ -1,0 +1,780 @@
+********** BEGINS *************
+"776","10/25","10:52:27","Recv","S1F13",Establish Communications Request 
+"775","10/25","10:52:27","Send","S1F14",Establish Communications Request Acknowledge
+"774","10/25","10:52:27","Recv","S5F3",Enable/Disable Alarm Send
+"773","10/25","10:52:27","Send","S5F4",Enable/Disable Alarm Acknowledge
+"772","10/25","10:52:27","Recv","S6F23",Request Spooled Data
+"771","10/25","10:52:27","Send","S6F24",Request Spooled Data Acknowledgement Send
+"770","10/25","10:52:27","Recv","S2F43",Reset Spooling Streams and Functions
+"769","10/25","10:52:27","Send","S6F11",CEID:69680 ControlStateREMOTE
+"768","10/25","10:52:28","Recv","S6F12",Event Report Acknowledge
+"767","10/25","10:52:28","Send","S2F44",Reset Spooling Acknowledge
+"766","10/25","10:52:28","Recv","S2F31",Date and Time Set Request
+"765","10/25","10:52:29","Send","S2F32",Date and Time Set Acknowledge
+"764","10/25","10:52:30","Recv","S2F33",Define Report
+"763","10/25","10:52:30","Send","S2F34",Define Report Acknowledge
+"762","10/25","10:52:30","Recv","S2F37",Enable/Disable Event Report
+"761","10/25","10:52:30","Send","S2F38",Enable/Disable Event Report Acknowledge
+"760","10/25","10:52:30","Recv","S2F33",Define Report
+"759","10/25","10:52:30","Send","S2F34",Define Report Acknowledge
+"758","10/25","10:52:30","Recv","S2F35",Link Event Report
+"757","10/25","10:52:30","Send","S2F36",Link Event Report Acknowledge
+"756","10/25","10:52:30","Recv","S2F37",Enable/Disable Event Report
+"755","10/25","10:52:30","Send","S2F38",Enable/Disable Event Report Acknowledge
+"754","10/25","10:52:30","Recv","S5F3",Enable/Disable Alarm Send
+"753","10/25","10:52:30","Send","S5F4",Enable/Disable Alarm Acknowledge
+"752","10/25","10:52:30","Recv","S1F13",Establish Communications Request 
+"751","10/25","10:52:30","Send","S1F14",Establish Communications Request Acknowledge
+"750","10/25","10:52:32","Recv","S3F27",Change Access
+"749","10/25","10:52:34","Send","S3F28",Change Access Acknowledge
+"748","10/25","10:53:26","Recv","S7F19",Current EPPD Request
+"747","10/25","10:53:26","Send","S7F20",Current EPPD Data
+"746","10/25","10:53:26","Recv","S7F25",Formatted Process Program Request
+"745","10/25","10:53:26","Send","S7F26",Formatted Process Program Data
+"744","10/25","10:53:26","Recv","S7F25",Formatted Process Program Request
+"743","10/25","10:53:27","Send","S7F26",Formatted Process Program Data
+"742","10/25","10:53:27","Recv","S7F19",Current EPPD Request
+"741","10/25","10:53:27","Send","S7F20",Current EPPD Data
+"740","10/25","10:53:27","Recv","S7F25",Formatted Process Program Request
+"739","10/25","10:53:27","Send","S7F26",Formatted Process Program Data
+"738","10/25","10:53:27","Recv","S7F19",Current EPPD Request
+"737","10/25","10:53:27","Send","S7F20",Current EPPD Data
+"736","10/25","10:53:27","Recv","S7F25",Formatted Process Program Request
+"735","10/25","10:53:28","Send","S7F26",Formatted Process Program Data
+"734","10/25","10:53:28","Recv","S7F19",Current EPPD Request
+"733","10/25","10:53:28","Send","S7F20",Current EPPD Data
+"732","10/25","10:53:28","Recv","S7F25",Formatted Process Program Request
+"731","10/25","10:53:28","Send","S7F26",Formatted Process Program Data
+"730","10/25","10:53:28","Recv","S7F19",Current EPPD Request
+"729","10/25","10:53:28","Send","S7F20",Current EPPD Data
+"728","10/25","10:53:28","Recv","S7F25",Formatted Process Program Request
+"727","10/25","10:53:28","Send","S7F26",Formatted Process Program Data
+"726","10/25","10:53:30","Recv","S3F17",Carrier Action Request 
+"725","10/25","10:53:30","Send","S3F18",Carrier Action Acknowledge 
+"724","10/25","10:53:30","Send","S6F11",CEID:106752 COSMSCT-8(WTGFORHOST->IDVEROK)
+"723","10/25","10:53:30","Recv","S6F12",Event Report Acknowledge
+"722","10/25","10:53:35","Send","S6F11",CEID:106848 COSMSCT-14(SLOTMAPNOTREAD->WTGFORHOST)
+"721","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"720","10/25","10:53:35","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"719","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"718","10/25","10:53:35","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"717","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"716","10/25","10:53:35","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"715","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"714","10/25","10:53:35","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"713","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"712","10/25","10:53:35","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"711","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"710","10/25","10:53:35","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"709","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"708","10/25","10:53:35","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"707","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"706","10/25","10:53:35","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"705","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"704","10/25","10:53:35","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"703","10/25","10:53:35","Recv","S3F17",Carrier Action Request 
+"702","10/25","10:53:35","Send","S3F18",Carrier Action Acknowledge 
+"701","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"700","10/25","10:53:35","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"699","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"698","10/25","10:53:35","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"697","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"696","10/25","10:53:35","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"695","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"694","10/25","10:53:35","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"693","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"692","10/25","10:53:35","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"691","10/25","10:53:35","Recv","S6F12",Event Report Acknowledge
+"690","10/25","10:53:35","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"689","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"688","10/25","10:53:36","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"687","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"686","10/25","10:53:36","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"685","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"684","10/25","10:53:36","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"683","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"682","10/25","10:53:36","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"681","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"680","10/25","10:53:36","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"679","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"678","10/25","10:53:36","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"677","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"676","10/25","10:53:36","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"675","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"674","10/25","10:53:36","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"673","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"672","10/25","10:53:36","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"671","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"670","10/25","10:53:36","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"669","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"668","10/25","10:53:36","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"667","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"666","10/25","10:53:36","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"665","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"664","10/25","10:53:36","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"663","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"662","10/25","10:53:36","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"661","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"660","10/25","10:53:36","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"659","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"658","10/25","10:53:36","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"657","10/25","10:53:36","Recv","S6F12",Event Report Acknowledge
+"656","10/25","10:53:37","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"655","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"654","10/25","10:53:37","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"653","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"652","10/25","10:53:37","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"651","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"650","10/25","10:53:37","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"649","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"648","10/25","10:53:37","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"647","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"646","10/25","10:53:37","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"645","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"644","10/25","10:53:37","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"643","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"642","10/25","10:53:37","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"641","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"640","10/25","10:53:37","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"639","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"638","10/25","10:53:37","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"637","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"636","10/25","10:53:37","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"635","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"634","10/25","10:53:37","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"633","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"632","10/25","10:53:37","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"631","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"630","10/25","10:53:37","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"629","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"628","10/25","10:53:37","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"627","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"626","10/25","10:53:37","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"625","10/25","10:53:37","Recv","S6F12",Event Report Acknowledge
+"624","10/25","10:53:38","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"623","10/25","10:53:38","Recv","S6F12",Event Report Acknowledge
+"622","10/25","10:53:38","Send","S6F11",CEID:118896 SOSMSCT-1(nostate->ATSOURCE)
+"621","10/25","10:53:38","Recv","S6F12",Event Report Acknowledge
+"620","10/25","10:53:38","Send","S6F11",CEID:119040 SOSMSCT-10(nostate->NEEDSPROCESSING)
+"619","10/25","10:53:38","Recv","S6F12",Event Report Acknowledge
+"618","10/25","10:53:38","Send","S6F11",CEID:106864 COSMSCT-15(WTGFORHOST->SLOTMAPVEROK)
+"617","10/25","10:53:38","Recv","S6F12",Event Report Acknowledge
+"616","10/25","10:53:40","Recv","S16F15",PRJobMultiCreate
+"615","10/25","10:53:40","Send","S16F16",PRJobMultiCreate Acknowledge
+"614","10/25","10:53:40","Recv","S14F9",Create Object Request
+"613","10/25","10:53:41","Send","S14F10",Create Object Acknowledge
+"612","10/25","10:53:41","Send","S6F11",CEID:114704 CJSMSCT-1(nostate->QUEUED)
+"611","10/25","10:53:42","Recv","S6F12",Event Report Acknowledge
+"610","10/25","10:53:42","Send","S6F11",CEID:110608 PJSMSCT-1(nostate->POOLED)
+"609","10/25","10:53:42","Recv","S6F12",Event Report Acknowledge
+"608","10/25","10:53:42","Send","S6F11",CEID:114736 CJSMSCT-3(QUEUED->SELECTED)
+"607","10/25","10:53:42","Recv","S6F12",Event Report Acknowledge
+"606","10/25","10:53:42","Send","S6F11",CEID:110624 PJSMSCT-2(POOLED->SETTINGUP)
+"605","10/25","10:53:42","Recv","S6F12",Event Report Acknowledge
+"604","10/25","10:53:42","Send","S6F11",CEID:114768 CJSMSCT-5(SELECTED->EXECUTING)
+"603","10/25","10:53:42","Recv","S6F12",Event Report Acknowledge
+"602","10/25","10:53:42","Send","S6F11",CEID:110656 PJSMSCT-4(SETTINGUP->PROCESSING)
+"601","10/25","10:53:42","Recv","S6F12",Event Report Acknowledge
+"600","10/25","10:53:42","Send","S6F11",CEID:106912 COSMSCT-18(NOTACCESSED->INACCESS)
+"599","10/25","10:53:42","Recv","S6F12",Event Report Acknowledge
+"598","10/25","10:53:43","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"597","10/25","10:53:43","Recv","S6F12",Event Report Acknowledge
+"596","10/25","10:53:43","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"595","10/25","10:53:43","Recv","S6F12",Event Report Acknowledge
+"594","10/25","10:53:43","Send","S6F11",CEID:118912 SOSMSCT-2(ATSOURCE->ATWORK)
+"593","10/25","10:53:43","Recv","S6F12",Event Report Acknowledge
+"592","10/25","10:53:43","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"591","10/25","10:53:43","Recv","S6F12",Event Report Acknowledge
+"590","10/25","10:53:43","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"589","10/25","10:53:43","Recv","S6F12",Event Report Acknowledge
+"588","10/25","10:53:44","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"587","10/25","10:53:44","Recv","S6F12",Event Report Acknowledge
+"586","10/25","10:53:46","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"585","10/25","10:53:46","Recv","S6F12",Event Report Acknowledge
+"584","10/25","10:53:46","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"583","10/25","10:53:46","Recv","S6F12",Event Report Acknowledge
+"582","10/25","10:53:46","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"581","10/25","10:53:46","Recv","S6F12",Event Report Acknowledge
+"580","10/25","10:53:49","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"579","10/25","10:53:49","Recv","S6F12",Event Report Acknowledge
+"578","10/25","10:53:49","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"577","10/25","10:53:49","Recv","S6F12",Event Report Acknowledge
+"576","10/25","10:53:49","Send","S6F11",CEID:118912 SOSMSCT-2(ATSOURCE->ATWORK)
+"575","10/25","10:53:49","Recv","S6F12",Event Report Acknowledge
+"574","10/25","10:53:50","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"573","10/25","10:53:50","Recv","S6F12",Event Report Acknowledge
+"572","10/25","10:53:50","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"571","10/25","10:53:50","Recv","S6F12",Event Report Acknowledge
+"570","10/25","10:53:50","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"569","10/25","10:53:50","Recv","S6F12",Event Report Acknowledge
+"568","10/25","10:54:07","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"567","10/25","10:54:07","Recv","S6F12",Event Report Acknowledge
+"566","10/25","10:54:07","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"565","10/25","10:54:07","Recv","S6F12",Event Report Acknowledge
+"564","10/25","10:54:07","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"563","10/25","10:54:07","Recv","S6F12",Event Report Acknowledge
+"562","10/25","10:54:24","Send","S6F11",CEID:119056 SOSMSCT-11(INEEDSPROCESSING->INPROCESS)
+"561","10/25","10:54:24","Recv","S6F12",Event Report Acknowledge
+"560","10/25","10:54:25","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"559","10/25","10:54:25","Recv","S6F12",Event Report Acknowledge
+"558","10/25","10:54:25","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"557","10/25","10:54:25","Recv","S6F12",Event Report Acknowledge
+"556","10/25","10:54:26","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"555","10/25","10:54:26","Recv","S6F12",Event Report Acknowledge
+"554","10/25","10:56:05","Send","S6F11",CEID:119088 SOSMSCT-12(INPROCESS->PROC_COMP\PROCESSED)
+"553","10/25","10:56:05","Recv","S6F12",Event Report Acknowledge
+"552","10/25","10:56:25","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"551","10/25","10:56:25","Recv","S6F12",Event Report Acknowledge
+"550","10/25","10:56:25","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"549","10/25","10:56:25","Recv","S6F12",Event Report Acknowledge
+"548","10/25","10:56:26","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"547","10/25","10:56:26","Recv","S6F12",Event Report Acknowledge
+"546","10/25","10:56:26","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"545","10/25","10:56:26","Recv","S6F12",Event Report Acknowledge
+"544","10/25","10:56:26","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"543","10/25","10:56:26","Recv","S6F12",Event Report Acknowledge
+"542","10/25","10:56:27","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"541","10/25","10:56:27","Recv","S6F12",Event Report Acknowledge
+"540","10/25","10:56:27","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"539","10/25","10:56:27","Recv","S6F12",Event Report Acknowledge
+"538","10/25","10:56:28","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"537","10/25","10:56:28","Recv","S6F12",Event Report Acknowledge
+"536","10/25","10:56:28","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"535","10/25","10:56:28","Recv","S6F12",Event Report Acknowledge
+"534","10/25","10:56:30","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"533","10/25","10:56:30","Recv","S6F12",Event Report Acknowledge
+"532","10/25","10:56:30","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"531","10/25","10:56:30","Recv","S6F12",Event Report Acknowledge
+"530","10/25","10:56:31","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"529","10/25","10:56:31","Recv","S6F12",Event Report Acknowledge
+"528","10/25","10:56:31","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"527","10/25","10:56:31","Recv","S6F12",Event Report Acknowledge
+"526","10/25","10:56:31","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"525","10/25","10:56:31","Recv","S6F12",Event Report Acknowledge
+"524","10/25","10:56:32","Send","S6F11",CEID:118960 SOSMSCT-5(ATWORK->ATDESTINATION)
+"523","10/25","10:56:32","Recv","S6F12",Event Report Acknowledge
+"522","10/25","10:56:42","Send","S6F11",CEID:119056 SOSMSCT-11(INEEDSPROCESSING->INPROCESS)
+"521","10/25","10:56:42","Recv","S6F12",Event Report Acknowledge
+"520","10/25","10:58:23","Send","S6F11",CEID:119088 SOSMSCT-12(INPROCESS->PROC_COMP\PROCESSED)
+"519","10/25","10:58:23","Recv","S6F12",Event Report Acknowledge
+"518","10/25","10:58:23","Send","S6F11",CEID:110688 PJSMSCT-6(PROCESSING->PROCESSINGCOMPLETE)
+"517","10/25","10:58:23","Recv","S6F12",Event Report Acknowledge
+"516","10/25","10:58:44","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"515","10/25","10:58:44","Recv","S6F12",Event Report Acknowledge
+"514","10/25","10:58:44","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"513","10/25","10:58:44","Recv","S6F12",Event Report Acknowledge
+"512","10/25","10:58:44","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"511","10/25","10:58:44","Recv","S6F12",Event Report Acknowledge
+"510","10/25","10:58:45","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"509","10/25","10:58:45","Recv","S6F12",Event Report Acknowledge
+"508","10/25","10:58:45","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"507","10/25","10:58:45","Recv","S6F12",Event Report Acknowledge
+"506","10/25","10:58:46","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"505","10/25","10:58:46","Recv","S6F12",Event Report Acknowledge
+"504","10/25","10:58:48","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"503","10/25","10:58:48","Recv","S6F12",Event Report Acknowledge
+"502","10/25","10:58:48","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"501","10/25","10:58:48","Recv","S6F12",Event Report Acknowledge
+"500","10/25","10:58:49","Send","S6F11",CEID:118944 SOSMSCT-4(ATWORK->ATWORK)
+"499","10/25","10:58:49","Recv","S6F12",Event Report Acknowledge
+"498","10/25","10:58:49","Send","S6F11",CEID:118816 SLSMSCT-2(OCCUPIED->UNOCCUPIED)
+"497","10/25","10:58:49","Recv","S6F12",Event Report Acknowledge
+"496","10/25","10:58:49","Send","S6F11",CEID:118800 SLSMSCT-1(UNOCCUPIED->OCCUPIED)
+"495","10/25","10:58:49","Recv","S6F12",Event Report Acknowledge
+"494","10/25","10:58:49","Send","S6F11",CEID:118960 SOSMSCT-5(ATWORK->ATDESTINATION)
+"493","10/25","10:58:50","Recv","S6F12",Event Report Acknowledge
+"492","10/25","10:59:09","Send","S6F11",CEID:106928 COSMSCT-19(INACCESS->CARRIERCOMPLETE)
+"491","10/25","10:59:10","Recv","S6F12",Event Report Acknowledge
+"490","10/25","10:59:10","Send","S6F11",CEID:110704 PJSMSCT-7(PROCESSCOMPLETE->nostate)
+"489","10/25","10:59:10","Recv","S6F12",Event Report Acknowledge
+"488","10/25","10:59:11","Send","S6F11",CEID:114848 CJSMSCT-10(EXECUTING->COMPLETED)
+"487","10/25","10:59:11","Recv","S6F12",Event Report Acknowledge
+"486","10/25","10:59:11","Send","S6F11",CEID:114848 CJSMSCT-10(EXECUTING->COMPLETED)
+"485","10/25","10:59:11","Recv","S6F12",Event Report Acknowledge
+"484","10/25","10:59:11","Send","S6F11",CEID:114896 CJSMSCT-13(COMPLETED->nostate)
+"483","10/25","10:59:11","Recv","S6F12",Event Report Acknowledge
+"482","10/25","10:59:17","Send","S6F11",CEID:107264 LPTSMSCT-9(TRANSFERBLOCKED->READYTOUNLOAD)
+"481","10/25","10:59:17","Recv","S6F12",Event Report Acknowledge
+"480","10/25","10:59:18","Send","S6F11",CEID:107232 LPTSMSCT-7(READYTOUNLOAD->TRANSFERBLOCKED)
+"479","10/25","10:59:18","Recv","S6F12",Event Report Acknowledge
+"478","10/25","10:59:21","Send","S6F11",CEID:118992 SOSMSCT-7(ATDESTINATION->nostate)
+"477","10/25","10:59:21","Recv","S6F12",Event Report Acknowledge
+"476","10/25","10:59:22","Send","S6F11",CEID:118992 SOSMSCT-7(ATDESTINATION->nostate)
+"475","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"474","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"473","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"472","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"471","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"470","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"469","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"468","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"467","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"466","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"465","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"464","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"463","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"462","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"461","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"460","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"459","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"458","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"457","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"456","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"455","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"454","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"453","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"452","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"451","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"450","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"449","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"448","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"447","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"446","10/25","10:59:22","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"445","10/25","10:59:22","Recv","S6F12",Event Report Acknowledge
+"444","10/25","10:59:23","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"443","10/25","10:59:23","Recv","S6F12",Event Report Acknowledge
+"442","10/25","10:59:23","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"441","10/25","10:59:23","Recv","S6F12",Event Report Acknowledge
+"440","10/25","10:59:23","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"439","10/25","10:59:23","Recv","S6F12",Event Report Acknowledge
+"438","10/25","10:59:23","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"437","10/25","10:59:23","Recv","S6F12",Event Report Acknowledge
+"436","10/25","10:59:23","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"435","10/25","10:59:23","Recv","S6F12",Event Report Acknowledge
+"434","10/25","10:59:23","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"433","10/25","10:59:23","Recv","S6F12",Event Report Acknowledge
+"432","10/25","10:59:23","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"431","10/25","10:59:23","Recv","S6F12",Event Report Acknowledge
+"430","10/25","10:59:23","Send","S6F11",CEID:119024 SOSMSCT-9(AnySUBSTRATEsubstate->nostate)
+"429","10/25","10:59:23","Recv","S6F12",Event Report Acknowledge
+"428","10/25","10:59:23","Send","S6F11",CEID:106960 COSMSCT-21(CARRIER->nostate)
+"427","10/25","10:59:23","Recv","S6F12",Event Report Acknowledge
+"426","10/25","10:59:25","Send","S6F11",CEID:107248 LPTSMSCT-8(TRANSFERBLOCKED->READYTOLOAD)
+"425","10/25","10:59:25","Recv","S6F12",Event Report Acknowledge
+"424","10/25","10:59:26","Send","S6F11",CEID:107216 LPTSMSCT-6(READYTOLOAD->TRANSFERBLOCKED)
+"423","10/25","10:59:26","Recv","S6F12",Event Report Acknowledge
+"422","10/25","10:59:26","Send","S6F11",CEID:94224 MaterialReceived
+"421","10/25","10:59:26","Recv","S6F12",Event Report Acknowledge
+"420","10/25","10:59:31","Send","S6F11",CEID:106640 COSMSCT-1(nostate->Carrier)
+"419","10/25","10:59:31","Recv","S6F12",Event Report Acknowledge
+"418","10/25","10:59:31","Send","S6F11",CEID:106672 COSMSCT-3(nostate->WTGFORHOST)
+"417","10/25","10:59:31","Recv","S6F12",Event Report Acknowledge
+"416","10/25","10:59:31","Send","S6F11",CEID:106816 COSMSCT-12(nostate->SMPNTREAD)
+"415","10/25","10:59:31","Recv","S6F12",Event Report Acknowledge
+"414","10/25","10:59:31","Send","S6F11",CEID:106896 COSMSCT-17(nostate->NOTACCESSED)
+"413","10/25","10:59:31","Recv","S6F12",Event Report Acknowledge
+"412","10/25","11:03:49","Recv","S1F13",Establish Communications Request 
+"411","10/25","11:03:49","Send","S1F14",Establish Communications Request Acknowledge
+"410","10/25","11:03:49","Recv","S5F3",Enable/Disable Alarm Send
+"409","10/25","11:03:49","Send","S6F11",CEID:69680 ControlStateREMOTE
+"408","10/25","11:03:49","Recv","S6F12",Event Report Acknowledge
+"407","10/25","11:03:49","Send","S5F4",Enable/Disable Alarm Acknowledge
+"406","10/25","11:03:49","Recv","S6F23",Request Spooled Data
+"405","10/25","11:03:49","Send","S6F24",Request Spooled Data Acknowledgement Send
+"404","10/25","11:03:49","Recv","S2F43",Reset Spooling Streams and Functions
+"403","10/25","11:03:49","Send","S2F44",Reset Spooling Acknowledge
+"402","10/25","11:03:49","Recv","S2F31",Date and Time Set Request
+"401","10/25","11:03:51","Send","S2F32",Date and Time Set Acknowledge
+"400","10/25","11:03:51","Recv","S2F33",Define Report
+"399","10/25","11:03:51","Send","S2F34",Define Report Acknowledge
+"398","10/25","11:03:51","Recv","S2F37",Enable/Disable Event Report
+"397","10/25","11:03:51","Send","S2F38",Enable/Disable Event Report Acknowledge
+"396","10/25","11:03:51","Recv","S2F33",Define Report
+"395","10/25","11:03:51","Send","S2F34",Define Report Acknowledge
+"394","10/25","11:03:51","Recv","S2F35",Link Event Report
+"393","10/25","11:03:51","Send","S2F36",Link Event Report Acknowledge
+"392","10/25","11:03:51","Recv","S2F37",Enable/Disable Event Report
+"391","10/25","11:03:51","Send","S2F38",Enable/Disable Event Report Acknowledge
+"390","10/25","11:03:51","Recv","S5F3",Enable/Disable Alarm Send
+"389","10/25","11:03:51","Send","S5F4",Enable/Disable Alarm Acknowledge
+"388","10/25","11:03:51","Recv","S1F13",Establish Communications Request 
+"387","10/25","11:03:52","Send","S1F14",Establish Communications Request Acknowledge
+"386","10/25","11:03:54","Recv","S3F27",Change Access
+"385","10/25","11:03:56","Send","S3F28",Change Access Acknowledge
+"384","10/25","11:07:04","Recv","S1F13",Establish Communications Request 
+"383","10/25","11:07:04","Send","S1F14",Establish Communications Request Acknowledge
+"382","10/25","11:07:04","Send","S6F11",CEID:69680 ControlStateREMOTE
+"381","10/25","11:07:04","Recv","S6F12",Event Report Acknowledge
+"380","10/25","11:07:04","Recv","S5F3",Enable/Disable Alarm Send
+"379","10/25","11:07:04","Send","S5F4",Enable/Disable Alarm Acknowledge
+"378","10/25","11:07:05","Recv","S6F23",Request Spooled Data
+"377","10/25","11:07:05","Send","S6F24",Request Spooled Data Acknowledgement Send
+"376","10/25","11:07:05","Recv","S2F43",Reset Spooling Streams and Functions
+"375","10/25","11:07:05","Send","S2F44",Reset Spooling Acknowledge
+"374","10/25","11:07:05","Recv","S2F31",Date and Time Set Request
+"373","10/25","11:07:07","Send","S2F32",Date and Time Set Acknowledge
+"372","10/25","11:07:07","Recv","S2F33",Define Report
+"371","10/25","11:07:07","Send","S2F34",Define Report Acknowledge
+"370","10/25","11:07:07","Recv","S2F37",Enable/Disable Event Report
+"369","10/25","11:07:07","Send","S2F38",Enable/Disable Event Report Acknowledge
+"368","10/25","11:07:07","Recv","S2F33",Define Report
+"367","10/25","11:07:07","Send","S2F34",Define Report Acknowledge
+"366","10/25","11:07:07","Recv","S2F35",Link Event Report
+"365","10/25","11:07:07","Send","S2F36",Link Event Report Acknowledge
+"364","10/25","11:07:07","Recv","S2F37",Enable/Disable Event Report
+"363","10/25","11:07:07","Send","S2F38",Enable/Disable Event Report Acknowledge
+"362","10/25","11:07:07","Recv","S5F3",Enable/Disable Alarm Send
+"361","10/25","11:07:07","Send","S5F4",Enable/Disable Alarm Acknowledge
+"360","10/25","11:07:07","Recv","S1F13",Establish Communications Request 
+"359","10/25","11:07:07","Send","S1F14",Establish Communications Request Acknowledge
+"358","10/25","11:07:09","Recv","S3F27",Change Access
+"357","10/25","11:07:12","Send","S3F28",Change Access Acknowledge
+"356","10/25","11:14:09","Recv","S1F13",Establish Communications Request 
+"355","10/25","11:14:09","Send","S1F14",Establish Communications Request Acknowledge
+"354","10/25","11:14:09","Send","S6F11",CEID:69680 ControlStateREMOTE
+"353","10/25","11:14:09","Recv","S6F12",Event Report Acknowledge
+"352","10/25","11:14:09","Recv","S5F3",Enable/Disable Alarm Send
+"351","10/25","11:14:09","Send","S5F4",Enable/Disable Alarm Acknowledge
+"350","10/25","11:14:10","Recv","S6F23",Request Spooled Data
+"349","10/25","11:14:10","Send","S6F24",Request Spooled Data Acknowledgement Send
+"348","10/25","11:14:10","Recv","S2F43",Reset Spooling Streams and Functions
+"347","10/25","11:14:10","Send","S2F44",Reset Spooling Acknowledge
+"346","10/25","11:14:10","Recv","S2F31",Date and Time Set Request
+"345","10/25","11:14:12","Send","S2F32",Date and Time Set Acknowledge
+"344","10/25","11:14:12","Recv","S2F33",Define Report
+"343","10/25","11:14:12","Send","S2F34",Define Report Acknowledge
+"342","10/25","11:14:12","Recv","S2F37",Enable/Disable Event Report
+"341","10/25","11:14:12","Send","S2F38",Enable/Disable Event Report Acknowledge
+"340","10/25","11:14:12","Recv","S2F33",Define Report
+"339","10/25","11:14:12","Send","S2F34",Define Report Acknowledge
+"338","10/25","11:14:12","Recv","S2F35",Link Event Report
+"337","10/25","11:14:12","Send","S2F36",Link Event Report Acknowledge
+"336","10/25","11:14:12","Recv","S2F37",Enable/Disable Event Report
+"335","10/25","11:14:12","Send","S2F38",Enable/Disable Event Report Acknowledge
+"334","10/25","11:14:12","Recv","S5F3",Enable/Disable Alarm Send
+"333","10/25","11:14:12","Send","S5F4",Enable/Disable Alarm Acknowledge
+"332","10/25","11:14:12","Recv","S1F13",Establish Communications Request 
+"331","10/25","11:14:12","Send","S1F14",Establish Communications Request Acknowledge
+"330","10/25","11:14:14","Recv","S3F27",Change Access
+"329","10/25","11:14:17","Send","S3F28",Change Access Acknowledge
+"328","11/20","16:01:35","Recv","S1F13",Establish Communications Request 
+"327","11/20","16:01:35","Send","S1F14",Establish Communications Request Acknowledge
+"326","11/20","16:01:35","Send","S1F0",Abort Transaction
+"325","11/20","16:01:35","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"324","11/20","16:01:35","Recv","S6F12",Event Report Acknowledge
+"323","11/20","16:01:37","Send","S1F0",Abort Transaction
+"322","11/20","16:14:20","Recv","S1F13",Establish Communications Request 
+"321","11/20","16:14:21","Send","S1F14",Establish Communications Request Acknowledge
+"320","11/20","16:14:21","Send","S1F0",Abort Transaction
+"319","11/20","16:14:21","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"318","11/20","16:14:21","Recv","S6F12",Event Report Acknowledge
+"317","11/20","16:14:22","Send","S1F0",Abort Transaction
+"316","11/20","16:15:59","Recv","S1F13",Establish Communications Request 
+"315","11/20","16:15:59","Send","S1F14",Establish Communications Request Acknowledge
+"314","11/20","16:15:59","Send","S1F0",Abort Transaction
+"313","11/20","16:15:59","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"312","11/20","16:15:59","Recv","S6F12",Event Report Acknowledge
+"311","11/20","16:16:00","Send","S1F0",Abort Transaction
+"310","11/20","16:18:47","Recv","S1F13",Establish Communications Request 
+"309","11/20","16:18:47","Send","S1F14",Establish Communications Request Acknowledge
+"308","11/20","16:18:47","Send","S1F0",Abort Transaction
+"307","11/20","16:18:47","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"306","11/20","16:18:47","Recv","S6F12",Event Report Acknowledge
+"305","11/20","16:18:48","Send","S1F0",Abort Transaction
+"304","11/20","16:19:56","Recv","S1F13",Establish Communications Request 
+"303","11/20","16:19:56","Send","S1F14",Establish Communications Request Acknowledge
+"302","11/20","16:19:57","Send","S1F0",Abort Transaction
+"301","11/20","16:19:57","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"300","11/20","16:19:57","Recv","S6F12",Event Report Acknowledge
+"299","11/20","16:19:58","Send","S1F0",Abort Transaction
+"298","11/20","16:20:39","Send","S1F13",Establish Communications Request 
+"297","11/20","16:20:39","Recv","S1F14",Establish Communications Request Acknowledge
+"296","11/20","16:20:39","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"295","11/20","16:20:39","Recv","S6F12",Event Report Acknowledge
+"294","11/20","16:21:49","Recv","S1F13",Establish Communications Request 
+"293","11/20","16:21:49","Send","S1F14",Establish Communications Request Acknowledge
+"292","11/20","16:21:50","Send","S1F0",Abort Transaction
+"291","11/20","16:21:50","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"290","11/20","16:21:50","Recv","S6F12",Event Report Acknowledge
+"289","11/20","16:21:51","Send","S1F0",Abort Transaction
+"288","11/20","16:26:01","Recv","S1F13",Establish Communications Request 
+"287","11/20","16:26:01","Send","S1F13",Establish Communications Request 
+"286","11/20","16:26:01","Send","S1F14",Establish Communications Request Acknowledge
+"285","11/20","16:26:01","Recv","S1F14",Establish Communications Request Acknowledge
+"284","11/20","16:26:01","Send","S1F0",Abort Transaction
+"283","11/20","16:26:01","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"282","11/20","16:26:02","Recv","S6F12",Event Report Acknowledge
+"281","11/20","16:26:03","Send","S1F0",Abort Transaction
+"280","11/20","16:28:21","Recv","S1F13",Establish Communications Request 
+"279","11/20","16:28:21","Send","S1F14",Establish Communications Request Acknowledge
+"278","11/20","16:28:22","Send","S1F0",Abort Transaction
+"277","11/20","16:28:22","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"276","11/20","16:28:22","Recv","S6F12",Event Report Acknowledge
+"275","11/20","16:28:23","Send","S1F0",Abort Transaction
+"274","11/20","16:29:13","Send","S1F13",Establish Communications Request 
+"273","11/20","16:29:13","Recv","S1F14",Establish Communications Request Acknowledge
+"272","11/20","16:29:13","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"271","11/20","16:29:13","Recv","S6F12",Event Report Acknowledge
+"270","11/20","16:30:54","Recv","S1F13",Establish Communications Request 
+"269","11/20","16:30:54","Send","S1F13",Establish Communications Request 
+"268","11/20","16:30:54","Send","S1F14",Establish Communications Request Acknowledge
+"267","11/20","16:30:54","Recv","S1F14",Establish Communications Request Acknowledge
+"266","11/20","16:30:55","Send","S1F0",Abort Transaction
+"265","11/20","16:30:55","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"264","11/20","16:30:55","Recv","S6F12",Event Report Acknowledge
+"263","11/20","16:30:56","Send","S1F0",Abort Transaction
+"262","11/20","16:36:18","Recv","S1F13",Establish Communications Request 
+"261","11/20","16:36:18","Send","S1F14",Establish Communications Request Acknowledge
+"260","11/20","16:36:18","Send","S1F0",Abort Transaction
+"259","11/20","16:36:18","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"258","11/20","16:36:19","Recv","S6F12",Event Report Acknowledge
+"257","11/20","16:36:20","Send","S1F0",Abort Transaction
+"256","11/20","16:42:28","Send","S1F13",Establish Communications Request 
+"255","11/20","16:42:28","Recv","S1F14",Establish Communications Request Acknowledge
+"254","11/20","16:42:28","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"253","11/20","16:42:28","Recv","S6F12",Event Report Acknowledge
+"252","11/20","16:44:14","Send","S1F13",Establish Communications Request 
+"251","11/20","16:44:14","Recv","S1F14",Establish Communications Request Acknowledge
+"250","11/20","16:44:14","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"249","11/20","16:44:14","Recv","S6F12",Event Report Acknowledge
+"248","11/21","13:54:47","Recv","S1F13",Establish Communications Request 
+"247","11/21","13:54:47","Send","S1F14",Establish Communications Request Acknowledge
+"246","11/21","13:54:47","Send","S1F0",Abort Transaction
+"245","11/21","13:54:47","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"244","11/21","13:54:47","Recv","S6F12",Event Report Acknowledge
+"243","11/21","13:54:49","Send","S1F0",Abort Transaction
+"242","11/27","15:46:28","Recv","S1F13",Establish Communications Request 
+"241","11/27","15:46:28","Send","S1F14",Establish Communications Request Acknowledge
+"240","11/27","15:46:28","Send","S1F0",Abort Transaction
+"239","11/27","15:46:28","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"238","11/27","15:46:28","Recv","S6F12",Event Report Acknowledge
+"237","11/27","15:46:30","Send","S1F0",Abort Transaction
+"236","11/27","16:06:10","Recv","S1F13",Establish Communications Request 
+"235","11/27","16:06:10","Send","S1F14",Establish Communications Request Acknowledge
+"234","11/27","16:06:10","Send","S1F0",Abort Transaction
+"233","11/27","16:06:10","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"232","11/27","16:06:10","Recv","S6F12",Event Report Acknowledge
+"231","11/27","16:06:11","Send","S1F0",Abort Transaction
+"230","11/29","10:51:55","Send","S1F13",Establish Communications Request 
+"229","11/29","10:51:55","Recv","S1F14",Establish Communications Request Acknowledge
+"228","11/29","10:51:55","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"227","11/29","10:51:56","Recv","S6F12",Event Report Acknowledge
+"226","11/29","10:52:41","Send","S6F11",CEID:69680 ControlStateREMOTE
+"225","11/29","10:52:41","Recv","S6F12",Event Report Acknowledge
+"224","11/29","10:56:36","Recv","S1F13",Establish Communications Request 
+"223","11/29","10:56:36","Send","S1F14",Establish Communications Request Acknowledge
+"222","11/29","10:56:36","Recv","S5F3",Enable/Disable Alarm Send
+"221","11/29","10:56:36","Send","S5F4",Enable/Disable Alarm Acknowledge
+"220","11/29","10:56:36","Recv","S6F23",Request Spooled Data
+"219","11/29","10:56:36","Send","S6F24",Request Spooled Data Acknowledgement Send
+"218","11/29","10:56:36","Recv","S2F43",Reset Spooling Streams and Functions
+"217","11/29","10:56:36","Send","S2F44",Reset Spooling Acknowledge
+"216","11/29","10:56:36","Recv","S2F31",Date and Time Set Request
+"215","11/29","10:56:36","Send","S6F11",CEID:69680 ControlStateREMOTE
+"214","11/29","10:56:36","Recv","S6F12",Event Report Acknowledge
+"213","11/29","10:56:36","Send","S2F32",Date and Time Set Acknowledge
+"212","11/29","11:15:35","Recv","S1F13",Establish Communications Request 
+"211","11/29","11:15:35","Send","S1F14",Establish Communications Request Acknowledge
+"210","11/29","11:15:35","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"209","11/29","11:15:35","Recv","S1F17",Request ON-LINE
+"208","11/29","11:15:35","Recv","S6F12",Event Report Acknowledge
+"207","11/29","11:15:35","Send","S1F18",ON-LINE Acknowledge
+"206","11/29","11:15:36","Send","S1F0",Abort Transaction
+"205","11/29","11:18:10","Send","S6F11",CEID:69680 ControlStateREMOTE
+"204","11/29","11:18:10","Recv","S6F12",Event Report Acknowledge
+"203","11/29","11:19:20","Recv","S1F13",Establish Communications Request 
+"202","11/29","11:19:20","Send","S1F14",Establish Communications Request Acknowledge
+"201","11/29","11:19:20","Recv","S1F17",Request ON-LINE
+"200","11/29","11:19:20","Send","S1F18",ON-LINE Acknowledge
+"199","11/29","11:19:20","Send","S6F11",CEID:69680 ControlStateREMOTE
+"198","11/29","11:19:20","Recv","S6F12",Event Report Acknowledge
+"197","11/29","11:19:20","Recv","S5F3",Enable/Disable Alarm Send
+"196","11/29","11:19:21","Send","S5F4",Enable/Disable Alarm Acknowledge
+"195","11/29","11:19:21","Recv","S6F23",Request Spooled Data
+"194","11/29","11:19:21","Send","S6F24",Request Spooled Data Acknowledgement Send
+"193","11/29","11:19:21","Recv","S2F43",Reset Spooling Streams and Functions
+"192","11/29","11:19:21","Send","S2F44",Reset Spooling Acknowledge
+"191","11/29","11:19:21","Recv","S2F31",Date and Time Set Request
+"190","11/29","10:19:47","Send","S2F32",Date and Time Set Acknowledge
+"189","11/29","10:19:47","Recv","S2F33",Define Report
+"188","11/29","10:19:47","Send","S2F34",Define Report Acknowledge
+"187","11/29","10:19:47","Recv","S2F37",Enable/Disable Event Report
+"186","11/29","10:19:47","Send","S2F38",Enable/Disable Event Report Acknowledge
+"185","11/29","10:19:47","Recv","S2F33",Define Report
+"184","11/29","10:19:47","Send","S2F34",Define Report Acknowledge
+"183","11/29","10:19:47","Recv","S2F35",Link Event Report
+"182","11/29","10:19:47","Send","S2F36",Link Event Report Acknowledge
+"181","11/29","10:19:47","Recv","S2F37",Enable/Disable Event Report
+"180","11/29","10:19:47","Send","S2F38",Enable/Disable Event Report Acknowledge
+"179","11/29","10:19:47","Recv","S5F3",Enable/Disable Alarm Send
+"178","11/29","10:19:47","Send","S5F4",Enable/Disable Alarm Acknowledge
+"177","11/29","10:19:47","Recv","S1F13",Establish Communications Request 
+"176","11/29","10:19:47","Send","S1F14",Establish Communications Request Acknowledge
+"175","11/29","10:21:06","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"174","11/29","10:21:06","Recv","S6F12",Event Report Acknowledge
+"173","11/29","10:27:02","Recv","S1F13",Establish Communications Request 
+"172","11/29","10:27:02","Send","S1F14",Establish Communications Request Acknowledge
+"171","11/29","10:27:02","Recv","S1F17",Request ON-LINE
+"170","11/29","10:27:02","Send","S1F18",ON-LINE Acknowledge
+"169","11/29","10:27:02","Recv","S5F3",Enable/Disable Alarm Send
+"168","11/29","10:27:02","Send","S5F4",Enable/Disable Alarm Acknowledge
+"167","11/29","10:27:02","Recv","S6F23",Request Spooled Data
+"166","11/29","10:27:02","Send","S6F24",Request Spooled Data Acknowledgement Send
+"165","11/29","10:27:02","Recv","S2F43",Reset Spooling Streams and Functions
+"164","11/29","10:27:02","Send","S2F44",Reset Spooling Acknowledge
+"163","11/29","10:27:02","Send","S6F11",CEID:69680 ControlStateREMOTE
+"162","11/29","10:27:02","Recv","S2F31",Date and Time Set Request
+"161","11/29","10:27:02","Recv","S6F12",Event Report Acknowledge
+"160","11/29","10:27:04","Send","S2F32",Date and Time Set Acknowledge
+"159","11/29","10:27:04","Recv","S2F33",Define Report
+"158","11/29","10:27:04","Send","S2F34",Define Report Acknowledge
+"157","11/29","10:27:04","Recv","S2F37",Enable/Disable Event Report
+"156","11/29","10:27:04","Send","S2F38",Enable/Disable Event Report Acknowledge
+"155","11/29","10:27:04","Recv","S2F33",Define Report
+"154","11/29","10:27:04","Send","S2F34",Define Report Acknowledge
+"153","11/29","10:27:04","Recv","S2F35",Link Event Report
+"152","11/29","10:27:04","Send","S2F36",Link Event Report Acknowledge
+"151","11/29","10:27:04","Recv","S2F37",Enable/Disable Event Report
+"150","11/29","10:27:04","Send","S2F38",Enable/Disable Event Report Acknowledge
+"149","11/29","10:27:04","Recv","S5F3",Enable/Disable Alarm Send
+"148","11/29","10:27:04","Send","S5F4",Enable/Disable Alarm Acknowledge
+"147","11/29","10:27:04","Recv","S1F13",Establish Communications Request 
+"146","11/29","10:27:04","Send","S1F14",Establish Communications Request Acknowledge
+"145","11/29","10:38:02","Send","S6F11",CEID:69648 EquipmentOFF-LINE
+"144","11/29","10:38:02","Recv","S6F12",Event Report Acknowledge
+"143","11/29","10:38:44","Send","S6F11",CEID:69664 ControlStateLOCAL
+"142","11/29","10:38:44","Recv","S6F12",Event Report Acknowledge
+"141","11/29","10:38:49","Send","S6F11",CEID:69680 ControlStateREMOTE
+"140","11/29","10:38:49","Recv","S6F12",Event Report Acknowledge
+"139","11/29","10:38:49","Recv","S1F13",Establish Communications Request 
+"138","11/29","10:38:49","Send","S1F14",Establish Communications Request Acknowledge
+"137","11/29","10:38:49","Recv","S1F17",Request ON-LINE
+"136","11/29","10:38:49","Send","S1F18",ON-LINE Acknowledge
+"135","11/29","10:38:49","Recv","S5F3",Enable/Disable Alarm Send
+"134","11/29","10:38:49","Send","S5F4",Enable/Disable Alarm Acknowledge
+"133","11/29","10:38:49","Recv","S6F23",Request Spooled Data
+"132","11/29","10:38:49","Send","S6F24",Request Spooled Data Acknowledgement Send
+"131","11/29","10:38:49","Recv","S2F43",Reset Spooling Streams and Functions
+"130","11/29","10:38:49","Send","S2F44",Reset Spooling Acknowledge
+"129","11/29","10:38:49","Recv","S2F31",Date and Time Set Request
+"128","11/29","10:38:51","Send","S2F32",Date and Time Set Acknowledge
+"127","11/29","10:38:51","Recv","S2F33",Define Report
+"126","11/29","10:38:51","Send","S2F34",Define Report Acknowledge
+"125","11/29","10:38:51","Recv","S2F37",Enable/Disable Event Report
+"124","11/29","10:38:51","Send","S2F38",Enable/Disable Event Report Acknowledge
+"123","11/29","10:38:52","Recv","S2F33",Define Report
+"122","11/29","10:38:52","Send","S2F34",Define Report Acknowledge
+"121","11/29","10:38:52","Recv","S2F35",Link Event Report
+"120","11/29","10:38:52","Send","S2F36",Link Event Report Acknowledge
+"119","11/29","10:38:52","Recv","S2F37",Enable/Disable Event Report
+"118","11/29","10:38:52","Send","S2F38",Enable/Disable Event Report Acknowledge
+"117","11/29","10:38:52","Recv","S5F3",Enable/Disable Alarm Send
+"116","11/29","10:38:52","Send","S5F4",Enable/Disable Alarm Acknowledge
+"115","11/29","10:38:52","Recv","S1F13",Establish Communications Request 
+"114","11/29","10:38:52","Send","S1F14",Establish Communications Request Acknowledge
+"113","11/29","10:38:52","Recv","S3F27",Change Access
+"112","11/29","10:38:54","Send","S6F11",CEID:106544 AMSMSCT-2(MANUAL->AUTO)
+"111","11/29","10:38:54","Recv","S6F12",Event Report Acknowledge
+"110","11/29","10:38:54","Send","S6F11",CEID:106544 AMSMSCT-2(MANUAL->AUTO)
+"109","11/29","10:38:54","Recv","S6F12",Event Report Acknowledge
+"108","11/29","10:38:54","Send","S3F28",Change Access Acknowledge
+"107","11/29","10:38:54","Recv","S1F13",Establish Communications Request 
+"106","11/29","10:38:54","Send","S1F14",Establish Communications Request Acknowledge
+"105","11/29","10:38:54","Recv","S1F17",Request ON-LINE
+"104","11/29","10:38:54","Send","S1F18",ON-LINE Acknowledge
+"103","11/29","10:38:55","Recv","S5F3",Enable/Disable Alarm Send
+"102","11/29","10:38:55","Send","S5F4",Enable/Disable Alarm Acknowledge
+"101","11/29","10:38:55","Recv","S6F23",Request Spooled Data
+"100","11/29","10:38:55","Send","S6F24",Request Spooled Data Acknowledgement Send
+"99","11/29","10:38:55","Recv","S2F43",Reset Spooling Streams and Functions
+"98","11/29","10:38:55","Send","S2F44",Reset Spooling Acknowledge
+"97","11/29","10:38:55","Send","S6F11",CEID:106544 AMSMSCT-2(MANUAL->AUTO)
+"96","11/29","10:38:55","Recv","S2F31",Date and Time Set Request
+"95","11/29","10:38:55","Recv","S6F12",Event Report Acknowledge
+"94","11/29","10:38:57","Send","S2F32",Date and Time Set Acknowledge
+"93","11/29","10:38:57","Recv","S2F33",Define Report
+"92","11/29","10:38:57","Send","S2F34",Define Report Acknowledge
+"91","11/29","10:38:57","Recv","S2F37",Enable/Disable Event Report
+"90","11/29","10:38:57","Send","S2F38",Enable/Disable Event Report Acknowledge
+"89","11/29","10:38:57","Recv","S2F33",Define Report
+"88","11/29","10:38:57","Send","S2F34",Define Report Acknowledge
+"87","11/29","10:38:57","Recv","S2F35",Link Event Report
+"86","11/29","10:38:57","Send","S2F36",Link Event Report Acknowledge
+"85","11/29","10:38:57","Recv","S2F37",Enable/Disable Event Report
+"84","11/29","10:38:57","Send","S2F38",Enable/Disable Event Report Acknowledge
+"83","11/29","10:38:57","Recv","S5F3",Enable/Disable Alarm Send
+"82","11/29","10:38:57","Send","S5F4",Enable/Disable Alarm Acknowledge
+"81","11/29","10:38:57","Recv","S1F13",Establish Communications Request 
+"80","11/29","10:38:57","Send","S1F14",Establish Communications Request Acknowledge
+"79","11/29","10:39:45","Recv","S7F19",Current EPPD Request
+"78","11/29","10:39:45","Send","S7F20",Current EPPD Data
+"77","11/29","10:39:45","Recv","S7F25",Formatted Process Program Request
+"76","11/29","10:39:45","Send","S7F26",Formatted Process Program Data
+"75","11/29","10:39:45","Recv","S7F25",Formatted Process Program Request
+"74","11/29","10:39:45","Send","S7F26",Formatted Process Program Data
+"73","11/29","10:39:45","Recv","S7F19",Current EPPD Request
+"72","11/29","10:39:45","Send","S7F20",Current EPPD Data
+"71","11/29","10:39:46","Recv","S7F25",Formatted Process Program Request
+"70","11/29","10:39:46","Send","S7F26",Formatted Process Program Data
+"69","11/29","10:39:46","Recv","S3F17",Carrier Action Request 
+"68","11/29","10:39:46","Send","S3F18",Carrier Action Acknowledge 
+"67","11/29","10:41:42","Recv","S7F19",Current EPPD Request
+"66","11/29","10:41:42","Send","S7F20",Current EPPD Data
+"65","11/29","10:41:43","Recv","S7F25",Formatted Process Program Request
+"64","11/29","10:41:43","Send","S7F26",Formatted Process Program Data
+"63","11/29","10:41:43","Recv","S7F19",Current EPPD Request
+"62","11/29","10:41:43","Send","S7F20",Current EPPD Data
+"61","11/29","10:41:43","Recv","S7F19",Current EPPD Request
+"60","11/29","10:41:43","Send","S7F20",Current EPPD Data
+"59","11/29","10:41:43","Recv","S7F19",Current EPPD Request
+"58","11/29","10:41:43","Send","S7F20",Current EPPD Data
+"57","11/29","10:41:43","Recv","S7F19",Current EPPD Request
+"56","11/29","10:41:43","Send","S7F20",Current EPPD Data
+"55","11/29","10:41:43","Recv","S7F25",Formatted Process Program Request
+"54","11/29","10:41:43","Send","S7F26",Formatted Process Program Data
+"53","11/29","10:41:43","Recv","S7F25",Formatted Process Program Request
+"52","11/29","10:41:43","Send","S7F26",Formatted Process Program Data
+"51","11/29","10:41:43","Recv","S7F25",Formatted Process Program Request
+"50","11/29","10:41:43","Send","S7F26",Formatted Process Program Data
+"49","11/29","10:41:44","Recv","S7F25",Formatted Process Program Request
+"48","11/29","10:41:44","Send","S7F26",Formatted Process Program Data
+"47","11/29","10:41:44","Recv","S7F25",Formatted Process Program Request
+"46","11/29","10:41:44","Send","S7F26",Formatted Process Program Data
+"45","11/29","10:41:44","Recv","S7F25",Formatted Process Program Request
+"44","11/29","10:41:44","Send","S7F26",Formatted Process Program Data
+"43","11/29","10:42:24","Recv","S7F19",Current EPPD Request
+"42","11/29","10:42:24","Send","S7F20",Current EPPD Data
+"41","11/29","10:42:24","Recv","S7F25",Formatted Process Program Request
+"40","11/29","10:42:24","Send","S7F26",Formatted Process Program Data
+"39","11/29","10:42:25","Recv","S7F25",Formatted Process Program Request
+"38","11/29","10:42:25","Send","S7F26",Formatted Process Program Data
+"37","11/29","10:42:25","Recv","S7F19",Current EPPD Request
+"36","11/29","10:42:25","Send","S7F20",Current EPPD Data
+"35","11/29","10:42:25","Recv","S7F25",Formatted Process Program Request
+"34","11/29","10:42:25","Send","S7F26",Formatted Process Program Data
+"33","11/29","10:42:25","Recv","S7F19",Current EPPD Request
+"32","11/29","10:42:25","Send","S7F20",Current EPPD Data
+"31","11/29","10:42:25","Recv","S7F25",Formatted Process Program Request
+"30","11/29","10:42:26","Send","S7F26",Formatted Process Program Data
+"29","11/29","10:42:26","Recv","S7F19",Current EPPD Request
+"28","11/29","10:42:26","Send","S7F20",Current EPPD Data
+"27","11/29","10:42:26","Recv","S7F25",Formatted Process Program Request
+"26","11/29","10:42:26","Send","S7F26",Formatted Process Program Data
+"25","11/29","10:42:26","Recv","S7F19",Current EPPD Request
+"24","11/29","10:42:26","Send","S7F20",Current EPPD Data
+"23","11/29","10:42:26","Recv","S7F25",Formatted Process Program Request
+"22","11/29","10:42:26","Send","S7F26",Formatted Process Program Data
+"21","11/29","10:42:27","Recv","S3F17",Carrier Action Request 
+"20","11/29","10:42:27","Send","S3F18",Carrier Action Acknowledge 
+"19","11/29","10:43:11","Recv","S3F17",Carrier Action Request 
+"18","11/29","10:43:11","Send","S3F18",Carrier Action Acknowledge 
+"17","11/29","10:43:42","Recv","S7F19",Current EPPD Request
+"16","11/29","10:43:43","Send","S7F20",Current EPPD Data
+"15","11/29","10:43:43","Recv","S7F25",Formatted Process Program Request
+"14","11/29","10:43:43","Send","S7F26",Formatted Process Program Data
+"13","11/29","10:43:43","Recv","S7F25",Formatted Process Program Request
+"12","11/29","10:43:43","Send","S7F26",Formatted Process Program Data
+"11","11/29","10:43:43","Recv","S7F19",Current EPPD Request
+"10","11/29","10:43:43","Send","S7F20",Current EPPD Data
+"9","11/29","10:43:43","Recv","S7F25",Formatted Process Program Request
+"8","11/29","10:43:43","Send","S7F26",Formatted Process Program Data
+"7","11/29","10:43:43","Recv","S7F19",Current EPPD Request
+"6","11/29","10:43:43","Send","S7F20",Current EPPD Data
+"5","11/29","10:43:43","Recv","S7F25",Formatted Process Program Request
+"4","11/29","10:43:44","Send","S7F26",Formatted Process Program Data
+"3","11/29","10:43:44","Recv","S7F19",Current EPPD Request
+"2","11/29","10:43:44","Send","S7F20",Current EPPD Data
+"1","11/29","10:43:44","Recv","S7F25",Formatted Process Program Request
+"0","11/29","10:43:44","Send","S7F26",Formatted Process Program Data
+
+

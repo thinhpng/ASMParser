@@ -1,0 +1,1081 @@
+FileName = C:\Escalation\GF\JAM 4210485-188 (RTA2470) Temp Fluctuation\Project\UPC\Work\CollectLog\CcuFiles\Log\Meslog.ml_46
+
+LogCount = 100
+Version = 0
+
+"Index","Date","Time","Status","Message","CEID","Trans.ID","W-Bit","Detail","ReplyResult"
+"0","2020/04/02","10:01:55","Send","S2F30","","B955","OFF","List (2)   7083
+  List (1)   6
+    UInt4(1)   4  :16777232 (1000010h)
+    Ascii(1)  29  :EstablishCommunicationTimeout
+    UInt2(1)   2  :0 (00h)
+    UInt2(1)   2  :65535 (FFFFh)
+    UInt2(1)   2  :45 (2Dh)
+    Ascii(1)   1  :s
+  List (1)   6
+    UInt4(1)   4  :16777248 (1000020h)
+    Ascii(1)  13  :InitCommState
+    Byte (1)   1  :00
+    Byte (1)   1  :01
+    Byte (1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16777264 (1000030h)
+    Ascii(1)   9  :PollDelay
+    UInt2(1)   2  :0 (00h)
+    UInt2(1)   2  :65535 (FFFFh)
+    UInt2(1)   2  :45 (2Dh)
+    Ascii(1)   1  :s
+  List (1)   6
+    UInt4(1)   4  :16777280 (1000040h)
+    Ascii(1)  16  :InitControlState
+    Byte (1)   1  :00
+    Byte (1)   1  :01
+    Byte (1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16777296 (1000050h)
+    Ascii(1)  26  :InitControlOfflineSubState
+    Byte (1)   1  :00
+    Byte (1)   1  :01
+    Byte (1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16777312 (1000060h)
+    Ascii(1)  24  :ControlOnlineFailedState
+    Byte (1)   1  :00
+    Byte (1)   1  :01
+    Byte (1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16777328 (1000070h)
+    Ascii(1)  25  :InitControlOnlineSubState
+    Byte (1)   1  :00
+    Byte (1)   1  :01
+    Byte (1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16842768 (1010010h)
+    Ascii(1)  11  :LimitsDelay
+    UInt2(1)   2  :1 (01h)
+    UInt2(1)   2  :60 (3Ch)
+    UInt2(1)   2  :1 (01h)
+    Ascii(1)   1  :s
+  List (1)   6
+    UInt4(1)   4  :16973840 (1030010h)
+    Ascii(1)  14  :EnableSpooling
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16973872 (1030030h)
+    Ascii(1)  16  :MaxSpoolTransmit
+    UInt4(1)   4  :0 (00h)
+    UInt4(1)   4  :1000 (3E8h)
+    UInt4(1)   4  :50 (32h)
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16973888 (1030040h)
+    Ascii(1)  14  :OverWriteSpool
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :01
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104912 (1050010h)
+    Ascii(1)   4  :MDLN
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104928 (1050020h)
+    Ascii(1)   7  :SOFTREV
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104944 (1050030h)
+    Ascii(1)  10  :TimeFormat
+    UInt1(1)   1  :0 (00h)
+    UInt1(1)   1  :1 (01h)
+    UInt1(1)   1  :1 (01h)
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104961 (1050041h)
+    Ascii(1)  10  :PortUsage1
+    UInt1(1)   1  :1 (01h)
+    UInt1(1)   1  :3 (03h)
+    UInt1(1)   1  :3 (03h)
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104962 (1050042h)
+    Ascii(1)  10  :PortUsage2
+    UInt1(1)   1  :1 (01h)
+    UInt1(1)   1  :3 (03h)
+    UInt1(1)   1  :3 (03h)
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104963 (1050043h)
+    Ascii(1)  10  :PortUsage3
+    UInt1(1)   1  :1 (01h)
+    UInt1(1)   1  :3 (03h)
+    UInt1(1)   1  :3 (03h)
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104976 (1050050h)
+    Ascii(1)  18  :ControlModeSetting
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :01
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105168 (1050110h)
+    Ascii(1)  14  :S6F1WBitEnable
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :01
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105184 (1050120h)
+    Ascii(1)  15  :S6F11WBitEnable
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :01
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105200 (1050130h)
+    Ascii(1)  14  :S5F1WBitEnable
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :01
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105410 (1050202h)
+    Ascii(1)  17  :RC2DepoCount1Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105426 (1050212h)
+    Ascii(1)  17  :RC2DepoCount2Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105442 (1050222h)
+    Ascii(1)  17  :RC2DepoCount3Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105458 (1050232h)
+    Ascii(1)  17  :RC2DepoCount4Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105474 (1050242h)
+    Ascii(1)  17  :RC2DepoCount5Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105490 (1050252h)
+    Ascii(1)  17  :RC2DepoCount6Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105506 (1050262h)
+    Ascii(1)  17  :RC2DepoCount7Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105522 (1050272h)
+    Ascii(1)  17  :RC2DepoCount8Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105538 (1050282h)
+    Ascii(1)  17  :RC2DepoCount9Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105554 (1050292h)
+    Ascii(1)  18  :RC2DepoCount10Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105570 (10502A2h)
+    Ascii(1)  18  :RC2DepoCount11Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105586 (10502B2h)
+    Ascii(1)  18  :RC2DepoCount12Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105602 (10502C2h)
+    Ascii(1)  18  :RC2DepoCount13Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105618 (10502D2h)
+    Ascii(1)  18  :RC2DepoCount14Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105634 (10502E2h)
+    Ascii(1)  18  :RC2DepoCount15Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105650 (10502F2h)
+    Ascii(1)  18  :RC2DepoCount16Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105666 (1050302h)
+    Ascii(1)  18  :RC2DepoCount17Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105682 (1050312h)
+    Ascii(1)  18  :RC2DepoCount18Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105698 (1050322h)
+    Ascii(1)  18  :RC2DepoCount19Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105714 (1050332h)
+    Ascii(1)  18  :RC2DepoCount20Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105411 (1050203h)
+    Ascii(1)  17  :RC3DepoCount1Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105427 (1050213h)
+    Ascii(1)  17  :RC3DepoCount2Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105443 (1050223h)
+    Ascii(1)  17  :RC3DepoCount3Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105459 (1050233h)
+    Ascii(1)  17  :RC3DepoCount4Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105475 (1050243h)
+    Ascii(1)  17  :RC3DepoCount5Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105491 (1050253h)
+    Ascii(1)  17  :RC3DepoCount6Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105507 (1050263h)
+    Ascii(1)  17  :RC3DepoCount7Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105523 (1050273h)
+    Ascii(1)  17  :RC3DepoCount8Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105539 (1050283h)
+    Ascii(1)  17  :RC3DepoCount9Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105555 (1050293h)
+    Ascii(1)  18  :RC3DepoCount10Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105571 (10502A3h)
+    Ascii(1)  18  :RC3DepoCount11Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105587 (10502B3h)
+    Ascii(1)  18  :RC3DepoCount12Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105603 (10502C3h)
+    Ascii(1)  18  :RC3DepoCount13Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105619 (10502D3h)
+    Ascii(1)  18  :RC3DepoCount14Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105635 (10502E3h)
+    Ascii(1)  18  :RC3DepoCount15Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105651 (10502F3h)
+    Ascii(1)  18  :RC3DepoCount16Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105667 (1050303h)
+    Ascii(1)  18  :RC3DepoCount17Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105683 (1050313h)
+    Ascii(1)  18  :RC3DepoCount18Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105699 (1050323h)
+    Ascii(1)  18  :RC3DepoCount19Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105715 (1050333h)
+    Ascii(1)  18  :RC3DepoCount20Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17301570 (1080042h)
+    Ascii(1)  27  :RC2SusceptorUpPositionPulse",""
+"1","2020/04/02","10:01:50","Recv","S2F29","","B955","ON","List (1)   0",""
+"2","2020/04/02","10:01:50","Recv","S6F12","","000C","OFF","Byte (1)   1  :00",""
+"3","2020/04/02","10:01:50","Send","S6F11","69680 (11030h)","000C","ON","List (1)   3
+  UInt4(1)   4  :1 (01h)
+  UInt4(1)   4  :69680 (11030h)
+  List (1)   1
+    List (1)   2
+      UInt4(1)   4  :100 (64h)
+      List (1)   2
+        Byte (1)   1  :05
+        Ascii(1)  16  :2020040210015039",""
+"4","2020/04/02","10:01:48","Recv","S6F12","","000B","OFF","Byte (1)   1  :00",""
+"5","2020/04/02","10:01:48","Send","S6F11","69664 (11020h)","000B","ON","List (1)   3
+  UInt4(1)   4  :1 (01h)
+  UInt4(1)   4  :69664 (11020h)
+  List (1)   1
+    List (1)   2
+      UInt4(1)   4  :100 (64h)
+      List (1)   2
+        Byte (1)   1  :04
+        Ascii(1)  16  :2020040210014823",""
+"6","2020/04/02","10:01:47","Send","S1F0","","B950","OFF","",""
+"7","2020/04/02","10:01:47","Recv","S6F12","","0009","OFF","Byte (1)   1  :00",""
+"8","2020/04/02","10:01:47","Send","S6F11","69648 (11010h)","0009","ON","List (1)   3
+  UInt4(1)   4  :1 (01h)
+  UInt4(1)   4  :69648 (11010h)
+  List (1)   1
+    List (1)   2
+      UInt4(1)   4  :100 (64h)
+      List (1)   2
+        Byte (1)   1  :01
+        Ascii(1)  16  :2020040210014693",""
+"9","2020/04/02","10:01:46","Recv","S1F14","","0008","OFF","List (1)   2
+  Byte (1)   1  :00
+  List (1)   0",""
+"10","2020/04/02","10:01:46","Send","S1F13","","0008","ON","List (1)   2
+  Ascii(1)   6  :EagleX
+  Ascii(1)   6  :1.68c4",""
+"11","2020/04/02","10:01:40","Recv","S6F12","","0007","OFF","Byte (1)   1  :00",""
+"12","2020/04/02","10:01:40","Send","S6F11","69648 (11010h)","0007","ON","List (1)   3
+  UInt4(1)   4  :1 (01h)
+  UInt4(1)   4  :69648 (11010h)
+  List (1)   1
+    List (1)   2
+      UInt4(1)   4  :100 (64h)
+      List (1)   2
+        Byte (1)   1  :01
+        Ascii(1)  16  :2020040210014062",""
+"13","2020/04/02","10:01:37","Send","S14F2","","B94F","OFF","List (1)   2
+  List (1)   0
+  List (1)   2
+    UInt1(1)   1  :0 (00h)
+    List (1)   0",""
+"14","2020/04/02","10:01:37","Recv","S14F1","","B94F","ON","List (1)   5
+  Ascii(1)   9  :Equipment
+  Ascii(1)   7  :Carrier
+  List (1)   0
+  List (1)   0
+  List (1)   0",""
+"15","2020/04/02","10:01:37","Send","S14F2","","B94B","OFF","List (1)   2
+  List (1)   0
+  List (1)   2
+    UInt1(1)   1  :0 (00h)
+    List (1)   0",""
+"16","2020/04/02","10:01:37","Recv","S14F1","","B94B","ON","List (1)   5
+  Ascii(1)   9  :Equipment
+  Ascii(1)  10  :ControlJob
+  List (1)   0
+  List (1)   0
+  List (1)   0",""
+"17","2020/04/02","10:01:37","Send","S2F30","","B949","OFF","List (2)   7083
+  List (1)   6
+    UInt4(1)   4  :16777232 (1000010h)
+    Ascii(1)  29  :EstablishCommunicationTimeout
+    UInt2(1)   2  :0 (00h)
+    UInt2(1)   2  :65535 (FFFFh)
+    UInt2(1)   2  :45 (2Dh)
+    Ascii(1)   1  :s
+  List (1)   6
+    UInt4(1)   4  :16777248 (1000020h)
+    Ascii(1)  13  :InitCommState
+    Byte (1)   1  :00
+    Byte (1)   1  :01
+    Byte (1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16777264 (1000030h)
+    Ascii(1)   9  :PollDelay
+    UInt2(1)   2  :0 (00h)
+    UInt2(1)   2  :65535 (FFFFh)
+    UInt2(1)   2  :45 (2Dh)
+    Ascii(1)   1  :s
+  List (1)   6
+    UInt4(1)   4  :16777280 (1000040h)
+    Ascii(1)  16  :InitControlState
+    Byte (1)   1  :00
+    Byte (1)   1  :01
+    Byte (1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16777296 (1000050h)
+    Ascii(1)  26  :InitControlOfflineSubState
+    Byte (1)   1  :00
+    Byte (1)   1  :01
+    Byte (1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16777312 (1000060h)
+    Ascii(1)  24  :ControlOnlineFailedState
+    Byte (1)   1  :00
+    Byte (1)   1  :01
+    Byte (1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16777328 (1000070h)
+    Ascii(1)  25  :InitControlOnlineSubState
+    Byte (1)   1  :00
+    Byte (1)   1  :01
+    Byte (1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16842768 (1010010h)
+    Ascii(1)  11  :LimitsDelay
+    UInt2(1)   2  :1 (01h)
+    UInt2(1)   2  :60 (3Ch)
+    UInt2(1)   2  :1 (01h)
+    Ascii(1)   1  :s
+  List (1)   6
+    UInt4(1)   4  :16973840 (1030010h)
+    Ascii(1)  14  :EnableSpooling
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :00
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16973872 (1030030h)
+    Ascii(1)  16  :MaxSpoolTransmit
+    UInt4(1)   4  :0 (00h)
+    UInt4(1)   4  :1000 (3E8h)
+    UInt4(1)   4  :50 (32h)
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :16973888 (1030040h)
+    Ascii(1)  14  :OverWriteSpool
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :01
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104912 (1050010h)
+    Ascii(1)   4  :MDLN
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104928 (1050020h)
+    Ascii(1)   7  :SOFTREV
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104944 (1050030h)
+    Ascii(1)  10  :TimeFormat
+    UInt1(1)   1  :0 (00h)
+    UInt1(1)   1  :1 (01h)
+    UInt1(1)   1  :1 (01h)
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104961 (1050041h)
+    Ascii(1)  10  :PortUsage1
+    UInt1(1)   1  :1 (01h)
+    UInt1(1)   1  :3 (03h)
+    UInt1(1)   1  :3 (03h)
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104962 (1050042h)
+    Ascii(1)  10  :PortUsage2
+    UInt1(1)   1  :1 (01h)
+    UInt1(1)   1  :3 (03h)
+    UInt1(1)   1  :3 (03h)
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104963 (1050043h)
+    Ascii(1)  10  :PortUsage3
+    UInt1(1)   1  :1 (01h)
+    UInt1(1)   1  :3 (03h)
+    UInt1(1)   1  :3 (03h)
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17104976 (1050050h)
+    Ascii(1)  18  :ControlModeSetting
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :01
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105168 (1050110h)
+    Ascii(1)  14  :S6F1WBitEnable
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :01
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105184 (1050120h)
+    Ascii(1)  15  :S6F11WBitEnable
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :01
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105200 (1050130h)
+    Ascii(1)  14  :S5F1WBitEnable
+    Truth(1)   1  :00
+    Truth(1)   1  :01
+    Truth(1)   1  :01
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105410 (1050202h)
+    Ascii(1)  17  :RC2DepoCount1Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105426 (1050212h)
+    Ascii(1)  17  :RC2DepoCount2Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105442 (1050222h)
+    Ascii(1)  17  :RC2DepoCount3Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105458 (1050232h)
+    Ascii(1)  17  :RC2DepoCount4Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105474 (1050242h)
+    Ascii(1)  17  :RC2DepoCount5Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105490 (1050252h)
+    Ascii(1)  17  :RC2DepoCount6Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105506 (1050262h)
+    Ascii(1)  17  :RC2DepoCount7Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105522 (1050272h)
+    Ascii(1)  17  :RC2DepoCount8Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105538 (1050282h)
+    Ascii(1)  17  :RC2DepoCount9Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105554 (1050292h)
+    Ascii(1)  18  :RC2DepoCount10Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105570 (10502A2h)
+    Ascii(1)  18  :RC2DepoCount11Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105586 (10502B2h)
+    Ascii(1)  18  :RC2DepoCount12Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105602 (10502C2h)
+    Ascii(1)  18  :RC2DepoCount13Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105618 (10502D2h)
+    Ascii(1)  18  :RC2DepoCount14Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105634 (10502E2h)
+    Ascii(1)  18  :RC2DepoCount15Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105650 (10502F2h)
+    Ascii(1)  18  :RC2DepoCount16Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105666 (1050302h)
+    Ascii(1)  18  :RC2DepoCount17Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105682 (1050312h)
+    Ascii(1)  18  :RC2DepoCount18Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105698 (1050322h)
+    Ascii(1)  18  :RC2DepoCount19Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105714 (1050332h)
+    Ascii(1)  18  :RC2DepoCount20Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105411 (1050203h)
+    Ascii(1)  17  :RC3DepoCount1Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105427 (1050213h)
+    Ascii(1)  17  :RC3DepoCount2Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105443 (1050223h)
+    Ascii(1)  17  :RC3DepoCount3Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105459 (1050233h)
+    Ascii(1)  17  :RC3DepoCount4Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105475 (1050243h)
+    Ascii(1)  17  :RC3DepoCount5Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105491 (1050253h)
+    Ascii(1)  17  :RC3DepoCount6Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105507 (1050263h)
+    Ascii(1)  17  :RC3DepoCount7Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105523 (1050273h)
+    Ascii(1)  17  :RC3DepoCount8Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105539 (1050283h)
+    Ascii(1)  17  :RC3DepoCount9Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105555 (1050293h)
+    Ascii(1)  18  :RC3DepoCount10Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105571 (10502A3h)
+    Ascii(1)  18  :RC3DepoCount11Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105587 (10502B3h)
+    Ascii(1)  18  :RC3DepoCount12Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105603 (10502C3h)
+    Ascii(1)  18  :RC3DepoCount13Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105619 (10502D3h)
+    Ascii(1)  18  :RC3DepoCount14Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105635 (10502E3h)
+    Ascii(1)  18  :RC3DepoCount15Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105651 (10502F3h)
+    Ascii(1)  18  :RC3DepoCount16Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105667 (1050303h)
+    Ascii(1)  18  :RC3DepoCount17Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105683 (1050313h)
+    Ascii(1)  18  :RC3DepoCount18Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105699 (1050323h)
+    Ascii(1)  18  :RC3DepoCount19Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17105715 (1050333h)
+    Ascii(1)  18  :RC3DepoCount20Name
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+    Ascii(1)   0  :
+  List (1)   6
+    UInt4(1)   4  :17301570 (1080042h)
+    Ascii(1)  27  :RC2SusceptorUpPositionPulse",""
+"18","2020/04/02","10:01:32","Recv","S2F29","","B949","ON","List (1)   0",""
+"19","2020/04/02","10:01:31","Recv","S6F12","","0006","OFF","Byte (1)   1  :00",""
+"20","2020/04/02","10:01:31","Send","S6F11","106544 (1A030h)","0006","ON","List (1)   3
+  UInt4(1)   4  :1 (01h)
+  UInt4(1)   4  :106544 (1A030h)
+  List (1)   1
+    List (1)   2
+      UInt4(1)   4  :120 (78h)
+      List (1)   3
+        UInt1(1)   1  :1 (01h)
+        UInt1(1)   1  :1 (01h)
+        Ascii(1)  16  :2020040210013193",""
+"21","2020/04/02","10:01:31","Send","S3F28","","B945","OFF","List (1)   2
+  UInt1(1)   1  :0 (00h)
+  List (1)   0",""
+"22","2020/04/02","10:01:30","Recv","S6F12","","0005","OFF","Byte (1)   1  :00",""
+"23","2020/04/02","10:01:30","Send","S6F11","106544 (1A030h)","0005","ON","List (1)   3
+  UInt4(1)   4  :1 (01h)
+  UInt4(1)   4  :106544 (1A030h)
+  List (1)   1
+    List (1)   2
+      UInt4(1)   4  :120 (78h)
+      List (1)   3
+        UInt1(1)   1  :2 (02h)
+        UInt1(1)   1  :1 (01h)
+        Ascii(1)  16  :2020040210013057",""
+"24","2020/04/02","10:01:30","Recv","S3F27","","B945","ON","List (1)   2
+  UInt1(1)   1  :1 (01h)
+  List (1)   1
+    UInt1(1)   1  :1 (01h)",""
+"25","2020/04/02","10:01:30","Send","S3F28","","B944","OFF","List (1)   2
+  UInt1(1)   1  :0 (00h)
+  List (1)   0",""
+"26","2020/04/02","10:01:30","Send","S6F11","106544 (1A030h)","0004","ON","List (1)   3
+  UInt4(1)   4  :1 (01h)
+  UInt4(1)   4  :106544 (1A030h)
+  List (1)   1
+    List (1)   2
+      UInt4(1)   4  :120 (78h)
+      List (1)   3
+        UInt1(1)   1  :3 (03h)
+        UInt1(1)   1  :1 (01h)
+        Ascii(1)  16  :2020040210012945",""
+"27","2020/04/02","10:01:29","Recv","S6F12","","0004","OFF","Byte (1)   1  :00",""
+"28","2020/04/02","10:01:29","Recv","S3F27","","B944","ON","List (1)   2
+  UInt1(1)   1  :1 (01h)
+  List (1)   1
+    UInt1(1)   1  :2 (02h)",""
+"29","2020/04/02","10:01:29","Send","S3F28","","B943","OFF","List (1)   2
+  UInt1(1)   1  :0 (00h)
+  List (1)   0",""
+"30","2020/04/02","10:01:28","Recv","S3F27","","B943","ON","List (1)   2
+  UInt1(1)   1  :1 (01h)
+  List (1)   1
+    UInt1(1)   1  :3 (03h)",""
+"31","2020/04/02","10:01:28","Send","S14F2","","B942","OFF","List (1)   2
+  List (1)   0
+  List (1)   2
+    UInt1(1)   1  :0 (00h)
+    List (1)   0",""
+"32","2020/04/02","10:01:28","Recv","S14F1","","B942","ON","List (1)   5
+  Ascii(1)   9  :Equipment
+  Ascii(1)   7  :Carrier
+  List (1)   0
+  List (1)   0
+  List (1)   0",""
+"33","2020/04/02","10:01:28","Send","S14F2","","B93E","OFF","List (1)   2
+  List (1)   0
+  List (1)   2
+    UInt1(1)   1  :0 (00h)
+    List (1)   0",""
+"34","2020/04/02","10:01:27","Recv","S14F1","","B93E","ON","List (1)   5
+  Ascii(1)   9  :Equipment
+  Ascii(1)  10  :ControlJob
+  List (1)   0
+  List (1)   0
+  List (1)   0",""
+"35","2020/04/02","10:01:27","Send","S2F30","","B93C","OFF","",""
+"36","2020/04/02","10:01:22","Recv","S2F29","","B93C","ON","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""
+"","","","","","","","","",""

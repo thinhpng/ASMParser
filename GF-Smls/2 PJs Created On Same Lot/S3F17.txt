@@ -1,0 +1,6 @@
+List (1)   5
+  UInt4(1)   4  :1 (01h)
+  Ascii(1)  13  :CancelCarrier
+  Ascii(1)   4  :A353
+  UInt1(1)   1  :2 (02h)
+  List (1)   0

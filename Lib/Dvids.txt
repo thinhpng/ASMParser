@@ -1,0 +1,17 @@
+//
+//	Scripted by THINH NGUYEN
+//  File: Vids.txt
+//	Version: 1.0
+//	Date: Sun Nov  4 23:49:36 2018
+//
+// This file is to configure all VIDs. WARNING!!! DO NOT_EDIT without reading first.
+// All comments should follow the format being used and seen.
+// The last line should be an empty line.
+//
+// This is a typical way to express an VID.
+//   vid		is id of the vid
+//   name		is name of the vid
+//   values     possible values (or NA)
+//
+// vid		name    values(possible values or NA)
+//

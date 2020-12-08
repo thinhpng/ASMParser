@@ -1,0 +1,16 @@
+$alarmInfo{"33060001"} = "CommunicationTimeout";
+$alarmInfo{"33060002"} = "StatusChangedToIDLE";
+$alarmInfo{"33060003"} = "CommandWasRejected";
+$alarmInfo{"33060004"} = "ACKTimeout";
+$alarmInfo{"33060005"} = "CompletionTimeout";
+$alarmInfo{"33060006"} = "ControlStatusError";
+$alarmInfo{"33060007"} = "SensorError";
+$alarmInfo{"33060008"} = "SensorUnknown";
+$alarmInfo{"33060009"} = "PressureErrorOccurred";
+$alarmInfo{"33060010"} = "TransferInterlockErrorOccurred";
+$alarmInfo{"33060011"} = "PressureInterlockErrorOccurred";
+$alarmInfo{"33060014"} = "FERobotInterlockErrorOccurred";
+$alarmInfo{"33060015"} = "BERobotInterlockErrorOccurred";
+$alarmInfo{"33060016"} = "PressureInterlockErrorOccurred";
+$alarmInfo{"33060017"} = "GVInterlockErrorOccurred";
+$alarmInfo{"33060018"} = "WaferInterlockErrorOccurred";

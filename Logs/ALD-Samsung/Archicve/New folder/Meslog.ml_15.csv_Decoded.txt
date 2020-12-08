@@ -1,0 +1,1934 @@
+"95","2018/10/05","07:34:05","Send","S5F1","","7EFD","ON",
+2018/10/05 07:34:05	<S5F1 W> ALARM:A010100h Reactor Alarm RC1 AB(KEY:KEY=ABORT ON)","" (ON)
+"93","2018/10/05","07:34:05","Send","S6F5","","7EFF","ON",
+2018/10/05 07:34:05	<S6F5 W>
+"92","2018/10/05","07:34:05","Recv","S5F2","","7EFD","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:05	<S5F2>
+"90","2018/10/05","07:34:05","Recv","S6F6","","7EFF","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:05	<S6F6>
+"89","2018/10/05","07:34:05","Send","S6F11","105297 (19B51h)","7F01","OFF",
+2018/10/05 07:34:05	<S6F11>
+2018/10/05 07:34:05	<L 3
+2018/10/05 07:34:05	  <U4 105297>			 \* TN -> CEID: RC1ProcStepSumData *\
+2018/10/05 07:34:05	  <L 13 
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 700>		 \* TN -> RPID: 700 *\
+2018/10/05 07:34:05	      <L 52 
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230930:ProcRCStepDataSigmaTI18 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230937:ProcRCStepDataSigmaTI25 *\
+2018/10/05 07:34:05	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230939:ProcRCStepDataSigmaTI27 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230928:ProcRCStepDataSigmaTI16 *\
+2018/10/05 07:34:05	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230938:ProcRCStepDataSigmaTI26 *\
+2018/10/05 07:34:05	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230936:ProcRCStepDataSigmaTI24 *\
+2018/10/05 07:34:05	        <A -00005 		 \* TN -> 84228170:ProcRCStepDataMeanAI74 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228426:ProcRCStepDataSigmaAI74 *\
+2018/10/05 07:34:05	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228364:ProcRCStepDataSigmaAI12 *\
+2018/10/05 07:34:05	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228365:ProcRCStepDataSigmaAI13 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228416:ProcRCStepDataSigmaAI64 *\
+2018/10/05 07:34:05	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:05	        <A 63 		 \* TN -> 84228389:ProcRCStepDataSigmaAI37 *\
+2018/10/05 07:34:05	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228388:ProcRCStepDataSigmaAI36 *\
+2018/10/05 07:34:05	        <A -00020 		 \* TN -> 84228176:ProcRCStepDataMeanAI80 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228432:ProcRCStepDataSigmaAI80 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228372:ProcRCStepDataSigmaAI20 *\
+2018/10/05 07:34:05	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228379:ProcRCStepDataSigmaAI27 *\
+2018/10/05 07:34:05	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230926:ProcRCStepDataSigmaTI14 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228174:ProcRCStepDataMeanAI78 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228430:ProcRCStepDataSigmaAI78 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228162:ProcRCStepDataMeanAI66 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228418:ProcRCStepDataSigmaAI66 *\
+2018/10/05 07:34:05	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228366:ProcRCStepDataSigmaAI14 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228420:ProcRCStepDataSigmaAI68 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230916:ProcRCStepDataSigmaTI4 *\
+2018/10/05 07:34:05	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230935:ProcRCStepDataSigmaTI23 *\
+2018/10/05 07:34:05	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230917:ProcRCStepDataSigmaTI5 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228168:ProcRCStepDataMeanAI72 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228424:ProcRCStepDataSigmaAI72 *\
+2018/10/05 07:34:05	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:05	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:05	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:05	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 706>		 \* TN -> RPID: 706 *\
+2018/10/05 07:34:05	      <L 62 
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228368:ProcRCStepDataSigmaAI16 *\
+2018/10/05 07:34:05	        <A 001 		 \* TN -> 84228115:ProcRCStepDataMeanAI19 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228371:ProcRCStepDataSigmaAI19 *\
+2018/10/05 07:34:05	        <A 003 		 \* TN -> 84228120:ProcRCStepDataMeanAI24 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228376:ProcRCStepDataSigmaAI24 *\
+2018/10/05 07:34:05	        <A -00003 		 \* TN -> 84228131:ProcRCStepDataMeanAI35 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228387:ProcRCStepDataSigmaAI35 *\
+2018/10/05 07:34:05	        <A 004 		 \* TN -> 84228130:ProcRCStepDataMeanAI34 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228386:ProcRCStepDataSigmaAI34 *\
+2018/10/05 07:34:05	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:05	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:05	        <A loadsc1do 		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:05	        <U2 20 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:05	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:05	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:05	        <A -00001 		 \* TN -> 84228172:ProcRCStepDataMeanAI76 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228428:ProcRCStepDataSigmaAI76 *\
+2018/10/05 07:34:05	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230924:ProcRCStepDataSigmaTI12 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228374:ProcRCStepDataSigmaAI22 *\
+2018/10/05 07:34:05	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228375:ProcRCStepDataSigmaAI23 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:05	        <A 201 		 \* TN -> 84228393:ProcRCStepDataSigmaAI41 *\
+2018/10/05 07:34:05	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228392:ProcRCStepDataSigmaAI40 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228380:ProcRCStepDataSigmaAI28 *\
+2018/10/05 07:34:05	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228370:ProcRCStepDataSigmaAI18 *\
+2018/10/05 07:34:05	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230927:ProcRCStepDataSigmaTI15 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230665:ProcRCStepDataMeanTI9 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230921:ProcRCStepDataSigmaTI9 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230667:ProcRCStepDataMeanTI11 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230923:ProcRCStepDataSigmaTI11 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230666:ProcRCStepDataMeanTI10 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230922:ProcRCStepDataSigmaTI10 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230664:ProcRCStepDataMeanTI8 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230920:ProcRCStepDataSigmaTI8 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228356:ProcRCStepDataSigmaAI4 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228440:ProcRCStepDataSigmaAI88 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230931:ProcRCStepDataSigmaTI19 *\
+2018/10/05 07:34:05	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230913:ProcRCStepDataSigmaTI1 *\
+2018/10/05 07:34:05	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230915:ProcRCStepDataSigmaTI3 *\
+2018/10/05 07:34:05	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230932:ProcRCStepDataSigmaTI20 *\
+2018/10/05 07:34:05	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230914:ProcRCStepDataSigmaTI2 *\
+2018/10/05 07:34:05	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230912:ProcRCStepDataSigmaTI0 *\
+2018/10/05 07:34:05	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230925:ProcRCStepDataSigmaTI13 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230934:ProcRCStepDataSigmaTI22 *\
+2018/10/05 07:34:05	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 831>		 \* TN -> RPID: 831 *\
+2018/10/05 07:34:05	      <L 5 
+2018/10/05 07:34:05	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84226832:MoveFeRbtWaferLotID *\
+2018/10/05 07:34:05	        <A HYW0719 		 \* TN -> 84226896:MoveFeRbtWaferCarrierID *\
+2018/10/05 07:34:05	        <A HYW0719.25 		 \* TN -> 84226864:MoveFeRbtWaferID *\
+2018/10/05 07:34:05	        <U1 3 		 \* TN -> 84226848:MoveFeRbtWaferPortID *\
+2018/10/05 07:34:05	        <A  		 \* TN -> 84226912:MoveFeRbtWaferPRJobRecID *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 835>		 \* TN -> RPID: 835 *\
+2018/10/05 07:34:05	      <L 13 
+2018/10/05 07:34:05	        <A AutoDummyWafer_RC1_CJob 		 \* TN -> 84222976:ProcWaferCJ *\
+2018/10/05 07:34:05	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222992:ProcWaferPJ *\
+2018/10/05 07:34:05	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:05	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:05	        <U1 3 		 \* TN -> 84223040:ProcWaferPort *\
+2018/10/05 07:34:05	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:05	        <A HYW0719.25 		 \* TN -> 84223072:ProcWaferID *\
+2018/10/05 07:34:05	        <U1 1 		 \* TN -> 84223088:ProcWaferRC *\
+2018/10/05 07:34:05	        <A  		 \* TN -> 84223104:ProcWaferPP *\
+2018/10/05 07:34:05	        <A PURGE_TIN1XR1 		 \* TN -> 84223120:ProcWaferProRcp *\
+2018/10/05 07:34:05	        <A 0293 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:05	        <U2 20 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:05	        <A loadsc1do 		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 920>		 \* TN -> RPID: 920 *\
+2018/10/05 07:34:05	      <L 100 
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84227332:ProcRCStepDataSetAI4 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227333:ProcRCStepDataSetAI5 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227334:ProcRCStepDataSetAI6 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227335:ProcRCStepDataSetAI7 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227336:ProcRCStepDataSetAI8 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227337:ProcRCStepDataSetAI9 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227338:ProcRCStepDataSetAI10 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227340:ProcRCStepDataSetAI12 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227341:ProcRCStepDataSetAI13 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227342:ProcRCStepDataSetAI14 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227343:ProcRCStepDataSetAI15 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227344:ProcRCStepDataSetAI16 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227346:ProcRCStepDataSetAI18 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227347:ProcRCStepDataSetAI19 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227348:ProcRCStepDataSetAI20 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84227350:ProcRCStepDataSetAI22 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227351:ProcRCStepDataSetAI23 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227352:ProcRCStepDataSetAI24 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227355:ProcRCStepDataSetAI27 *\
+2018/10/05 07:34:05	        <A 180 		 \* TN -> 84227356:ProcRCStepDataSetAI28 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227362:ProcRCStepDataSetAI34 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227363:ProcRCStepDataSetAI35 *\
+2018/10/05 07:34:05	        <A 070 		 \* TN -> 84227364:ProcRCStepDataSetAI36 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227365:ProcRCStepDataSetAI37 *\
+2018/10/05 07:34:05	        <A 060 		 \* TN -> 84227368:ProcRCStepDataSetAI40 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227377:ProcRCStepDataSetAI49 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227378:ProcRCStepDataSetAI50 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227379:ProcRCStepDataSetAI51 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227380:ProcRCStepDataSetAI52 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227381:ProcRCStepDataSetAI53 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227382:ProcRCStepDataSetAI54 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227383:ProcRCStepDataSetAI55 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227384:ProcRCStepDataSetAI56 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227385:ProcRCStepDataSetAI57 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227386:ProcRCStepDataSetAI58 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227387:ProcRCStepDataSetAI59 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227388:ProcRCStepDataSetAI60 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227389:ProcRCStepDataSetAI61 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227390:ProcRCStepDataSetAI62 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227391:ProcRCStepDataSetAI63 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84227392:ProcRCStepDataSetAI64 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227394:ProcRCStepDataSetAI66 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84227396:ProcRCStepDataSetAI68 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227400:ProcRCStepDataSetAI72 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227402:ProcRCStepDataSetAI74 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227404:ProcRCStepDataSetAI76 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227406:ProcRCStepDataSetAI78 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227408:ProcRCStepDataSetAI80 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227412:ProcRCStepDataSetAI84 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227413:ProcRCStepDataSetAI85 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227414:ProcRCStepDataSetAI86 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227415:ProcRCStepDataSetAI87 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84227416:ProcRCStepDataSetAI88 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227417:ProcRCStepDataSetAI89 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227418:ProcRCStepDataSetAI90 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227419:ProcRCStepDataSetAI91 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227420:ProcRCStepDataSetAI92 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227421:ProcRCStepDataSetAI93 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227422:ProcRCStepDataSetAI94 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227423:ProcRCStepDataSetAI95 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84227588:ProcRCStepDataMaxAI4 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227589:ProcRCStepDataMaxAI5 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227590:ProcRCStepDataMaxAI6 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227591:ProcRCStepDataMaxAI7 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227592:ProcRCStepDataMaxAI8 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227593:ProcRCStepDataMaxAI9 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227594:ProcRCStepDataMaxAI10 *\
+2018/10/05 07:34:05	        <A 031 		 \* TN -> 84227596:ProcRCStepDataMaxAI12 *\
+2018/10/05 07:34:05	        <A 021 		 \* TN -> 84227597:ProcRCStepDataMaxAI13 *\
+2018/10/05 07:34:05	        <A -00 		 \* TN -> 84227598:ProcRCStepDataMaxAI14 *\
+2018/10/05 07:34:05	        <A -00 		 \* TN -> 84227599:ProcRCStepDataMaxAI15 *\
+2018/10/05 07:34:05	        <A 030 		 \* TN -> 84227600:ProcRCStepDataMaxAI16 *\
+2018/10/05 07:34:05	        <A 009 		 \* TN -> 84227602:ProcRCStepDataMaxAI18 *\
+2018/10/05 07:34:05	        <A 001 		 \* TN -> 84227603:ProcRCStepDataMaxAI19 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227604:ProcRCStepDataMaxAI20 *\
+2018/10/05 07:34:05	        <A 02 		 \* TN -> 84227606:ProcRCStepDataMaxAI22 *\
+2018/10/05 07:34:05	        <A 022 		 \* TN -> 84227607:ProcRCStepDataMaxAI23 *\
+2018/10/05 07:34:05	        <A 003 		 \* TN -> 84227608:ProcRCStepDataMaxAI24 *\
+2018/10/05 07:34:05	        <A 0001 		 \* TN -> 84227611:ProcRCStepDataMaxAI27 *\
+2018/10/05 07:34:05	        <A 181 		 \* TN -> 84227612:ProcRCStepDataMaxAI28 *\
+2018/10/05 07:34:05	        <A 001590 		 \* TN -> 84227613:ProcRCStepDataMaxAI29 *\
+2018/10/05 07:34:05	        <A 004 		 \* TN -> 84227618:ProcRCStepDataMaxAI34 *\
+2018/10/05 07:34:05	        <A -00003 		 \* TN -> 84227619:ProcRCStepDataMaxAI35 *\
+2018/10/05 07:34:05	        <A 070 		 \* TN -> 84227620:ProcRCStepDataMaxAI36 *\
+2018/10/05 07:34:05	        <A 000545 		 \* TN -> 84227621:ProcRCStepDataMaxAI37 *\
+2018/10/05 07:34:05	        <A 061 		 \* TN -> 84227624:ProcRCStepDataMaxAI40 *\
+2018/10/05 07:34:05	        <A 000612 		 \* TN -> 84227625:ProcRCStepDataMaxAI41 *\
+2018/10/05 07:34:05	        <A 0056 		 \* TN -> 84227633:ProcRCStepDataMaxAI49 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227634:ProcRCStepDataMaxAI50 *\
+2018/10/05 07:34:05	        <A 0002 		 \* TN -> 84227635:ProcRCStepDataMaxAI51 *\
+2018/10/05 07:34:05	        <A 0008 		 \* TN -> 84227636:ProcRCStepDataMaxAI52 *\
+2018/10/05 07:34:05	        <A 0025 		 \* TN -> 84227637:ProcRCStepDataMaxAI53 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227638:ProcRCStepDataMaxAI54 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227639:ProcRCStepDataMaxAI55 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227640:ProcRCStepDataMaxAI56 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227641:ProcRCStepDataMaxAI57 *\
+2018/10/05 07:34:05	        <A 0014 		 \* TN -> 84227642:ProcRCStepDataMaxAI58 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227643:ProcRCStepDataMaxAI59 *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 921>		 \* TN -> RPID: 921 *\
+2018/10/05 07:34:05	      <L 100 
+2018/10/05 07:34:05	        <A 0039 		 \* TN -> 84227644:ProcRCStepDataMaxAI60 *\
+2018/10/05 07:34:05	        <A 0015 		 \* TN -> 84227645:ProcRCStepDataMaxAI61 *\
+2018/10/05 07:34:05	        <A 0032 		 \* TN -> 84227646:ProcRCStepDataMaxAI62 *\
+2018/10/05 07:34:05	        <A 0033 		 \* TN -> 84227647:ProcRCStepDataMaxAI63 *\
+2018/10/05 07:34:05	        <A 000202 		 \* TN -> 84227648:ProcRCStepDataMaxAI64 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227650:ProcRCStepDataMaxAI66 *\
+2018/10/05 07:34:05	        <A 000202 		 \* TN -> 84227652:ProcRCStepDataMaxAI68 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227656:ProcRCStepDataMaxAI72 *\
+2018/10/05 07:34:05	        <A -00005 		 \* TN -> 84227658:ProcRCStepDataMaxAI74 *\
+2018/10/05 07:34:05	        <A -00001 		 \* TN -> 84227660:ProcRCStepDataMaxAI76 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227662:ProcRCStepDataMaxAI78 *\
+2018/10/05 07:34:05	        <A -00019 		 \* TN -> 84227664:ProcRCStepDataMaxAI80 *\
+2018/10/05 07:34:05	        <A 0018 		 \* TN -> 84227668:ProcRCStepDataMaxAI84 *\
+2018/10/05 07:34:05	        <A 0008 		 \* TN -> 84227669:ProcRCStepDataMaxAI85 *\
+2018/10/05 07:34:05	        <A 0029 		 \* TN -> 84227670:ProcRCStepDataMaxAI86 *\
+2018/10/05 07:34:05	        <A 0014 		 \* TN -> 84227671:ProcRCStepDataMaxAI87 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84227672:ProcRCStepDataMaxAI88 *\
+2018/10/05 07:34:05	        <A 0042 		 \* TN -> 84227673:ProcRCStepDataMaxAI89 *\
+2018/10/05 07:34:05	        <A 0015 		 \* TN -> 84227674:ProcRCStepDataMaxAI90 *\
+2018/10/05 07:34:05	        <A 0011 		 \* TN -> 84227675:ProcRCStepDataMaxAI91 *\
+2018/10/05 07:34:05	        <A 0009 		 \* TN -> 84227676:ProcRCStepDataMaxAI92 *\
+2018/10/05 07:34:05	        <A 0043 		 \* TN -> 84227677:ProcRCStepDataMaxAI93 *\
+2018/10/05 07:34:05	        <A 0056 		 \* TN -> 84227678:ProcRCStepDataMaxAI94 *\
+2018/10/05 07:34:05	        <A 0032 		 \* TN -> 84227679:ProcRCStepDataMaxAI95 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84227844:ProcRCStepDataMinAI4 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227845:ProcRCStepDataMinAI5 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227846:ProcRCStepDataMinAI6 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227847:ProcRCStepDataMinAI7 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227848:ProcRCStepDataMinAI8 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227849:ProcRCStepDataMinAI9 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227850:ProcRCStepDataMinAI10 *\
+2018/10/05 07:34:05	        <A 030 		 \* TN -> 84227852:ProcRCStepDataMinAI12 *\
+2018/10/05 07:34:05	        <A 020 		 \* TN -> 84227853:ProcRCStepDataMinAI13 *\
+2018/10/05 07:34:05	        <A -00 		 \* TN -> 84227854:ProcRCStepDataMinAI14 *\
+2018/10/05 07:34:05	        <A -00 		 \* TN -> 84227855:ProcRCStepDataMinAI15 *\
+2018/10/05 07:34:05	        <A 030 		 \* TN -> 84227856:ProcRCStepDataMinAI16 *\
+2018/10/05 07:34:05	        <A 009 		 \* TN -> 84227858:ProcRCStepDataMinAI18 *\
+2018/10/05 07:34:05	        <A 001 		 \* TN -> 84227859:ProcRCStepDataMinAI19 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84227860:ProcRCStepDataMinAI20 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84227862:ProcRCStepDataMinAI22 *\
+2018/10/05 07:34:05	        <A 022 		 \* TN -> 84227863:ProcRCStepDataMinAI23 *\
+2018/10/05 07:34:05	        <A 003 		 \* TN -> 84227864:ProcRCStepDataMinAI24 *\
+2018/10/05 07:34:05	        <A 0001 		 \* TN -> 84227867:ProcRCStepDataMinAI27 *\
+2018/10/05 07:34:05	        <A 172 		 \* TN -> 84227868:ProcRCStepDataMinAI28 *\
+2018/10/05 07:34:05	        <A 000027 		 \* TN -> 84227869:ProcRCStepDataMinAI29 *\
+2018/10/05 07:34:05	        <A 004 		 \* TN -> 84227874:ProcRCStepDataMinAI34 *\
+2018/10/05 07:34:05	        <A -00003 		 \* TN -> 84227875:ProcRCStepDataMinAI35 *\
+2018/10/05 07:34:05	        <A 069 		 \* TN -> 84227876:ProcRCStepDataMinAI36 *\
+2018/10/05 07:34:05	        <A 000402 		 \* TN -> 84227877:ProcRCStepDataMinAI37 *\
+2018/10/05 07:34:05	        <A 057 		 \* TN -> 84227880:ProcRCStepDataMinAI40 *\
+2018/10/05 07:34:05	        <A 000067 		 \* TN -> 84227881:ProcRCStepDataMinAI41 *\
+2018/10/05 07:34:05	        <A 0051 		 \* TN -> 84227889:ProcRCStepDataMinAI49 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227890:ProcRCStepDataMinAI50 *\
+2018/10/05 07:34:05	        <A 0002 		 \* TN -> 84227891:ProcRCStepDataMinAI51 *\
+2018/10/05 07:34:05	        <A 0006 		 \* TN -> 84227892:ProcRCStepDataMinAI52 *\
+2018/10/05 07:34:05	        <A 0021 		 \* TN -> 84227893:ProcRCStepDataMinAI53 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227894:ProcRCStepDataMinAI54 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227895:ProcRCStepDataMinAI55 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227896:ProcRCStepDataMinAI56 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227897:ProcRCStepDataMinAI57 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227898:ProcRCStepDataMinAI58 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84227899:ProcRCStepDataMinAI59 *\
+2018/10/05 07:34:05	        <A 0032 		 \* TN -> 84227900:ProcRCStepDataMinAI60 *\
+2018/10/05 07:34:05	        <A 0001 		 \* TN -> 84227901:ProcRCStepDataMinAI61 *\
+2018/10/05 07:34:05	        <A 0030 		 \* TN -> 84227902:ProcRCStepDataMinAI62 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84227903:ProcRCStepDataMinAI63 *\
+2018/10/05 07:34:05	        <A 000198 		 \* TN -> 84227904:ProcRCStepDataMinAI64 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227906:ProcRCStepDataMinAI66 *\
+2018/10/05 07:34:05	        <A 000198 		 \* TN -> 84227908:ProcRCStepDataMinAI68 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227912:ProcRCStepDataMinAI72 *\
+2018/10/05 07:34:05	        <A -00005 		 \* TN -> 84227914:ProcRCStepDataMinAI74 *\
+2018/10/05 07:34:05	        <A -00001 		 \* TN -> 84227916:ProcRCStepDataMinAI76 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227918:ProcRCStepDataMinAI78 *\
+2018/10/05 07:34:05	        <A -00023 		 \* TN -> 84227920:ProcRCStepDataMinAI80 *\
+2018/10/05 07:34:05	        <A 0008 		 \* TN -> 84227924:ProcRCStepDataMinAI84 *\
+2018/10/05 07:34:05	        <A 0001 		 \* TN -> 84227925:ProcRCStepDataMinAI85 *\
+2018/10/05 07:34:05	        <A 0027 		 \* TN -> 84227926:ProcRCStepDataMinAI86 *\
+2018/10/05 07:34:05	        <A 0004 		 \* TN -> 84227927:ProcRCStepDataMinAI87 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84227928:ProcRCStepDataMinAI88 *\
+2018/10/05 07:34:05	        <A 0039 		 \* TN -> 84227929:ProcRCStepDataMinAI89 *\
+2018/10/05 07:34:05	        <A 0005 		 \* TN -> 84227930:ProcRCStepDataMinAI90 *\
+2018/10/05 07:34:05	        <A 0003 		 \* TN -> 84227931:ProcRCStepDataMinAI91 *\
+2018/10/05 07:34:05	        <A 0008 		 \* TN -> 84227932:ProcRCStepDataMinAI92 *\
+2018/10/05 07:34:05	        <A 0034 		 \* TN -> 84227933:ProcRCStepDataMinAI93 *\
+2018/10/05 07:34:05	        <A 0051 		 \* TN -> 84227934:ProcRCStepDataMinAI94 *\
+2018/10/05 07:34:05	        <A 0030 		 \* TN -> 84227935:ProcRCStepDataMinAI95 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228101:ProcRCStepDataMeanAI5 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228102:ProcRCStepDataMeanAI6 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228103:ProcRCStepDataMeanAI7 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228104:ProcRCStepDataMeanAI8 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228105:ProcRCStepDataMeanAI9 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228106:ProcRCStepDataMeanAI10 *\
+2018/10/05 07:34:05	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:05	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:05	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:05	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:05	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:05	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:05	        <A 001 		 \* TN -> 84228115:ProcRCStepDataMeanAI19 *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 922>		 \* TN -> RPID: 922 *\
+2018/10/05 07:34:05	      <L 100 
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:05	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:05	        <A 003 		 \* TN -> 84228120:ProcRCStepDataMeanAI24 *\
+2018/10/05 07:34:05	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:05	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:05	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:05	        <A 004 		 \* TN -> 84228130:ProcRCStepDataMeanAI34 *\
+2018/10/05 07:34:05	        <A -00003 		 \* TN -> 84228131:ProcRCStepDataMeanAI35 *\
+2018/10/05 07:34:05	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:05	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:05	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:05	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:05	        <A 0056 		 \* TN -> 84228145:ProcRCStepDataMeanAI49 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84228146:ProcRCStepDataMeanAI50 *\
+2018/10/05 07:34:05	        <A 0002 		 \* TN -> 84228147:ProcRCStepDataMeanAI51 *\
+2018/10/05 07:34:05	        <A 0007 		 \* TN -> 84228148:ProcRCStepDataMeanAI52 *\
+2018/10/05 07:34:05	        <A 0023 		 \* TN -> 84228149:ProcRCStepDataMeanAI53 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84228150:ProcRCStepDataMeanAI54 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84228151:ProcRCStepDataMeanAI55 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84228152:ProcRCStepDataMeanAI56 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84228153:ProcRCStepDataMeanAI57 *\
+2018/10/05 07:34:05	        <A 0007 		 \* TN -> 84228154:ProcRCStepDataMeanAI58 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84228155:ProcRCStepDataMeanAI59 *\
+2018/10/05 07:34:05	        <A 0036 		 \* TN -> 84228156:ProcRCStepDataMeanAI60 *\
+2018/10/05 07:34:05	        <A 0009 		 \* TN -> 84228157:ProcRCStepDataMeanAI61 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84228158:ProcRCStepDataMeanAI62 *\
+2018/10/05 07:34:05	        <A 0032 		 \* TN -> 84228159:ProcRCStepDataMeanAI63 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228162:ProcRCStepDataMeanAI66 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228168:ProcRCStepDataMeanAI72 *\
+2018/10/05 07:34:05	        <A -00005 		 \* TN -> 84228170:ProcRCStepDataMeanAI74 *\
+2018/10/05 07:34:05	        <A -00001 		 \* TN -> 84228172:ProcRCStepDataMeanAI76 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228174:ProcRCStepDataMeanAI78 *\
+2018/10/05 07:34:05	        <A -00020 		 \* TN -> 84228176:ProcRCStepDataMeanAI80 *\
+2018/10/05 07:34:05	        <A 0015 		 \* TN -> 84228180:ProcRCStepDataMeanAI84 *\
+2018/10/05 07:34:05	        <A 0004 		 \* TN -> 84228181:ProcRCStepDataMeanAI85 *\
+2018/10/05 07:34:05	        <A 0028 		 \* TN -> 84228182:ProcRCStepDataMeanAI86 *\
+2018/10/05 07:34:05	        <A 0008 		 \* TN -> 84228183:ProcRCStepDataMeanAI87 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:05	        <A 0040 		 \* TN -> 84228185:ProcRCStepDataMeanAI89 *\
+2018/10/05 07:34:05	        <A 0012 		 \* TN -> 84228186:ProcRCStepDataMeanAI90 *\
+2018/10/05 07:34:05	        <A 0007 		 \* TN -> 84228187:ProcRCStepDataMeanAI91 *\
+2018/10/05 07:34:05	        <A 0009 		 \* TN -> 84228188:ProcRCStepDataMeanAI92 *\
+2018/10/05 07:34:05	        <A 0039 		 \* TN -> 84228189:ProcRCStepDataMeanAI93 *\
+2018/10/05 07:34:05	        <A 0054 		 \* TN -> 84228190:ProcRCStepDataMeanAI94 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84228191:ProcRCStepDataMeanAI95 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228356:ProcRCStepDataSigmaAI4 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228357:ProcRCStepDataSigmaAI5 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228358:ProcRCStepDataSigmaAI6 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228359:ProcRCStepDataSigmaAI7 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228360:ProcRCStepDataSigmaAI8 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228361:ProcRCStepDataSigmaAI9 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228362:ProcRCStepDataSigmaAI10 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228364:ProcRCStepDataSigmaAI12 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228365:ProcRCStepDataSigmaAI13 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228366:ProcRCStepDataSigmaAI14 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228367:ProcRCStepDataSigmaAI15 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228368:ProcRCStepDataSigmaAI16 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228370:ProcRCStepDataSigmaAI18 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228371:ProcRCStepDataSigmaAI19 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228372:ProcRCStepDataSigmaAI20 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228374:ProcRCStepDataSigmaAI22 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228375:ProcRCStepDataSigmaAI23 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228376:ProcRCStepDataSigmaAI24 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228379:ProcRCStepDataSigmaAI27 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228380:ProcRCStepDataSigmaAI28 *\
+2018/10/05 07:34:05	        <A 105 		 \* TN -> 84228381:ProcRCStepDataSigmaAI29 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228386:ProcRCStepDataSigmaAI34 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228387:ProcRCStepDataSigmaAI35 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228388:ProcRCStepDataSigmaAI36 *\
+2018/10/05 07:34:05	        <A 63 		 \* TN -> 84228389:ProcRCStepDataSigmaAI37 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228392:ProcRCStepDataSigmaAI40 *\
+2018/10/05 07:34:05	        <A 201 		 \* TN -> 84228393:ProcRCStepDataSigmaAI41 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228401:ProcRCStepDataSigmaAI49 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228402:ProcRCStepDataSigmaAI50 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228403:ProcRCStepDataSigmaAI51 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228404:ProcRCStepDataSigmaAI52 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228405:ProcRCStepDataSigmaAI53 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228406:ProcRCStepDataSigmaAI54 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228407:ProcRCStepDataSigmaAI55 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228408:ProcRCStepDataSigmaAI56 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228409:ProcRCStepDataSigmaAI57 *\
+2018/10/05 07:34:05	        <A 05 		 \* TN -> 84228410:ProcRCStepDataSigmaAI58 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228411:ProcRCStepDataSigmaAI59 *\
+2018/10/05 07:34:05	        <A 02 		 \* TN -> 84228412:ProcRCStepDataSigmaAI60 *\
+2018/10/05 07:34:05	        <A 03 		 \* TN -> 84228413:ProcRCStepDataSigmaAI61 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228414:ProcRCStepDataSigmaAI62 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228415:ProcRCStepDataSigmaAI63 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228416:ProcRCStepDataSigmaAI64 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228418:ProcRCStepDataSigmaAI66 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228420:ProcRCStepDataSigmaAI68 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228424:ProcRCStepDataSigmaAI72 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228426:ProcRCStepDataSigmaAI74 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228428:ProcRCStepDataSigmaAI76 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228430:ProcRCStepDataSigmaAI78 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228432:ProcRCStepDataSigmaAI80 *\
+2018/10/05 07:34:05	        <A 02 		 \* TN -> 84228436:ProcRCStepDataSigmaAI84 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228437:ProcRCStepDataSigmaAI85 *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 923>		 \* TN -> RPID: 923 *\
+2018/10/05 07:34:05	      <L 100 
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228438:ProcRCStepDataSigmaAI86 *\
+2018/10/05 07:34:05	        <A 02 		 \* TN -> 84228439:ProcRCStepDataSigmaAI87 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228440:ProcRCStepDataSigmaAI88 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228441:ProcRCStepDataSigmaAI89 *\
+2018/10/05 07:34:05	        <A 02 		 \* TN -> 84228442:ProcRCStepDataSigmaAI90 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228443:ProcRCStepDataSigmaAI91 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228444:ProcRCStepDataSigmaAI92 *\
+2018/10/05 07:34:05	        <A 02 		 \* TN -> 84228445:ProcRCStepDataSigmaAI93 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228446:ProcRCStepDataSigmaAI94 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228447:ProcRCStepDataSigmaAI95 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228612:ProcRCStepDataSetAO4 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228613:ProcRCStepDataSetAO5 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228614:ProcRCStepDataSetAO6 *\
+2018/10/05 07:34:05	        <A 070 		 \* TN -> 84228616:ProcRCStepDataSetAO8 *\
+2018/10/05 07:34:05	        <A 060 		 \* TN -> 84228618:ProcRCStepDataSetAO10 *\
+2018/10/05 07:34:05	        <A 180 		 \* TN -> 84228620:ProcRCStepDataSetAO12 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84228623:ProcRCStepDataSetAO15 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84228672:ProcRCStepDataSetAO64 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228674:ProcRCStepDataSetAO66 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84228676:ProcRCStepDataSetAO68 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228680:ProcRCStepDataSetAO72 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228682:ProcRCStepDataSetAO74 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228684:ProcRCStepDataSetAO76 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228686:ProcRCStepDataSetAO78 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228688:ProcRCStepDataSetAO80 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228696:ProcRCStepDataSetAO88 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84228697:ProcRCStepDataSetAO89 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228868:ProcRCStepDataMaxAO4 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228869:ProcRCStepDataMaxAO5 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228870:ProcRCStepDataMaxAO6 *\
+2018/10/05 07:34:05	        <A 017 		 \* TN -> 84228872:ProcRCStepDataMaxAO8 *\
+2018/10/05 07:34:05	        <A 014 		 \* TN -> 84228874:ProcRCStepDataMaxAO10 *\
+2018/10/05 07:34:05	        <A 043 		 \* TN -> 84228876:ProcRCStepDataMaxAO12 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84228879:ProcRCStepDataMaxAO15 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84228928:ProcRCStepDataMaxAO64 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228930:ProcRCStepDataMaxAO66 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84228932:ProcRCStepDataMaxAO68 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228936:ProcRCStepDataMaxAO72 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228938:ProcRCStepDataMaxAO74 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228940:ProcRCStepDataMaxAO76 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228942:ProcRCStepDataMaxAO78 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228944:ProcRCStepDataMaxAO80 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228952:ProcRCStepDataMaxAO88 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84228953:ProcRCStepDataMaxAO89 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229124:ProcRCStepDataMinAO4 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229125:ProcRCStepDataMinAO5 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229126:ProcRCStepDataMinAO6 *\
+2018/10/05 07:34:05	        <A 017 		 \* TN -> 84229128:ProcRCStepDataMinAO8 *\
+2018/10/05 07:34:05	        <A 014 		 \* TN -> 84229130:ProcRCStepDataMinAO10 *\
+2018/10/05 07:34:05	        <A 043 		 \* TN -> 84229132:ProcRCStepDataMinAO12 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84229135:ProcRCStepDataMinAO15 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84229184:ProcRCStepDataMinAO64 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229186:ProcRCStepDataMinAO66 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84229188:ProcRCStepDataMinAO68 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229192:ProcRCStepDataMinAO72 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229194:ProcRCStepDataMinAO74 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229196:ProcRCStepDataMinAO76 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229198:ProcRCStepDataMinAO78 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229200:ProcRCStepDataMinAO80 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84229208:ProcRCStepDataMinAO88 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84229209:ProcRCStepDataMinAO89 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229380:ProcRCStepDataMeanAO4 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229381:ProcRCStepDataMeanAO5 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229382:ProcRCStepDataMeanAO6 *\
+2018/10/05 07:34:05	        <A 017 		 \* TN -> 84229384:ProcRCStepDataMeanAO8 *\
+2018/10/05 07:34:05	        <A 014 		 \* TN -> 84229386:ProcRCStepDataMeanAO10 *\
+2018/10/05 07:34:05	        <A 043 		 \* TN -> 84229388:ProcRCStepDataMeanAO12 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84229391:ProcRCStepDataMeanAO15 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84229440:ProcRCStepDataMeanAO64 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229442:ProcRCStepDataMeanAO66 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84229444:ProcRCStepDataMeanAO68 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229448:ProcRCStepDataMeanAO72 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229450:ProcRCStepDataMeanAO74 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229452:ProcRCStepDataMeanAO76 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229454:ProcRCStepDataMeanAO78 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84229456:ProcRCStepDataMeanAO80 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84229464:ProcRCStepDataMeanAO88 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84229465:ProcRCStepDataMeanAO89 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229636:ProcRCStepDataSigmaAO4 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229637:ProcRCStepDataSigmaAO5 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229638:ProcRCStepDataSigmaAO6 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229640:ProcRCStepDataSigmaAO8 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229642:ProcRCStepDataSigmaAO10 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229644:ProcRCStepDataSigmaAO12 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229647:ProcRCStepDataSigmaAO15 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229696:ProcRCStepDataSigmaAO64 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229698:ProcRCStepDataSigmaAO66 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229700:ProcRCStepDataSigmaAO68 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229704:ProcRCStepDataSigmaAO72 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229706:ProcRCStepDataSigmaAO74 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229708:ProcRCStepDataSigmaAO76 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229710:ProcRCStepDataSigmaAO78 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229712:ProcRCStepDataSigmaAO80 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229720:ProcRCStepDataSigmaAO88 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84229721:ProcRCStepDataSigmaAO89 *\
+2018/10/05 07:34:05	        <A 0018 		 \* TN -> 84229888:ProcRCStepDataSetTI0 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84229889:ProcRCStepDataSetTI1 *\
+2018/10/05 07:34:05	        <A 0030 		 \* TN -> 84229890:ProcRCStepDataSetTI2 *\
+2018/10/05 07:34:05	        <A 0040 		 \* TN -> 84229891:ProcRCStepDataSetTI3 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84229892:ProcRCStepDataSetTI4 *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 924>		 \* TN -> RPID: 924 *\
+2018/10/05 07:34:05	      <L 100 
+2018/10/05 07:34:05	        <A 0420 		 \* TN -> 84229893:ProcRCStepDataSetTI5 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84229896:ProcRCStepDataSetTI8 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84229897:ProcRCStepDataSetTI9 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84229898:ProcRCStepDataSetTI10 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84229899:ProcRCStepDataSetTI11 *\
+2018/10/05 07:34:05	        <A 0095 		 \* TN -> 84229900:ProcRCStepDataSetTI12 *\
+2018/10/05 07:34:05	        <A 0000 		 \* TN -> 84229901:ProcRCStepDataSetTI13 *\
+2018/10/05 07:34:05	        <A 0095 		 \* TN -> 84229902:ProcRCStepDataSetTI14 *\
+2018/10/05 07:34:05	        <A 0110 		 \* TN -> 84229903:ProcRCStepDataSetTI15 *\
+2018/10/05 07:34:05	        <A 0090 		 \* TN -> 84229904:ProcRCStepDataSetTI16 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84229906:ProcRCStepDataSetTI18 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84229907:ProcRCStepDataSetTI19 *\
+2018/10/05 07:34:05	        <A 0045 		 \* TN -> 84229908:ProcRCStepDataSetTI20 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84229910:ProcRCStepDataSetTI22 *\
+2018/10/05 07:34:05	        <A 0424 		 \* TN -> 84229911:ProcRCStepDataSetTI23 *\
+2018/10/05 07:34:05	        <A 0063 		 \* TN -> 84229912:ProcRCStepDataSetTI24 *\
+2018/10/05 07:34:05	        <A 0090 		 \* TN -> 84229913:ProcRCStepDataSetTI25 *\
+2018/10/05 07:34:05	        <A 0090 		 \* TN -> 84229914:ProcRCStepDataSetTI26 *\
+2018/10/05 07:34:05	        <A 0090 		 \* TN -> 84229915:ProcRCStepDataSetTI27 *\
+2018/10/05 07:34:05	        <A 0018 		 \* TN -> 84230144:ProcRCStepDataMaxTI0 *\
+2018/10/05 07:34:05	        <A 0026 		 \* TN -> 84230145:ProcRCStepDataMaxTI1 *\
+2018/10/05 07:34:05	        <A 0030 		 \* TN -> 84230146:ProcRCStepDataMaxTI2 *\
+2018/10/05 07:34:05	        <A 0040 		 \* TN -> 84230147:ProcRCStepDataMaxTI3 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84230148:ProcRCStepDataMaxTI4 *\
+2018/10/05 07:34:05	        <A 0421 		 \* TN -> 84230149:ProcRCStepDataMaxTI5 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230152:ProcRCStepDataMaxTI8 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230153:ProcRCStepDataMaxTI9 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230154:ProcRCStepDataMaxTI10 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230155:ProcRCStepDataMaxTI11 *\
+2018/10/05 07:34:05	        <A 0095 		 \* TN -> 84230156:ProcRCStepDataMaxTI12 *\
+2018/10/05 07:34:05	        <A 0057 		 \* TN -> 84230157:ProcRCStepDataMaxTI13 *\
+2018/10/05 07:34:05	        <A 0095 		 \* TN -> 84230158:ProcRCStepDataMaxTI14 *\
+2018/10/05 07:34:05	        <A 0110 		 \* TN -> 84230159:ProcRCStepDataMaxTI15 *\
+2018/10/05 07:34:05	        <A 0090 		 \* TN -> 84230160:ProcRCStepDataMaxTI16 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84230162:ProcRCStepDataMaxTI18 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84230163:ProcRCStepDataMaxTI19 *\
+2018/10/05 07:34:05	        <A 0045 		 \* TN -> 84230164:ProcRCStepDataMaxTI20 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84230166:ProcRCStepDataMaxTI22 *\
+2018/10/05 07:34:05	        <A 0425 		 \* TN -> 84230167:ProcRCStepDataMaxTI23 *\
+2018/10/05 07:34:05	        <A 0063 		 \* TN -> 84230168:ProcRCStepDataMaxTI24 *\
+2018/10/05 07:34:05	        <A 0090 		 \* TN -> 84230169:ProcRCStepDataMaxTI25 *\
+2018/10/05 07:34:05	        <A 0088 		 \* TN -> 84230170:ProcRCStepDataMaxTI26 *\
+2018/10/05 07:34:05	        <A 0090 		 \* TN -> 84230171:ProcRCStepDataMaxTI27 *\
+2018/10/05 07:34:05	        <A 0018 		 \* TN -> 84230400:ProcRCStepDataMinTI0 *\
+2018/10/05 07:34:05	        <A 0026 		 \* TN -> 84230401:ProcRCStepDataMinTI1 *\
+2018/10/05 07:34:05	        <A 0030 		 \* TN -> 84230402:ProcRCStepDataMinTI2 *\
+2018/10/05 07:34:05	        <A 0039 		 \* TN -> 84230403:ProcRCStepDataMinTI3 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230404:ProcRCStepDataMinTI4 *\
+2018/10/05 07:34:05	        <A 0421 		 \* TN -> 84230405:ProcRCStepDataMinTI5 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230408:ProcRCStepDataMinTI8 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230409:ProcRCStepDataMinTI9 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230410:ProcRCStepDataMinTI10 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230411:ProcRCStepDataMinTI11 *\
+2018/10/05 07:34:05	        <A 0094 		 \* TN -> 84230412:ProcRCStepDataMinTI12 *\
+2018/10/05 07:34:05	        <A 0056 		 \* TN -> 84230413:ProcRCStepDataMinTI13 *\
+2018/10/05 07:34:05	        <A 0094 		 \* TN -> 84230414:ProcRCStepDataMinTI14 *\
+2018/10/05 07:34:05	        <A 0109 		 \* TN -> 84230415:ProcRCStepDataMinTI15 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230416:ProcRCStepDataMinTI16 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230418:ProcRCStepDataMinTI18 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230419:ProcRCStepDataMinTI19 *\
+2018/10/05 07:34:05	        <A 0044 		 \* TN -> 84230420:ProcRCStepDataMinTI20 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230422:ProcRCStepDataMinTI22 *\
+2018/10/05 07:34:05	        <A 0425 		 \* TN -> 84230423:ProcRCStepDataMinTI23 *\
+2018/10/05 07:34:05	        <A 0062 		 \* TN -> 84230424:ProcRCStepDataMinTI24 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230425:ProcRCStepDataMinTI25 *\
+2018/10/05 07:34:05	        <A 0088 		 \* TN -> 84230426:ProcRCStepDataMinTI26 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230427:ProcRCStepDataMinTI27 *\
+2018/10/05 07:34:05	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:05	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:05	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:05	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:05	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230664:ProcRCStepDataMeanTI8 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230665:ProcRCStepDataMeanTI9 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230666:ProcRCStepDataMeanTI10 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230667:ProcRCStepDataMeanTI11 *\
+2018/10/05 07:34:05	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:05	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:05	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:05	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:05	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:05	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:05	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:05	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:05	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230912:ProcRCStepDataSigmaTI0 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230913:ProcRCStepDataSigmaTI1 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230914:ProcRCStepDataSigmaTI2 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230915:ProcRCStepDataSigmaTI3 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230916:ProcRCStepDataSigmaTI4 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230917:ProcRCStepDataSigmaTI5 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230920:ProcRCStepDataSigmaTI8 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230921:ProcRCStepDataSigmaTI9 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230922:ProcRCStepDataSigmaTI10 *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 925>		 \* TN -> RPID: 925 *\
+2018/10/05 07:34:05	      <L 15 
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230923:ProcRCStepDataSigmaTI11 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230924:ProcRCStepDataSigmaTI12 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230925:ProcRCStepDataSigmaTI13 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230926:ProcRCStepDataSigmaTI14 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230927:ProcRCStepDataSigmaTI15 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230928:ProcRCStepDataSigmaTI16 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230930:ProcRCStepDataSigmaTI18 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230931:ProcRCStepDataSigmaTI19 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230932:ProcRCStepDataSigmaTI20 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230934:ProcRCStepDataSigmaTI22 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230935:ProcRCStepDataSigmaTI23 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230936:ProcRCStepDataSigmaTI24 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230937:ProcRCStepDataSigmaTI25 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230938:ProcRCStepDataSigmaTI26 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230939:ProcRCStepDataSigmaTI27 *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 926>		 \* TN -> RPID: 926 *\
+2018/10/05 07:34:05	      <L 9 
+2018/10/05 07:34:05	        <A 16012 		 \* TN -> 33895265:RC1Thickness_SV *\
+2018/10/05 07:34:05	        <A 3193 		 \* TN -> 33895266:RC2Thickness_SV *\
+2018/10/05 07:34:05	        <A 147532 		 \* TN -> 33895267:RC3Thickness_SV *\
+2018/10/05 07:34:05	        <A 00000000 		 \* TN -> 33895761:LL1WaferLimit2_SV *\
+2018/10/05 07:34:05	        <A 00000000 		 \* TN -> 33895762:LL2WaferLimit2_SV *\
+2018/10/05 07:34:05	        <A 000438502018053014314600 		 \* TN -> 33896080:WHCWaferCount2_SV *\
+2018/10/05 07:34:05	        <A 00162480053465341602015072013461200 		 \* TN -> 33891345:RC1DepoCount2_SV *\
+2018/10/05 07:34:05	        <A 00162959053322527052015072014132800 		 \* TN -> 33891346:RC2DepoCount2_SV *\
+2018/10/05 07:34:05	        <A 00163371053444023402015072014135900 		 \* TN -> 33891347:RC3DepoCount2_SV *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 300>		 \* TN -> RPID: 300 *\
+2018/10/05 07:34:05	      <L 3 
+2018/10/05 07:34:05	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84344848:PRJobID *\
+2018/10/05 07:34:05	        <U1 3 		 \* TN -> 84344880:PRJobState *\
+2018/10/05 07:34:05	        <A  		 \* TN -> 84344864:PRJobRecID *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 929>		 \* TN -> RPID: 929 *\
+2018/10/05 07:34:05	      <L 8 
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230673:ProcRCStepDataMeanTI17 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230677:ProcRCStepDataMeanTI21 *\
+2018/10/05 07:34:05	        <A 0293 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:05	        <U4 0> 		 \* TN -> 85300224:UseCount *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	  >
+2018/10/05 07:34:05	>
+"88","2018/10/05","07:34:05","Send","S6F5","","7F02","ON",
+2018/10/05 07:34:05	<S6F5 W>
+"87","2018/10/05","07:34:05","Recv","S6F6","","7F02","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:05	<S6F6>
+"86","2018/10/05","07:34:05","Send","S6F11","102416 (19010h)","7F03","OFF",
+2018/10/05 07:34:05	<S6F11>
+2018/10/05 07:34:05	<L 3
+2018/10/05 07:34:05	  <U4 102416>			 \* TN -> CEID: ProcessStepChanged *\
+2018/10/05 07:34:05	  <L 4 
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 702>		 \* TN -> RPID: 702 *\
+2018/10/05 07:34:05	      <L 10 
+2018/10/05 07:34:05	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:05	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:05	        <U1 25 		 \* TN -> 84222896:RCStateChangeSlot *\
+2018/10/05 07:34:05	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:05	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:05	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:05	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:05	        <A loadsc1do 		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:05	        <U2 20 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:05	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 700>		 \* TN -> RPID: 700 *\
+2018/10/05 07:34:05	      <L 52 
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230930:ProcRCStepDataSigmaTI18 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230937:ProcRCStepDataSigmaTI25 *\
+2018/10/05 07:34:05	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230939:ProcRCStepDataSigmaTI27 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230928:ProcRCStepDataSigmaTI16 *\
+2018/10/05 07:34:05	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230938:ProcRCStepDataSigmaTI26 *\
+2018/10/05 07:34:05	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230936:ProcRCStepDataSigmaTI24 *\
+2018/10/05 07:34:05	        <A -00005 		 \* TN -> 84228170:ProcRCStepDataMeanAI74 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228426:ProcRCStepDataSigmaAI74 *\
+2018/10/05 07:34:05	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228364:ProcRCStepDataSigmaAI12 *\
+2018/10/05 07:34:05	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228365:ProcRCStepDataSigmaAI13 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228416:ProcRCStepDataSigmaAI64 *\
+2018/10/05 07:34:05	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:05	        <A 63 		 \* TN -> 84228389:ProcRCStepDataSigmaAI37 *\
+2018/10/05 07:34:05	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228388:ProcRCStepDataSigmaAI36 *\
+2018/10/05 07:34:05	        <A -00020 		 \* TN -> 84228176:ProcRCStepDataMeanAI80 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228432:ProcRCStepDataSigmaAI80 *\
+2018/10/05 07:34:05	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228372:ProcRCStepDataSigmaAI20 *\
+2018/10/05 07:34:05	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228379:ProcRCStepDataSigmaAI27 *\
+2018/10/05 07:34:05	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230926:ProcRCStepDataSigmaTI14 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228174:ProcRCStepDataMeanAI78 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228430:ProcRCStepDataSigmaAI78 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228162:ProcRCStepDataMeanAI66 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228418:ProcRCStepDataSigmaAI66 *\
+2018/10/05 07:34:05	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228366:ProcRCStepDataSigmaAI14 *\
+2018/10/05 07:34:05	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228420:ProcRCStepDataSigmaAI68 *\
+2018/10/05 07:34:05	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230916:ProcRCStepDataSigmaTI4 *\
+2018/10/05 07:34:05	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230935:ProcRCStepDataSigmaTI23 *\
+2018/10/05 07:34:05	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230917:ProcRCStepDataSigmaTI5 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84228168:ProcRCStepDataMeanAI72 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228424:ProcRCStepDataSigmaAI72 *\
+2018/10/05 07:34:05	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:05	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:05	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:05	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 706>		 \* TN -> RPID: 706 *\
+2018/10/05 07:34:05	      <L 62 
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228368:ProcRCStepDataSigmaAI16 *\
+2018/10/05 07:34:05	        <A 001 		 \* TN -> 84228115:ProcRCStepDataMeanAI19 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228371:ProcRCStepDataSigmaAI19 *\
+2018/10/05 07:34:05	        <A 003 		 \* TN -> 84228120:ProcRCStepDataMeanAI24 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228376:ProcRCStepDataSigmaAI24 *\
+2018/10/05 07:34:05	        <A -00003 		 \* TN -> 84228131:ProcRCStepDataMeanAI35 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228387:ProcRCStepDataSigmaAI35 *\
+2018/10/05 07:34:05	        <A 004 		 \* TN -> 84228130:ProcRCStepDataMeanAI34 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228386:ProcRCStepDataSigmaAI34 *\
+2018/10/05 07:34:05	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:05	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:05	        <A loadsc1do 		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:05	        <U2 20 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:05	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:05	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:05	        <A -00001 		 \* TN -> 84228172:ProcRCStepDataMeanAI76 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228428:ProcRCStepDataSigmaAI76 *\
+2018/10/05 07:34:05	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230924:ProcRCStepDataSigmaTI12 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228374:ProcRCStepDataSigmaAI22 *\
+2018/10/05 07:34:05	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228375:ProcRCStepDataSigmaAI23 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:05	        <A 201 		 \* TN -> 84228393:ProcRCStepDataSigmaAI41 *\
+2018/10/05 07:34:05	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228392:ProcRCStepDataSigmaAI40 *\
+2018/10/05 07:34:05	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228380:ProcRCStepDataSigmaAI28 *\
+2018/10/05 07:34:05	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228370:ProcRCStepDataSigmaAI18 *\
+2018/10/05 07:34:05	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230927:ProcRCStepDataSigmaTI15 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230665:ProcRCStepDataMeanTI9 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230921:ProcRCStepDataSigmaTI9 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230667:ProcRCStepDataMeanTI11 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230923:ProcRCStepDataSigmaTI11 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230666:ProcRCStepDataMeanTI10 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230922:ProcRCStepDataSigmaTI10 *\
+2018/10/05 07:34:05	        <A 0031 		 \* TN -> 84230664:ProcRCStepDataMeanTI8 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230920:ProcRCStepDataSigmaTI8 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:05	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228356:ProcRCStepDataSigmaAI4 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84228440:ProcRCStepDataSigmaAI88 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230931:ProcRCStepDataSigmaTI19 *\
+2018/10/05 07:34:05	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230913:ProcRCStepDataSigmaTI1 *\
+2018/10/05 07:34:05	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230915:ProcRCStepDataSigmaTI3 *\
+2018/10/05 07:34:05	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230932:ProcRCStepDataSigmaTI20 *\
+2018/10/05 07:34:05	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230914:ProcRCStepDataSigmaTI2 *\
+2018/10/05 07:34:05	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230912:ProcRCStepDataSigmaTI0 *\
+2018/10/05 07:34:05	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230925:ProcRCStepDataSigmaTI13 *\
+2018/10/05 07:34:05	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:05	        <A 00 		 \* TN -> 84230934:ProcRCStepDataSigmaTI22 *\
+2018/10/05 07:34:05	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	    <L 2 
+2018/10/05 07:34:05	      <U4 929>		 \* TN -> RPID: 929 *\
+2018/10/05 07:34:05	      <L 8 
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230673:ProcRCStepDataMeanTI17 *\
+2018/10/05 07:34:05	        <A 0089 		 \* TN -> 84230677:ProcRCStepDataMeanTI21 *\
+2018/10/05 07:34:05	        <A 00000100 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:05	        <U4 0> 		 \* TN -> 85300224:UseCount *\
+2018/10/05 07:34:05	      >
+2018/10/05 07:34:05	    >
+2018/10/05 07:34:05	  >
+2018/10/05 07:34:05	>
+"85","2018/10/05","07:34:05","Send","S6F5","","7F04","ON",
+2018/10/05 07:34:05	<S6F5 W>
+"83","2018/10/05","07:34:06","Recv","S6F6","","7F04","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:06	<S6F6>
+"81","2018/10/05","07:34:06","Send","S6F11","105265 (19B31h)","7F07","OFF",
+2018/10/05 07:34:06	<S6F11>
+2018/10/05 07:34:06	<L 3
+2018/10/05 07:34:06	  <U4 105265>			 \* TN -> CEID: RC1StepStarted *\
+2018/10/05 07:34:06	  <L 3 
+2018/10/05 07:34:06	    <L 2 
+2018/10/05 07:34:06	      <U4 702>		 \* TN -> RPID: 702 *\
+2018/10/05 07:34:06	      <L 10 
+2018/10/05 07:34:06	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:06	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:06	        <U1 25 		 \* TN -> 84222896:RCStateChangeSlot *\
+2018/10/05 07:34:06	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:06	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:06	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:06	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:06	        <A  		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:06	        <U2 0 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:06	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:06	      >
+2018/10/05 07:34:06	    >
+2018/10/05 07:34:06	    <L 2 
+2018/10/05 07:34:06	      <U4 701>		 \* TN -> RPID: 701 *\
+2018/10/05 07:34:06	      <L 47 
+2018/10/05 07:34:06	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:06	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:06	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:06	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:06	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:06	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:06	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:06	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:06	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:06	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:06	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:06	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:06	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:06	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:06	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:06	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:06	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:06	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:06	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:06	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:06	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:06	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:06	        <A  		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:06	        <U2 0 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:06	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:06	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:06	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:06	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:06	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:06	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:06	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:06	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:06	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:06	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:06	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:06	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:06	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:06	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:06	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:06	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:06	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:06	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:06	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:06	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:06	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:06	      >
+2018/10/05 07:34:06	    >
+2018/10/05 07:34:06	    <L 2 
+2018/10/05 07:34:06	      <U4 929>		 \* TN -> RPID: 929 *\
+2018/10/05 07:34:06	      <L 8 
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230673:ProcRCStepDataMeanTI17 *\
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230677:ProcRCStepDataMeanTI21 *\
+2018/10/05 07:34:06	        <A 00000100 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:06	        <U4 0> 		 \* TN -> 85300224:UseCount *\
+2018/10/05 07:34:06	      >
+2018/10/05 07:34:06	    >
+2018/10/05 07:34:06	  >
+2018/10/05 07:34:06	>
+"80","2018/10/05","07:34:06","Send","S6F5","","7F08","ON",
+2018/10/05 07:34:06	<S6F5 W>
+"78","2018/10/05","07:34:06","Recv","S6F6","","7F08","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:06	<S6F6>
+"77","2018/10/05","07:34:06","Send","S6F11","102416 (19010h)","7F0A","OFF",
+2018/10/05 07:34:06	<S6F11>
+2018/10/05 07:34:06	<L 3
+2018/10/05 07:34:06	  <U4 102416>			 \* TN -> CEID: ProcessStepChanged *\
+2018/10/05 07:34:06	  <L 4 
+2018/10/05 07:34:06	    <L 2 
+2018/10/05 07:34:06	      <U4 702>		 \* TN -> RPID: 702 *\
+2018/10/05 07:34:06	      <L 10 
+2018/10/05 07:34:06	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:06	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:06	        <U1 25 		 \* TN -> 84222896:RCStateChangeSlot *\
+2018/10/05 07:34:06	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:06	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:06	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:06	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:06	        <A ArFlow 		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:06	        <U2 28 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:06	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:06	      >
+2018/10/05 07:34:06	    >
+2018/10/05 07:34:06	    <L 2 
+2018/10/05 07:34:06	      <U4 700>		 \* TN -> RPID: 700 *\
+2018/10/05 07:34:06	      <L 52 
+2018/10/05 07:34:06	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230930:ProcRCStepDataSigmaTI18 *\
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230937:ProcRCStepDataSigmaTI25 *\
+2018/10/05 07:34:06	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230939:ProcRCStepDataSigmaTI27 *\
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230928:ProcRCStepDataSigmaTI16 *\
+2018/10/05 07:34:06	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230938:ProcRCStepDataSigmaTI26 *\
+2018/10/05 07:34:06	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230936:ProcRCStepDataSigmaTI24 *\
+2018/10/05 07:34:06	        <A -00005 		 \* TN -> 84228170:ProcRCStepDataMeanAI74 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228426:ProcRCStepDataSigmaAI74 *\
+2018/10/05 07:34:06	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228364:ProcRCStepDataSigmaAI12 *\
+2018/10/05 07:34:06	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228365:ProcRCStepDataSigmaAI13 *\
+2018/10/05 07:34:06	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228416:ProcRCStepDataSigmaAI64 *\
+2018/10/05 07:34:06	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:06	        <A 63 		 \* TN -> 84228389:ProcRCStepDataSigmaAI37 *\
+2018/10/05 07:34:06	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228388:ProcRCStepDataSigmaAI36 *\
+2018/10/05 07:34:06	        <A -00020 		 \* TN -> 84228176:ProcRCStepDataMeanAI80 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228432:ProcRCStepDataSigmaAI80 *\
+2018/10/05 07:34:06	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228372:ProcRCStepDataSigmaAI20 *\
+2018/10/05 07:34:06	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228379:ProcRCStepDataSigmaAI27 *\
+2018/10/05 07:34:06	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230926:ProcRCStepDataSigmaTI14 *\
+2018/10/05 07:34:06	        <A 000000 		 \* TN -> 84228174:ProcRCStepDataMeanAI78 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228430:ProcRCStepDataSigmaAI78 *\
+2018/10/05 07:34:06	        <A 000000 		 \* TN -> 84228162:ProcRCStepDataMeanAI66 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228418:ProcRCStepDataSigmaAI66 *\
+2018/10/05 07:34:06	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228366:ProcRCStepDataSigmaAI14 *\
+2018/10/05 07:34:06	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228420:ProcRCStepDataSigmaAI68 *\
+2018/10/05 07:34:06	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230916:ProcRCStepDataSigmaTI4 *\
+2018/10/05 07:34:06	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230935:ProcRCStepDataSigmaTI23 *\
+2018/10/05 07:34:06	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230917:ProcRCStepDataSigmaTI5 *\
+2018/10/05 07:34:06	        <A 000000 		 \* TN -> 84228168:ProcRCStepDataMeanAI72 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228424:ProcRCStepDataSigmaAI72 *\
+2018/10/05 07:34:06	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:06	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:06	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:06	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:06	      >
+2018/10/05 07:34:06	    >
+2018/10/05 07:34:06	    <L 2 
+2018/10/05 07:34:06	      <U4 706>		 \* TN -> RPID: 706 *\
+2018/10/05 07:34:06	      <L 62 
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228368:ProcRCStepDataSigmaAI16 *\
+2018/10/05 07:34:06	        <A 001 		 \* TN -> 84228115:ProcRCStepDataMeanAI19 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228371:ProcRCStepDataSigmaAI19 *\
+2018/10/05 07:34:06	        <A 003 		 \* TN -> 84228120:ProcRCStepDataMeanAI24 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228376:ProcRCStepDataSigmaAI24 *\
+2018/10/05 07:34:06	        <A -00003 		 \* TN -> 84228131:ProcRCStepDataMeanAI35 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228387:ProcRCStepDataSigmaAI35 *\
+2018/10/05 07:34:06	        <A 004 		 \* TN -> 84228130:ProcRCStepDataMeanAI34 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228386:ProcRCStepDataSigmaAI34 *\
+2018/10/05 07:34:06	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:06	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:06	        <A ArFlow 		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:06	        <U2 28 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:06	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:06	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:06	        <A -00001 		 \* TN -> 84228172:ProcRCStepDataMeanAI76 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228428:ProcRCStepDataSigmaAI76 *\
+2018/10/05 07:34:06	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230924:ProcRCStepDataSigmaTI12 *\
+2018/10/05 07:34:06	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228374:ProcRCStepDataSigmaAI22 *\
+2018/10/05 07:34:06	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228375:ProcRCStepDataSigmaAI23 *\
+2018/10/05 07:34:06	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:06	        <A 201 		 \* TN -> 84228393:ProcRCStepDataSigmaAI41 *\
+2018/10/05 07:34:06	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228392:ProcRCStepDataSigmaAI40 *\
+2018/10/05 07:34:06	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228380:ProcRCStepDataSigmaAI28 *\
+2018/10/05 07:34:06	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228370:ProcRCStepDataSigmaAI18 *\
+2018/10/05 07:34:06	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230927:ProcRCStepDataSigmaTI15 *\
+2018/10/05 07:34:06	        <A 0031 		 \* TN -> 84230665:ProcRCStepDataMeanTI9 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230921:ProcRCStepDataSigmaTI9 *\
+2018/10/05 07:34:06	        <A 0031 		 \* TN -> 84230667:ProcRCStepDataMeanTI11 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230923:ProcRCStepDataSigmaTI11 *\
+2018/10/05 07:34:06	        <A 0031 		 \* TN -> 84230666:ProcRCStepDataMeanTI10 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230922:ProcRCStepDataSigmaTI10 *\
+2018/10/05 07:34:06	        <A 0031 		 \* TN -> 84230664:ProcRCStepDataMeanTI8 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230920:ProcRCStepDataSigmaTI8 *\
+2018/10/05 07:34:06	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:06	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228356:ProcRCStepDataSigmaAI4 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84228440:ProcRCStepDataSigmaAI88 *\
+2018/10/05 07:34:06	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230931:ProcRCStepDataSigmaTI19 *\
+2018/10/05 07:34:06	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230913:ProcRCStepDataSigmaTI1 *\
+2018/10/05 07:34:06	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230915:ProcRCStepDataSigmaTI3 *\
+2018/10/05 07:34:06	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230932:ProcRCStepDataSigmaTI20 *\
+2018/10/05 07:34:06	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230914:ProcRCStepDataSigmaTI2 *\
+2018/10/05 07:34:06	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230912:ProcRCStepDataSigmaTI0 *\
+2018/10/05 07:34:06	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230925:ProcRCStepDataSigmaTI13 *\
+2018/10/05 07:34:06	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:06	        <A 00 		 \* TN -> 84230934:ProcRCStepDataSigmaTI22 *\
+2018/10/05 07:34:06	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:06	      >
+2018/10/05 07:34:06	    >
+2018/10/05 07:34:06	    <L 2 
+2018/10/05 07:34:06	      <U4 929>		 \* TN -> RPID: 929 *\
+2018/10/05 07:34:06	      <L 8 
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230673:ProcRCStepDataMeanTI17 *\
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230677:ProcRCStepDataMeanTI21 *\
+2018/10/05 07:34:06	        <A 00000200 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:06	        <U4 0> 		 \* TN -> 85300224:UseCount *\
+2018/10/05 07:34:06	      >
+2018/10/05 07:34:06	    >
+2018/10/05 07:34:06	  >
+2018/10/05 07:34:06	>
+"76","2018/10/05","07:34:06","Send","S6F5","","7F0B","ON",
+2018/10/05 07:34:06	<S6F5 W>
+"74","2018/10/05","07:34:06","Recv","S6F6","","7F0B","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:06	<S6F6>
+"73","2018/10/05","07:34:06","Send","S6F11","105265 (19B31h)","7F0D","OFF",
+2018/10/05 07:34:06	<S6F11>
+2018/10/05 07:34:06	<L 3
+2018/10/05 07:34:06	  <U4 105265>			 \* TN -> CEID: RC1StepStarted *\
+2018/10/05 07:34:06	  <L 3 
+2018/10/05 07:34:06	    <L 2 
+2018/10/05 07:34:06	      <U4 702>		 \* TN -> RPID: 702 *\
+2018/10/05 07:34:06	      <L 10 
+2018/10/05 07:34:06	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:06	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:06	        <U1 25 		 \* TN -> 84222896:RCStateChangeSlot *\
+2018/10/05 07:34:06	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:06	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:06	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:06	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:06	        <A  		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:06	        <U2 0 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:06	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:06	      >
+2018/10/05 07:34:06	    >
+2018/10/05 07:34:06	    <L 2 
+2018/10/05 07:34:06	      <U4 701>		 \* TN -> RPID: 701 *\
+2018/10/05 07:34:06	      <L 47 
+2018/10/05 07:34:06	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:06	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:06	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:06	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:06	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:06	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:06	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:06	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:06	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:06	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:06	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:06	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:06	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:06	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:06	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:06	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:06	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:06	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:06	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:06	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:06	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:06	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:06	        <A  		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:06	        <U2 0 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:06	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:06	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:06	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:06	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:06	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:06	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:06	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:06	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:06	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:06	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:06	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:06	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:06	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:06	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:06	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:06	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:06	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:06	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:06	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:06	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:06	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:06	      >
+2018/10/05 07:34:06	    >
+2018/10/05 07:34:06	    <L 2 
+2018/10/05 07:34:06	      <U4 929>		 \* TN -> RPID: 929 *\
+2018/10/05 07:34:06	      <L 8 
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230673:ProcRCStepDataMeanTI17 *\
+2018/10/05 07:34:06	        <A 0089 		 \* TN -> 84230677:ProcRCStepDataMeanTI21 *\
+2018/10/05 07:34:06	        <A 00000200 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:06	        <U4 0> 		 \* TN -> 85300224:UseCount *\
+2018/10/05 07:34:06	      >
+2018/10/05 07:34:06	    >
+2018/10/05 07:34:06	  >
+2018/10/05 07:34:06	>
+"68","2018/10/05","07:34:07","Send","S6F5","","7F12","ON",
+2018/10/05 07:34:07	<S6F5 W>
+"67","2018/10/05","07:34:08","Recv","S6F6","","7F12","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:08	<S6F6>
+"66","2018/10/05","07:34:08","Send","S6F11","102416 (19010h)","7F13","OFF",
+2018/10/05 07:34:08	<S6F11>
+2018/10/05 07:34:08	<L 3
+2018/10/05 07:34:08	  <U4 102416>			 \* TN -> CEID: ProcessStepChanged *\
+2018/10/05 07:34:08	  <L 4 
+2018/10/05 07:34:08	    <L 2 
+2018/10/05 07:34:08	      <U4 702>		 \* TN -> RPID: 702 *\
+2018/10/05 07:34:08	      <L 10 
+2018/10/05 07:34:08	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:08	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:08	        <U1 25 		 \* TN -> 84222896:RCStateChangeSlot *\
+2018/10/05 07:34:08	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:08	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:08	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:08	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:08	        <A ArIso 		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:08	        <U2 29 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:08	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:08	      >
+2018/10/05 07:34:08	    >
+2018/10/05 07:34:08	    <L 2 
+2018/10/05 07:34:08	      <U4 700>		 \* TN -> RPID: 700 *\
+2018/10/05 07:34:08	      <L 52 
+2018/10/05 07:34:08	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230930:ProcRCStepDataSigmaTI18 *\
+2018/10/05 07:34:08	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230937:ProcRCStepDataSigmaTI25 *\
+2018/10/05 07:34:08	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230939:ProcRCStepDataSigmaTI27 *\
+2018/10/05 07:34:08	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230928:ProcRCStepDataSigmaTI16 *\
+2018/10/05 07:34:08	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230938:ProcRCStepDataSigmaTI26 *\
+2018/10/05 07:34:08	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230936:ProcRCStepDataSigmaTI24 *\
+2018/10/05 07:34:08	        <A -00005 		 \* TN -> 84228170:ProcRCStepDataMeanAI74 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228426:ProcRCStepDataSigmaAI74 *\
+2018/10/05 07:34:08	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228364:ProcRCStepDataSigmaAI12 *\
+2018/10/05 07:34:08	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228365:ProcRCStepDataSigmaAI13 *\
+2018/10/05 07:34:08	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228416:ProcRCStepDataSigmaAI64 *\
+2018/10/05 07:34:08	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:08	        <A 63 		 \* TN -> 84228389:ProcRCStepDataSigmaAI37 *\
+2018/10/05 07:34:08	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228388:ProcRCStepDataSigmaAI36 *\
+2018/10/05 07:34:08	        <A -00020 		 \* TN -> 84228176:ProcRCStepDataMeanAI80 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228432:ProcRCStepDataSigmaAI80 *\
+2018/10/05 07:34:08	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228372:ProcRCStepDataSigmaAI20 *\
+2018/10/05 07:34:08	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228379:ProcRCStepDataSigmaAI27 *\
+2018/10/05 07:34:08	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230926:ProcRCStepDataSigmaTI14 *\
+2018/10/05 07:34:08	        <A 000000 		 \* TN -> 84228174:ProcRCStepDataMeanAI78 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228430:ProcRCStepDataSigmaAI78 *\
+2018/10/05 07:34:08	        <A 000000 		 \* TN -> 84228162:ProcRCStepDataMeanAI66 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228418:ProcRCStepDataSigmaAI66 *\
+2018/10/05 07:34:08	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228366:ProcRCStepDataSigmaAI14 *\
+2018/10/05 07:34:08	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228420:ProcRCStepDataSigmaAI68 *\
+2018/10/05 07:34:08	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230916:ProcRCStepDataSigmaTI4 *\
+2018/10/05 07:34:08	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230935:ProcRCStepDataSigmaTI23 *\
+2018/10/05 07:34:08	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230917:ProcRCStepDataSigmaTI5 *\
+2018/10/05 07:34:08	        <A 000000 		 \* TN -> 84228168:ProcRCStepDataMeanAI72 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228424:ProcRCStepDataSigmaAI72 *\
+2018/10/05 07:34:08	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:08	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:08	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:08	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:08	      >
+2018/10/05 07:34:08	    >
+2018/10/05 07:34:08	    <L 2 
+2018/10/05 07:34:08	      <U4 706>		 \* TN -> RPID: 706 *\
+2018/10/05 07:34:08	      <L 62 
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228368:ProcRCStepDataSigmaAI16 *\
+2018/10/05 07:34:08	        <A 001 		 \* TN -> 84228115:ProcRCStepDataMeanAI19 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228371:ProcRCStepDataSigmaAI19 *\
+2018/10/05 07:34:08	        <A 003 		 \* TN -> 84228120:ProcRCStepDataMeanAI24 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228376:ProcRCStepDataSigmaAI24 *\
+2018/10/05 07:34:08	        <A -00003 		 \* TN -> 84228131:ProcRCStepDataMeanAI35 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228387:ProcRCStepDataSigmaAI35 *\
+2018/10/05 07:34:08	        <A 004 		 \* TN -> 84228130:ProcRCStepDataMeanAI34 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228386:ProcRCStepDataSigmaAI34 *\
+2018/10/05 07:34:08	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:08	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:08	        <A ArIso 		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:08	        <U2 29 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:08	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:08	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:08	        <A -00001 		 \* TN -> 84228172:ProcRCStepDataMeanAI76 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228428:ProcRCStepDataSigmaAI76 *\
+2018/10/05 07:34:08	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230924:ProcRCStepDataSigmaTI12 *\
+2018/10/05 07:34:08	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228374:ProcRCStepDataSigmaAI22 *\
+2018/10/05 07:34:08	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228375:ProcRCStepDataSigmaAI23 *\
+2018/10/05 07:34:08	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:08	        <A 201 		 \* TN -> 84228393:ProcRCStepDataSigmaAI41 *\
+2018/10/05 07:34:08	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228392:ProcRCStepDataSigmaAI40 *\
+2018/10/05 07:34:08	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228380:ProcRCStepDataSigmaAI28 *\
+2018/10/05 07:34:08	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228370:ProcRCStepDataSigmaAI18 *\
+2018/10/05 07:34:08	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230927:ProcRCStepDataSigmaTI15 *\
+2018/10/05 07:34:08	        <A 0031 		 \* TN -> 84230665:ProcRCStepDataMeanTI9 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230921:ProcRCStepDataSigmaTI9 *\
+2018/10/05 07:34:08	        <A 0031 		 \* TN -> 84230667:ProcRCStepDataMeanTI11 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230923:ProcRCStepDataSigmaTI11 *\
+2018/10/05 07:34:08	        <A 0031 		 \* TN -> 84230666:ProcRCStepDataMeanTI10 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230922:ProcRCStepDataSigmaTI10 *\
+2018/10/05 07:34:08	        <A 0031 		 \* TN -> 84230664:ProcRCStepDataMeanTI8 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230920:ProcRCStepDataSigmaTI8 *\
+2018/10/05 07:34:08	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:08	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228356:ProcRCStepDataSigmaAI4 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84228440:ProcRCStepDataSigmaAI88 *\
+2018/10/05 07:34:08	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230931:ProcRCStepDataSigmaTI19 *\
+2018/10/05 07:34:08	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230913:ProcRCStepDataSigmaTI1 *\
+2018/10/05 07:34:08	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230915:ProcRCStepDataSigmaTI3 *\
+2018/10/05 07:34:08	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230932:ProcRCStepDataSigmaTI20 *\
+2018/10/05 07:34:08	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230914:ProcRCStepDataSigmaTI2 *\
+2018/10/05 07:34:08	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230912:ProcRCStepDataSigmaTI0 *\
+2018/10/05 07:34:08	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230925:ProcRCStepDataSigmaTI13 *\
+2018/10/05 07:34:08	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:08	        <A 00 		 \* TN -> 84230934:ProcRCStepDataSigmaTI22 *\
+2018/10/05 07:34:08	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:08	      >
+2018/10/05 07:34:08	    >
+2018/10/05 07:34:08	    <L 2 
+2018/10/05 07:34:08	      <U4 929>		 \* TN -> RPID: 929 *\
+2018/10/05 07:34:08	      <L 8 
+2018/10/05 07:34:08	        <A 0089 		 \* TN -> 84230673:ProcRCStepDataMeanTI17 *\
+2018/10/05 07:34:08	        <A 0089 		 \* TN -> 84230677:ProcRCStepDataMeanTI21 *\
+2018/10/05 07:34:08	        <A 00000100 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:08	        <U4 0> 		 \* TN -> 85300224:UseCount *\
+2018/10/05 07:34:08	      >
+2018/10/05 07:34:08	    >
+2018/10/05 07:34:08	  >
+2018/10/05 07:34:08	>
+"64","2018/10/05","07:34:08","Send","S6F5","","7F15","ON",
+2018/10/05 07:34:08	<S6F5 W>
+"62","2018/10/05","07:34:08","Recv","S6F6","","7F15","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:08	<S6F6>
+"60","2018/10/05","07:34:08","Send","S6F11","105265 (19B31h)","7F18","OFF",
+2018/10/05 07:34:08	<S6F11>
+2018/10/05 07:34:08	<L 3
+2018/10/05 07:34:08	  <U4 105265>			 \* TN -> CEID: RC1StepStarted *\
+2018/10/05 07:34:08	  <L 3 
+2018/10/05 07:34:08	    <L 2 
+2018/10/05 07:34:08	      <U4 702>		 \* TN -> RPID: 702 *\
+2018/10/05 07:34:08	      <L 10 
+2018/10/05 07:34:08	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:08	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:08	        <U1 25 		 \* TN -> 84222896:RCStateChangeSlot *\
+2018/10/05 07:34:08	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:08	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:08	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:08	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:08	        <A  		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:08	        <U2 0 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:08	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:08	      >
+2018/10/05 07:34:08	    >
+2018/10/05 07:34:08	    <L 2 
+2018/10/05 07:34:08	      <U4 701>		 \* TN -> RPID: 701 *\
+2018/10/05 07:34:08	      <L 47 
+2018/10/05 07:34:08	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:08	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:08	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:08	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:08	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:08	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:08	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:08	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:08	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:08	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:08	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:08	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:08	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:08	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:08	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:08	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:08	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:08	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:08	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:08	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:08	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:08	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:08	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:08	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:08	        <A  		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:08	        <U2 0 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:08	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:08	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:08	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:08	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:08	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:08	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:08	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:08	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:08	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:08	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:08	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:08	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:08	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:08	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:08	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:08	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:08	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:08	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:08	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:08	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:08	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:08	      >
+2018/10/05 07:34:08	    >
+2018/10/05 07:34:08	    <L 2 
+2018/10/05 07:34:08	      <U4 929>		 \* TN -> RPID: 929 *\
+2018/10/05 07:34:08	      <L 8 
+2018/10/05 07:34:08	        <A 0089 		 \* TN -> 84230673:ProcRCStepDataMeanTI17 *\
+2018/10/05 07:34:08	        <A 0089 		 \* TN -> 84230677:ProcRCStepDataMeanTI21 *\
+2018/10/05 07:34:08	        <A 00000100 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:08	        <U4 0> 		 \* TN -> 85300224:UseCount *\
+2018/10/05 07:34:08	      >
+2018/10/05 07:34:08	    >
+2018/10/05 07:34:08	  >
+2018/10/05 07:34:08	>
+"58","2018/10/05","07:34:08","Send","S6F5","","7F1A","ON",
+2018/10/05 07:34:08	<S6F5 W>
+"57","2018/10/05","07:34:09","Recv","S6F6","","7F1A","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:09	<S6F6>
+"55","2018/10/05","07:34:09","Send","S6F11","102416 (19010h)","7F1C","OFF",
+2018/10/05 07:34:09	<S6F11>
+2018/10/05 07:34:09	<L 3
+2018/10/05 07:34:09	  <U4 102416>			 \* TN -> CEID: ProcessStepChanged *\
+2018/10/05 07:34:09	  <L 4 
+2018/10/05 07:34:09	    <L 2 
+2018/10/05 07:34:09	      <U4 702>		 \* TN -> RPID: 702 *\
+2018/10/05 07:34:09	      <L 10 
+2018/10/05 07:34:09	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:09	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:09	        <U1 25 		 \* TN -> 84222896:RCStateChangeSlot *\
+2018/10/05 07:34:09	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:09	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:09	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:09	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:09	        <A ArFlow 		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:09	        <U2 28 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:09	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:09	      >
+2018/10/05 07:34:09	    >
+2018/10/05 07:34:09	    <L 2 
+2018/10/05 07:34:09	      <U4 700>		 \* TN -> RPID: 700 *\
+2018/10/05 07:34:09	      <L 52 
+2018/10/05 07:34:09	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230930:ProcRCStepDataSigmaTI18 *\
+2018/10/05 07:34:09	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230937:ProcRCStepDataSigmaTI25 *\
+2018/10/05 07:34:09	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230939:ProcRCStepDataSigmaTI27 *\
+2018/10/05 07:34:09	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230928:ProcRCStepDataSigmaTI16 *\
+2018/10/05 07:34:09	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230938:ProcRCStepDataSigmaTI26 *\
+2018/10/05 07:34:09	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230936:ProcRCStepDataSigmaTI24 *\
+2018/10/05 07:34:09	        <A -00005 		 \* TN -> 84228170:ProcRCStepDataMeanAI74 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228426:ProcRCStepDataSigmaAI74 *\
+2018/10/05 07:34:09	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228364:ProcRCStepDataSigmaAI12 *\
+2018/10/05 07:34:09	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228365:ProcRCStepDataSigmaAI13 *\
+2018/10/05 07:34:09	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228416:ProcRCStepDataSigmaAI64 *\
+2018/10/05 07:34:09	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:09	        <A 63 		 \* TN -> 84228389:ProcRCStepDataSigmaAI37 *\
+2018/10/05 07:34:09	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228388:ProcRCStepDataSigmaAI36 *\
+2018/10/05 07:34:09	        <A -00020 		 \* TN -> 84228176:ProcRCStepDataMeanAI80 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228432:ProcRCStepDataSigmaAI80 *\
+2018/10/05 07:34:09	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228372:ProcRCStepDataSigmaAI20 *\
+2018/10/05 07:34:09	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228379:ProcRCStepDataSigmaAI27 *\
+2018/10/05 07:34:09	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230926:ProcRCStepDataSigmaTI14 *\
+2018/10/05 07:34:09	        <A 000000 		 \* TN -> 84228174:ProcRCStepDataMeanAI78 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228430:ProcRCStepDataSigmaAI78 *\
+2018/10/05 07:34:09	        <A 000000 		 \* TN -> 84228162:ProcRCStepDataMeanAI66 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228418:ProcRCStepDataSigmaAI66 *\
+2018/10/05 07:34:09	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228366:ProcRCStepDataSigmaAI14 *\
+2018/10/05 07:34:09	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228420:ProcRCStepDataSigmaAI68 *\
+2018/10/05 07:34:09	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230916:ProcRCStepDataSigmaTI4 *\
+2018/10/05 07:34:09	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230935:ProcRCStepDataSigmaTI23 *\
+2018/10/05 07:34:09	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230917:ProcRCStepDataSigmaTI5 *\
+2018/10/05 07:34:09	        <A 000000 		 \* TN -> 84228168:ProcRCStepDataMeanAI72 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228424:ProcRCStepDataSigmaAI72 *\
+2018/10/05 07:34:09	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:09	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:09	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:09	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:09	      >
+2018/10/05 07:34:09	    >
+2018/10/05 07:34:09	    <L 2 
+2018/10/05 07:34:09	      <U4 706>		 \* TN -> RPID: 706 *\
+2018/10/05 07:34:09	      <L 62 
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228368:ProcRCStepDataSigmaAI16 *\
+2018/10/05 07:34:09	        <A 001 		 \* TN -> 84228115:ProcRCStepDataMeanAI19 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228371:ProcRCStepDataSigmaAI19 *\
+2018/10/05 07:34:09	        <A 003 		 \* TN -> 84228120:ProcRCStepDataMeanAI24 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228376:ProcRCStepDataSigmaAI24 *\
+2018/10/05 07:34:09	        <A -00003 		 \* TN -> 84228131:ProcRCStepDataMeanAI35 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228387:ProcRCStepDataSigmaAI35 *\
+2018/10/05 07:34:09	        <A 004 		 \* TN -> 84228130:ProcRCStepDataMeanAI34 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228386:ProcRCStepDataSigmaAI34 *\
+2018/10/05 07:34:09	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:09	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:09	        <A ArFlow 		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:09	        <U2 28 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:09	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:09	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:09	        <A -00001 		 \* TN -> 84228172:ProcRCStepDataMeanAI76 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228428:ProcRCStepDataSigmaAI76 *\
+2018/10/05 07:34:09	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230924:ProcRCStepDataSigmaTI12 *\
+2018/10/05 07:34:09	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228374:ProcRCStepDataSigmaAI22 *\
+2018/10/05 07:34:09	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228375:ProcRCStepDataSigmaAI23 *\
+2018/10/05 07:34:09	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:09	        <A 201 		 \* TN -> 84228393:ProcRCStepDataSigmaAI41 *\
+2018/10/05 07:34:09	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228392:ProcRCStepDataSigmaAI40 *\
+2018/10/05 07:34:09	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228380:ProcRCStepDataSigmaAI28 *\
+2018/10/05 07:34:09	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228370:ProcRCStepDataSigmaAI18 *\
+2018/10/05 07:34:09	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230927:ProcRCStepDataSigmaTI15 *\
+2018/10/05 07:34:09	        <A 0031 		 \* TN -> 84230665:ProcRCStepDataMeanTI9 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230921:ProcRCStepDataSigmaTI9 *\
+2018/10/05 07:34:09	        <A 0031 		 \* TN -> 84230667:ProcRCStepDataMeanTI11 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230923:ProcRCStepDataSigmaTI11 *\
+2018/10/05 07:34:09	        <A 0031 		 \* TN -> 84230666:ProcRCStepDataMeanTI10 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230922:ProcRCStepDataSigmaTI10 *\
+2018/10/05 07:34:09	        <A 0031 		 \* TN -> 84230664:ProcRCStepDataMeanTI8 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230920:ProcRCStepDataSigmaTI8 *\
+2018/10/05 07:34:09	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:09	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228356:ProcRCStepDataSigmaAI4 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84228440:ProcRCStepDataSigmaAI88 *\
+2018/10/05 07:34:09	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230931:ProcRCStepDataSigmaTI19 *\
+2018/10/05 07:34:09	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230913:ProcRCStepDataSigmaTI1 *\
+2018/10/05 07:34:09	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230915:ProcRCStepDataSigmaTI3 *\
+2018/10/05 07:34:09	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230932:ProcRCStepDataSigmaTI20 *\
+2018/10/05 07:34:09	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230914:ProcRCStepDataSigmaTI2 *\
+2018/10/05 07:34:09	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230912:ProcRCStepDataSigmaTI0 *\
+2018/10/05 07:34:09	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230925:ProcRCStepDataSigmaTI13 *\
+2018/10/05 07:34:09	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:09	        <A 00 		 \* TN -> 84230934:ProcRCStepDataSigmaTI22 *\
+2018/10/05 07:34:09	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:09	      >
+2018/10/05 07:34:09	    >
+2018/10/05 07:34:09	    <L 2 
+2018/10/05 07:34:09	      <U4 929>		 \* TN -> RPID: 929 *\
+2018/10/05 07:34:09	      <L 8 
+2018/10/05 07:34:09	        <A 0089 		 \* TN -> 84230673:ProcRCStepDataMeanTI17 *\
+2018/10/05 07:34:09	        <A 0089 		 \* TN -> 84230677:ProcRCStepDataMeanTI21 *\
+2018/10/05 07:34:09	        <A 00000200 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:09	        <U4 0> 		 \* TN -> 85300224:UseCount *\
+2018/10/05 07:34:09	      >
+2018/10/05 07:34:09	    >
+2018/10/05 07:34:09	  >
+2018/10/05 07:34:09	>
+"54","2018/10/05","07:34:09","Send","S6F5","","7F1D","ON",
+2018/10/05 07:34:09	<S6F5 W>
+"52","2018/10/05","07:34:09","Recv","S6F6","","7F1D","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:09	<S6F6>
+"50","2018/10/05","07:34:09","Send","S6F11","105265 (19B31h)","7F20","OFF",
+2018/10/05 07:34:09	<S6F11>
+2018/10/05 07:34:09	<L 3
+2018/10/05 07:34:09	  <U4 105265>			 \* TN -> CEID: RC1StepStarted *\
+2018/10/05 07:34:09	  <L 3 
+2018/10/05 07:34:09	    <L 2 
+2018/10/05 07:34:09	      <U4 702>		 \* TN -> RPID: 702 *\
+2018/10/05 07:34:09	      <L 10 
+2018/10/05 07:34:09	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:09	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:09	        <U1 25 		 \* TN -> 84222896:RCStateChangeSlot *\
+2018/10/05 07:34:09	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:09	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:09	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:09	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:09	        <A  		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:09	        <U2 0 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:09	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:09	      >
+2018/10/05 07:34:09	    >
+2018/10/05 07:34:09	    <L 2 
+2018/10/05 07:34:09	      <U4 701>		 \* TN -> RPID: 701 *\
+2018/10/05 07:34:09	      <L 47 
+2018/10/05 07:34:09	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:09	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:09	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:09	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:09	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:09	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:09	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:09	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:09	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:09	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:09	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:09	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:09	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:09	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:09	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:09	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:09	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:09	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:09	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:09	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:09	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:09	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:09	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:09	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:09	        <A  		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:09	        <U2 0 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:09	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:09	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:09	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:09	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:09	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:09	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:09	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:09	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:09	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:09	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:09	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:09	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:09	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:09	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:09	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:09	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:09	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:09	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:09	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:09	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:09	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:09	      >
+2018/10/05 07:34:09	    >
+2018/10/05 07:34:09	    <L 2 
+2018/10/05 07:34:09	      <U4 929>		 \* TN -> RPID: 929 *\
+2018/10/05 07:34:09	      <L 8 
+2018/10/05 07:34:09	        <A 0089 		 \* TN -> 84230673:ProcRCStepDataMeanTI17 *\
+2018/10/05 07:34:09	        <A 0089 		 \* TN -> 84230677:ProcRCStepDataMeanTI21 *\
+2018/10/05 07:34:09	        <A 00000200 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:09	        <U4 0> 		 \* TN -> 85300224:UseCount *\
+2018/10/05 07:34:09	      >
+2018/10/05 07:34:09	    >
+2018/10/05 07:34:09	  >
+2018/10/05 07:34:09	>
+"47","2018/10/05","07:34:10","Send","S6F5","","7F23","ON",
+2018/10/05 07:34:10	<S6F5 W>
+"43","2018/10/05","07:34:10","Recv","S6F6","","7F23","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:10	<S6F6>
+"42","2018/10/05","07:34:10","Send","S6F11","77937 (13071h)","7F27","OFF",
+2018/10/05 07:34:10	<S6F11>
+2018/10/05 07:34:10	<L 3
+2018/10/05 07:34:10	  <U4 77937>			 \* TN -> CEID: RC1RecipeFinished *\
+2018/10/05 07:34:10	  <L 3 
+2018/10/05 07:34:10	    <L 2 
+2018/10/05 07:34:10	      <U4 702>		 \* TN -> RPID: 702 *\
+2018/10/05 07:34:10	      <L 10 
+2018/10/05 07:34:10	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:10	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:10	        <U1 25 		 \* TN -> 84222896:RCStateChangeSlot *\
+2018/10/05 07:34:10	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:10	        <A HYW0719 		 \* TN -> 84222864:RCStateChangeCarrier *\
+2018/10/05 07:34:10	        <A PURGE_TIN1XR1 		 \* TN -> 84222832:RCStateChangeRCPPName *\
+2018/10/05 07:34:10	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84222848:RCStateChangeLot *\
+2018/10/05 07:34:10	        <A  		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:10	        <U2 0 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:10	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:10	      >
+2018/10/05 07:34:10	    >
+2018/10/05 07:34:10	    <L 2 
+2018/10/05 07:34:10	      <U4 701>		 \* TN -> RPID: 701 *\
+2018/10/05 07:34:10	      <L 47 
+2018/10/05 07:34:10	        <A 0099 		 \* TN -> 84230674:ProcRCStepDataMeanTI18 *\
+2018/10/05 07:34:10	        <A 0089 		 \* TN -> 84230681:ProcRCStepDataMeanTI25 *\
+2018/10/05 07:34:10	        <A 0090 		 \* TN -> 84230683:ProcRCStepDataMeanTI27 *\
+2018/10/05 07:34:10	        <A 0089 		 \* TN -> 84230672:ProcRCStepDataMeanTI16 *\
+2018/10/05 07:34:10	        <A 0088 		 \* TN -> 84230682:ProcRCStepDataMeanTI26 *\
+2018/10/05 07:34:10	        <A 0062 		 \* TN -> 84230680:ProcRCStepDataMeanTI24 *\
+2018/10/05 07:34:10	        <A 031 		 \* TN -> 84228108:ProcRCStepDataMeanAI12 *\
+2018/10/05 07:34:10	        <A 020 		 \* TN -> 84228109:ProcRCStepDataMeanAI13 *\
+2018/10/05 07:34:10	        <A 000200 		 \* TN -> 84228160:ProcRCStepDataMeanAI64 *\
+2018/10/05 07:34:10	        <A 000468 		 \* TN -> 84228133:ProcRCStepDataMeanAI37 *\
+2018/10/05 07:34:10	        <A 069 		 \* TN -> 84228132:ProcRCStepDataMeanAI36 *\
+2018/10/05 07:34:10	        <A 000 		 \* TN -> 84228116:ProcRCStepDataMeanAI20 *\
+2018/10/05 07:34:10	        <A 0001 		 \* TN -> 84228123:ProcRCStepDataMeanAI27 *\
+2018/10/05 07:34:10	        <A 0094 		 \* TN -> 84230670:ProcRCStepDataMeanTI14 *\
+2018/10/05 07:34:10	        <A -00 		 \* TN -> 84228110:ProcRCStepDataMeanAI14 *\
+2018/10/05 07:34:10	        <A 000200 		 \* TN -> 84228164:ProcRCStepDataMeanAI68 *\
+2018/10/05 07:34:10	        <A 0100 		 \* TN -> 84230660:ProcRCStepDataMeanTI4 *\
+2018/10/05 07:34:10	        <A 0425 		 \* TN -> 84230679:ProcRCStepDataMeanTI23 *\
+2018/10/05 07:34:10	        <A 0421 		 \* TN -> 84230661:ProcRCStepDataMeanTI5 *\
+2018/10/05 07:34:10	        <A 000275 		 \* TN -> 84228137:ProcRCStepDataMeanAI41 *\
+2018/10/05 07:34:10	        <A 000092 		 \* TN -> 84228125:ProcRCStepDataMeanAI29 *\
+2018/10/05 07:34:10	        <A 030 		 \* TN -> 84228112:ProcRCStepDataMeanAI16 *\
+2018/10/05 07:34:10	        <A HYW0719 		 \* TN -> 84223008:ProcWaferCarrier *\
+2018/10/05 07:34:10	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84223024:ProcWaferLot *\
+2018/10/05 07:34:10	        <A  		 \* TN -> 84223200:ProcPreStepName *\
+2018/10/05 07:34:10	        <U2 0 		 \* TN -> 84223184:ProcPreStepNum *\
+2018/10/05 07:34:10	        <U1 25 		 \* TN -> 84223056:ProcWaferSlot *\
+2018/10/05 07:34:10	        <A -00 		 \* TN -> 84228111:ProcRCStepDataMeanAI15 *\
+2018/10/05 07:34:10	        <A 0094 		 \* TN -> 84230668:ProcRCStepDataMeanTI12 *\
+2018/10/05 07:34:10	        <A 01 		 \* TN -> 84228118:ProcRCStepDataMeanAI22 *\
+2018/10/05 07:34:10	        <A 022 		 \* TN -> 84228119:ProcRCStepDataMeanAI23 *\
+2018/10/05 07:34:10	        <A 000000 		 \* TN -> 84227369:ProcRCStepDataSetAI41 *\
+2018/10/05 07:34:10	        <A 059 		 \* TN -> 84228136:ProcRCStepDataMeanAI40 *\
+2018/10/05 07:34:10	        <A 000000 		 \* TN -> 84227357:ProcRCStepDataSetAI29 *\
+2018/10/05 07:34:10	        <A 179 		 \* TN -> 84228124:ProcRCStepDataMeanAI28 *\
+2018/10/05 07:34:10	        <A 009 		 \* TN -> 84228114:ProcRCStepDataMeanAI18 *\
+2018/10/05 07:34:10	        <A 0109 		 \* TN -> 84230671:ProcRCStepDataMeanTI15 *\
+2018/10/05 07:34:10	        <A 01 		 \* TN -> 84228184:ProcRCStepDataMeanAI88 *\
+2018/10/05 07:34:10	        <A 01 		 \* TN -> 84228100:ProcRCStepDataMeanAI4 *\
+2018/10/05 07:34:10	        <A 0099 		 \* TN -> 84230675:ProcRCStepDataMeanTI19 *\
+2018/10/05 07:34:10	        <A 0026 		 \* TN -> 84230657:ProcRCStepDataMeanTI1 *\
+2018/10/05 07:34:10	        <A 0039 		 \* TN -> 84230659:ProcRCStepDataMeanTI3 *\
+2018/10/05 07:34:10	        <A 0044 		 \* TN -> 84230676:ProcRCStepDataMeanTI20 *\
+2018/10/05 07:34:10	        <A 0030 		 \* TN -> 84230658:ProcRCStepDataMeanTI2 *\
+2018/10/05 07:34:10	        <A 0018 		 \* TN -> 84230656:ProcRCStepDataMeanTI0 *\
+2018/10/05 07:34:10	        <A 0056 		 \* TN -> 84230669:ProcRCStepDataMeanTI13 *\
+2018/10/05 07:34:10	        <A 0099 		 \* TN -> 84230678:ProcRCStepDataMeanTI22 *\
+2018/10/05 07:34:10	      >
+2018/10/05 07:34:10	    >
+2018/10/05 07:34:10	    <L 2 
+2018/10/05 07:34:10	      <U4 929>		 \* TN -> RPID: 929 *\
+2018/10/05 07:34:10	      <L 8 
+2018/10/05 07:34:10	        <A 0089 		 \* TN -> 84230673:ProcRCStepDataMeanTI17 *\
+2018/10/05 07:34:10	        <A 0089 		 \* TN -> 84230677:ProcRCStepDataMeanTI21 *\
+2018/10/05 07:34:10	        <A 00000200 		 \* TN -> 84223136:ProcStepTime *\
+2018/10/05 07:34:10	        <U4 0> 		 \* TN -> 85300224:UseCount *\
+2018/10/05 07:34:10	      >
+2018/10/05 07:34:10	    >
+2018/10/05 07:34:10	  >
+2018/10/05 07:34:10	>
+"41","2018/10/05","07:34:10","Send","S6F5","","7F28","ON",
+2018/10/05 07:34:10	<S6F5 W>
+"40","2018/10/05","07:34:10","Recv","S6F6","","7F28","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:10	<S6F6>
+"39","2018/10/05","07:34:10","Send","S6F11","119040 (1D100h)","7F29","OFF",
+2018/10/05 07:34:10	<S6F11>
+2018/10/05 07:34:10	<L 3
+2018/10/05 07:34:10	  <U4 119040>			 \* TN -> CEID: SOSMSCT-10(nostate->NEEDSPROCESSING) *\
+2018/10/05 07:34:10	  <L 1 
+2018/10/05 07:34:10	    <L 2 
+2018/10/05 07:34:10	      <U4 400>		 \* TN -> RPID: 400 *\
+2018/10/05 07:34:10	      <L 6 
+2018/10/05 07:34:10	        <A HYW0719.25 		 \* TN -> 84475920:SubstID *\
+2018/10/05 07:34:10	        <A HYW0719.25 		 \* TN -> 84476000:SubstSource *\
+2018/10/05 07:34:10	        <A  		 \* TN -> 84476032:SubstLotID *\
+2018/10/05 07:34:10	        <U1 0 		 \* TN -> 84475968:SubstProcState *\
+2018/10/05 07:34:10	        <U1 0 		 \* TN -> 84475952:SubstState *\
+2018/10/05 07:34:10	        <L 7 
+2018/10/05 07:34:10	          <L 3 
+2018/10/05 07:34:10	            <A HYW0719.25 		 \* TN -> 84476064:SubstHistory *\
+2018/10/05 07:34:10	            <A 2018100308212310 
+2018/10/05 07:34:10	            <A 2018100507194448 
+2018/10/05 07:34:10	          >
+2018/10/05 07:34:10	          <L 3 
+2018/10/05 07:34:10	            <A FERobot1 
+2018/10/05 07:34:10	            <A 2018100507194448 
+2018/10/05 07:34:10	            <A 2018100507194982 
+2018/10/05 07:34:10	          >
+2018/10/05 07:34:10	          <L 3 
+2018/10/05 07:34:10	            <A Aligner 
+2018/10/05 07:34:10	            <A 2018100507194982 
+2018/10/05 07:34:10	            <A 2018100507200087 
+2018/10/05 07:34:10	          >
+2018/10/05 07:34:10	          <L 3 
+2018/10/05 07:34:10	            <A FERobot1 
+2018/10/05 07:34:10	            <A 2018100507200087 
+2018/10/05 07:34:10	            <A 2018100507200487 
+2018/10/05 07:34:10	          >
+2018/10/05 07:34:10	          <L 3 
+2018/10/05 07:34:10	            <A Loadlock1-2 
+2018/10/05 07:34:10	            <A 2018100507200487 
+2018/10/05 07:34:10	            <A 2018100507203953 
+2018/10/05 07:34:10	          >
+2018/10/05 07:34:10	          <L 3 
+2018/10/05 07:34:10	            <A BERobot1 
+2018/10/05 07:34:10	            <A 2018100507203953 
+2018/10/05 07:34:10	            <A 2018100507205890 
+2018/10/05 07:34:10	          >
+2018/10/05 07:34:10	          <L 3 
+2018/10/05 07:34:10	            <A Reactor1 
+2018/10/05 07:34:10	            <A 2018100507205890 
+2018/10/05 07:34:10	            <A ","" 
+2018/10/05 07:34:10	          >
+2018/10/05 07:34:10	        >
+2018/10/05 07:34:10	      >
+2018/10/05 07:34:10	    >
+2018/10/05 07:34:10	  >
+2018/10/05 07:34:10	>
+"38","2018/10/05","07:34:10","Send","S6F11","110800 (1B0D0h)","7F2A","OFF",
+2018/10/05 07:34:10	<S6F11>
+2018/10/05 07:34:10	<L 3
+2018/10/05 07:34:10	  <U4 110800>			 \* TN -> CEID: PJSMSCT-13(EXECUTING->ABORTING) *\
+2018/10/05 07:34:10	  <L 1 
+2018/10/05 07:34:10	    <L 2 
+2018/10/05 07:34:10	      <U4 300>		 \* TN -> RPID: 300 *\
+2018/10/05 07:34:10	      <L 3 
+2018/10/05 07:34:10	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84344848:PRJobID *\
+2018/10/05 07:34:10	        <U1 9 		 \* TN -> 84344880:PRJobState *\
+2018/10/05 07:34:10	        <A ","" 		 \* TN -> 84344864:PRJobRecID *\
+2018/10/05 07:34:10	      >
+2018/10/05 07:34:10	    >
+2018/10/05 07:34:10	  >
+2018/10/05 07:34:10	>
+"33","2018/10/05","07:34:11","Send","S6F11","110848 (1B100h)","7F2F","OFF",
+2018/10/05 07:34:11	<S6F11>
+2018/10/05 07:34:11	<L 3
+2018/10/05 07:34:11	  <U4 110848>			 \* TN -> CEID: PJSMSCT-16(ABORTING->nostate) *\
+2018/10/05 07:34:11	  <L 1 
+2018/10/05 07:34:11	    <L 2 
+2018/10/05 07:34:11	      <U4 300>		 \* TN -> RPID: 300 *\
+2018/10/05 07:34:11	      <L 3 
+2018/10/05 07:34:11	        <A AutoDummyWafer_RC1_PJob 		 \* TN -> 84344848:PRJobID *\
+2018/10/05 07:34:11	        <U1 12 		 \* TN -> 84344880:PRJobState *\
+2018/10/05 07:34:11	        <A ","" 		 \* TN -> 84344864:PRJobRecID *\
+2018/10/05 07:34:11	      >
+2018/10/05 07:34:11	    >
+2018/10/05 07:34:11	  >
+2018/10/05 07:34:11	>
+"31","2018/10/05","07:34:12","Send","S6F11","114880 (1C0C0h)","7F31","OFF",
+2018/10/05 07:34:12	<S6F11>
+2018/10/05 07:34:12	<L 3
+2018/10/05 07:34:12	  <U4 114880>			 \* TN -> CEID: CJSMSCT-12(ACTIVE->COMPLETED) *\
+2018/10/05 07:34:12	  <L 1 
+2018/10/05 07:34:12	    <L 2 
+2018/10/05 07:34:12	      <U4 200>		 \* TN -> RPID: 200 *\
+2018/10/05 07:34:12	      <L 2 
+2018/10/05 07:34:12	        <A AutoDummyWafer_RC1_CJob 		 \* TN -> 84410384:CtrlJobID *\
+2018/10/05 07:34:12	        <U1 5 		 \* TN -> 84410400:CtrlJobState *\
+2018/10/05 07:34:12	      >
+2018/10/05 07:34:12	    >
+2018/10/05 07:34:12	  >
+2018/10/05 07:34:12	>
+"27","2018/10/05","07:34:12","Send","S6F11","114896 (1C0D0h)","7F35","OFF",
+2018/10/05 07:34:12	<S6F11>
+2018/10/05 07:34:12	<L 3
+2018/10/05 07:34:12	  <U4 114896>			 \* TN -> CEID: CJSMSCT-13(COMPLETED->nostate) *\
+2018/10/05 07:34:12	  <L 1 
+2018/10/05 07:34:12	    <L 2 
+2018/10/05 07:34:12	      <U4 200>		 \* TN -> RPID: 200 *\
+2018/10/05 07:34:12	      <L 2 
+2018/10/05 07:34:12	        <A AutoDummyWafer_RC1_CJob 		 \* TN -> 84410384:CtrlJobID *\
+2018/10/05 07:34:12	        <U1 98 		 \* TN -> 84410400:CtrlJobState *\
+2018/10/05 07:34:12	      >
+2018/10/05 07:34:12	    >
+2018/10/05 07:34:12	  >
+2018/10/05 07:34:12	>
+"12","2018/10/05","07:34:16","Send","S5F1","","7F44","ON",
+2018/10/05 07:34:16	<S5F1 W> ALARM:A010100h Reactor Alarm RC1 AB(DI:)","" (OFF)
+"9","2018/10/05","07:34:16","Recv","S5F2","","7F44","OFF","Byte (1)   1  :00",""
+2018/10/05 07:34:16	<S5F2>
