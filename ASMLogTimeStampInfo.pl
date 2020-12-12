@@ -69,7 +69,9 @@ my %AUTOTYPE = ("01" => "SYS_STOP", "02" => "SYS_ABORT", "03" => "SYS_PAUSE", "0
     "16" => "CJ_RESUME", "17" => "CJ_CANCEL", "18" => "CJ_HOQ", "19" => "CJ_DESELECT", "1A" => "CJ_SELECT", "1B" => "CJ_DELETE",
     "21" => "PJ_CREATE", "22" => "PJ_START", "23" => "PJ_STOP", "24" => "PJ_ABORT", "25" => "PJ_PAUSE", "26" => "PJ_RESUME",
     "27" => "PJ_CANCEL", "28" => "PJ_DELETE", "29" => "PJ_START_METHOD", "2A" => "PJ_MULTI_CREATE", "31" => "PMScript_DELETE");
-my %BEANS = (0 => "NONE",1 => "REJECTED",2 => "OK",3 => "WAFER_BRANK",4 => "COMPLETED",5 => "ABORTED",6 => "TIMEOUT_OK", 7 => "TIMEOUT_CMPL", 8 => "REPRAY_ERR", 9 => "PARAM_ERR");
+my %BEANS = (0 => "NONE",1 => "REJECTED",2 => "OK",3 => "WAFER_BRANK",4 => "COMPLETED",5 => "ABORTED",6 => "TIMEOUT_OK", 7 => "TIMEOUT_CMPL", 8 => "REPRAY_ERR", 9 => "PARAM_ERR", 34 => "34:UNKNOWN");
+my %BEAXIS = (0 => "All Axes", 1 => "X Axis", 2 => "Y Axis", 3 => "U Axis", 4 => "Z Axis");
+my %BEPOS = (0 => "Invalid", 1 => "Standby_Lower_Position", 2 => "Lower_Position", 3 => "Upper_Position", 4 => "Standby_Upper_Position");
 my %BEREQ = (0 => "NONE", 1 => "AlarmReset", 2 => "Initialize", 3 => "HomePos", 4 => "ArmReturn", 5 => "AxisP", 6 => "AxisU", 7 => "Load",
     8 => "Unload", 9 => "WafMove1", 10 => "WafMove2", 11 => "TechRead", 12 => "TechWrite", 13 => "SetSpeed", 14 => "GetErrCode",
     15 => "HomeCalib", 16 => "DataSave", 17 => "ServosOff", 18 => "StnCalib", 19 => "SaveCalib", 20 => "AWC_Enable", 21 => "Set_Z_Speed");
@@ -125,7 +127,9 @@ my %FEANS = (0 => "NONE",1 => "REJECTED",2 => "OK",3 => "WAFER_BRANK",4 => "COMP
     9 => "FORMAT_ERR", 10 => "PARAM_ERR", 11 => "BEUNIT_ERR", 12 => "TEACH_PRM_ERR", 20 => "CHG_TEACH", 21 => "ARM_NOT_RETURN", 22 => "POS_INTLOCK",
     23 => "WF_INTLOCK", 24 => "UNIT_INTLOCK", 25 => "NOT_EXIST_CS", 27 => "WF_ERR1", 28 => "WF_ERR2", 29 => "WF_ERR3", 30 => "WF_ERR4", 31 => "NAK_BUSY",
     32 => "NAK_CHKSUM", 33 => "NAK_T1TIMEOUT", 34 => "NAK_INVALID_CMD", 35 => "NAK_INVALID_PRM", 36 => "NAK_RECV_ERR", 37 => "RES_MESID_ERR");
-my %FECMD = (-1 => "");
+my %FEAXIS = (0 => "All Axes", 1 => "XU Axis", 2 => "XD Axis", 3 => "Y Axis", 4 => "U Axis", 5 => "Z Axis");
+my %FELOC = (0 => "Invalid", 1 => "GetBeforeStart", 2 => "GetBeforeExtend", 3 => "GetWaferExtend", 4 => "GetAfterExtend", 5 => "GetAfterChuck", 6 => "GetAfterEnd",
+    7 => "PutBeforeStart", 8 => "PutBeforeExtend", 9 => "PutWaferExtend", 10 => "PutAfterExtend", 11 => "PutAfterEnd", 12 => "PutAfterEnd");
 my %FEREQ = (0 => "NONE", 1 => "AlarmReset", 2 => "Initialize", 3 => "HomePos", 4 => "ArmReturn", 5 => "AxisU", 6 => "WafClamp", 7 => "Load", 8 => "Unload",
     9 => "WafMove1", 10 => "TechRead", 11 => "TechWrite", 12 => "AutoTech", 13 => "SetSpeed", 14 => "SetMode");
 my %FEREQDATA = ("Arm" => "","From" => "","FSlot" => "","To" => "","TSlot" => "","WafBrank" => "","ShfCorr" => "", "NA" => "", "REQ" => "");
@@ -237,7 +241,7 @@ my %WIOANS = (0 => "WIO_NONE", 1 => "WIO_OK", 2 => "WIO_COMPLETED", 3 => "WIO_RE
     19 => "WIO_DEV_NOT_CONNECT", 20 => "WIO_IL_FROM_FERB", 21 => "WIO_IL_FROM_BERB", 22 => "WIO_IL_FROM_PRESS", 23 => "WIO_IL_FROM_GV",
     24 => "WIO_IL_FROM_WAF", 25 => "WIO_FAST_VALVE_STATE_ERROR", 26 => "WIO_PRESS_95PER_ERROR", 27 => "WIO_THV_POSIT_OVER");
 my %WIOCTRLSTATE = (0 => "IDLE",1 => "READY",2 => "EXEC",3 => "PAUSE",4 => "MAINT");
-my %WIOGVSTATE  = (0 => "GV_OPEN", 1 => "GV_CLOSE", 2 => "GV_NO_SENS", 3 => "GV_SENS_ERR", 4 => "4:UNKNOWN", 8 => "8:UNKNOWN",  255 => "GV_UNFIX");
+my %WIOGVSTATE  = (0 => "GV_OPEN", 1 => "GV_CLOSE", 2 => "GV_NO_SENS", 3 => "GV_SENS_ERR", 4 => "4:UNKNOWN", 8 => "8:UNKNOWN", 18 => "18:UNKNOWN",  255 => "GV_UNFIX");
 my %WIOPRESSSTATE = (0 => "UNKNOWN",1 => "1ATM",2 => "INTRANS",3 => "VACUUM", 4 => "PRESSDIFF_GV3", 5 => "PRESSDIFF_GV4");
 my %WIOREQ = (0 => "UnDefined", 1 => "WIO_ALARMRESET", 2 => "WIO_BACKFILL", 3 => "WIO_VACUUM", 4 => "WIO_BASE", 5 => "WIO_ISOLATE", 6 => "WIO_SETPRESS",
     7 => "WIO_SETPID", 8 => "WIO_SETFLOW", 9 => "WIO_CYCLEPURGE", 10 => "WIO_LEAKCHECK", 11 => "WIO_MAINTENANCE", 12 => "WIO_SET_VALVE", 13 => "WIO_COOLING",
@@ -1946,12 +1950,26 @@ sub decodePmSusLogFile {
 sub decodeFERBLogFile {
     say "->decodeFERBLogFile()";
     my @decodeFile;
+    my %FECMD;
     foreach my $line (@_) {
         if ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],========ReqHandler========\[REQ:(\d+)\/ANS:(\d+)\/PRM:\((\d+),(\d+),(\d+),(\d+),(\d+),(\d+),(\d+),(\d+)\)\]<<<<<<<<)/i) {
+            %FECMD = (-1 => ""); #initialize it
             #say "TimeStamp: $2"; say "REQ: $FEREQ{$3}"; say "ANS: $FEANS{$4}"; say "PRM: $5, $6, $7, $8, $9, $10, $11, $12"; say $1;
             if ( $3 >= 0 && $3 < 15){
-                %FEREQDATA = ("Arm" => $5, "From" => $FEUNIT{$6}, "FSlot" => $7, "To" => $FEUNIT{$8}, "TSlot" => $9, "WafBrank" => $FEUNIT{$10}, "ShfCorr" => $FEUNIT{$11}, "NA" => $12, "REQ" => $FEREQ{$3});
-                push(@decodeFile, $1, " TN--> (REQ:$FEREQ{$3}, ANS: $FEANS{$4}, PRM:(PRM: Arm$5, From:$FEUNIT{$6}, FSlot:$7, To:$FEUNIT{$8}, TSlot:$9, WafBrank:$10, ShfCorr:$11, NA:$12))\n");
+                if($FEREQ{$3} eq "AlarmReset") {
+                    %FEREQDATA = (REQ => $FEREQ{$3});
+                    push(@decodeFile, $1, " TN--> (REQ:$FEREQ{$3})\n");
+                }elsif($FEREQ{$3} eq "HomePos"){ #bP[0]:Arm/bP[1]:Unit/bP[2]:Slot/:bP[3]:0:GET/1:PUT
+                    my $cmd = ($8 == 0) ? "GET" : "PUT";
+                    %FEREQDATA = (Arm => $5, Unit => $FEUNIT{$6}, Slot => $7, Cmd => $cmd, REQ => $FEREQ{$3});
+                    push(@decodeFile, $1, " TN--> (REQ:$FEREQ{$3}, ANS: $FEANS{$4}, PRM:(PRM: Arm$5, Unit:$FEUNIT{$6}, Slot:$7, Cmd:$cmd))\n");
+                }elsif($FEREQ{$3} eq "AxisU"){ #bP[0]:Arm/bP[1]:Axis(全軸のみ)/bP[2]:Unit/bP[3]:Slot/bP[4]:Location
+                    %FEREQDATA = (Arm => $5, Axis => $FEAXIS{$6}, Unit => $FEUNIT{$7}, Slot => $8, Location => $9, REQ => $FEREQ{$3});
+                    push(@decodeFile, $1, " TN--> (REQ:$FEREQ{$3}, ANS: $FEANS{$4}, PRM:(PRM: Arm$5, Axis:$FEAXIS{$6}, Unit:$FEUNIT{$7}, Slot:$8, Location:$FELOC{$9}))\n");
+                }else {
+                    %FEREQDATA = (Arm => $5, From => $FEUNIT{$6}, FSlot => $7, To => $FEUNIT{$8}, TSlot => $9, WafBrank => $FEUNIT{$10}, ShfCorr => $FEUNIT{$11}, NA => $12, REQ => $FEREQ{$3});
+                    push(@decodeFile, $1, " TN--> (REQ:$FEREQ{$3}, ANS: $FEANS{$4}, PRM:(PRM: Arm$5, From:$FEUNIT{$6}, FSlot:$7, To:$FEUNIT{$8}, TSlot:$9, WafBrank:$10, ShfCorr:$11, NA:$12))\n");
+                }
             }else{
                 say "Unknown REQ: $3";
             }
@@ -1961,7 +1979,17 @@ sub decodeFERBLogFile {
             #say "1: $1, 2: $2, 3: $3, 4: $4, 5: $5, 6: $6, 7: $7, 8: $8 ";
             $FECMD{$3} = $4;
             #push(@decodeFile, $1, " TN--> (", $FEREQDATA{"REQ"}, " FERB Arm$6 $4 Slot$8 $FEUNIT{$7})\n");
-            push(@decodeFile, $1, " TN--> (", $FEREQDATA{"REQ"}, " FERB Arm$6 $4 Slot$8)\n");
+            push(@decodeFile, $1, "\t\t\t\t TN--> (", $FEREQDATA{"REQ"}, " FERB Arm$6 $4 Slot$8)\n");
+        }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],<<<SEND<<<\[<(\d+),(\w+),(R\d+),H(\d+))/i) {   ##### SEND AxisU cmd ####
+            #say "1: $1, 2: $2, 3: $3, 4: $4, 5: $5, 6: $6";
+            $FECMD{$3} = $4;
+            #push(@decodeFile, $1, " TN--> (", $FEREQDATA{"REQ"}, " FERB Arm$6 $4 Slot$8 $FEUNIT{$7})\n");
+            push(@decodeFile, $1, "\t\t\t\t TN--> (", $FEREQDATA{"REQ"}, " FERB Arm$6 $4)\n");
+        }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],<<<SEND<<<\[<(\d+),(\w+),(R\d+))/i) {   ##### SEND SERV cmd ####
+            #say "1: $1, 2: $2, 3: $3, 4: $4, 5: $5, 6: $6";
+            $FECMD{$3} = $4;
+            #push(@decodeFile, $1, " TN--> (", $FEREQDATA{"REQ"}, " FERB Arm$6 $4 Slot$8 $FEUNIT{$7})\n");
+            push(@decodeFile, $1, "\t\t\t\t TN--> (", $FEREQDATA{"REQ"}, " $4)\n");
         }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],>>>RECV>>>\[<(\d+),(\w+)(.*>)(\w+))/i) {   ##### RECEIVE Response ####
             #say $1; say "3:$3, 4:$4, 5:$5";
             my $info = "";
@@ -1974,7 +2002,7 @@ sub decodeFERBLogFile {
                     $info = "NA";
                 }
             }
-            push(@decodeFile, $1, " TN--> ($info)\n");
+            push(@decodeFile, $1, "\t\t\t\t\t\t TN--> ($info)\n");
         }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ID\[(\d+)\},Cmd\[(\w+),(.*),Res\[(.*))/i) {   ##### cmd status update ####
             my $info = "";
             if (defined($FECMD{$3})){
@@ -1991,15 +2019,16 @@ sub decodeFERBLogFile {
         }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],Ctrl:\[(\d+):(\w+)\],.*,Req:\[(\d+):(\w+)\],.*,Step\[(\d+)\])/i) {
             #say "1: $1, 2: $2, 3: $3, 4: $4, 5: $5, 6: $6, 7: $7";
             push(@decodeFile, $1, " TN--> (Step $7 of $6: $4)\n");
+        #}elsif ($FEREQDATA{"REQ"} eq "AxisU"){
         }elsif ($FEREQDATA{"REQ"} eq "WafMove1"){
             if($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[0->21\])/i) {
-                push(@decodeFile, $1, " TN--> (Checking whether Transfer request being aborted ?)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Checking whether Transfer request being aborted ?)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[0->22\])/i) {
-                push(@decodeFile, $1, " TN--> (No abort so far, any interlock ?)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (No abort so far, any interlock ?)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[21->22\])/i) {
-                push(@decodeFile, $1, " TN--> (No abort so far, any interlock ?)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (No abort so far, any interlock ?)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[22->23\])/i) {
-                push(@decodeFile, $1, " TN--> (No interlock, No error. Continue to next step!)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (No interlock, No error. Continue to next step!)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[23->24\])/i) {
                 my $info = "";
                 if ($FEREQDATA{"To"} eq "LLL" || $FEREQDATA{"To"} eq "RLL"){
@@ -2007,17 +2036,17 @@ sub decodeFERBLogFile {
                 }else{
                     $info = "(Nothing ! Will proceed to step 25!)";
                 }
-                push(@decodeFile, $1, " TN--> $info\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> $info\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[24->25\])/i) {
-                push(@decodeFile, $1, " TN--> (Verify LL sensor if needed. Otherwise, move to step 26!)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Verify LL sensor if needed. Otherwise, move to step 26!)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[25->26\])/i) {
-                push(@decodeFile, $1, " TN--> (If no concern with clamp sensor will move to step 30!)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (If no concern with clamp sensor will move to step 30!)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[26->30\])/i) {
-                push(@decodeFile, $1, " TN--> (If no interlock will move to step 40!)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (If no interlock will move to step 40!)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[0->30\])/i) {
-                push(@decodeFile, $1, " TN--> (Checking whether Transfer request should be interlocked ?)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Checking whether Transfer request should be interlocked ?)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[30->40\])/i) {
-                push(@decodeFile, $1, " TN--> (No Interlock happened. Now checking Destination)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (No Interlock happened. Now checking Destination)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[40->41\])/i) {
                 my $info = "";
                 if($FEREQDATA{"To"} ne "FERB"){
@@ -2029,48 +2058,48 @@ sub decodeFERBLogFile {
                 }else{
                     $info = "(Nothing ! Will proceed to step 50)";
                 }
-                push(@decodeFile, $1, " TN--> $info\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> $info\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[41->42\])/i) {
-                push(@decodeFile, $1, " TN--> (Cmd sent!)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Cmd sent!)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[40->42\])/i) {
-                push(@decodeFile, $1, " TN--> (Destination is not LoadLock. Is destination available to receive a PUT?)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Destination is not LoadLock. Is destination available to receive a PUT?)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[40->50\])/i) {
-                push(@decodeFile, $1, " TN--> (So far, so good. Will finalize this movement!)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (So far, so good. Will finalize this movement!)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[42->43\])/i) {
-                push(@decodeFile, $1, " TN--> (Any error to perform command?)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Any error to perform command?)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[43->44\])/i) {
-                push(@decodeFile, $1, " TN--> (Is Destination a LoadLock?)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Is Destination a LoadLock?)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[44->45\])/i) {
-                push(@decodeFile, $1, " TN--> (Verify LL sensor if needed. Otherwise, move to step 50!)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Verify LL sensor if needed. Otherwise, move to step 50!)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[45->50\])/i) {
-                push(@decodeFile, $1, " TN--> (Any interlock after wafer transferred?)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Any interlock after wafer transferred?)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafMoveProc\(\)\s+STEP\[50->100\])/i) {
-                push(@decodeFile, $1, " TN--> (", $FEREQDATA{"REQ"}," successful ", $FEREQDATA{"From"}, " -> ", $FEREQDATA{"To"}, " )\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (", $FEREQDATA{"REQ"}," successful ", $FEREQDATA{"From"}, " -> ", $FEREQDATA{"To"}, " )\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],--------ReqHandler\(\)\s+CTRL:(\d+),REQ:(\d+),ANS:(\d+),ABT:(\d+)--------)/i) {
                 #say "TimeStamp: $2"; say "CTRL: $FRCTRLSTATE{$3} REQ: $FEREQ{$4}"; say "ANS: $FEANS{$5}"; say "ABT: $FEABT{$6}"; say $1;
                 push(@decodeFile, $1, " TN--> (CTRL: $RBTCTRLSTATE{$3}, REQ: $FEREQ{$4}, ANS: $FEANS{$5}, ABT: $FEABT{$6})\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafPutProc\(\)\s+STEP\[0->3\])/i) {   ##### Start Load REQ ####
-                push(@decodeFile, $1, " TN--> (Check interlock, check LL sensor if needed. If fine goes to next step !)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Check interlock, check LL sensor if needed. If fine goes to next step !)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafPutProc\(\)\s+STEP\[3->4\])/i) {
-                push(@decodeFile, $1, " TN--> (Check error. If fine goes to next step !)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Check error. If fine goes to next step !)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafPutProc\(\)\s+STEP\[4->5\])/i) {
-                push(@decodeFile, $1, " TN--> (Check abort. If fine goes to next step !)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Check abort. If fine goes to next step !)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafPutProc\(\)\s+STEP\[5->6\])/i) {
                 push(@decodeFile, $1, " TN--> (Check LL status if needed then making final decision !)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafPutProc\(\)\s+STEP\[6->100\])/i) {
                 push(@decodeFile, $1, " TN--> (", $FEREQDATA{"REQ"}," successful from ", $FEREQDATA{"From"}, " -> ", $FEREQDATA{"To"}, " )\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafGetProc\(\)\s+STEP\[0->1\])/i) {   ##### Start Unload REQ ####
-                push(@decodeFile, $1, " TN--> (Check interlock, check LL sensor if needed. If fine goes to next step !)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Check interlock, check LL sensor if needed. If fine goes to next step !)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafGetProc\(\)\s+STEP\[1->2\])/i) {
-                push(@decodeFile, $1, " TN--> (Check error. If fine goes to next step !)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Check error. If fine goes to next step !)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafGetProc\(\)\s+STEP\[2->3\])/i) {
-                push(@decodeFile, $1, " TN--> (Check abort. If fine goes to next step !)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Check abort. If fine goes to next step !)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafGetProc\(\)\s+STEP\[3->4\])/i) {
-                push(@decodeFile, $1, " TN--> (Check interlock, check LL sensor if needed. If fine goes to next step !)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Check interlock, check LL sensor if needed. If fine goes to next step !)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafPutProc\(\)\s+STEP\[4->5\])/i) {
-                push(@decodeFile, $1, " TN--> (Check Clamp sensor if needed then making final decision !)\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (Check Clamp sensor if needed then making final decision !)\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],ReqWafGetProc\(\)\s+STEP\[5->100\])/i) {
-                push(@decodeFile, $1, " TN--> (", $FEREQDATA{"REQ"}," successful from ", $FEREQDATA{"From"}, " -> ", $FEREQDATA{"To"}, " )\n");
+                push(@decodeFile, $1, "\t\t\t\t TN--> (", $FEREQDATA{"REQ"}," successful from ", $FEREQDATA{"From"}, " -> ", $FEREQDATA{"To"}, " )\n");
             }else{
                 push(@decodeFile, $line);
             }
@@ -2089,9 +2118,22 @@ sub decodeBERBLogFile{
             # say "TimeStamp: $2"; say "CTRL: $BRCTRLSTATE{$3}"; say "REQ: $BEREQ{$4}";
             # say "bp.0: Arm$5, pb.1: From$BEUNIT{$6}, bp.2: FromSlot$7, pb.3: To$BEUNIT{$8}, pb.4: ToSlot$9, bp.5: WafBrank$10";
             # say "Abort: $11"; say "ANS: $BEANS{$12}"; say "ERR: $13"; say $1;
-            if ( $3 >= 0 && $3 < 22){
-                %BEREQDATA = ("Arm" => $5, "From" => $BEUNIT{$6}, "FSlot" => $7, "To" => $BEUNIT{$8}, "TSlot" => $9, "WafBrank" => $BEUNIT{$10}, "REQ" => $BEREQ{$4});
-                push(@decodeFile, $1, " TN--> ReqHandler(CTRL:$RBTCTRLSTATE{$3}, REQ:$BEREQ{$4} P:Arm$5/From$BEUNIT{$6}/FromSlot$7/To$BEUNIT{$8}/ToSlot$9/WafBrank$10 Abort:$11 ANS:$BEANS{$12} ERR:$13)\n");
+            #say "TimeStamp: $2"; say "REQ: $BEREQ{$4}"; say "PRM: $5, $6, $7, $8, $9, $10, $11, $12"; say $1;
+            if ( $4 >= 0 && $4 < 22){
+                if($BEREQ{$4} eq "AlarmReset") {
+                    %BEREQDATA = (REQ => $BEREQ{$4});
+                    push(@decodeFile, $1, " TN--> ReqHandler(CTRL:$RBTCTRLSTATE{$3}, REQ:$BEREQ{$4})\n");
+                }elsif($BEREQ{$4} eq "HomePos") { # bP[0]:Arm/bP[1]:Unit/bP[2]:Slot/:bP[3]:0:Put/1:Get
+                    my $cmd = ($8 == 1) ? "GET" : "PUT";
+                    %BEREQDATA = (Arm => $5, Unit => $BEUNIT{$6}, Slot => $7, Cmd => $cmd, REQ => $BEREQ{$4});
+                    push(@decodeFile, $1, " TN--> ReqHandler(CTRL:$RBTCTRLSTATE{$3}, REQ:$BEREQ{$4}, PRM:(PRM: Arm$5, Unit:$BEUNIT{$6}, Slot:$7, Cmd:$cmd))\n");
+                }elsif($BEREQ{$4} eq "AxisU") { # bP[0]:Arm/bP[1]:Axis(全軸のみ?)/bP[2]:Unit/bP[3]:Slot/bP[4]:Position:
+                    %BEREQDATA = (Arm => $5, Axis => $BEAXIS{$6}, Unit => $BEUNIT{$7}, Slot => $8, Position => $9, REQ => $BEREQ{$4});
+                    push(@decodeFile, $1, " TN--> ReqHandler(CTRL:$RBTCTRLSTATE{$3}, REQ:$BEREQ{$4}, PRM:(PRM: Arm$5, Axis:$BEAXIS{$6}, Unit:$BEUNIT{$7}, Slot:$8, Position:$BEPOS{$9}))\n");
+                }else{
+                    %BEREQDATA = ("Arm" => $5, "From" => $BEUNIT{$6}, "FSlot" => $7, "To" => $BEUNIT{$8}, "TSlot" => $9, "WafBrank" => $BEUNIT{$10}, "REQ" => $BEREQ{$4});
+                    push(@decodeFile, $1, " TN--> ReqHandler(CTRL:$RBTCTRLSTATE{$3}, REQ:$BEREQ{$4} P:Arm$5/From$BEUNIT{$6}/FromSlot$7/To$BEUNIT{$8}/ToSlot$9/WafBrank$10 Abort:$11 ANS:$BEANS{$12} ERR:$13)\n");
+                }
             }else{
                 say "Unknown REQ: $3";
             }
@@ -2101,7 +2143,7 @@ sub decodeBERBLogFile{
             if ($4 == 4){
                 $reset = " :BE Arm now has No Wf";
             }
-            push(@decodeFile, $1, " TN--> SetSpeedPrm($SPMODE{$3}, Arm$4)$reset\n");
+            push(@decodeFile, $1, "\t\t TN--> SetSpeedPrm($SPMODE{$3}, Arm$4)$reset\n");
         }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],Error:IsWaferDetectErrorOfIOC\(LL(\d+),(\w+)\):\s+iocsens:(0\w).*)/i){
             # say "LL: $3"; say "B: $4"; say "iocsens: $5"; say $1;
             my $loadlock = "UD";
@@ -2119,19 +2161,19 @@ sub decodeBERBLogFile{
             push(@decodeFile, $1, " TN--> $loadlock: $iocsens\n");
         }elsif ($BEREQDATA{"REQ"} eq "WafMove1"){
             if ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],\[STEP:0->21\])/i){
-                push(@decodeFile, $1, " TN--> (Verifying errors, alarms!\n");
+                push(@decodeFile, $1, "\t\t\t\t\t TN--> (Verifying errors, alarms!\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],\[STEP:21->22\])/i){
-                push(@decodeFile, $1, " TN--> (Verify wafer detection sensors?\n");
+                push(@decodeFile, $1, "\t\t\t\t\t TN--> (Verify wafer detection sensors?\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],\[STEP:22->23\])/i){
-                push(@decodeFile, $1, " TN--> (Any detection error?\n");
+                push(@decodeFile, $1, "\t\t\t\t\t TN--> (Any detection error?\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],\[STEP:30->39\])/i){
-                push(@decodeFile, $1, " TN--> (No any concern so far!\n");
+                push(@decodeFile, $1, "\t\t\t\t\t TN--> (No any concern so far!\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],\[STEP:39->60\])/i){
-                push(@decodeFile, $1, " TN--> (Go next step to finalize if wafer now exists at ", $BEREQDATA{"To"}, ")\n");
+                push(@decodeFile, $1, "\t\t\t\t\t TN--> (Go next step to finalize if wafer now exists at ", $BEREQDATA{"To"}, ")\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],\[STEP:60->61\])/i){
-                push(@decodeFile, $1, " TN--> (Finalizing this ", $BEREQDATA{"REQ"}, ")\n");
+                push(@decodeFile, $1, "\t\t\t\t\t TN--> (Finalizing this ", $BEREQDATA{"REQ"}, ")\n");
             }elsif ($line =~ /^(\[(\d+\/\d+-\d+:\d+:\d+.\d+)\],\[STEP:61->100\])/i){
-                push(@decodeFile, $1, " TN--> (", $BEREQDATA{"REQ"}, " successful. Wafer now at ", $BEREQDATA{"To"}, ")\n");
+                push(@decodeFile, $1, "\t\t\t\t\t TN--> (", $BEREQDATA{"REQ"}, " successful. Wafer now at ", $BEREQDATA{"To"}, ")\n");
             }else{
                 push(@decodeFile, $line);
             }
